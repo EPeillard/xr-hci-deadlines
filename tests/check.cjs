@@ -5,6 +5,7 @@ for(const e of data.editions){assert(ids.has(e.family_id));assert(e.start<=e.end
 for(const j of data.journals){assert(j.title&&j.topics.length);if(j.impact.quartile)assert.equal(j.impact.status,'verified');if(j.impact.status==='estimated')assert(!j.impact.label.startsWith('JIF'),'No fabricated citation metrics');}
 assert.equal(data.families.find(f=>f.id==='nordichi').forecast.year,2028,'Respect biennial recurrence');
 assert.equal(data.families.find(f=>f.id==='rjc').forecast.cadence_years,2);
+assert.equal(data.families.find(f=>f.id==='icra').forecast.submission.start,'2027-08-01','Next ICRA deadline season precedes the 2028 event by the observed lead time');
 const NativeDate=Date;class Clock extends NativeDate{constructor(...args){super(...(args.length?args:['2026-10-13T10:00:00Z']));}static now(){return NativeDate.parse('2026-10-13T10:00:00Z');}}
 function setup(page,query=''){
  const ids=page==='journals'?['search','publisher','indicator','sort','favorite','reset','topic-buttons','conf-link','journal-link','summary','result-note','results','updated']:['search','scope','region','type','indicator','sort','favorite','estimates','past','reset','export','topic-buttons','conf-link','journal-link','summary','result-note','results','updated'];

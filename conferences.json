@@ -1354,26 +1354,37 @@
         "checked": "2026-10-13",
         "note": "Official conference-level classification; not a grade for individual papers or adjunct tracks."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            2
+          ],
+          "source": "https://interact2027.org/full-papers/"
+        }
+      ],
       "forecast": {
         "year": 2029,
         "event": {
-          "start": "2029-01-01",
-          "end": "2029-12-31",
+          "start": "2029-07-01",
+          "end": "2029-09-30",
           "precision": "month"
         },
         "submission": {
           "start": "2029-01-01",
-          "end": "2029-01-31",
+          "end": "2029-03-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "One recent announced edition is used as a seasonal baseline; allow one month of uncertainty on either side. The future edition and call are not confirmed.",
         "sources": [
-          "https://www.ifip-tc13.org/"
+          "https://interact2027.org/full-papers/"
         ]
       }
     },
@@ -1668,26 +1679,37 @@
         "checked": "2026-10-13",
         "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://2027.worldhaptics.org/"
+        }
+      ],
       "forecast": {
         "year": 2029,
         "event": {
-          "start": "2029-01-01",
-          "end": "2029-12-31",
+          "start": "2029-06-01",
+          "end": "2029-08-31",
           "precision": "month"
         },
         "submission": {
           "start": "2029-01-01",
-          "end": "2029-01-31",
+          "end": "2029-02-28",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "The organizer-published 2027 dates are tentative. The 2029 forecast preserves the biennial cycle and allows one month around the tentative seasonal baseline; confidence is low.",
         "sources": [
-          "https://www.worldhaptics.org/"
+          "https://2027.worldhaptics.org/"
         ]
       }
     },
@@ -1823,26 +1845,37 @@
         "checked": "2026-10-13",
         "note": "Conference-level classification; does not rate individual papers or adjunct tracks."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            5
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/"
+        }
+      ],
       "forecast": {
         "year": 2028,
         "event": {
-          "start": "2028-01-01",
-          "end": "2028-12-31",
+          "start": "2028-04-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-01-01",
-          "end": "2027-01-31",
+          "start": "2027-08-01",
+          "end": "2027-10-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "One recent announced edition is used as a seasonal baseline; allow one month of uncertainty on either side. The future edition and call are not confirmed.",
         "sources": [
-          "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra"
+          "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/"
         ]
       }
     },
