@@ -3081,13 +3081,13 @@
       "url": "https://www.ieee-ras.org/publications/ra-l",
       "why": "Short robotics and automation contributions; relevance depends on technical scope.",
       "impact": {
-        "status": "estimated",
-        "label": "High visibility",
-        "scheme": "Visibility",
-        "edition": "2026",
-        "source": "https://www.ieee-ras.org/publications/ra-l",
-        "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
-        "checked": "2026-10-13"
+        "status": "verified",
+        "label": "JIF 5.3",
+        "scheme": "Journal Impact Factor",
+        "edition": "2025 (as labeled by IEEE RAS)",
+        "source": "https://www.ieee-ras.org/publications/ra-l/",
+        "checked": "2026-10-13",
+        "note": "IEEE RAS reports JCR Impact Factor 5.3 in 2025. The source label is retained without assuming a different metric year."
       }
     }
   ],
