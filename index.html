@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Veille des conférences XR, IHM et perception : échéances, rencontres françaises et européennes, opportunités doctorales."><title>Conférences · XR & IHM</title><link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="app.js"></script></head>
+<body>
+<header><a class="brand" href="./">XR <span>×</span> IHM <small>LA VEILLE DE L’ÉQUIPE</small></a><div class="header-note">Recherche · Interaction · Perception</div></header>
+<main>
+<section class="intro"><div><p class="eyebrow">CHOISIR OÙ PARTAGER SES TRAVAUX</p><h1>Les prochaines occasions<br>de faire avancer vos idées.</h1><p class="lead">Articles, travaux en cours, démos et rencontres doctorales.<br>Une sélection pour l’équipe, en France, en Europe et ailleurs.</p></div><aside><span class="signal"></span><strong>Une veille à construire ensemble</strong><p>Les dates affichées renvoient à leur appel officiel. Le catalogue reste ouvert aux suggestions des étudiants et collègues.</p><small id="updated"></small></aside></section>
+<div class="stats" id="stats"></div>
+<nav class="tabs" aria-label="Vue"><button data-view="deadlines" aria-selected="true">Échéances</button><button data-view="events" aria-selected="false">Rencontres</button><button data-view="catalog" aria-selected="false">Catalogue à suivre</button></nav>
+<section class="filters" aria-label="Filtres">
+<label class="search">Rechercher<input id="search" type="search" placeholder="XR, avatars, téléopération, conférence…"></label>
+<label>Thème<select id="topic"><option value="">Tous les thèmes</option></select></label>
+<label>Communauté<select id="scope"><option value="">Toutes</option><option>France / francophonie</option><option>Europe</option><option>International</option></select></label>
+<label>Lieu de l’édition<select id="region"><option value="">Tous les lieux</option><option>France</option><option>Europe</option><option>Hors Europe</option></select></label>
+<label>Contribution<select id="type"><option value="">Tous les formats</option></select></label>
+</section>
+<div class="toolbar"><div><label class="check"><input id="favorite" type="checkbox"> Mes favoris</label><label class="check" id="past-label"><input id="past" type="checkbox"> Inclure les dates passées</label></div><div><button class="quiet" id="reset">Réinitialiser</button><button id="export">Exporter en .ics</button></div></div>
+<p class="result-note" id="result-note" aria-live="polite"></p>
+<section id="results" aria-label="Résultats"></section>
+<section class="contribute"><div><p class="eyebrow">IL MANQUE UNE CONFÉRENCE ?</p><h2>Faites grandir la sélection.</h2><p>Une rencontre locale, un atelier ou une nouvelle édition : proposez son nom, son thème et le lien de l’appel officiel.</p></div><a href="CONTRIBUTING.md">Comment contribuer ↗</a></section>
+<footer><span>Une sélection éditoriale, sans classement des conférences.</span><span>Les favoris restent dans ce navigateur. L’export .ics est un instantané.</span></footer>
+</main></body></html>
