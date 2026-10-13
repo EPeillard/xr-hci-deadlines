@@ -1,36 +1,27 @@
-# Conférences · XR & IHM
+# HCI & XR Publication Venues
 
-Première version d’une veille pour les étudiants, doctorants et collègues d’Étienne Peillard. Interface française, sans dépendances web ni compte utilisateur.
+A compact English directory of conferences and journals in human-computer interaction, extended reality and adjacent research. Published at https://epeillard.github.io/xr-ihm-deadlines/.
 
-## Contenu et fonctionnement
+## Pages
 
-- Catalogue éditorial : XR, perception, incarnation, IHM, robotique, haptique, facteurs humains et informatique graphique.
-- Réseaux français et européens inclus : IHM, jf·XR / GT-RV, RJC-IHM, GDR IHM, jFIG, SELF, EuroXR, EuroHaptics, ECVP, NordiCHI et BritCHI.
-- Trois vues : échéances de soumission, dates des rencontres, catalogue de conférences à suivre.
-- Filtres par thème, communauté, lieu de l’édition et contribution ; favoris conservés dans le navigateur.
-- Export des résultats affichés en ICS. Les échéances sont des événements d’une minute à l’heure limite ; les rencontres sont des événements en jours entiers.
-- Les heures de soumission sont affichées en Europe/Paris. Les timestamps AoE portent explicitement le décalage UTC−12.
+- **Conferences** (`index.html`): conference list, upcoming submission milestones and a monthly planner. Includes French, European and international venues.
+- **Journals** (`journals.html`): full journal titles, publisher, topic tags, impact factors / quartiles where verified, and explicitly marked qualitative visibility estimates elsewhere.
 
-La communauté d’une conférence est différente de son lieu : TEI est une conférence internationale dont l’édition 2027 se tient en Europe. Le filtre de lieu « Europe » comprend la France.
+Topic tags filter directly. Multiple topics use AND matching. Navigation between the pages retains the selected topics. Other controls include text search, scope / location / contribution filters, verified-versus-estimated indicators, sorting and browser-local favorites.
 
-## État initial au 13 octobre 2026
+## Data and evidence
 
-Cette sélection est une base à compléter, pas un inventaire exhaustif. Sept éditions ont des dates vérifiées : IEEE VR 2027, TEI 2027, IHM 2026, jf·XR / GT-RV 2026, EuroXR 2026, SELF 2026 et NordiCHI 2026. Les autres entrées sont des familles à suivre ; aucune échéance n’a été extrapolée. Les liens du catalogue non consultés sont explicitement marqués à vérifier.
+`conferences.json` is the authoritative source. As of 13 October 2026: 39 conference families / research networks, 17 sourced conference editions (including organizer-tentative schedules), and 18 journals. Each official classification or metric has a source and edition/year. Historical observations and forecast reasoning are recorded per conference.
 
-Les échéances principales de soumission sont séparées par format. Notifications, révisions et camera-ready ne sont pas intégrées à la vue de soumission. Certains formats ne sont pas encore renseignés. L’absence de date ne signifie pas que l’appel est ouvert ou fermé. Les rappels sont des exports ponctuels, sans synchronisation ni mises à jour automatiques.
+**Rankings:** ICORE 2026 classifications are recorded where verified. Non-grade classifications, such as National or Journal Published, retain that distinction. A conference rank is not a rank of each paper, poster or associated journal. Journal JIF values and quartiles are publisher-reported; quartiles require a category/database/year. Where no numerical metric was verified, estimated visibility is qualitative, never an invented JIF, CORE letter or quartile.
 
-## Mettre sur GitHub Pages
+**Schedules:** exact published dates remain distinct from organizer-tentative dates and editorial estimated month ranges. Forecasts use observed submission / event months and an annual or biennial recurrence. One-edition predictions allow one extra month either side; sparse histories use explicitly described seasonal or broad lead-time assumptions. No specific day, location, call or edition is claimed to be announced merely because it is estimated. Details expose the historical source, basis and confidence. The forecast is planning guidance, not a statistical prediction or deadline guarantee.
 
-1. Créer un dépôt `xr-ihm-deadlines` dans le compte ou l’organisation de votre choix, avec une branche principale `main`.
-2. Ajouter le contenu de ce dossier à la racine, y compris `.github/workflows/pages.yml`.
-3. Dans **Settings → Pages → Build and deployment**, choisir **GitHub Actions**.
-4. Le workflow construit et publie le site à chaque modification de `main`.
+Some sources publish a date without a cutoff time; these entries retain date-only precision. Exact deadlines preserve a timezone offset and display in Europe/Paris. Calendar exports contain verified dates only and exclude estimated and tentative dates. Exports are snapshots, not subscriptions. Sources and estimates require ongoing curation; no unattended updates are configured.
 
-Le dépôt est [EPeillard/xr-ihm-deadlines](https://github.com/EPeillard/xr-ihm-deadlines). Une fois GitHub Pages activé avec GitHub Actions, le site est publié à https://epeillard.github.io/xr-ihm-deadlines/.
+## Development
 
-## Modifier les conférences
-
-`conferences.json` est la source de référence. Modifier le catalogue dans `families` et les éditions dans `editions`. Le workflow génère automatiquement le fichier `data.js` de la version publiée. Le `data.js` à la racine est uniquement l’instantané fourni pour l’ouverture locale ; le régénérer pour refléter une modification locale.
+No frontend dependencies. Build and checks use Python and Node:
 
 ```sh
 node tests/check.cjs
@@ -38,12 +29,8 @@ python3 scripts/build.py
 python3 -m http.server 8000 --directory dist
 ```
 
-Le site fonctionne aussi en ouvrant directement `index.html`, avec l’instantané initial de `data.js`.
+The root `data.js` is a generated snapshot for direct local opening. The build regenerates the deployed `dist/data.js` from `conferences.json`.
 
-Pour les modalités de contribution et la structure des données, voir [CONTRIBUTING.md](CONTRIBUTING.md).
+GitHub Pages uses `.github/workflows/pages.yml`. Tests and build run on `main`, then the two-page site deploys automatically. Pages must use **GitHub Actions** as its publishing source.
 
-## Origine
-
-L’idée d’une liste de deadlines pour un laboratoire vient de [mkono505/hcideadlines](https://github.com/mkono505/hcideadlines). Cette implémentation est nouvelle : aucun code, contenu historique ou asset du dépôt n’est repris. Les dates vérifiées sont accompagnées des liens de leurs appels officiels dans les données.
-
-Code fourni sous licence MIT. La mise en page n’a pas fait l’objet d’un test visuel dans un navigateur dans cet environnement ; validation de la structure des données, des filtres et de l’export ICS par les contrôles inclus.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for data maintenance. MIT license. The initial inspiration was [mkono505/hcideadlines](https://github.com/mkono505/hcideadlines); this implementation does not copy its historical content or code.

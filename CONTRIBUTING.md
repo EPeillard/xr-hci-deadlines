@@ -1,27 +1,33 @@
-# Proposer une conférence ou une édition
+# Contributing publication venues
 
-Étudiants et collègues peuvent proposer une entrée par issue ou pull request dans le dépôt GitHub qui héberge le site. Inclure le nom, le lien officiel et une courte explication de son intérêt pour l’équipe. Le mainteneur vérifie les dates avant de les afficher comme échéances.
+Suggest a venue, missing edition, updated deadline or metric through an issue or pull request. Include an official source and explain its topical scope.
 
-## Catalogue
+## Source of truth
 
-Dans `conferences.json`, chaque famille contient :
+Edit `conferences.json`. The build generates the deployed `data.js`. Collections:
 
-- `id` : identifiant stable, unique ;
-- `name`, `url`, `why` : nom, source officielle ou lien du catalogue et intérêt scientifique ;
-- `scope` : `France / francophonie`, `Europe` ou `International` (communauté, pas lieu) ;
-- `topics` : liste de thèmes ;
-- `priority` : `Cœur` ou `Selon le projet`, jugement éditorial de pertinence sans classement scientifique ;
-- `kind` : conférence, journées, école ou salon ;
-- `verified` : indique si la source officielle de cette famille a été consultée, pas si toutes les prochaines dates sont connues.
+- `families`: stable conference/network IDs, name, community (`scope`), kind, clickable topic tags, scope description, indicator, historical observations and forecast.
+- `editions`: exact event dates (inclusive end), location, region, official URL, last verification date, event status and contribution milestones.
+- `journals`: full title, acronym, publisher, tags, scope and indicator.
 
-## Éditions et échéances
+Keep unrelated records intact. Use established tags when possible. Topic filters use AND matching and remain active across pages.
 
-Une édition n’est ajoutée à `editions` qu’après vérification de sa date et de son lieu sur une source officielle. Champs : `id`, `family_id`, `year`, `start`, `end`, `location`, `region`, `url`, `checked`, `tracks`. Région du lieu : `France`, `Europe` ou `Hors Europe`. Dates de rencontre : `YYYY-MM-DD` ; `end` est inclusif.
+## Dates and precision
 
-Chaque contribution dans `tracks` contient `label`, `type`, `deadline`, `source`, `note`. Le `deadline` est un timestamp ISO 8601 avec décalage explicite, par exemple `2026-12-07T23:59:59-12:00` pour une limite AoE. Ne jamais utiliser minuit UTC à la place de l’AoE.
+Use `status: verified` only for published information checked against an official source. `tentative` means explicitly provisional dates from the organizer. `estimated` means an editorial forecast.
 
-N’ajouter une heure que si elle est publiée dans l’appel. Si seule une date est connue, laisser la contribution hors de `tracks` et indiquer ce point dans l’issue jusqu’à vérification. Une édition peut avoir `tracks: []` : ses dates de rencontre sont vérifiées mais ses deadlines ne sont pas renseignées.
+A milestone may have an ISO 8601 `deadline` with a verified timezone offset, or a `date` when the cutoff time is unknown. AoE is UTC−12. Never substitute midnight UTC. Check required abstract registration stages separately from full submission.
 
-En cas de prolongation, remplacer la date par la limite publiée et mentionner l’ancienne date dans `note`. Vérifier les prérequis de dépôt (résumé obligatoire avant l’article ou le poster) et ajouter chaque étape. Ne pas reconduire automatiquement une date d’une année à l’autre.
+Forecasts use `{start, end, precision: month}` ranges for event and submission windows. Record the assumed recurrence, historical edition observations, source links, basis, confidence and limitations. No-history forecasts must state the broad seasonal / lead-time assumption, rather than pretending it came from multiple editions. Do not extrapolate annually for a biennial event. Conference-linked journals can have several rounds: record them separately when available.
 
-Après modification : `node tests/check.cjs`, puis `python3 scripts/build.py`. Vérifier l’affichage sur mobile et ordinateur avant diffusion à l’équipe.
+Estimates are displayed, but never exported to ICS as exact dates. If a deadline is extended, update it and record the former date in `note`.
+
+## Rankings and journal metrics
+
+An `impact` entry needs `status`, `label`, `scheme`, `edition`, `source`, `checked` and an explanatory `note`. Official ICORE entries retain their release year and classification. For journals, numeric values and quartiles need the metric year/release and source. Record the category when available; a publisher’s best quartile is not every category’s quartile. JCR and SJR are separate systems.
+
+Estimated visibility is a qualitative editorial proxy: High visibility, Specialist, National, Community or Industry. It describes audience reach and venue scope, not citation counts, selectivity or official grades. Never fabricate an impact factor, quartile or CORE rank.
+
+## Validation
+
+Run `node tests/check.cjs`, then `python3 scripts/build.py`. Check both pages, tag filtering, the monthly planner and small-screen horizontal table navigation in a browser. A push to `main` triggers deployment.
