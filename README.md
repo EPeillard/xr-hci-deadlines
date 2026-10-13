@@ -47,3 +47,13 @@ Forecasts for families with new archive observations use the latest three verifi
 **Conference directory** helps choose a venue: one profile per family, scope, topics, current indicator, recurrence and observed event/submission months from up to three editions. It is alphabetical by default, with a ranking sort. Location filters match any recorded edition; submission-specific controls are hidden. Details retain the full edition history and evidence.
 
 **Upcoming deadlines** helps plan a submission: one row per future contribution milestone, nearest first, with time remaining, deadline precision, contribution type and event location. Past dates are always excluded here, even when enabled in the calendar. Forecast windows distinguish “window in progress” from a confirmed countdown. Date-only milestones never invent a cutoff hour.
+
+## Favorite calendar subscriptions
+
+Star conferences and select **Subscribe to favorites**. Paste the generated HTTPS URL into Google Calendar’s “From URL”, Apple Calendar’s “New Calendar Subscription”, or Outlook’s “Subscribe from web”. This subscribes to a live feed; downloading and importing an ICS file is a one-time snapshot.
+
+Favorites stay in browser local storage. The link encodes a fixed set of conference-family IDs (journal favorites and directory filters are ignored). Updates and new editions for those families appear automatically when the calendar app refreshes. Changing the selected families requires a new URL and replacing the old subscription.
+
+The public read-only feed is hosted at https://xr-hci-calendar-feed.jocundsnipe3.chatgpt.site/calendar.ics?conferences=vr,eurographics . It reads the published conferences.json on each request, with a five-minute client cache. It includes all recorded verified event dates and submission milestones, including past editions; it excludes estimates and tentative dates. It uses stable event UIDs, UTC deadlines, date-only all-day events, exclusive conference end dates, UTF-8 line folding, and content ETags. Upstream errors return 503 rather than an empty calendar, so temporary outages do not silently remove events. Calendar clients control refresh cadence.
+
+Feed source is maintained in the **HCI & XR Calendar Feed** Sites project (`appgprj_6ace6c26b9788191bd3ff142010e7d61`). GitHub Pages serves the directory; the separate server is required because Pages cannot dynamically filter an ICS response by URL parameters.

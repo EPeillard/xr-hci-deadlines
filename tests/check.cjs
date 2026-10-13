@@ -55,3 +55,11 @@ run("view='calendar';$('estimates').checked=true;render()");assert(run("$('resul
 const journals=setup('journals','?topic=XR');assert(journals('visible.length')>0);assert(journals("visible.every(j=>j.topics.includes('XR'))"));journals("selectedTopics.clear();$('indicator').value='verified';$('sort').value='impact';render()");assert.equal(journals('visible.length'),11);assert.equal(journals('visible[0].id'),'tochi');
 console.log(`Passed: ${data.families.length} conferences, ${data.journals.length} journals, topic intersections, cross-page navigation, forecasts, calendar, metrics and ICS.`);
 
+// Subscription selection follows starred families, independently of view filters.
+const subscriptionRun=setup('conferences');
+assert.equal(subscriptionRun('subscriptionUrl()'),'');
+subscriptionRun("favorites=new Set(['vr','eurographics',data.journals[0].id,'obsolete-id']);$('search').value='No matching conference';view='deadlines';render()");
+assert.equal(subscriptionRun("favoriteConferences().map(f=>f.id).join(',')"),'eurographics,vr');
+assert.equal(subscriptionRun('subscriptionUrl()'),'https://xr-hci-calendar-feed.jocundsnipe3.chatgpt.site/calendar.ics?conferences=eurographics%2Cvr');
+subscriptionRun("favorites.delete('eurographics')");
+assert.equal(subscriptionRun('subscriptionUrl()'),'https://xr-hci-calendar-feed.jocundsnipe3.chatgpt.site/calendar.ics?conferences=vr');
