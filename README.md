@@ -4,7 +4,7 @@ A compact English directory of conferences and journals in human-computer intera
 
 ## Pages
 
-- **Conferences** (`index.html`): conference list, upcoming submission milestones and a monthly planner. Includes French, European and international venues.
+- **Conferences** (`index.html`): a conference directory, an upcoming submission planner and a monthly calendar. Includes French, European and international venues.
 - **Journals** (`journals.html`): full journal titles, publisher, topic tags, impact factors / quartiles where verified, and explicitly marked qualitative visibility estimates elsewhere.
 
 Topic tags filter directly. Multiple topics use AND matching. Navigation between the pages retains the selected topics. Other controls include text search, scope / location / contribution filters, verified-versus-estimated indicators, sorting and browser-local favorites.
@@ -40,3 +40,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for data maintenance. MIT license. The in
 Use **History** to browse past editions by year, location and topic. The calendar year selector includes historical years and automatically shows past dates for a past calendar year. Historical calls retain the published timezone and extensions where verified. Missing deadlines are explicitly unknown; missing editions do not imply cancellation. The current ICORE badge is not a retrospective rank. Historical date sources can differ from the original edition URL.
 
 Forecasts for families with new archive observations use the latest three verified editions since 2023: a month envelope expanded by one month, preserving the submission year offset. These are planning windows, not statistical confidence intervals. Earlier dates remain accessible in History and do not bias a modern forecast.
+
+
+### Directory and submission planner
+
+**Conference directory** helps choose a venue: one profile per family, scope, topics, current indicator, recurrence and observed event/submission months from up to three editions. It is alphabetical by default, with a ranking sort. Location filters match any recorded edition; submission-specific controls are hidden. Details retain the full edition history and evidence.
+
+**Upcoming deadlines** helps plan a submission: one row per future contribution milestone, nearest first, with time remaining, deadline precision, contribution type and event location. Past dates are always excluded here, even when enabled in the calendar. Forecast windows distinguish “window in progress” from a confirmed countdown. Date-only milestones never invent a cutoff hour.

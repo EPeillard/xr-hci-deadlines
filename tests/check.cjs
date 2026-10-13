@@ -15,6 +15,16 @@ function setup(page,query=''){
  const ctx=vm.createContext({window:{CONFERENCE_DATA:data},document,location:{search:query},URLSearchParams,localStorage:{getItem:()=>null,setItem(){}},Date:Clock,TextEncoder,Blob,URL,setTimeout(){},setInterval(){}});vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),ctx);return code=>vm.runInContext(code,ctx);
 }
 const run=setup('conferences');assert.equal(run('visible.length'),40);
+assert(run("$('results').innerHTML.includes('Conference directory')&&$('results').innerHTML.includes('Usual timing')&&!$('results').innerHTML.includes('<th class=\"date-col\">Next submission</th>')"));
+run("$('estimates').checked=false;$('type').value='Paper';render()");
+assert.equal(run('visible.length'),40,'Directory is independent of open calls and forecast switches');
+run("$('type').value='';$('estimates').checked=true;render()");
+const plannerRun=setup('conferences');
+plannerRun("view='deadlines';$('past').checked=true;$('estimates').checked=false;render()");
+assert(plannerRun('visible.every(future)'),'Submission planner excludes past milestones regardless of calendar switch');
+assert(plannerRun("$('results').innerHTML.includes('Submission planner')&&$('results').innerHTML.includes('Time remaining')&&!$('results').innerHTML.includes('Rank / visibility')"));
+assert(plannerRun("countdown({date:today(),status:'verified'}).includes('Today')"));
+assert(plannerRun("countdown({status:'estimated',window:{start:'2026-10-01',end:'2026-11-30'}}).includes('Window in progress')"));
 assert.equal(new Set(data.editions.map(e=>e.id)).size,data.editions.length,'Unique historical edition IDs');
 const historyRun=setup('conferences');
 historyRun("view='history';historyYear='2025';render()");
@@ -44,3 +54,4 @@ const eventIcs=run("calendar([data.editions.find(e=>e.id==='ihm2026')],'events')
 run("view='calendar';$('estimates').checked=true;render()");assert(run("$('results').innerHTML.includes('calendar-grid')"));assert(run("$('results').innerHTML.includes('Broad planning windows')"));
 const journals=setup('journals','?topic=XR');assert(journals('visible.length')>0);assert(journals("visible.every(j=>j.topics.includes('XR'))"));journals("selectedTopics.clear();$('indicator').value='verified';$('sort').value='impact';render()");assert.equal(journals('visible.length'),11);assert.equal(journals('visible[0].id'),'tochi');
 console.log(`Passed: ${data.families.length} conferences, ${data.journals.length} journals, topic intersections, cross-page navigation, forecasts, calendar, metrics and ICS.`);
+
