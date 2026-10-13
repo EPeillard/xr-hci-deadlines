@@ -1,6 +1,6 @@
 # HCI & XR Publication Venues
 
-A compact English directory of conferences and journals in human-computer interaction, extended reality and adjacent research. Published at https://epeillard.github.io/xr-ihm-deadlines/.
+A compact English directory of conferences and journals in human-computer interaction, extended reality and adjacent research. Published at https://epeillard.github.io/xr-hci-deadlines/.
 
 ## Pages
 
