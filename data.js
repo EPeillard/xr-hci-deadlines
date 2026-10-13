@@ -35,27 +35,71 @@ window.CONFERENCE_DATA = {
             8
           ],
           "source": "https://ieeevr.org/2027/contribute/papers/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://www.ieeevr2026.org/index.php?GP=regi%2Fregi"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://ieeevr.org/2025/contribute/papers/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://ieeevr.org/2024/contribute/papers/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://ieeevr.org/2023/contribute/papers/"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
           "start": "2028-01-01",
-          "end": "2028-04-30",
+          "end": "2028-04-01",
           "precision": "month"
         },
         "submission": {
           "start": "2027-07-01",
-          "end": "2027-09-30",
+          "end": "2027-10-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2027, 2026, 2025. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://ieeevr.org/2027/contribute/papers/"
+          "https://ieeevr.org/2027/",
+          "https://www.ieeevr2026.org/index.php?GP=regi%2Fregi",
+          "https://ieeevr.org/2025/contribute/papers/",
+          "https://ieeevr.org/2027/contribute/papers/",
+          "https://ieeevr.org/2026/contribute/papers/"
         ]
       }
     },
@@ -92,27 +136,59 @@ window.CONFERENCE_DATA = {
             3
           ],
           "source": "https://www.ieeeismar.net/2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://www.ieeeismar.net/2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            3
+          ],
+          "source": "https://www.ieeeismar.net/2024/index.html"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://vrst.acm.org/vrst2023/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
           "start": "2027-09-01",
-          "end": "2027-11-30",
+          "end": "2027-11-01",
           "precision": "month"
         },
         "submission": {
           "start": "2027-02-01",
-          "end": "2027-04-30",
+          "end": "2027-05-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://www.ieeeismar.net/2026/"
+          "https://www.ieeeismar.net/2026/",
+          "https://www.ieeeismar.net/2025/",
+          "https://www.ieeeismar.net/2024/index.html",
+          "https://www.ieeeismar.net/2026/call-for-papers/",
+          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html"
         ]
       }
     },
@@ -141,16 +217,6 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
-          "year": 2025,
-          "event_months": [
-            11
-          ],
-          "submission_months": [
-            7
-          ],
-          "source": "https://vrst.acm.org/vrst2025/index.php/call-for-participation/"
-        },
-        {
           "year": 2026,
           "event_months": [
             11
@@ -159,28 +225,59 @@ window.CONFERENCE_DATA = {
             6
           ],
           "source": "https://vrst.acm.org/vrst2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            7
+          ],
+          "source": "https://vrst.acm.org/vrst2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://vrst.acm.org/vrst2024/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://vrst.acm.org/vrst2023/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-11-01",
-          "end": "2027-11-30",
+          "start": "2027-09-01",
+          "end": "2027-12-01",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-06-01",
-          "end": "2027-07-31",
+          "start": "2027-05-01",
+          "end": "2027-08-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Medium",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "2 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
+          "https://vrst.acm.org/vrst2026/",
+          "https://vrst.acm.org/vrst2025/",
+          "https://vrst.acm.org/vrst2024/",
           "https://vrst.acm.org/vrst2025/index.php/call-for-participation/",
-          "https://vrst.acm.org/vrst2026/"
+          "https://vrst.hosting.acm.org/vrst2024/submitting/"
         ]
       }
     },
@@ -216,28 +313,63 @@ window.CONFERENCE_DATA = {
           "submission_months": [
             5
           ],
-          "source": "https://sui.acm.org/2026/call-for-papers/"
+          "source": "https://sigchi.org/events/sui-2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://sui.acm.org/2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://sui.acm.org/2024/index"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://sui.acm.org/2023/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
           "start": "2027-09-01",
-          "end": "2027-11-30",
+          "end": "2027-12-01",
           "precision": "month"
         },
         "submission": {
           "start": "2027-04-01",
-          "end": "2027-06-30",
+          "end": "2027-07-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://sui.acm.org/2026/call-for-papers/"
+          "https://sigchi.org/events/sui-2026/",
+          "https://sui.acm.org/2025/",
+          "https://sui.acm.org/2024/index",
+          "https://sui.acm.org/2026/call-for-papers/",
+          "https://sui.acm.org/2025/call-for-participation/index.html",
+          "https://sui.acm.org/2024/papers"
         ]
       }
     },
@@ -330,13 +462,54 @@ window.CONFERENCE_DATA = {
             9
           ],
           "source": "https://chi2027.acm.org/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            4
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://chi2026.acm.org/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            4,
+            5
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://chi2025.acm.org/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            5
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://chi2024.acm.org/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            4
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://chi2023.acm.org/"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
-          "start": "2028-04-01",
-          "end": "2028-06-30",
+          "start": "2028-03-01",
+          "end": "2028-06-01",
           "precision": "month"
         },
         "submission": {
@@ -345,12 +518,15 @@ window.CONFERENCE_DATA = {
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2027, 2026, 2025. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://chi2027.acm.org/"
+          "https://chi2027.acm.org/",
+          "https://chi2026.acm.org/",
+          "https://chi2025.acm.org/",
+          "https://chi2025.acm.org/for-authors/papers/"
         ]
       }
     },
@@ -377,18 +553,6 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
-          "year": 2025,
-          "event_months": [
-            9,
-            10
-          ],
-          "submission_months": [
-            3,
-            4
-          ],
-          "source": "https://uist.acm.org/2025/cfp/"
-        },
-        {
           "year": 2026,
           "event_months": [
             11
@@ -398,28 +562,53 @@ window.CONFERENCE_DATA = {
             4
           ],
           "source": "https://uist.acm.org/2026/cfp/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            9,
+            10
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://uist.acm.org/2025/sponsors/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://uist.acm.org/2024/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-11-30",
+          "start": "2027-08-01",
+          "end": "2027-12-01",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-03-01",
-          "end": "2027-04-30",
+          "start": "2027-02-01",
+          "end": "2027-05-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Medium",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "2 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
+          "https://uist.acm.org/2026/",
+          "https://uist.acm.org/2025/sponsors/",
+          "https://uist.acm.org/2024/",
+          "https://uist.acm.org/2026/cfp/",
           "https://uist.acm.org/2025/cfp/",
-          "https://uist.acm.org/2026/cfp/"
+          "https://uist.acm.org/2024/cfp/"
         ]
       }
     },
@@ -448,6 +637,16 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            1
+          ],
+          "submission_months": [
+            8
+          ],
+          "source": "https://tei.acm.org/2027/"
+        },
+        {
           "year": 2026,
           "event_months": [
             3
@@ -458,36 +657,43 @@ window.CONFERENCE_DATA = {
           "source": "https://tei.acm.org/2026/participate/papers/"
         },
         {
-          "year": 2027,
+          "year": 2025,
           "event_months": [
-            1
+            3
           ],
-          "submission_months": [
-            8
+          "submission_months": [],
+          "source": "https://tei.acm.org/2025/participate/papers"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            2
           ],
-          "source": "https://tei.acm.org/2027/"
+          "submission_months": [],
+          "source": "https://tei.acm.org/2024/"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
           "start": "2028-01-01",
-          "end": "2028-03-31",
+          "end": "2028-04-01",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-08-01",
-          "end": "2027-08-31",
+          "start": "2027-07-01",
+          "end": "2027-09-30",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Medium",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "2 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2027, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://tei.acm.org/2026/participate/papers/",
-          "https://tei.acm.org/2027/"
+          "https://tei.acm.org/2027/",
+          "https://tei.acm.org/2025/participate/papers",
+          "https://tei.acm.org/2024/"
         ]
       }
     },
@@ -515,16 +721,6 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
-          "year": 2025,
-          "event_months": [
-            10
-          ],
-          "submission_months": [
-            4
-          ],
-          "source": "https://ihm2025.afihm.org/"
-        },
-        {
           "year": 2026,
           "event_months": [
             10
@@ -533,28 +729,71 @@ window.CONFERENCE_DATA = {
             4
           ],
           "source": "https://ihm2026.afihm.org/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://www.afihm.org/conferencesihm.php"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            3
+          ],
+          "submission_months": [],
+          "source": "https://www.afihm.org/conferencesihm.php"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            4
+          ],
+          "submission_months": [],
+          "source": "https://www.afihm.org/conferencesihm.php"
+        },
+        {
+          "year": 2022,
+          "event_months": [
+            4
+          ],
+          "submission_months": [],
+          "source": "https://www.afihm.org/conferencesihm.php"
+        },
+        {
+          "year": 2021,
+          "event_months": [
+            4
+          ],
+          "submission_months": [],
+          "source": "https://www.afihm.org/conferencesihm.php"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-10-01",
-          "end": "2027-10-31",
+          "start": "2027-02-01",
+          "end": "2027-12-01",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-04-01",
-          "end": "2027-04-30",
+          "start": "2027-03-01",
+          "end": "2027-05-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Medium",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "2 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://ihm2025.afihm.org/",
-          "https://ihm2026.afihm.org/"
+          "https://ihm2026.afihm.org/",
+          "https://www.afihm.org/conferencesihm.php",
+          "https://ihm25.afihm.org/"
         ]
       }
     },
@@ -583,14 +822,6 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
-          "year": 2025,
-          "event_months": [
-            8
-          ],
-          "submission_months": [],
-          "source": "https://jfxr-2026.sciencesconf.org/"
-        },
-        {
           "year": 2026,
           "event_months": [
             10
@@ -599,13 +830,29 @@ window.CONFERENCE_DATA = {
             9
           ],
           "source": "https://jfxr-2026.sciencesconf.org/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            8
+          ],
+          "submission_months": [],
+          "source": "https://www.afxr.org/page/2850982-archives-des-jfxr"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.afxr.org/page/2850982-archives-des-jfxr"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-08-01",
-          "end": "2027-10-31",
+          "start": "2027-07-01",
+          "end": "2027-11-01",
           "precision": "month"
         },
         "submission": {
@@ -614,13 +861,13 @@ window.CONFERENCE_DATA = {
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Medium",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Contribution / application",
-        "basis": "2 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. No paper deadline was verified in these editions; the previous broad submission assumption is retained. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
           "https://jfxr-2026.sciencesconf.org/",
-          "https://jfxr-2026.sciencesconf.org/"
+          "https://www.afxr.org/page/2850982-archives-des-jfxr"
         ]
       }
     },
@@ -814,7 +1061,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-08-01",
-          "end": "2027-10-31",
+          "end": "2027-10-01",
           "precision": "month"
         },
         "submission": {
@@ -826,7 +1073,7 @@ window.CONFERENCE_DATA = {
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. No paper deadline was verified in these editions; the previous broad submission assumption is retained. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
           "https://www.ergonomie-self.org/"
         ]
@@ -955,13 +1202,35 @@ window.CONFERENCE_DATA = {
             7
           ],
           "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            9
+          ],
+          "submission_months": [
+            4,
+            5
+          ],
+          "source": "https://www.euroxr.org/previous-edition-conference2025"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            5,
+            6
+          ],
+          "source": "https://www.euroxr.org/previous-edition-conference2024"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-10-01",
-          "end": "2027-12-31",
+          "start": "2027-08-01",
+          "end": "2027-12-01",
           "precision": "month"
         },
         "submission": {
@@ -970,11 +1239,14 @@ window.CONFERENCE_DATA = {
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
+          "https://www.euroxr.org/conference-2026",
+          "https://www.euroxr.org/previous-edition-conference2025",
+          "https://www.euroxr.org/previous-edition-conference2024",
           "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track"
         ]
       }
@@ -1116,17 +1388,23 @@ window.CONFERENCE_DATA = {
           "event_months": [
             10
           ],
-          "submission_months": [
-            4
+          "submission_months": [],
+          "source": "https://sites.uwasa.fi/nordichi2026/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
           ],
-          "source": "https://sites.uwasa.fi/nordichi2026/submit/papers/"
+          "submission_months": [],
+          "source": "https://www.nordichi2024.se/"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
           "start": "2028-09-01",
-          "end": "2028-11-30",
+          "end": "2028-11-01",
           "precision": "month"
         },
         "submission": {
@@ -1138,9 +1416,10 @@ window.CONFERENCE_DATA = {
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2026, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. No paper deadline was verified in these editions; the previous broad submission assumption is retained. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://sites.uwasa.fi/nordichi2026/submit/papers/"
+          "https://sites.uwasa.fi/nordichi2026/",
+          "https://www.nordichi2024.se/"
         ]
       }
     },
@@ -1364,26 +1643,46 @@ window.CONFERENCE_DATA = {
             2
           ],
           "source": "https://interact2027.org/full-papers/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            9
+          ],
+          "submission_months": [],
+          "source": "https://ifip-tc13.org/interact2025/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            8,
+            9
+          ],
+          "submission_months": [],
+          "source": "https://interact2023.org/"
         }
       ],
       "forecast": {
         "year": 2029,
         "event": {
           "start": "2029-07-01",
-          "end": "2029-09-30",
+          "end": "2029-10-01",
           "precision": "month"
         },
         "submission": {
           "start": "2029-01-01",
-          "end": "2029-03-31",
+          "end": "2029-06-30",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "One recent announced edition is used as a seasonal baseline; allow one month of uncertainty on either side. The future edition and call are not confirmed.",
+        "basis": "Observed editions 2027, 2025, 2023. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
+          "https://interact2027.org/",
+          "https://ifip-tc13.org/interact2025/",
+          "https://interact2023.org/",
           "https://interact2027.org/full-papers/"
         ]
       }
@@ -1419,17 +1718,35 @@ window.CONFERENCE_DATA = {
             1
           ],
           "source": "https://dis.acm.org/2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://dis.acm.org/2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://dis.acm.org/2024/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-05-01",
-          "end": "2027-07-31",
+          "start": "2027-06-01",
+          "end": "2027-08-01",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-01-01",
+          "start": "2026-12-01",
           "end": "2027-02-28",
           "precision": "month"
         },
@@ -1437,9 +1754,11 @@ window.CONFERENCE_DATA = {
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://dis.acm.org/2026/"
+          "https://dis.acm.org/2025/",
+          "https://dis.acm.org/2024/",
+          "https://dis.acm.org/2025/call-for-papers/"
         ]
       }
     },
@@ -1746,27 +2065,52 @@ window.CONFERENCE_DATA = {
             9
           ],
           "source": "https://humanrobotinteraction.org/2027/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://humanrobotinteraction.org/2025/registration/index.html"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://humanrobotinteraction.org/2024/schedule/index.html"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
           "start": "2028-02-01",
-          "end": "2028-04-30",
+          "end": "2028-04-01",
           "precision": "month"
         },
         "submission": {
           "start": "2027-08-01",
-          "end": "2027-10-31",
+          "end": "2027-11-30",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed editions 2027, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
         "sources": [
-          "https://humanrobotinteraction.org/2027/"
+          "https://humanrobotinteraction.org/2027/",
+          "https://humanrobotinteraction.org/2025/registration/index.html",
+          "https://humanrobotinteraction.org/2024/schedule/index.html",
+          "https://humanrobotinteraction.org/2027/submissions/",
+          "https://humanrobotinteraction.org/2025/full-papers/",
+          "https://humanrobotinteraction.org/2024/fullpaper/index.html"
         ]
       }
     },
@@ -2695,6 +3039,930 @@ window.CONFERENCE_DATA = {
         "status": "estimated",
         "basis": "Approximation for possible winter and summer rounds; the submission window has passed."
       }
+    },
+    {
+      "id": "vr2023",
+      "family_id": "vr",
+      "year": 2023,
+      "start": "2023-03-25",
+      "end": "2023-03-29",
+      "location": "Shanghai, China",
+      "region": "Outside Europe",
+      "url": "https://ieeevr.org/2023/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "source": "https://ieeevr.org/2023/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2022-10-07T23:59:59-12:00"
+        },
+        {
+          "label": "Papers — unified TVCG / conference review",
+          "type": "Paper",
+          "source": "https://ieeevr.org/2023/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2022-10-14T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://ieeevr.org/2023/contribute/papers/"
+    },
+    {
+      "id": "vr2024",
+      "family_id": "vr",
+      "year": 2024,
+      "start": "2024-03-16",
+      "end": "2024-03-21",
+      "location": "Orlando, USA",
+      "region": "Outside Europe",
+      "url": "https://ieeevr.org/2024/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "source": "https://ieeevr.org/2024/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2023-09-27T23:59:59-12:00"
+        },
+        {
+          "label": "Papers — unified TVCG / conference review",
+          "type": "Paper",
+          "source": "https://ieeevr.org/2024/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2023-10-04T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://ieeevr.org/2024/contribute/papers/"
+    },
+    {
+      "id": "vr2025",
+      "family_id": "vr",
+      "year": 2025,
+      "start": "2025-03-08",
+      "end": "2025-03-12",
+      "location": "Saint-Malo, France",
+      "region": "France",
+      "url": "https://ieeevr.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "source": "https://ieeevr.org/2025/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-09-11T23:59:59-12:00"
+        },
+        {
+          "label": "Papers — unified TVCG / conference review",
+          "type": "Paper",
+          "source": "https://ieeevr.org/2025/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-09-18T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://ieeevr.org/2025/contribute/papers/"
+    },
+    {
+      "id": "chi2023",
+      "family_id": "chi",
+      "year": 2023,
+      "start": "2023-04-23",
+      "end": "2023-04-28",
+      "location": "Hamburg, Germany",
+      "region": "Europe",
+      "url": "https://chi2023.acm.org/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract / metadata",
+          "type": "Abstract",
+          "source": "https://chi2023.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2022-09-08T23:59:00-12:00"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://chi2023.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2022-09-15T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://chi2023.acm.org/"
+    },
+    {
+      "id": "chi2024",
+      "family_id": "chi",
+      "year": 2024,
+      "start": "2024-05-11",
+      "end": "2024-05-16",
+      "location": "Honolulu, USA",
+      "region": "Outside Europe",
+      "url": "https://chi2024.acm.org/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract / metadata",
+          "type": "Abstract",
+          "source": "https://chi2024.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2023-09-07T23:59:00-12:00"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://chi2024.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2023-09-14T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://chi2024.acm.org/"
+    },
+    {
+      "id": "chi2025",
+      "family_id": "chi",
+      "year": 2025,
+      "start": "2025-04-26",
+      "end": "2025-05-01",
+      "location": "Yokohama, Japan",
+      "region": "Outside Europe",
+      "url": "https://chi2025.acm.org/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract / metadata",
+          "type": "Abstract",
+          "source": "https://chi2025.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-09-05T23:59:00-12:00"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://chi2025.acm.org/for-authors/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-09-12T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://chi2025.acm.org/"
+    },
+    {
+      "id": "ihm2021",
+      "family_id": "ihm",
+      "year": 2021,
+      "start": "2021-04-13",
+      "end": "2021-04-16",
+      "location": "Metz, France",
+      "region": "France",
+      "url": "https://ihm2020.afihm.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afihm.org/conferencesihm.php",
+      "note": "The IHM 2020–2021 edition took place in April 2021; it is recorded once."
+    },
+    {
+      "id": "ihm2022",
+      "family_id": "ihm",
+      "year": 2022,
+      "start": "2022-04-05",
+      "end": "2022-04-08",
+      "location": "Namur, Belgium",
+      "region": "Europe",
+      "url": "https://ihm2022.afihm.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afihm.org/conferencesihm.php"
+    },
+    {
+      "id": "ihm2023",
+      "family_id": "ihm",
+      "year": 2023,
+      "start": "2023-04-03",
+      "end": "2023-04-07",
+      "location": "Troyes, France",
+      "region": "France",
+      "url": "https://ihm2023.afihm.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afihm.org/conferencesihm.php"
+    },
+    {
+      "id": "ihm2024",
+      "family_id": "ihm",
+      "year": 2024,
+      "start": "2024-03-25",
+      "end": "2024-03-29",
+      "location": "Paris, France",
+      "region": "France",
+      "url": "https://ihm2024.afihm.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afihm.org/conferencesihm.php"
+    },
+    {
+      "id": "ihm2025",
+      "family_id": "ihm",
+      "year": 2025,
+      "start": "2025-11-03",
+      "end": "2025-11-07",
+      "location": "Toulouse, France",
+      "region": "France",
+      "url": "https://ihm25.afihm.org/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Scientific article abstract (extended)",
+          "type": "Abstract",
+          "source": "https://ihm25.afihm.org/",
+          "status": "verified",
+          "note": "",
+          "date": "2025-04-16"
+        },
+        {
+          "label": "Scientific article (extended)",
+          "type": "Paper",
+          "source": "https://ihm25.afihm.org/",
+          "status": "verified",
+          "note": "",
+          "date": "2025-04-23"
+        },
+        {
+          "label": "Doctoral meetings",
+          "type": "Doctoral",
+          "source": "https://ihm25.afihm.org/",
+          "status": "verified",
+          "note": "",
+          "date": "2025-06-25"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.afihm.org/conferencesihm.php"
+    },
+    {
+      "id": "sui2023",
+      "family_id": "sui",
+      "year": 2023,
+      "start": "2023-10-13",
+      "end": "2023-10-15",
+      "location": "Sydney, Australia",
+      "region": "Outside Europe",
+      "url": "https://sui.acm.org/2023/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Papers (extended)",
+          "type": "Paper",
+          "source": "https://sui.acm.org/2023/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2023-06-30T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://sui.acm.org/2023/"
+    },
+    {
+      "id": "sui2024",
+      "family_id": "sui",
+      "year": 2024,
+      "start": "2024-10-07",
+      "end": "2024-10-08",
+      "location": "Trier, Germany",
+      "region": "Europe",
+      "url": "https://sui.acm.org/2024/index",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Papers (extended)",
+          "type": "Paper",
+          "source": "https://sui.acm.org/2024/papers",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-06-20T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://sui.acm.org/2024/index"
+    },
+    {
+      "id": "sui2025",
+      "family_id": "sui",
+      "year": 2025,
+      "start": "2025-11-10",
+      "end": "2025-11-11",
+      "location": "Montréal, Canada",
+      "region": "Outside Europe",
+      "url": "https://sui.acm.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "source": "https://sui.acm.org/2025/call-for-participation/index.html",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-06-20T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://sui.acm.org/2025/"
+    },
+    {
+      "id": "vrst2023",
+      "family_id": "vrst",
+      "year": 2023,
+      "start": "2023-10-09",
+      "end": "2023-10-11",
+      "location": "Christchurch, New Zealand",
+      "region": "Outside Europe",
+      "url": "https://vrst.acm.org/vrst2023/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://vrst.acm.org/vrst2023/"
+    },
+    {
+      "id": "vrst2024",
+      "family_id": "vrst",
+      "year": 2024,
+      "start": "2024-10-09",
+      "end": "2024-10-11",
+      "location": "Trier, Germany",
+      "region": "Europe",
+      "url": "https://vrst.acm.org/vrst2024/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstracts",
+          "type": "Abstract",
+          "source": "https://vrst.hosting.acm.org/vrst2024/submitting/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-06-10T23:59:00-12:00"
+        },
+        {
+          "label": "Papers — all materials",
+          "type": "Paper",
+          "source": "https://vrst.hosting.acm.org/vrst2024/submitting/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-06-17T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://vrst.acm.org/vrst2024/"
+    },
+    {
+      "id": "vrst2025",
+      "family_id": "vrst",
+      "year": 2025,
+      "start": "2025-11-12",
+      "end": "2025-11-14",
+      "location": "Montréal, Canada",
+      "region": "Outside Europe",
+      "url": "https://vrst.acm.org/vrst2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstracts",
+          "type": "Abstract",
+          "source": "https://vrst.acm.org/vrst2025/index.php/call-for-participation/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-07-07T23:59:00-12:00"
+        },
+        {
+          "label": "Papers — all materials",
+          "type": "Paper",
+          "source": "https://vrst.acm.org/vrst2025/index.php/call-for-participation/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-07-14T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://vrst.acm.org/vrst2025/"
+    },
+    {
+      "id": "ismar2023",
+      "family_id": "ismar",
+      "year": 2023,
+      "start": "2023-10-16",
+      "end": "2023-10-20",
+      "location": "Sydney, Australia",
+      "region": "Outside Europe",
+      "url": "https://ismar23.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://vrst.acm.org/vrst2023/"
+    },
+    {
+      "id": "ismar2024",
+      "family_id": "ismar",
+      "year": 2024,
+      "start": "2024-10-21",
+      "end": "2024-10-25",
+      "location": "Bellevue, USA",
+      "region": "Outside Europe",
+      "url": "https://www.ieeeismar.net/2024/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Journal track papers",
+          "type": "Paper",
+          "source": "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-03-14T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.ieeeismar.net/2024/index.html"
+    },
+    {
+      "id": "ismar2025",
+      "family_id": "ismar",
+      "year": 2025,
+      "start": "2025-10-08",
+      "end": "2025-10-12",
+      "location": "Daejeon, South Korea",
+      "region": "Outside Europe",
+      "url": "https://www.ieeeismar.net/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstracts",
+          "type": "Abstract",
+          "source": "https://www.ieeeismar.net/2025/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-04-04T23:59:00-12:00"
+        },
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "source": "https://www.ieeeismar.net/2025/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-04-11T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.ieeeismar.net/2025/"
+    },
+    {
+      "id": "uist2024",
+      "family_id": "uist",
+      "year": 2024,
+      "start": "2024-10-13",
+      "end": "2024-10-16",
+      "location": "Pittsburgh, USA",
+      "region": "Outside Europe",
+      "url": "https://uist.acm.org/2024/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstract",
+          "type": "Abstract",
+          "source": "https://uist.acm.org/2024/cfp/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-03-27T17:00:00-07:00"
+        },
+        {
+          "label": "Paper PDF",
+          "type": "Paper",
+          "source": "https://uist.acm.org/2024/cfp/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-04-03T17:00:00-07:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://uist.acm.org/2024/"
+    },
+    {
+      "id": "uist2025",
+      "family_id": "uist",
+      "year": 2025,
+      "start": "2025-09-28",
+      "end": "2025-10-01",
+      "location": "Busan, South Korea",
+      "region": "Outside Europe",
+      "url": "https://uist.acm.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstract",
+          "type": "Abstract",
+          "source": "https://uist.acm.org/2025/cfp/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-04-02T23:59:00-12:00"
+        },
+        {
+          "label": "Paper PDF",
+          "type": "Paper",
+          "source": "https://uist.acm.org/2025/cfp/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-04-09T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://uist.acm.org/2025/sponsors/"
+    },
+    {
+      "id": "euroxr2024",
+      "family_id": "euroxr",
+      "year": 2024,
+      "start": "2024-11-27",
+      "end": "2024-11-29",
+      "location": "Athens, Greece",
+      "region": "Europe",
+      "url": "https://www.euroxr.org/previous-edition-conference2024",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Scientific papers with rebuttal (extended)",
+          "type": "Paper",
+          "source": "https://www.euroxr.org/previous-edition-conference2024",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-05-12T23:59:59-12:00"
+        },
+        {
+          "label": "Scientific papers without rebuttal (extended)",
+          "type": "Paper",
+          "source": "https://www.euroxr.org/previous-edition-conference2024",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-06-28T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.euroxr.org/previous-edition-conference2024"
+    },
+    {
+      "id": "euroxr2025",
+      "family_id": "euroxr",
+      "year": 2025,
+      "start": "2025-09-03",
+      "end": "2025-09-05",
+      "location": "Winterthur, Switzerland",
+      "region": "Europe",
+      "url": "https://www.euroxr.org/previous-edition-conference2025",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Scientific papers with rebuttal (extended)",
+          "type": "Paper",
+          "source": "https://www.euroxr.org/previous-edition-conference2025",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-04-15T23:59:59-12:00"
+        },
+        {
+          "label": "Scientific papers without rebuttal (extended)",
+          "type": "Paper",
+          "source": "https://www.euroxr.org/previous-edition-conference2025",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-05-26T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.euroxr.org/previous-edition-conference2025"
+    },
+    {
+      "id": "jfxr2024",
+      "family_id": "jfxr",
+      "year": 2024,
+      "start": "2024-10-29",
+      "end": "2024-10-31",
+      "location": "Évry, France",
+      "region": "France",
+      "url": "https://www.afxr.org/page/2850982-archives-des-jfxr",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afxr.org/page/2850982-archives-des-jfxr"
+    },
+    {
+      "id": "jfxr2025",
+      "family_id": "jfxr",
+      "year": 2025,
+      "start": "2025-08-28",
+      "end": "2025-08-29",
+      "location": "Albi, France",
+      "region": "France",
+      "url": "https://www.afxr.org/page/2850982-archives-des-jfxr",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.afxr.org/page/2850982-archives-des-jfxr"
+    },
+    {
+      "id": "tei2024",
+      "family_id": "tei",
+      "year": 2024,
+      "start": "2024-02-11",
+      "end": "2024-02-14",
+      "location": "Cork, Ireland",
+      "region": "Europe",
+      "url": "https://tei.acm.org/2024/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://tei.acm.org/2024/"
+    },
+    {
+      "id": "tei2025",
+      "family_id": "tei",
+      "year": 2025,
+      "start": "2025-03-04",
+      "end": "2025-03-07",
+      "location": "Bordeaux, France",
+      "region": "France",
+      "url": "https://tei.acm.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://tei.acm.org/2025/participate/papers"
+    },
+    {
+      "id": "dis2024",
+      "family_id": "dis",
+      "year": 2024,
+      "start": "2024-07-01",
+      "end": "2024-07-05",
+      "location": "Copenhagen, Denmark",
+      "region": "Europe",
+      "url": "https://dis.acm.org/2024/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://dis.acm.org/2024/"
+    },
+    {
+      "id": "dis2025",
+      "family_id": "dis",
+      "year": 2025,
+      "start": "2025-07-05",
+      "end": "2025-07-09",
+      "location": "Funchal, Portugal",
+      "region": "Europe",
+      "url": "https://dis.acm.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Title and abstract",
+          "type": "Abstract",
+          "source": "https://dis.acm.org/2025/call-for-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-01-13T23:59:00-12:00"
+        },
+        {
+          "label": "Papers and pictorials",
+          "type": "Paper",
+          "source": "https://dis.acm.org/2025/call-for-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-01-20T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://dis.acm.org/2025/"
+    },
+    {
+      "id": "hri2024",
+      "family_id": "hri",
+      "year": 2024,
+      "start": "2024-03-11",
+      "end": "2024-03-15",
+      "location": "Boulder, USA",
+      "region": "Outside Europe",
+      "url": "https://humanrobotinteraction.org/2024/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://humanrobotinteraction.org/2024/fullpaper/index.html",
+          "status": "verified",
+          "note": "",
+          "date": "2023-09-29"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://humanrobotinteraction.org/2024/schedule/index.html"
+    },
+    {
+      "id": "hri2025",
+      "family_id": "hri",
+      "year": 2025,
+      "start": "2025-03-03",
+      "end": "2025-03-06",
+      "location": "Melbourne, Australia",
+      "region": "Outside Europe",
+      "url": "https://humanrobotinteraction.org/2025/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://humanrobotinteraction.org/2025/full-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2024-10-01T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://humanrobotinteraction.org/2025/registration/index.html"
+    },
+    {
+      "id": "nordichi2024",
+      "family_id": "nordichi",
+      "year": 2024,
+      "start": "2024-10-13",
+      "end": "2024-10-16",
+      "location": "Uppsala, Sweden",
+      "region": "Europe",
+      "url": "https://www.nordichi2024.se/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.nordichi2024.se/"
+    },
+    {
+      "id": "interact2023",
+      "family_id": "interact",
+      "year": 2023,
+      "start": "2023-08-28",
+      "end": "2023-09-01",
+      "location": "York, UK",
+      "region": "Europe",
+      "url": "https://interact2023.org/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://interact2023.org/"
+    },
+    {
+      "id": "interact2025",
+      "family_id": "interact",
+      "year": 2025,
+      "start": "2025-09-08",
+      "end": "2025-09-12",
+      "location": "Belo Horizonte, Brazil",
+      "region": "Outside Europe",
+      "url": "https://ifip-tc13.org/interact2025/",
+      "checked": "2026-10-13",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://ifip-tc13.org/interact2025/"
+    },
+    {
+      "id": "vr2026",
+      "family_id": "vr",
+      "year": 2026,
+      "start": "2026-03-21",
+      "end": "2026-03-25",
+      "location": "Daegu, South Korea",
+      "region": "Outside Europe",
+      "url": "https://ieeevr.org/2026/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory paper abstract",
+          "type": "Abstract",
+          "source": "https://ieeevr.org/2026/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-09-05T23:59:59-12:00"
+        },
+        {
+          "label": "Papers — unified TVCG / conference review",
+          "type": "Paper",
+          "source": "https://ieeevr.org/2026/contribute/papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-09-12T23:59:59-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.ieeevr2026.org/index.php?GP=regi%2Fregi"
+    },
+    {
+      "id": "chi2026",
+      "family_id": "chi",
+      "year": 2026,
+      "start": "2026-04-13",
+      "end": "2026-04-17",
+      "location": "Barcelona, Spain",
+      "region": "Europe",
+      "url": "https://chi2026.acm.org/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Mandatory abstract / metadata",
+          "type": "Abstract",
+          "source": "https://chi2026.acm.org/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-09-04T23:59:00-12:00"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "source": "https://chi2026.acm.org/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2025-09-11T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://chi2026.acm.org/"
+    },
+    {
+      "id": "ismar2026",
+      "family_id": "ismar",
+      "year": 2026,
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "location": "Bari, Italy",
+      "region": "Europe",
+      "url": "https://www.ieeeismar.net/2026/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Paper abstract",
+          "type": "Abstract",
+          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2026-03-09T23:59:00-12:00"
+        },
+        {
+          "label": "Papers — unified TVCG / conference review",
+          "type": "Paper",
+          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2026-03-16T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.ieeeismar.net/2026/"
+    },
+    {
+      "id": "sui2026",
+      "family_id": "sui",
+      "year": 2026,
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "location": "Bari, Italy",
+      "region": "Europe",
+      "url": "https://sui.acm.org/2026/",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "source": "https://sui.acm.org/2026/call-for-papers/",
+          "status": "verified",
+          "note": "",
+          "deadline": "2026-05-29T23:59:00-12:00"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://sigchi.org/events/sui-2026/"
     }
   ],
   "journals": [
@@ -3128,5 +4396,6 @@ window.CONFERENCE_DATA = {
     "rankings": "Official ICORE 2026 classifications where verified. Estimated visibility is qualitative and is not mapped to CORE or to journal quartiles.",
     "forecasts": "Windows pool the observed submission/conference months; single-edition estimates allow one extra month on either side. Sparse data use explicitly documented seasonal or 2–5-month lead-time assumptions. Biennial cycles are preserved. Estimates are not deadline guarantees.",
     "checked": "2026-10-13"
-  }
+  },
+  "history_note": "Historical coverage is incomplete. Missing editions do not imply that an event was not held. Unverified historical deadlines are left unknown. The ICORE 2026 badge describes the current conference family, not its historical rank."
 };

@@ -34,3 +34,9 @@ The root `data.js` is a generated snapshot for direct local opening. The build r
 GitHub Pages uses `.github/workflows/pages.yml`. Tests and build run on `main`, then the two-page site deploys automatically. Pages must use **GitHub Actions** as its publishing source.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for data maintenance. MIT license. The initial inspiration was [mkono505/hcideadlines](https://github.com/mkono505/hcideadlines); this implementation does not copy its historical content or code.
+
+### Historical editions
+
+Use **History** to browse past editions by year, location and topic. The calendar year selector includes historical years and automatically shows past dates for a past calendar year. Historical calls retain the published timezone and extensions where verified. Missing deadlines are explicitly unknown; missing editions do not imply cancellation. The current ICORE badge is not a retrospective rank. Historical date sources can differ from the original edition URL.
+
+Forecasts for families with new archive observations use the latest three verified editions since 2023: a month envelope expanded by one month, preserving the submission year offset. These are planning windows, not statistical confidence intervals. Earlier dates remain accessible in History and do not bias a modern forecast.

@@ -15,6 +15,26 @@ function setup(page,query=''){
  const ctx=vm.createContext({window:{CONFERENCE_DATA:data},document,location:{search:query},URLSearchParams,localStorage:{getItem:()=>null,setItem(){}},Date:Clock,TextEncoder,Blob,URL,setTimeout(){},setInterval(){}});vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),ctx);return code=>vm.runInContext(code,ctx);
 }
 const run=setup('conferences');assert.equal(run('visible.length'),39);
+assert.equal(new Set(data.editions.map(e=>e.id)).size,data.editions.length,'Unique historical edition IDs');
+const historyRun=setup('conferences');
+historyRun("view='history';historyYear='2025';render()");
+assert(historyRun('visible.length')>=12,'Historical coverage spans multiple conference families');
+assert(historyRun("visible.every(e=>e.year===2025&&e.end<today())"));
+historyRun("$('region').value='France';render()");
+assert(historyRun("visible.some(e=>e.id==='vr2025')"),'Historical location uses the historical edition');
+assert(historyRun("visible.every(e=>e.region==='France')"));
+historyRun("$('region').value='';historyYear='2021';render()");
+assert(historyRun("visible.length===1&&visible[0].id==='ihm2021'"),'Postponed IHM recorded once in the year held');
+historyRun("view='calendar';calendarYear=2024;render()");
+assert(historyRun("calendarItems.some(r=>r.edition?.id==='vr2024'&&r.kind==='event')"),'Past calendar year includes archived events without the past-dates switch');
+assert(historyRun("calendarItems.some(r=>r.edition?.id==='vr2025'&&r.kind==='call'&&r.start.startsWith('2024'))"),'Submission year can precede edition year');
+historyRun("view='history';historyYear='2024';render()");
+assert(historyRun("exportItems().some(r=>r.edition?.id==='vr2024'&&r.kind==='call')"));
+const historyIcs=historyRun("calendar(exportItems(),'mixed')");
+assert(historyIcs.includes('DTSTART:20240404T000000Z'),'UIST 2024 uses 17:00 Pacific daylight time, not AoE');
+historyRun("historyYear='1900';render()");
+assert.equal(historyRun('visible.length'),0);
+assert(historyRun("$('results').innerHTML.includes('history-year')"),'Empty history keeps year filter available');
 run("selectedTopics.add('Perception');selectedTopics.add('XR');render()");assert(run('visible.length')>0&&run('visible.length')<39);assert(run("visible.every(f=>f.topics.includes('XR')&&f.topics.includes('Perception'))"));assert(run("$('journal-link').href.includes('topic=Perception')"));
 run("selectedTopics.clear();$('scope').value='France / Francophone';render()");assert.equal(run('visible.length'),8);
 run("$('scope').value='';view='deadlines';$('estimates').checked=false;render()");assert(run('visible.length')>10);assert(run("visible.every(r=>r.status!=='estimated')"));
