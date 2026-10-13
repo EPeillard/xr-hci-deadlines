@@ -81,7 +81,7 @@ window.CONFERENCE_DATA = {
         "year": 2028,
         "event": {
           "start": "2028-01-01",
-          "end": "2028-04-01",
+          "end": "2028-04-30",
           "precision": "month"
         },
         "submission": {
@@ -170,7 +170,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-09-01",
-          "end": "2027-11-01",
+          "end": "2027-11-30",
           "precision": "month"
         },
         "submission": {
@@ -259,7 +259,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-09-01",
-          "end": "2027-12-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
@@ -350,7 +350,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-09-01",
-          "end": "2027-12-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
@@ -509,7 +509,7 @@ window.CONFERENCE_DATA = {
         "year": 2028,
         "event": {
           "start": "2028-03-01",
-          "end": "2028-06-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "submission": {
@@ -589,7 +589,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-08-01",
-          "end": "2027-12-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
@@ -677,7 +677,7 @@ window.CONFERENCE_DATA = {
         "year": 2028,
         "event": {
           "start": "2028-01-01",
-          "end": "2028-04-01",
+          "end": "2028-04-30",
           "precision": "month"
         },
         "submission": {
@@ -777,7 +777,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-02-01",
-          "end": "2027-12-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
@@ -852,7 +852,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-07-01",
-          "end": "2027-11-01",
+          "end": "2027-11-30",
           "precision": "month"
         },
         "submission": {
@@ -1061,7 +1061,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-08-01",
-          "end": "2027-10-01",
+          "end": "2027-10-31",
           "precision": "month"
         },
         "submission": {
@@ -1230,7 +1230,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-08-01",
-          "end": "2027-12-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
@@ -1404,7 +1404,7 @@ window.CONFERENCE_DATA = {
         "year": 2028,
         "event": {
           "start": "2028-09-01",
-          "end": "2028-11-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
@@ -1666,7 +1666,7 @@ window.CONFERENCE_DATA = {
         "year": 2029,
         "event": {
           "start": "2029-07-01",
-          "end": "2029-10-01",
+          "end": "2029-10-31",
           "precision": "month"
         },
         "submission": {
@@ -1742,7 +1742,7 @@ window.CONFERENCE_DATA = {
         "year": 2027,
         "event": {
           "start": "2027-06-01",
-          "end": "2027-08-01",
+          "end": "2027-08-31",
           "precision": "month"
         },
         "submission": {
@@ -2091,7 +2091,7 @@ window.CONFERENCE_DATA = {
         "year": 2028,
         "event": {
           "start": "2028-02-01",
-          "end": "2028-04-01",
+          "end": "2028-04-30",
           "precision": "month"
         },
         "submission": {
