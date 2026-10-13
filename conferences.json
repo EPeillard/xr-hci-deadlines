@@ -2476,6 +2476,132 @@
           "https://www.ubicomp.org/"
         ]
       }
+    },
+    {
+      "id": "ahs",
+      "name": "Augmented Humans (AHs)",
+      "scope": "International",
+      "kind": "Conference",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human augmentation",
+        "Perception",
+        "Embodiment",
+        "Wearables",
+        "Haptics"
+      ],
+      "url": "https://augmented-humans.org/",
+      "why": "Formerly Augmented Human (AH). Physical, cognitive and perceptual human augmentation, XR, wearable devices, embodiment and haptic interfaces.",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Editorial visibility",
+        "edition": "2026",
+        "source": "https://augmented-humans.org/",
+        "checked": "2026-10-13",
+        "note": "Estimated specialist visibility from the official human-augmentation scope and ACM proceedings. An official ICORE rank was not verified; this is not a CORE grade, quartile, citation metric or acceptance-rate estimate."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            11
+          ],
+          "source": "https://augmented-humans.org/call-for-full-short-papers/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            11
+          ],
+          "source": "https://2026.augmented-humans.org/submission-guideline/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://2025.augmented-humans.org/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            4
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://2024.augmented-humans.org/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            3
+          ],
+          "submission_months": [
+            12
+          ],
+          "source": "https://2023.augmented-humans.org/"
+        },
+        {
+          "year": 2022,
+          "event_months": [
+            3
+          ],
+          "submission_months": [],
+          "source": "https://augmented-humans.org/previous-conferences/"
+        },
+        {
+          "year": 2021,
+          "event_months": [
+            2
+          ],
+          "submission_months": [],
+          "source": "https://augmented-humans.org/previous-conferences/"
+        },
+        {
+          "year": 2019,
+          "event_months": [
+            3
+          ],
+          "submission_months": [],
+          "source": "https://augmented-humans.org/previous-conferences/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-02-01",
+          "end": "2028-04-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-10-01",
+          "end": "2028-02-29",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Moderate",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Observed 2025–2027 editions: March events; main papers in January of the event year (2025) and November of the preceding year (2026–2027). Envelopes widened by one month. The shift in submission season limits confidence; these are planning windows, not announced dates.",
+        "sources": [
+          "https://2025.augmented-humans.org/",
+          "https://2026.augmented-humans.org/submission-guideline/",
+          "https://augmented-humans.org/call-for-full-short-papers/"
+        ]
+      }
     }
   ],
   "editions": [
@@ -3963,6 +4089,268 @@
       ],
       "event_status": "verified",
       "event_source": "https://sigchi.org/events/sui-2026/"
+    },
+    {
+      "id": "ahs2019",
+      "family_id": "ahs",
+      "year": 2019,
+      "start": "2019-03-11",
+      "end": "2019-03-12",
+      "location": "Reims, France",
+      "region": "France",
+      "url": "https://augmented-humans.org/previous-conferences/",
+      "event_source": "https://augmented-humans.org/previous-conferences/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": []
+    },
+    {
+      "id": "ahs2021",
+      "family_id": "ahs",
+      "year": 2021,
+      "start": "2021-02-22",
+      "end": "2021-02-24",
+      "location": "Online · Rovaniemi, Finland",
+      "region": "Europe",
+      "url": "https://2021.augmented-humans.org/",
+      "event_source": "https://augmented-humans.org/previous-conferences/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": []
+    },
+    {
+      "id": "ahs2022",
+      "family_id": "ahs",
+      "year": 2022,
+      "start": "2022-03-13",
+      "end": "2022-03-15",
+      "location": "Online · Munich, Germany",
+      "region": "Europe",
+      "url": "https://2022.augmented-humans.org/",
+      "event_source": "https://augmented-humans.org/previous-conferences/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": []
+    },
+    {
+      "id": "ahs2023",
+      "family_id": "ahs",
+      "year": 2023,
+      "start": "2023-03-12",
+      "end": "2023-03-14",
+      "location": "Glasgow, UK",
+      "region": "Europe",
+      "url": "https://2023.augmented-humans.org/",
+      "event_source": "https://2023.augmented-humans.org/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers (extended)",
+          "type": "Paper",
+          "date": "2022-12-09",
+          "source": "https://2023.augmented-humans.org/",
+          "note": "Extended from 2 December 2022; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters (extended)",
+          "type": "Poster / WiP",
+          "date": "2023-01-22",
+          "source": "https://2023.augmented-humans.org/",
+          "note": "Extended from 13 January 2023; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Demos (extended)",
+          "type": "Demo",
+          "date": "2023-01-22",
+          "source": "https://2023.augmented-humans.org/",
+          "note": "Extended from 13 January 2023; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals (extended)",
+          "type": "Workshop",
+          "date": "2023-01-22",
+          "source": "https://2023.augmented-humans.org/",
+          "note": "Extended from 13 January 2023; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ahs2024",
+      "family_id": "ahs",
+      "year": 2024,
+      "start": "2024-04-04",
+      "end": "2024-04-06",
+      "location": "Melbourne, Australia",
+      "region": "Outside Europe",
+      "url": "https://2024.augmented-humans.org/",
+      "event_source": "https://2024.augmented-humans.org/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "date": "2024-01-16",
+          "source": "https://2024.augmented-humans.org/",
+          "note": "AoE date; exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Special fast track",
+          "type": "Paper",
+          "date": "2024-01-26",
+          "source": "https://2024.augmented-humans.org/",
+          "note": "AoE date; exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters (extended)",
+          "type": "Poster / WiP",
+          "date": "2024-02-21",
+          "source": "https://2024.augmented-humans.org/",
+          "note": "Extended from 12 February 2024; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Demos (extended)",
+          "type": "Demo",
+          "date": "2024-02-21",
+          "source": "https://2024.augmented-humans.org/",
+          "note": "Extended from 12 February 2024; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals (extended)",
+          "type": "Workshop",
+          "date": "2024-02-21",
+          "source": "https://2024.augmented-humans.org/",
+          "note": "Extended from 12 February 2024; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ahs2025",
+      "family_id": "ahs",
+      "year": 2025,
+      "start": "2025-03-16",
+      "end": "2025-03-20",
+      "location": "Abu Dhabi, UAE",
+      "region": "Outside Europe",
+      "url": "https://2025.augmented-humans.org/",
+      "event_source": "https://2025.augmented-humans.org/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers (extended)",
+          "type": "Paper",
+          "date": "2025-01-23",
+          "source": "https://2025.augmented-humans.org/",
+          "note": "Extended from 16 January 2025; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Special fast track",
+          "type": "Paper",
+          "date": "2025-01-27",
+          "source": "https://2025.augmented-humans.org/",
+          "note": "AoE date; exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters (extended)",
+          "type": "Poster / WiP",
+          "date": "2025-02-20",
+          "source": "https://2025.augmented-humans.org/",
+          "note": "Extended from 13 February 2025; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Demos (extended)",
+          "type": "Demo",
+          "date": "2025-02-20",
+          "source": "https://2025.augmented-humans.org/",
+          "note": "Extended from 13 February 2025; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals (extended)",
+          "type": "Workshop",
+          "date": "2025-02-20",
+          "source": "https://2025.augmented-humans.org/",
+          "note": "Extended from 13 February 2025; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ahs2026",
+      "family_id": "ahs",
+      "year": 2026,
+      "start": "2026-03-16",
+      "end": "2026-03-19",
+      "location": "Okinawa, Japan",
+      "region": "Outside Europe",
+      "url": "https://2026.augmented-humans.org/",
+      "event_source": "https://2026.augmented-humans.org/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers (extended)",
+          "type": "Paper",
+          "date": "2025-11-25",
+          "source": "https://2026.augmented-humans.org/submission-guideline/",
+          "note": "Extended from 18 November 2025; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters (extended)",
+          "type": "Poster / WiP",
+          "date": "2026-02-02",
+          "source": "https://2026.augmented-humans.org/submission-guideline/",
+          "note": "Extended from 26 January 2026; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Demos (extended)",
+          "type": "Demo",
+          "date": "2026-02-02",
+          "source": "https://2026.augmented-humans.org/submission-guideline/",
+          "note": "Extended from 26 January 2026; AoE date, exact cutoff time not specified.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "ahs2027",
+      "family_id": "ahs",
+      "year": 2027,
+      "start": "2027-03-07",
+      "end": "2027-03-10",
+      "location": "Colombo, Sri Lanka",
+      "region": "Outside Europe",
+      "url": "https://augmented-humans.org/",
+      "event_source": "https://augmented-humans.org/",
+      "checked": "2026-10-13",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "date": "2026-11-12",
+          "source": "https://augmented-humans.org/call-for-full-short-papers/",
+          "note": "AoE date published; exact cutoff time not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Posters, demos and workshop proposal deadlines are TBA on the official 2027 website."
     }
   ],
   "journals": [
