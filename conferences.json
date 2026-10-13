@@ -1517,12 +1517,14 @@
       "scope": "Europe",
       "topics": [
         "Graphics",
-        "XR"
+        "XR",
+        "HCI",
+        "Perception"
       ],
-      "url": "https://www.eg.org/",
-      "why": "Computer graphics, rendering and 3D models.",
+      "url": "https://eg2027.isti.cnr.it/",
+      "why": "Computer graphics, rendering, geometry, HCI, visualization, XR and perceptual studies. Full papers and STARs are published in Computer Graphics Forum.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "estimated",
         "label": "High visibility",
@@ -1532,26 +1534,40 @@
         "checked": "2026-10-13",
         "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            5
+          ],
+          "submission_months": [
+            2,
+            9,
+            10
+          ],
+          "source": "https://eg2027.isti.cnr.it/call-for-papers/"
+        }
+      ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-04-01",
-          "end": "2027-05-31",
+          "start": "2028-04-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2026-09-01",
-          "end": "2026-11-30",
+          "start": "2027-08-01",
+          "end": "2027-11-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "One announced edition (2027): conference in May and full-paper submissions in September–October of the preceding year. Month envelopes widened by one month. This forecast concerns the main full-paper track, not education papers or STARs. Planning windows, not announced dates.",
         "sources": [
-          "https://www.eg.org/"
+          "https://eg2027.isti.cnr.it/call-for-papers/",
+          "https://srmv2.eg.org/COMFy/Conference/EG_2027"
         ]
       }
     },
@@ -4351,6 +4367,78 @@
         }
       ],
       "note": "Posters, demos and workshop proposal deadlines are TBA on the official 2027 website."
+    },
+    {
+      "id": "eurographics2027",
+      "family_id": "eurographics",
+      "year": 2027,
+      "start": "2027-05-10",
+      "end": "2027-05-14",
+      "location": "Lucca, Italy",
+      "region": "Europe",
+      "url": "https://eg2027.isti.cnr.it/",
+      "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
+      "event_status": "verified",
+      "checked": "2026-10-13",
+      "tracks": [
+        {
+          "label": "Full papers — abstract and submission form (extended)",
+          "type": "Abstract",
+          "deadline": "2026-09-26T11:59:00+00:00",
+          "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027",
+          "note": "SRM published cutoff. Extended from 25 September 2026, 23:59 UTC to 23:59 AoE.",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers (extended)",
+          "type": "Paper",
+          "deadline": "2026-10-02T12:59:00+00:00",
+          "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027",
+          "note": "SRM published cutoff: 2 October 2026, 12:59 UTC (00:59 AoE). Original deadline: 1 October, 23:59 UTC. CFP additionally mentions compensation for technical delays without another explicit cutoff.",
+          "status": "verified"
+        },
+        {
+          "label": "STARs — abstract (extended)",
+          "type": "Abstract",
+          "deadline": "2026-10-13T23:59:00-12:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-stars/",
+          "note": "Extended from 13 October 2026, 23:59 UTC to 23:59 AoE. SRM confirms 14 October, 11:59 UTC: https://srmv2.eg.org/COMFy/Conference/EG_2027STARs",
+          "status": "verified"
+        },
+        {
+          "label": "STARs — full report (SRM cutoff)",
+          "type": "Paper",
+          "deadline": "2026-10-20T11:59:00+00:00",
+          "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027STARs",
+          "note": "Operational SRM cutoff is 20 October 2026, 11:59 UTC (19 October, 23:59 AoE). The CFP timeline still says 19 October, 23:59 UTC; check SRM/organizers before submitting.",
+          "status": "verified"
+        },
+        {
+          "label": "Full tutorial proposals",
+          "type": "Workshop",
+          "deadline": "2026-12-01T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-tutorials/",
+          "note": "Half-day tutorial proposals; grouped with workshop/tutorial contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Education papers — abstract",
+          "type": "Abstract",
+          "deadline": "2027-02-07T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
+          "note": "Teaching computer graphics, visualization, XR, student projects and assignments.",
+          "status": "verified"
+        },
+        {
+          "label": "Education papers — submission",
+          "type": "Paper",
+          "deadline": "2027-02-14T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
+          "note": "Regular papers, assignments and outstanding student projects.",
+          "status": "verified"
+        }
+      ],
+      "note": "Venue confirmed as Lucca in the current official CFP and submission platform. Short-paper, poster and doctoral calls were not retrieved in this update. Full papers and STARs publish in Computer Graphics Forum."
     }
   ],
   "journals": [
