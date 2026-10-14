@@ -3358,7 +3358,7 @@ window.CONFERENCE_DATA = {
         },
         {
           "label": "3DUI Contest — two-page abstract and video",
-          "type": "Student competition",
+          "type": "Contribution / application",
           "date": "2026-12-16",
           "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
           "note": "AoE date published; exact cutoff time is not stated.",
@@ -3629,7 +3629,7 @@ window.CONFERENCE_DATA = {
         },
         {
           "label": "Digital Experience Competition",
-          "type": "Student competition",
+          "type": "Contribution / application",
           "date": "2026-12-04",
           "source": "https://chi2027.acm.org/",
           "note": "AoE date published; exact cutoff time is not stated.",
