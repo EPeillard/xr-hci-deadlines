@@ -1957,10 +1957,10 @@ window.CONFERENCE_DATA = {
         "Human factors",
         "Eye tracking"
       ],
-      "url": "https://etra.acm.org/",
+      "url": "https://etra.acm.org/2027/",
       "why": "Eye tracking, visual attention and gaze interaction.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -1972,7 +1972,41 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            6
+          ],
+          "submission_months": [
+            10,
+            2
+          ],
+          "source": "https://etra.acm.org/2027/"
+        },
+        {
           "year": 2026,
+          "event_months": [
+            6
+          ],
+          "submission_months": [
+            11,
+            1,
+            3
+          ],
+          "source": "https://etra.acm.org/2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            5
+          ],
+          "submission_months": [
+            11,
+            1
+          ],
+          "source": "https://etra.acm.org/2025/"
+        },
+        {
+          "year": 2024,
           "event_months": [
             6
           ],
@@ -1980,28 +2014,30 @@ window.CONFERENCE_DATA = {
             11,
             1
           ],
-          "source": "https://etra.acm.org/2026/"
+          "source": "https://etra.acm.org/2024/"
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-05-01",
-          "end": "2027-07-31",
+          "start": "2028-04-01",
+          "end": "2028-07-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2026-10-01",
-          "end": "2027-02-28",
+          "start": "2027-09-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Latest three observed editions (2027, 2026, 2025): events in May–June; full-paper submissions in October–November of the preceding year. Month envelopes widened by one month. This forecast concerns full papers; short-paper calls have a separate later schedule. Planning windows for 2028, not announced dates.",
         "sources": [
-          "https://etra.acm.org/2026/"
+          "https://etra.acm.org/2027/",
+          "https://etra.acm.org/2026/",
+          "https://etra.acm.org/2025/"
         ]
       }
     },
@@ -2634,6 +2670,296 @@ window.CONFERENCE_DATA = {
     }
   ],
   "editions": [
+    {
+      "id": "etra2027",
+      "family_id": "etra",
+      "year": 2027,
+      "start": "2027-06-07",
+      "end": "2027-06-10",
+      "location": "Pamplona, Spain",
+      "region": "Europe",
+      "url": "https://etra.acm.org/2027/",
+      "checked": "2026-10-14",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — full papers",
+          "type": "Abstract",
+          "deadline": "2026-10-09T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "deadline": "2026-10-16T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "The mandatory abstract deadline precedes this submission. AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Mandatory abstract — short papers",
+          "type": "Abstract",
+          "deadline": "2027-02-04T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers",
+          "type": "Paper",
+          "deadline": "2027-02-11T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "The mandatory abstract deadline precedes this submission. AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Revised full papers — existing submissions",
+          "type": "Revision",
+          "deadline": "2027-02-19T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "Revision milestone, not a new-submission deadline. AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — accepted full and short papers",
+          "type": "Camera-ready",
+          "deadline": "2027-04-19T23:59:59-12:00",
+          "source": "https://etra.acm.org/2027/",
+          "note": "Final versions for accepted papers, not a new-submission deadline. AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Workshop, tutorial, late-breaking work and doctoral consortium dates are still TBA on the official site."
+    },
+    {
+      "id": "etra2026",
+      "family_id": "etra",
+      "year": 2026,
+      "start": "2026-06-01",
+      "end": "2026-06-04",
+      "location": "Marrakech, Morocco",
+      "region": "Outside Europe",
+      "url": "https://etra.acm.org/2026/",
+      "checked": "2026-10-14",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — full papers",
+          "type": "Abstract",
+          "deadline": "2025-11-03T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "deadline": "2025-11-10T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Mandatory abstract — short papers",
+          "type": "Abstract",
+          "deadline": "2026-01-20T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers",
+          "type": "Paper",
+          "deadline": "2026-01-27T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2025-12-01T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Contribution / application",
+          "deadline": "2026-01-05T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Late-breaking work",
+          "type": "Poster / WiP",
+          "deadline": "2026-02-06T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral consortium",
+          "deadline": "2026-03-20T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Open Dataset Track",
+          "type": "Paper",
+          "deadline": "2026-03-05T23:59:59-12:00",
+          "source": "https://etra.acm.org/2026/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
+    },
+    {
+      "id": "etra2025",
+      "family_id": "etra",
+      "year": 2025,
+      "start": "2025-05-26",
+      "end": "2025-05-29",
+      "location": "Tokyo, Japan",
+      "region": "Outside Europe",
+      "url": "https://etra.acm.org/2025/",
+      "checked": "2026-10-14",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — full papers",
+          "type": "Abstract",
+          "deadline": "2024-10-26T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "deadline": "2024-11-01T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Mandatory abstract — short papers",
+          "type": "Abstract",
+          "deadline": "2025-01-14T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers",
+          "type": "Paper",
+          "deadline": "2025-01-21T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2025-01-06T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Contribution / application",
+          "deadline": "2025-01-06T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral consortium",
+          "deadline": "2025-03-17T23:59:59-12:00",
+          "source": "https://etra.acm.org/2025/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Dates follow the edition website and ACM proceedings (10.1145/3715669), both May 26–29. The central ETRA archive currently lists conflicting June 3–6 dates."
+    },
+    {
+      "id": "etra2024",
+      "family_id": "etra",
+      "year": 2024,
+      "start": "2024-06-04",
+      "end": "2024-06-07",
+      "location": "Glasgow, United Kingdom",
+      "region": "Europe",
+      "url": "https://etra.acm.org/2024/",
+      "checked": "2026-10-14",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — full papers",
+          "type": "Abstract",
+          "deadline": "2023-11-04T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "deadline": "2023-11-10T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Mandatory abstract — short papers",
+          "type": "Abstract",
+          "deadline": "2024-01-21T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers",
+          "type": "Paper",
+          "deadline": "2024-01-28T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2023-12-05T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Contribution / application",
+          "deadline": "2024-01-14T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Late-breaking work — final rolling cutoff",
+          "type": "Poster / WiP",
+          "deadline": "2024-03-18T23:59:59-12:00",
+          "source": "https://etra.acm.org/2024/",
+          "note": "Rolling submission system remained open until this date. AoE date normalized to the end of the published day (UTC−12).",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
+    },
     {
       "id": "ismar2027",
       "family_id": "ismar",
