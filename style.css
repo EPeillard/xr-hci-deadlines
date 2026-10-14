@@ -17,3 +17,5 @@
 .subscription-actions{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin-top:12px}.subscription-actions a{font-size:12px}.subscription-actions button{background:var(--green);color:white;border-color:var(--green);padding:9px 13px}
 #subscription-copy-status{min-height:20px;color:var(--green);margin:6px 0}.subscription-note{color:var(--muted);font-size:11px!important}
 .subscription-instructions{font-size:12px;border-top:1px solid var(--line);padding-top:12px}.subscription-instructions li{margin:8px 0}
+
+.filters[data-directory=true]{grid-template-columns:1.7fr 1fr 1fr .9fr}@media(max-width:1150px){.filters[data-directory=true]{grid-template-columns:repeat(3,1fr)}}@media(max-width:700px){.filters[data-directory=true]{grid-template-columns:repeat(2,1fr)}}
