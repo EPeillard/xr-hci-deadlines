@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "families": [
     {
       "id": "vr",
@@ -1131,39 +1131,52 @@ window.CONFERENCE_DATA = {
         "XR",
         "HCI"
       ],
-      "url": "https://www.laval-virtual.com/",
-      "why": "XR demonstrations, applications and industry networking.",
+      "url": "https://laval-virtual.com/",
+      "why": "XR research prototypes, student projects, doctoral presentations, technical talks, applied immersive technologies and industry networking.",
       "kind": "Industry event",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "estimated",
         "label": "Industry",
         "scheme": "Visibility",
         "edition": "2026",
-        "source": "https://www.laval-virtual.com/",
-        "checked": "2026-10-13",
-        "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
+        "source": "https://laval-virtual.com/",
+        "checked": "2026-10-14",
+        "note": "Estimated industry visibility from the official event scope, research and student competitions. This is not an academic conference rank, citation metric or quartile; no official academic rank was verified."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            4
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://laval-virtual.com/en/revolution-call/"
+        }
+      ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-04-01",
-          "end": "2027-04-30",
+          "start": "2028-03-01",
+          "end": "2028-05-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2026-09-01",
-          "end": "2026-12-31",
+          "start": "2027-12-01",
+          "end": "2028-02-29",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Contribution / application",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "One announced edition (2027): event in April and applications in January of the same year. Month envelopes widened by one month. These are applications, demonstrations and talks, not a verified paper-publication track. Planning windows for a possible 2028 edition, not announced dates.",
         "sources": [
-          "https://www.laval-virtual.com/"
+          "https://laval-virtual.com/",
+          "https://laval-virtual.com/en/revolution-call/",
+          "https://laval-virtual.com/en/students-call/"
         ]
       }
     },
@@ -2621,6 +2634,86 @@ window.CONFERENCE_DATA = {
     }
   ],
   "editions": [
+    {
+      "id": "laval2027",
+      "family_id": "laval",
+      "year": 2027,
+      "start": "2027-04-07",
+      "end": "2027-04-09",
+      "location": "Laval, France",
+      "region": "France",
+      "url": "https://laval-virtual.com/",
+      "event_source": "https://laval-virtual.com/",
+      "checked": "2026-10-14",
+      "tracks": [
+        {
+          "label": "#ReVolution — XR research prototypes",
+          "type": "Demo",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/en/revolution-call/",
+          "note": "For research laboratories, universities and corporate R&D departments. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "#Students — student XR projects",
+          "type": "Demo",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/en/students-call/",
+          "note": "For students and schools; selected projects exhibit at the show. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Conference speakers — research, innovation and use cases",
+          "type": "Contribution / application",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/devenir-conferencier/",
+          "note": "Selected talks and use cases; not a peer-reviewed paper deadline. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Tech Talks — technical presentations",
+          "type": "Contribution / application",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/en/tech-talks-call/",
+          "note": "Technical sessions held on 7–8 April 2027. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "#StartUps — young XR companies",
+          "type": "Contribution / application",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/startups-call/",
+          "note": "For startups under three years old that have never exhibited at Laval Virtual. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "#Experiences — immersive content projects",
+          "type": "Demo",
+          "date": "2027-01-15",
+          "source": "https://laval-virtual.com/experiences-call/",
+          "note": "For content creators, developers and producers. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium / Doctoriales — abstracts",
+          "type": "Doctoral consortium",
+          "date": "2027-01-20",
+          "source": "https://laval-virtual.com/doctoriales-call/",
+          "note": "Oral and poster presentations on 9 April 2027; open to doctoral candidates and researchers who defended less than one year ago. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Laval Virtual Awards — general categories",
+          "type": "Contribution / application",
+          "date": "2027-01-29",
+          "source": "https://laval-virtual.com/laval-virtual-awards-call/",
+          "note": "Projects developed between January 2026 and April 2027; award ceremony on 7 April 2027. Published date only; cutoff time and timezone are not specified.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Industry exhibition with research and student competitions. Tech Talks: 7–8 April; Doctoriales: 9 April. No peer-reviewed paper deadline is claimed."
+    },
     {
       "id": "vr2027",
       "family_id": "vr",
