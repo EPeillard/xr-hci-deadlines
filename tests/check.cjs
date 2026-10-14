@@ -49,7 +49,7 @@ run("selectedTopics.add('Perception');selectedTopics.add('XR');render()");assert
 run("selectedTopics.clear();$('scope').value='France / Francophone';render()");assert.equal(run('visible.length'),8);
 run("$('scope').value='';view='deadlines';$('estimates').checked=false;render()");assert(run('visible.length')>10);assert(run("visible.every(r=>r.status!=='estimated')"));
 assert(!run("forecasts().some(r=>r.family.id==='iros'&&r.year===2027)"),'Known paper deadline supersedes a forecast');
-const ics=run("calendar(visible,'deadlines',new Date('2026-10-13T10:00:00Z'))");assert(ics.includes('DTSTART:20261027T115959Z'),'AoE next-day UTC conversion');assert(!ics.includes('WHC')&&!ics.includes('World Haptics'),'Tentative dates excluded');assert(ics.includes('DTSTART;VALUE=DATE:20270301'),'Date-only deadlines stay date-only');for(const line of ics.split('\r\n'))assert(Buffer.byteLength(line)<=75);
+const ics=run("calendar(visible,'deadlines',new Date('2026-10-13T10:00:00Z'))");assert(ics.includes('DTSTART:20261027T115959Z'),'AoE next-day UTC conversion');assert(ics.includes('World Haptics')&&ics.includes('STATUS:TENTATIVE'),'Announced tentative deadlines included and labeled');assert(ics.includes('DTSTART;VALUE=DATE:20270301'),'Date-only deadlines stay date-only');for(const line of ics.split('\r\n'))assert(Buffer.byteLength(line)<=75);
 const eventIcs=run("calendar([data.editions.find(e=>e.id==='ihm2026')],'events')");assert(eventIcs.includes('DTEND;VALUE=DATE:20261024'),'Exclusive end of all-day events');
 run("view='calendar';$('estimates').checked=true;render()");assert(run("$('results').innerHTML.includes('calendar-grid')"));assert(run("$('results').innerHTML.includes('Broad planning windows')"));
 const journals=setup('journals','?topic=XR');assert(journals('visible.length')>0);assert(journals("visible.every(j=>j.topics.includes('XR'))"));journals("selectedTopics.clear();$('indicator').value='verified';$('sort').value='impact';render()");assert.equal(journals('visible.length'),11);assert.equal(journals('visible[0].id'),'tochi');
@@ -69,7 +69,16 @@ ismarRun("$('search').value='ISMAR';view='calendar';calendarYear=2029;render()")
 assert(ismarRun("$('results').innerHTML.includes('Early Oct 2029')"));
 assert(ismarRun("calendarItems.some(r=>r.edition?.id==='ismar2029'&&r.kind==='event'&&r.status==='tentative')"));
 assert(ismarRun("calendarItems.some(r=>r.year===2029&&r.family.id==='ismar'&&r.kind==='call'&&r.status==='estimated')"));
-assert(!ismarRun("calendar(exportItems(),'mixed').includes('UID:ismar2029')"),'Tentative organizer dates stay out of subscribed/snapshot calendars');
+assert(!ismarRun("calendar(exportItems(),'mixed').includes('UID:ismar2029')"),'Vague organizer periods stay out of calendars');
 const ismarForecasts=ismarRun("forecasts().filter(r=>r.family.id==='ismar')");
 assert.deepEqual(Array.from(ismarForecasts,r=>r.year).sort(),[2027,2028,2029]);
 assert.equal(new Set(ismarForecasts.map(r=>r.year)).size,3,'Only one estimated paper window per announced edition');
+
+ismarRun("calendarYear=2027;render()");
+const provisionalIcs=ismarRun("calendar(exportItems(),'mixed')");
+assert(provisionalIcs.includes('UID:ismar2027-event@xr-ihm-deadlines'));
+assert(provisionalIcs.includes('SUMMARY:ISMAR 2027 [Tentative]'));
+assert(provisionalIcs.includes('STATUS:TENTATIVE'));
+assert(!provisionalIcs.includes('Expected paper deadline window'));
+const tentativeCall=ismarRun("calendar([{status:'tentative',kind:'call',family:families.get('ismar'),edition:data.editions.find(e=>e.id==='ismar2027'),index:0,label:'Papers',date:'2027-04-01',source:'https://www.ismar.net/'}],'mixed')");
+assert(tentativeCall.includes('STATUS:TENTATIVE')&&tentativeCall.includes('DTSTART;VALUE=DATE:20270401'));
