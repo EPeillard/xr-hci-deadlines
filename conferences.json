@@ -116,7 +116,7 @@
       "url": "https://ismar.net/",
       "why": "Augmented and mixed reality systems, perception and real-world interaction.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "A*",
@@ -163,15 +163,16 @@
             10
           ],
           "submission_months": [],
-          "source": "https://vrst.acm.org/vrst2023/"
+          "source": "https://www.ismar.net/categories/conference/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-11-30",
-          "precision": "month"
+          "start": "2027-10-11",
+          "end": "2027-10-15",
+          "precision": "day",
+          "status": "tentative"
         },
         "submission": {
           "start": "2027-02-01",
@@ -182,13 +183,12 @@
         "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
+        "basis": "2027 event dates and Kobe location are organizer-announced but subject to change. Paper submission window estimated from the March–April paper deadlines observed in 2024–2026, widened by one month. No call or cutoff is announced for this edition.",
         "sources": [
-          "https://www.ieeeismar.net/2026/",
-          "https://www.ieeeismar.net/2025/",
-          "https://www.ieeeismar.net/2024/index.html",
           "https://www.ieeeismar.net/2026/call-for-papers/",
-          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html"
+          "https://www.ieeeismar.net/2025/",
+          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html",
+          "https://www.ismar.net/ismar_future/"
         ]
       }
     },
@@ -2634,6 +2634,95 @@
     }
   ],
   "editions": [
+    {
+      "id": "ismar2027",
+      "family_id": "ismar",
+      "year": 2027,
+      "start": "2027-10-11",
+      "end": "2027-10-15",
+      "location": "Kobe, Japan",
+      "region": "Outside Europe",
+      "url": "https://www.ismar.net/ismar_future/",
+      "event_source": "https://www.ismar.net/ismar_future/",
+      "checked": "2026-10-14",
+      "tracks": [],
+      "event_status": "tentative",
+      "note": "Organizer-announced dates, explicitly subject to change. Submission calls have not yet been announced.",
+      "estimated_submission": {
+        "start": "2027-02-01",
+        "end": "2027-05-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Moderate",
+        "basis": "Paper submission window estimated from the March–April paper deadlines observed in 2024–2026, widened by one month. No call or cutoff is announced for this edition.",
+        "sources": [
+          "https://www.ieeeismar.net/2026/call-for-papers/",
+          "https://www.ieeeismar.net/2025/",
+          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html"
+        ]
+      }
+    },
+    {
+      "id": "ismar2028",
+      "family_id": "ismar",
+      "year": 2028,
+      "start": "2028-10-09",
+      "end": "2028-10-13",
+      "location": "Cyprus",
+      "region": "Europe",
+      "url": "https://www.ismar.net/ismar_future/",
+      "event_source": "https://www.ismar.net/ismar_future/",
+      "checked": "2026-10-14",
+      "tracks": [],
+      "event_status": "tentative",
+      "note": "Organizer-announced dates, explicitly subject to change. Submission calls have not yet been announced.",
+      "estimated_submission": {
+        "start": "2028-02-01",
+        "end": "2028-05-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Moderate",
+        "basis": "Paper submission window estimated from the March–April paper deadlines observed in 2024–2026, widened by one month. No call or cutoff is announced for this edition.",
+        "sources": [
+          "https://www.ieeeismar.net/2026/call-for-papers/",
+          "https://www.ieeeismar.net/2025/",
+          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html"
+        ]
+      }
+    },
+    {
+      "id": "ismar2029",
+      "family_id": "ismar",
+      "year": 2029,
+      "start": "2029-10-01",
+      "end": "2029-10-31",
+      "location": "Canada (city not announced)",
+      "region": "Outside Europe",
+      "url": "https://www.ismar.net/ismar_future/",
+      "event_source": "https://www.ismar.net/ismar_future/",
+      "checked": "2026-10-14",
+      "tracks": [],
+      "event_status": "tentative",
+      "precision": "month",
+      "date_label": "Early Oct 2029 · exact dates not announced",
+      "note": "Organizer announces early October only, subject to change. Stored month bounds are a display window, not precise conference dates.",
+      "estimated_submission": {
+        "start": "2029-02-01",
+        "end": "2029-05-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Moderate",
+        "basis": "Paper submission window estimated from the March–April paper deadlines observed in 2024–2026, widened by one month. No call or cutoff is announced for this edition.",
+        "sources": [
+          "https://www.ieeeismar.net/2026/call-for-papers/",
+          "https://www.ieeeismar.net/2025/",
+          "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html"
+        ]
+      }
+    },
     {
       "id": "laval2027",
       "family_id": "laval",

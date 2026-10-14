@@ -63,3 +63,13 @@ assert.equal(subscriptionRun("favoriteConferences().map(f=>f.id).join(',')"),'eu
 assert.equal(subscriptionRun('subscriptionUrl()'),'https://xr-hci-calendar-feed.jocundsnipe3.chatgpt.site/calendar.ics?conferences=eurographics%2Cvr');
 subscriptionRun("favorites.delete('eurographics')");
 assert.equal(subscriptionRun('subscriptionUrl()'),'https://xr-hci-calendar-feed.jocundsnipe3.chatgpt.site/calendar.ics?conferences=vr');
+// Organizer-announced ISMAR dates are provisional; vague timing is never a precise event.
+const ismarRun=setup('conferences');
+ismarRun("$('search').value='ISMAR';view='calendar';calendarYear=2029;render()");
+assert(ismarRun("$('results').innerHTML.includes('Early Oct 2029')"));
+assert(ismarRun("calendarItems.some(r=>r.edition?.id==='ismar2029'&&r.kind==='event'&&r.status==='tentative')"));
+assert(ismarRun("calendarItems.some(r=>r.year===2029&&r.family.id==='ismar'&&r.kind==='call'&&r.status==='estimated')"));
+assert(!ismarRun("calendar(exportItems(),'mixed').includes('UID:ismar2029')"),'Tentative organizer dates stay out of subscribed/snapshot calendars');
+const ismarForecasts=ismarRun("forecasts().filter(r=>r.family.id==='ismar')");
+assert.deepEqual(Array.from(ismarForecasts,r=>r.year).sort(),[2027,2028,2029]);
+assert.equal(new Set(ismarForecasts.map(r=>r.year)).size,3,'Only one estimated paper window per announced edition');
