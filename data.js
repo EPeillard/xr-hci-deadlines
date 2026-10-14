@@ -958,6 +958,14 @@ window.CONFERENCE_DATA = {
           ],
           "submission_months": [],
           "source": "https://gdr-ihm.cnrs.fr/animation/journees/journees-gdr-ihm-2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://gdr-ihm.cnrs.fr/animation/journees/journee-dinauguration-du-gdr-ihm/"
         }
       ],
       "forecast": {
@@ -1090,7 +1098,7 @@ window.CONFERENCE_DATA = {
       "url": "https://www.gdr-robotique.org/",
       "why": "French robotics community: teleoperation and human-robot interaction.",
       "kind": "Community meeting",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "estimated",
         "label": "Community",
@@ -1100,25 +1108,35 @@ window.CONFERENCE_DATA = {
         "checked": "2026-10-13",
         "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.gdr-robotique.org/journees_gdr/2026/"
+        }
+      ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-01-01",
-          "end": "2027-12-31",
+          "start": "2028-09-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-01-01",
-          "end": "2027-12-31",
+          "start": "2028-04-01",
+          "end": "2028-09-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
-        "cadence_years": 1,
+        "cadence_years": 2,
         "type": "Contribution / application",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "The national-meeting archive lists 2026, 2024 and 2022, supporting a biennial assumption for national plenary meetings (other thematic activities may be annual). The observed 2026 event is in October, widened one month. No contribution deadline was retrieved: the application range is a broad 2–5-month lead-time planning assumption, not an announced call.",
         "sources": [
+          "https://www.gdr-robotique.org/journees_gdr/2026/",
           "https://www.gdr-robotique.org/"
         ]
       }
@@ -1457,26 +1475,39 @@ window.CONFERENCE_DATA = {
         "checked": "2026-10-13",
         "note": "Official conference-level classification; not a grade for individual papers or adjunct tracks."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            5,
+            7
+          ],
+          "source": "https://www.britchi.uk/"
+        }
+      ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-11-30",
+          "start": "2027-10-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-03-01",
-          "end": "2027-05-31",
+          "start": "2027-04-01",
+          "end": "2027-08-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "One observed edition (2026): November event and May–July full/short/alt paper calls. Envelopes widened by one month. Annual recurrence remains an assumption; no 2027 edition or call is announced.",
         "sources": [
-          "https://www.britchi.uk/"
+          "https://www.britchi.uk/",
+          "https://www.britchi.uk/authors/"
         ]
       }
     },
@@ -1617,25 +1648,55 @@ window.CONFERENCE_DATA = {
             6
           ],
           "source": "https://icat.vrsj.org/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            12
+          ],
+          "submission_months": [
+            8
+          ],
+          "source": "https://icat.vrsj.org/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            12
+          ],
+          "submission_months": [
+            8
+          ],
+          "source": "https://icat.vrsj.org/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            12
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://icat.vrsj.org/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
           "start": "2027-08-01",
-          "end": "2027-11-30",
+          "end": "2028-01-31",
           "precision": "month"
         },
         "submission": {
           "start": "2027-05-01",
-          "end": "2027-07-31",
+          "end": "2027-09-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Latest three editions: September–October in 2026 versus December in 2025/2024, and June/August paper calls. Envelopes widened one month. This broad range reflects a season shift and must not be read as an announced date.",
         "sources": [
           "https://icat.vrsj.org/"
         ]
@@ -1857,7 +1918,7 @@ window.CONFERENCE_DATA = {
       "url": "https://eics.acm.org/",
       "why": "Engineering interactive systems and user interfaces.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "Journal published",
@@ -1867,26 +1928,66 @@ window.CONFERENCE_DATA = {
         "checked": "2026-10-13",
         "note": "Conference-level classification; does not rate individual papers or adjunct tracks."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            6
+          ],
+          "submission_months": [
+            7,
+            11,
+            2
+          ],
+          "source": "https://eics.acm.org/2027/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            6,
+            7
+          ],
+          "submission_months": [],
+          "source": "https://eics.acm.org/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            6
+          ],
+          "submission_months": [],
+          "source": "https://eics.acm.org/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            6
+          ],
+          "submission_months": [],
+          "source": "https://eics.acm.org/"
+        }
+      ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-06-01",
-          "end": "2027-07-31",
+          "start": "2028-05-01",
+          "end": "2028-08-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-01-01",
-          "end": "2027-03-31",
+          "start": "2027-06-01",
+          "end": "2028-03-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Observed 2027–2025 conferences in June–July, widened one month. The 2027 PACM schedule has July/November rounds before the event year and a February round in the event year. The broad next-cycle range spans all three rounds, widened one month; it does not predict continuous submissions or exact dates.",
         "sources": [
-          "https://eics.acm.org/"
+          "https://eics.acm.org/",
+          "https://eics.acm.org/2027/contributions/full-papers.html",
+          "https://eics.acm.org/2027/assets/data/site.js?v=c68ab78"
         ]
       }
     },
@@ -2401,7 +2502,7 @@ window.CONFERENCE_DATA = {
       "url": "https://iva.acm.org/",
       "why": "Intelligent virtual agents, avatars and social interaction.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -2413,8 +2514,18 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            9
+          ],
+          "submission_months": [],
+          "source": "https://iva.acm.org/index/"
+        },
+        {
           "year": 2026,
-          "event_months": [],
+          "event_months": [
+            9
+          ],
           "submission_months": [
             4
           ],
@@ -2422,23 +2533,24 @@ window.CONFERENCE_DATA = {
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-07-01",
-          "end": "2027-11-30",
+          "start": "2028-08-01",
+          "end": "2028-10-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-03-01",
-          "end": "2027-05-31",
+          "start": "2028-03-01",
+          "end": "2028-05-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "2027 month announcement and the 2026 event both indicate September; month envelope widened one month. Only the 2026 April paper call is verified, so the next-cycle March–May submission estimate is low confidence. No 2028 edition or call is announced.",
         "sources": [
+          "https://iva.acm.org/index/",
           "https://iva.acm.org/2026/"
         ]
       }
@@ -3138,7 +3250,7 @@ window.CONFERENCE_DATA = {
       "location": "Melbourne, Australia",
       "region": "Outside Europe",
       "url": "https://ieeevr.org/2027/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Mandatory abstract — papers",
@@ -3179,6 +3291,78 @@ window.CONFERENCE_DATA = {
           "source": "https://ieeevr.org/2027/contribute/demos/",
           "note": "",
           "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "deadline": "2026-11-10T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/doctoral-consortium/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Workshop",
+          "deadline": "2026-12-09T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/tutorials/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "XR Gallery — artistic projects",
+          "type": "Contribution / application",
+          "deadline": "2026-11-03T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/xrgallery/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — posters",
+          "type": "Camera-ready",
+          "deadline": "2027-01-12T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/posters/",
+          "note": "For accepted contributions, not a new-submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — demos",
+          "type": "Camera-ready",
+          "deadline": "2027-01-12T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/demos/",
+          "note": "For accepted contributions, not a new-submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Doctoral Consortium",
+          "type": "Camera-ready",
+          "deadline": "2027-01-05T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/doctoral-consortium/",
+          "note": "For accepted contributions, not a new-submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — XR Gallery",
+          "type": "Camera-ready",
+          "deadline": "2027-01-12T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/xrgallery/",
+          "note": "For accepted contributions, not a new-submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "3DUI Contest — title and team registration",
+          "type": "Abstract",
+          "date": "2026-12-11",
+          "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
+          "note": "AoE date published; exact cutoff time is not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "3DUI Contest — two-page abstract and video",
+          "type": "Student competition",
+          "date": "2026-12-16",
+          "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
+          "note": "AoE date published; exact cutoff time is not stated.",
+          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -3192,7 +3376,7 @@ window.CONFERENCE_DATA = {
       "location": "Lisbon, Portugal",
       "region": "Europe",
       "url": "https://tei.acm.org/2027/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Papers and pictorials",
@@ -3224,6 +3408,30 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-11-02T23:59:59-12:00",
           "source": "https://tei.acm.org/2027/cfp-studios.html",
           "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — work in progress",
+          "type": "Camera-ready",
+          "date": "2026-12-07",
+          "source": "https://tei.acm.org/2027/cfp-wip.html",
+          "note": "Final materials for accepted contributions; cutoff time is not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Graduate Student Consortium",
+          "type": "Camera-ready",
+          "date": "2026-12-04",
+          "source": "https://tei.acm.org/2027/cfp-gsc.html",
+          "note": "Final materials for accepted contributions; cutoff time is not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — studios",
+          "type": "Camera-ready",
+          "date": "2026-11-30",
+          "source": "https://tei.acm.org/2027/cfp-studios.html",
+          "note": "Final materials for accepted contributions; cutoff time is not specified.",
           "status": "verified"
         }
       ],
@@ -3369,7 +3577,7 @@ window.CONFERENCE_DATA = {
       "location": "Pittsburgh, USA",
       "region": "Outside Europe",
       "url": "https://chi2027.acm.org/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Papers",
@@ -3410,6 +3618,46 @@ window.CONFERENCE_DATA = {
           "source": "https://chi2027.acm.org/",
           "note": "",
           "status": "verified"
+        },
+        {
+          "label": "Papers — resubmission",
+          "type": "Revision",
+          "date": "2026-12-03",
+          "source": "https://chi2027.acm.org/",
+          "note": "For existing submissions; homepage specifies AoE dates without an explicit cutoff hour.",
+          "status": "verified"
+        },
+        {
+          "label": "Digital Experience Competition",
+          "type": "Student competition",
+          "date": "2026-12-04",
+          "source": "https://chi2027.acm.org/",
+          "note": "AoE date published; exact cutoff time is not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Student Research Competition",
+          "type": "Student competition",
+          "date": "2027-01-21",
+          "source": "https://chi2027.acm.org/",
+          "note": "AoE date published; exact cutoff time is not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshops — organizer proposals",
+          "type": "Workshop",
+          "date": "2026-10-01",
+          "source": "https://chi2027.acm.org/",
+          "note": "Historical organizer deadline; AoE date published without a cutoff hour.",
+          "status": "verified"
+        },
+        {
+          "label": "Meet-ups — organizer proposals",
+          "type": "Contribution / application",
+          "date": "2026-10-01",
+          "source": "https://chi2027.acm.org/",
+          "note": "Historical organizer deadline; AoE date published without a cutoff hour.",
+          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -3423,7 +3671,7 @@ window.CONFERENCE_DATA = {
       "location": "Santa Clara, USA",
       "region": "Outside Europe",
       "url": "https://humanrobotinteraction.org/2027/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Papers",
@@ -3464,6 +3712,54 @@ window.CONFERENCE_DATA = {
           "source": "https://humanrobotinteraction.org/2027/submissions/",
           "note": "",
           "status": "verified"
+        },
+        {
+          "label": "Full papers — rebuttals",
+          "type": "Revision",
+          "deadline": "2026-11-03T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For existing full-paper submissions.",
+          "status": "verified"
+        },
+        {
+          "label": "Short contributions — rebuttals",
+          "type": "Revision",
+          "deadline": "2026-11-17T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For existing short contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — full papers and short contributions",
+          "type": "Camera-ready",
+          "deadline": "2026-12-18T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For accepted contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — videos and demos, alt.HRI and competition",
+          "type": "Camera-ready",
+          "deadline": "2027-01-02T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For accepted videos/demos, alt.HRI, industry white papers and student design competition contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — HRI Pioneers",
+          "type": "Camera-ready",
+          "deadline": "2027-01-02T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For accepted Pioneers contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — late breaking reports",
+          "type": "Camera-ready",
+          "deadline": "2027-01-25T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "For accepted late-breaking reports.",
+          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -3477,7 +3773,7 @@ window.CONFERENCE_DATA = {
       "location": "Tallinn, Estonia",
       "region": "Europe",
       "url": "https://interact2027.org/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Full paper metadata",
@@ -3502,6 +3798,22 @@ window.CONFERENCE_DATA = {
           "source": "https://interact2027.org/",
           "note": "Date published on the conference homepage; check the relevant track for details.",
           "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2027-02-01T23:59:00-12:00",
+          "source": "https://interact2027.org/workshops/",
+          "note": "Organizer proposals; workshops take place 23–24 August.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "deadline": "2027-05-03T23:59:00-12:00",
+          "source": "https://interact2027.org/doctoral-consortium/",
+          "note": "Consortium on 24 August; participation does not produce a proceedings publication.",
+          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -3515,22 +3827,30 @@ window.CONFERENCE_DATA = {
       "location": "Seoul, South Korea",
       "region": "Outside Europe",
       "url": "https://2027.ieee-icra.org/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Papers",
           "type": "Paper",
-          "deadline": "2026-09-15T23:59:00-07:00",
-          "source": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
-          "note": "",
+          "deadline": "2026-09-16T23:59:00-08:00",
+          "source": "https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/",
+          "note": "Extended from 15 September 2026. Organizer explicitly states 16 September at 23:59 PST (UTC−8), retained literally despite daylight saving time in California.",
           "status": "verified"
         },
         {
           "label": "Full workshop / tutorial proposals",
           "type": "Workshop",
-          "deadline": "2026-11-01T23:59:00-08:00",
-          "source": "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/",
-          "note": "Pacific time (PST on this date). Pre-proposal prerequisite: 1 September 2026.",
+          "source": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+          "note": "Extended from 1 November to 2 November 2026. Updated page does not restate the full-proposal cutoff hour/timezone; retained as date only. Required pre-proposal deadline was 1 September 2026.",
+          "status": "verified",
+          "date": "2026-11-02"
+        },
+        {
+          "label": "Community Building Day — proposals",
+          "type": "Contribution / application",
+          "deadline": "2026-11-30T23:59:00-08:00",
+          "source": "https://2027.ieee-icra.org/announcements/call-for-community-building-day/",
+          "note": "Submissions open 20 October 2026. Community Building Day on 26 May 2027; deadline explicitly 23:59 PST.",
           "status": "verified"
         }
       ],
@@ -3567,7 +3887,7 @@ window.CONFERENCE_DATA = {
       "location": "Boston, USA",
       "region": "Outside Europe",
       "url": "https://2027.worldhaptics.org/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Long and regular papers",
@@ -3583,6 +3903,38 @@ window.CONFERENCE_DATA = {
           "date": "2027-04-30",
           "source": "https://2027.worldhaptics.org/",
           "note": "Organizer-published tentative date; cutoff time not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Workshop/tutorial expression of interest",
+          "type": "Workshop",
+          "date": "2027-01-15",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Student Innovation Challenge — proposals",
+          "type": "Student competition",
+          "date": "2027-03-26",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Workshop/tutorial full proposals",
+          "type": "Workshop",
+          "date": "2027-04-02",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Intention of participation",
+          "type": "Contribution / application",
+          "date": "2027-04-23",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
           "status": "tentative"
         }
       ],
@@ -4862,7 +5214,7 @@ window.CONFERENCE_DATA = {
       "region": "Outside Europe",
       "url": "https://augmented-humans.org/",
       "event_source": "https://augmented-humans.org/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "event_status": "verified",
       "tracks": [
         {
@@ -4871,6 +5223,14 @@ window.CONFERENCE_DATA = {
           "date": "2026-11-12",
           "source": "https://augmented-humans.org/call-for-full-short-papers/",
           "note": "AoE date published; exact cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — full and short papers",
+          "type": "Camera-ready",
+          "date": "2027-02-05",
+          "source": "https://augmented-humans.org/call-for-full-short-papers/",
+          "note": "For accepted papers. AoE date published; exact cutoff time is not stated.",
           "status": "verified"
         }
       ],
@@ -4887,7 +5247,7 @@ window.CONFERENCE_DATA = {
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-13",
+      "checked": "2026-10-14",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -4944,9 +5304,478 @@ window.CONFERENCE_DATA = {
           "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
           "note": "Regular papers, assignments and outstanding student projects.",
           "status": "verified"
+        },
+        {
+          "label": "Full papers — rebuttal",
+          "type": "Revision",
+          "deadline": "2026-11-30T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers — revised version",
+          "type": "Revision",
+          "deadline": "2027-01-26T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers — camera-ready",
+          "type": "Camera-ready",
+          "deadline": "2027-02-23T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "STARs — revised report",
+          "type": "Revision",
+          "deadline": "2027-02-05T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-stars/",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorials — final material",
+          "type": "Camera-ready",
+          "deadline": "2027-03-25T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-tutorials/",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
         }
       ],
       "note": "Venue confirmed as Lucca in the current official CFP and submission platform. Short-paper, poster and doctoral calls were not retrieved in this update. Full papers and STARs publish in Computer Graphics Forum."
+    },
+    {
+      "id": "eics2027",
+      "family_id": "eics",
+      "year": 2027,
+      "start": "2027-06-21",
+      "end": "2027-06-25",
+      "location": "Toulouse, France",
+      "region": "France",
+      "url": "https://eics.acm.org/2027/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full papers and technical notes — round 1",
+          "type": "Paper",
+          "date": "2026-07-23",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "AoE date, cutoff hour not stated. Date read from the live official site data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers and technical notes — round 2",
+          "type": "Paper",
+          "date": "2026-11-12",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "AoE date, cutoff hour not stated. Date read from the live official site data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers and technical notes — round 3",
+          "type": "Paper",
+          "date": "2027-02-19",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "AoE date, cutoff hour not stated. Date read from the live official site data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        },
+        {
+          "label": "Rebuttal — round 1",
+          "type": "Revision",
+          "date": "2026-09-30",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        },
+        {
+          "label": "Rebuttal — round 2",
+          "type": "Revision",
+          "date": "2027-01-11",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        },
+        {
+          "label": "Rebuttal — round 3",
+          "type": "Revision",
+          "date": "2027-04-02",
+          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
+          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
+          "status": "verified"
+        }
+      ],
+      "note": "PACM-EICS has three submission rounds; other tracks and camera-ready dates are not yet verified."
+    },
+    {
+      "id": "eics2026",
+      "family_id": "eics",
+      "year": 2026,
+      "start": "2026-06-30",
+      "end": "2026-07-03",
+      "location": "Patras, Greece",
+      "region": "Europe",
+      "url": "https://eics.acm.org/2026/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "event_source": "https://eics.acm.org/",
+      "note": "Event dates verified in the ACM EICS series archive; historical submission dates not retrieved."
+    },
+    {
+      "id": "eics2025",
+      "family_id": "eics",
+      "year": 2025,
+      "start": "2025-06-24",
+      "end": "2025-06-28",
+      "location": "Trier, Germany",
+      "region": "Europe",
+      "url": "https://eics.acm.org/2025/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "event_source": "https://eics.acm.org/",
+      "note": "Event dates verified in the ACM EICS series archive; historical submission dates not retrieved."
+    },
+    {
+      "id": "eics2024",
+      "family_id": "eics",
+      "year": 2024,
+      "start": "2024-06-24",
+      "end": "2024-06-28",
+      "location": "Cagliari, Italy",
+      "region": "Europe",
+      "url": "https://eics.acm.org/2024/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "event_source": "https://eics.acm.org/",
+      "note": "Event dates verified in the ACM EICS series archive; historical submission dates not retrieved."
+    },
+    {
+      "id": "britchi2026",
+      "family_id": "britchi",
+      "year": 2026,
+      "start": "2026-11-01",
+      "end": "2026-11-03",
+      "location": "London, United Kingdom",
+      "region": "Europe",
+      "url": "https://www.britchi.uk/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "date": "2026-05-21",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers",
+          "type": "Paper",
+          "date": "2026-07-16",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop and masterclass proposals",
+          "type": "Workshop",
+          "date": "2026-06-25",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "date": "2026-07-02",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "alt.britchi",
+          "type": "Paper",
+          "date": "2026-07-29",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "Extended from 16 July 2026. AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Community Showcase",
+          "type": "Contribution / application",
+          "date": "2026-08-13",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Student Research Competition",
+          "type": "Student competition",
+          "date": "2026-09-14",
+          "source": "https://www.britchi.uk/authors/",
+          "note": "The author page marks submissions closed; an older homepage still suggests participation is possible. AoE date published, exact cutoff hour not stated.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "icategve2026",
+      "family_id": "icategve",
+      "year": 2026,
+      "start": "2026-09-30",
+      "end": "2026-10-02",
+      "location": "Goiânia, Brazil",
+      "region": "Outside Europe",
+      "url": "https://icat.vrsj.org/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Paper abstract registration",
+          "type": "Abstract",
+          "date": "2026-05-25",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "date": "2026-06-25",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters and demos",
+          "type": "Poster / WiP",
+          "date": "2026-07-08",
+          "source": "https://icat.vrsj.org/",
+          "note": "Combined poster/demo call; cutoff time not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Dates from the VRSJ official series archive; deadline cutoff times are not stated."
+    },
+    {
+      "id": "icategve2025",
+      "family_id": "icategve",
+      "year": 2025,
+      "start": "2025-12-03",
+      "end": "2025-12-05",
+      "location": "Karlskrona, Sweden",
+      "region": "Europe",
+      "url": "https://icat.vrsj.org/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Paper abstract registration",
+          "type": "Abstract",
+          "date": "2025-08-15",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "date": "2025-08-29",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters and demos",
+          "type": "Poster / WiP",
+          "date": "2025-10-03",
+          "source": "https://icat.vrsj.org/",
+          "note": "Combined poster/demo call; cutoff time not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Dates from the VRSJ official series archive; deadline cutoff times are not stated."
+    },
+    {
+      "id": "icategve2024",
+      "family_id": "icategve",
+      "year": 2024,
+      "start": "2024-12-01",
+      "end": "2024-12-03",
+      "location": "Tsukuba, Japan",
+      "region": "Outside Europe",
+      "url": "https://icat.vrsj.org/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "date": "2024-08-16",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters and demos",
+          "type": "Poster / WiP",
+          "date": "2024-10-04",
+          "source": "https://icat.vrsj.org/",
+          "note": "Combined poster/demo call; cutoff time not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Dates from the VRSJ official series archive; deadline cutoff times are not stated."
+    },
+    {
+      "id": "icategve2023",
+      "family_id": "icategve",
+      "year": 2023,
+      "start": "2023-12-06",
+      "end": "2023-12-08",
+      "location": "Dublin, Ireland",
+      "region": "Europe",
+      "url": "https://icat.vrsj.org/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Papers",
+          "type": "Paper",
+          "date": "2023-09-15",
+          "source": "https://icat.vrsj.org/",
+          "note": "Cutoff time not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters and demos",
+          "type": "Poster / WiP",
+          "date": "2023-10-06",
+          "source": "https://icat.vrsj.org/",
+          "note": "Combined poster/demo call; cutoff time not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Dates from the VRSJ official series archive; deadline cutoff times are not stated."
+    },
+    {
+      "id": "gdr-robot2026",
+      "family_id": "gdr-robot",
+      "year": 2026,
+      "start": "2026-10-20",
+      "end": "2026-10-23",
+      "location": "Jussieu campus, Paris, France",
+      "region": "France",
+      "url": "https://www.gdr-robotique.org/journees_gdr/2026/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "National GDR meetings. Preceded by the young-researcher day on 19 October. Attendance-registration deadline was 5 October; no contribution call is claimed."
+    },
+    {
+      "id": "gdr-ihm2025",
+      "family_id": "gdr-ihm",
+      "year": 2025,
+      "start": "2025-07-03",
+      "end": "2025-07-03",
+      "location": "INSA Lyon, Villeurbanne, France",
+      "region": "France",
+      "url": "https://gdr-ihm.cnrs.fr/animation/journees/journee-dinauguration-du-gdr-ihm/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "Official inaugural GDR HCI meeting."
+    },
+    {
+      "id": "iva2026",
+      "family_id": "iva",
+      "year": 2026,
+      "start": "2026-09-07",
+      "end": "2026-09-11",
+      "location": "Puebla, Mexico",
+      "region": "Outside Europe",
+      "url": "https://iva.acm.org/2026/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Abstracts — full papers (extended)",
+          "type": "Abstract",
+          "date": "2026-04-03",
+          "source": "https://iva.acm.org/2026/",
+          "note": "Extended date; original day not stated on this page. AoE date, cutoff hour not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers (extended)",
+          "type": "Paper",
+          "date": "2026-04-10",
+          "source": "https://iva.acm.org/2026/",
+          "note": "Extended date; original day not stated on this page. AoE date, cutoff hour not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop and tutorial proposals (extended)",
+          "type": "Workshop",
+          "date": "2026-04-10",
+          "source": "https://iva.acm.org/2026/",
+          "note": "Extended date; original day not stated on this page. AoE date, cutoff hour not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "date": "2026-06-22",
+          "source": "https://iva.acm.org/2026/",
+          "note": "AoE date, cutoff hour not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium (extended)",
+          "type": "Doctoral",
+          "date": "2026-07-22",
+          "source": "https://iva.acm.org/2026/",
+          "note": "Extended date; original day not stated on this page. AoE date, cutoff hour not specified.",
+          "status": "verified"
+        }
+      ]
+    },
+    {
+      "id": "iva2027",
+      "family_id": "iva",
+      "year": 2027,
+      "start": "2027-09-01",
+      "end": "2027-09-30",
+      "precision": "month",
+      "date_label": "September 2027 · exact dates not announced",
+      "location": "Reykjavik, Iceland",
+      "region": "Europe",
+      "url": "https://iva.acm.org/index/",
+      "event_source": "https://iva.acm.org/index/",
+      "checked": "2026-10-14",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "Organizer announces September only. Stored month bounds are a display window, not precise conference dates.",
+      "estimated_submission": {
+        "start": "2027-03-01",
+        "end": "2027-05-31",
+        "precision": "month",
+        "type": "Paper",
+        "status": "estimated",
+        "confidence": "Low",
+        "basis": "One checked 2026 full-paper deadline in April, widened by one month. No 2027 call is announced.",
+        "sources": [
+          "https://iva.acm.org/2026/"
+        ]
+      }
     }
   ],
   "journals": [
