@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "families": [
     {
       "id": "vr",
@@ -385,7 +385,7 @@
       "url": "https://sap.acm.org/",
       "why": "Perception applied to graphics, avatars and virtual environments.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -402,10 +402,29 @@
             8
           ],
           "submission_months": [
-            4,
             5
           ],
           "source": "https://sap.acm.org/2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://sap.acm.org/2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            5
+          ],
+          "source": "https://sap.acm.org/2024/"
         }
       ],
       "forecast": {
@@ -421,12 +440,17 @@
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Latest three observed editions (2026, 2025, 2024) were held in August, with main-paper deadlines in April–May of the same year. Month envelopes widened by one month, preserving annual recurrence and the submission year offset. Planning windows, not announced dates; extended deadlines are used where verified.",
         "sources": [
-          "https://sap.acm.org/2026/"
+          "https://sap.acm.org/2026/",
+          "https://sap.acm.org/2026/call-for-papers/",
+          "https://sap.acm.org/2025/",
+          "https://sap.acm.org/2025/pages/call-for-papers/",
+          "https://sap.acm.org/2024/",
+          "https://sap.acm.org/2024/pages/call-for-papers/"
         ]
       }
     },
@@ -3250,7 +3274,7 @@
       "location": "Melbourne, Australia",
       "region": "Outside Europe",
       "url": "https://ieeevr.org/2027/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-15",
       "tracks": [
         {
           "label": "Mandatory abstract — papers",
@@ -3362,6 +3386,38 @@
           "date": "2026-12-16",
           "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
           "note": "AoE date published; exact cutoff time is not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Panel proposals",
+          "type": "Panel",
+          "deadline": "2026-12-18T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/Panels/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Panels — one-page description",
+          "type": "Camera-ready",
+          "deadline": "2027-01-12T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/Panels/",
+          "note": "For accepted panels, not a new proposal.",
+          "status": "verified"
+        },
+        {
+          "label": "Student volunteer applications",
+          "type": "Contribution / application",
+          "deadline": "2027-01-09T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/student-volunteers/",
+          "note": "Applications open 1 December 2026; application form is still TBA.",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorials — advance program descriptions",
+          "type": "Camera-ready",
+          "deadline": "2026-12-23T23:59:59-12:00",
+          "source": "https://ieeevr.org/2027/contribute/tutorials/",
+          "note": "For accepted tutorials.",
           "status": "verified"
         }
       ],
@@ -3577,7 +3633,7 @@
       "location": "Pittsburgh, USA",
       "region": "Outside Europe",
       "url": "https://chi2027.acm.org/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-15",
       "tracks": [
         {
           "label": "Papers",
@@ -3658,6 +3714,30 @@
           "source": "https://chi2027.acm.org/",
           "note": "Historical organizer deadline; AoE date published without a cutoff hour.",
           "status": "verified"
+        },
+        {
+          "label": "Journal article presentations — application",
+          "type": "Contribution / application",
+          "date": "2027-01-14",
+          "source": "https://chi2027.acm.org/authors/journals/",
+          "note": "Presentation of already accepted journal articles at CHI, not a journal submission or a new review. Official deadline is end of day AoE; recorded date-only without an explicit clock time.",
+          "status": "verified"
+        },
+        {
+          "label": "Dissertation roundtable — TAPS upload",
+          "type": "Camera-ready",
+          "date": "2027-03-04",
+          "source": "https://chi2027.acm.org/authors/student-mentoring-program-dissertation-research-roundtable/",
+          "note": "For accepted participants; final paper source upload. End-of-day AoE, exact clock time not stated. The contingency grace period is not an extension.",
+          "status": "verified"
+        },
+        {
+          "label": "Dissertation roundtable — publication-ready version",
+          "type": "Camera-ready",
+          "date": "2027-03-18",
+          "source": "https://chi2027.acm.org/authors/student-mentoring-program-dissertation-research-roundtable/",
+          "note": "For accepted participants; final TAPS-approved version in PCS. End-of-day AoE, exact clock time not stated. The contingency grace period is not an extension.",
+          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -3671,7 +3751,7 @@
       "location": "Santa Clara, USA",
       "region": "Outside Europe",
       "url": "https://humanrobotinteraction.org/2027/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-15",
       "tracks": [
         {
           "label": "Papers",
@@ -3759,6 +3839,62 @@
           "deadline": "2027-01-25T23:59:00-12:00",
           "source": "https://humanrobotinteraction.org/2027/submissions/",
           "note": "For accepted late-breaking reports.",
+          "status": "verified"
+        },
+        {
+          "label": "Mandatory abstract — full papers",
+          "type": "Abstract",
+          "deadline": "2026-09-11T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Historical mandatory stage preceding full-paper submission.",
+          "status": "verified"
+        },
+        {
+          "label": "Short contributions",
+          "type": "Paper",
+          "deadline": "2026-10-01T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Historical submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "alt.HRI",
+          "type": "Contribution / application",
+          "deadline": "2026-10-01T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Historical submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Industry white papers",
+          "type": "Contribution / application",
+          "deadline": "2026-10-10T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Historical submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop and tutorial proposals",
+          "type": "Workshop",
+          "deadline": "2026-10-05T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Historical organizer proposal deadline; participant submissions depend on each workshop.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshops — website URL",
+          "type": "Contribution / application",
+          "deadline": "2026-12-20T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Administrative milestone for accepted workshop organizers, not a participant paper deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshops — camera-ready description",
+          "type": "Camera-ready",
+          "deadline": "2027-01-02T23:59:00-12:00",
+          "source": "https://humanrobotinteraction.org/2027/submissions/",
+          "note": "Proceedings description for accepted workshops.",
           "status": "verified"
         }
       ],
@@ -3887,7 +4023,7 @@
       "location": "Boston, USA",
       "region": "Outside Europe",
       "url": "https://2027.worldhaptics.org/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-15",
       "tracks": [
         {
           "label": "Long and regular papers",
@@ -3935,6 +4071,22 @@
           "date": "2027-04-23",
           "source": "https://2027.worldhaptics.org/",
           "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Hands-on demonstrations and haptic design showcase",
+          "type": "Demo",
+          "date": "2027-05-07",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Organizer-published tentative date; cutoff time not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Camera-ready papers",
+          "type": "Camera-ready",
+          "date": "2027-05-14",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "For accepted papers; organizer-published tentative date, cutoff time not stated.",
           "status": "tentative"
         }
       ],
@@ -5247,7 +5399,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-14",
+      "checked": "2026-10-15",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -5343,6 +5495,14 @@
           "deadline": "2027-03-25T23:59:00+00:00",
           "source": "https://eg2027.isti.cnr.it/call-for-tutorials/",
           "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Education papers — camera-ready",
+          "type": "Camera-ready",
+          "deadline": "2027-04-09T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
+          "note": "For accepted education-track contributions.",
           "status": "verified"
         }
       ],
@@ -5776,6 +5936,195 @@
           "https://iva.acm.org/2026/"
         ]
       }
+    },
+    {
+      "id": "sap2026",
+      "family_id": "sap",
+      "year": 2026,
+      "start": "2026-08-26",
+      "end": "2026-08-27",
+      "location": "Rennes, France",
+      "region": "France",
+      "url": "https://sap.acm.org/2026/",
+      "event_source": "https://sap.acm.org/2026/",
+      "checked": "2026-10-15",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "deadline": "2026-04-21T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-papers/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "deadline": "2026-05-02T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-papers/",
+          "note": "Extended from 28 April to 2 May 2026.",
+          "status": "verified"
+        },
+        {
+          "label": "Poster abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2026-06-17T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-posters/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — conference papers",
+          "type": "Camera-ready",
+          "deadline": "2026-07-07T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-papers/",
+          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — poster material",
+          "type": "Camera-ready",
+          "deadline": "2026-07-10T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-posters/",
+          "note": "For accepted posters.",
+          "status": "verified"
+        },
+        {
+          "label": "Conference papers — revised version",
+          "type": "Revision",
+          "deadline": "2026-06-19T23:59:59-12:00",
+          "source": "https://sap.acm.org/2026/call-for-papers/",
+          "note": "For existing conference-paper submissions; not a new submission.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
+    },
+    {
+      "id": "sap2025",
+      "family_id": "sap",
+      "year": 2025,
+      "start": "2025-08-09",
+      "end": "2025-08-10",
+      "location": "Vancouver, Canada",
+      "region": "Outside Europe",
+      "url": "https://sap.acm.org/2025/",
+      "event_source": "https://sap.acm.org/2025/",
+      "checked": "2026-10-15",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "deadline": "2025-04-18T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
+          "note": "Extended from 14 April to 18 April 2025.",
+          "status": "verified"
+        },
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "deadline": "2025-04-25T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
+          "note": "Extended from 21 April to 25 April 2025.",
+          "status": "verified"
+        },
+        {
+          "label": "Poster abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2025-06-09T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-posters/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — conference papers",
+          "type": "Camera-ready",
+          "deadline": "2025-06-13T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
+          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — poster material",
+          "type": "Camera-ready",
+          "deadline": "2025-06-30T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-posters/",
+          "note": "For accepted posters.",
+          "status": "verified"
+        },
+        {
+          "label": "Conference papers — revised version",
+          "type": "Revision",
+          "deadline": "2025-06-04T23:59:59-12:00",
+          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
+          "note": "For existing conference-paper submissions; not a new submission.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
+    },
+    {
+      "id": "sap2024",
+      "family_id": "sap",
+      "year": 2024,
+      "start": "2024-08-30",
+      "end": "2024-08-31",
+      "location": "Dublin, Ireland",
+      "region": "Europe",
+      "url": "https://sap.acm.org/2024/",
+      "event_source": "https://sap.acm.org/2024/",
+      "checked": "2026-10-15",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — papers",
+          "type": "Abstract",
+          "deadline": "2024-05-03T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-papers/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "deadline": "2024-05-10T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-papers/",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Poster abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2024-07-10T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-posters/",
+          "note": "Extended from 28 June to 10 July 2024.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — conference papers",
+          "type": "Camera-ready",
+          "deadline": "2024-06-28T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-papers/",
+          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — poster material",
+          "type": "Camera-ready",
+          "deadline": "2024-07-26T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-posters/",
+          "note": "For accepted posters.",
+          "status": "verified"
+        },
+        {
+          "label": "Late-breaking poster abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2024-08-26T23:59:59-12:00",
+          "source": "https://sap.acm.org/2024/pages/call-for-posters/",
+          "note": "Non-archival late-breaking posters.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
     }
   ],
   "journals": [
