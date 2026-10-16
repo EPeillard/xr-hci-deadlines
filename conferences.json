@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "families": [
     {
       "id": "vr",
@@ -1812,7 +1812,7 @@
       "url": "https://dis.acm.org/",
       "why": "Interaction design, interactive experiences and design research.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "A",
@@ -1850,28 +1850,39 @@
           ],
           "submission_months": [],
           "source": "https://dis.acm.org/2024/"
+        },
+        {
+          "year": 2027,
+          "event_months": [
+            6,
+            7
+          ],
+          "submission_months": [],
+          "source": "https://dis.acm.org/2027/"
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-06-01",
-          "end": "2027-08-31",
+          "start": "2028-05-01",
+          "end": "2028-08-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2026-12-01",
-          "end": "2027-02-28",
+          "start": "2027-12-01",
+          "end": "2028-02-29",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Observed editions 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
+        "basis": "Latest three announced/observed event editions (2027, 2026, 2025) span June–July; month envelope widened by one month. Verified 2026 and 2025 main-paper calls were in January of the event year, yielding a December–February planning range. Provisional 2027 submission dates are not treated as verified historical call observations. Annual cadence; no 2028 edition or deadline is announced.",
         "sources": [
+          "https://dis.acm.org/2027/",
+          "https://dis.acm.org/2026/",
+          "https://dis.acm.org/2026/papers/",
           "https://dis.acm.org/2025/",
-          "https://dis.acm.org/2024/",
           "https://dis.acm.org/2025/call-for-papers/"
         ]
       }
@@ -2645,7 +2656,7 @@
       "url": "https://www.ubicomp.org/",
       "why": "Ubiquitous and wearable computing, sensing and situated interaction.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "estimated",
         "label": "High visibility",
@@ -2655,26 +2666,63 @@
         "checked": "2026-10-13",
         "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://sigchi.org/events/ubicomp-2027/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2024/"
+        }
+      ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-10-31",
+          "start": "2028-09-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-02-01",
-          "end": "2027-11-30",
+          "start": "2027-10-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Latest three announced/observed editions (2027, 2026, 2025) are in October; envelope widened by one month, preserving annual cadence. IMWUT has recurring November/February/May rounds according to the official 2026 call. The broad submission range spans November before the event through May of the event year, widened one month; it does not confirm a 2028 call or guarantee the presentation year after review and revisions.",
         "sources": [
-          "https://www.ubicomp.org/"
+          "https://sigchi.org/events/ubicomp-2027/",
+          "https://www.ubicomp.org/ubicomp-iswc-2026/",
+          "https://www.ubicomp.org/ubicomp-iswc-2025/",
+          "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/"
         ]
       }
     },
@@ -3569,7 +3617,7 @@
       "location": "Valencia, Spain",
       "region": "Europe",
       "url": "https://www.euroxr.org/conference-2026",
-      "checked": "2026-10-13",
+      "checked": "2026-10-16",
       "tracks": [
         {
           "label": "Papers — with rebuttal",
@@ -3593,6 +3641,54 @@
           "deadline": "2026-09-14T23:59:59-12:00",
           "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/applications-track",
           "note": "Extended from 7 September.",
+          "status": "verified"
+        },
+        {
+          "label": "Scientific papers — revised version after rebuttal",
+          "type": "Revision",
+          "deadline": "2026-07-02T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track",
+          "note": "For the first round; extended from 24 June to 2 July 2026, not a new-paper submission.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — scientific papers",
+          "type": "Camera-ready",
+          "deadline": "2026-09-07T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track",
+          "note": "For accepted scientific papers.",
+          "status": "verified"
+        },
+        {
+          "label": "Poster extended abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2026-09-14T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/poster-demo-track",
+          "note": "Extended from 7 September to 14 September 2026.",
+          "status": "verified"
+        },
+        {
+          "label": "Demo extended abstracts",
+          "type": "Demo",
+          "deadline": "2026-09-14T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/poster-demo-track",
+          "note": "Extended from 7 September to 14 September 2026.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — posters and demos",
+          "type": "Camera-ready",
+          "deadline": "2026-09-28T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/poster-demo-track",
+          "note": "For accepted contributions.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — applications",
+          "type": "Camera-ready",
+          "deadline": "2026-10-05T23:59:59-12:00",
+          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/applications-track",
+          "note": "For accepted application-track contributions; distinct from poster/demo camera-ready.",
           "status": "verified"
         }
       ],
@@ -6125,6 +6221,416 @@
         }
       ],
       "event_status": "verified"
+    },
+    {
+      "id": "ubicomp2026",
+      "family_id": "ubicomp",
+      "year": 2026,
+      "start": "2026-10-11",
+      "end": "2026-10-15",
+      "location": "Shanghai, China",
+      "region": "Outside Europe",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "checked": "2026-10-16",
+      "tracks": [
+        {
+          "label": "Poster extended abstracts",
+          "type": "Poster / WiP",
+          "date": "2026-06-06",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/posters-demos-2026/",
+          "note": "Extended from 23 May to 6 June 2026. AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Demo extended abstracts and supporting material",
+          "type": "Demo",
+          "date": "2026-06-06",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/posters-demos-2026/",
+          "note": "Extended from 23 May to 6 June 2026. AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — posters and demos",
+          "type": "Camera-ready",
+          "date": "2026-08-04",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/posters-demos-2026/",
+          "note": "For accepted contributions; AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Colloquium",
+          "type": "Doctoral",
+          "date": "2026-06-19",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/doctoral-colloquium/",
+          "note": "Extended from 15 June to 19 June 2026. End-of-day AoE, exact clock time not stated. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Doctoral Colloquium",
+          "type": "Camera-ready",
+          "date": "2026-07-22",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/doctoral-colloquium/",
+          "note": "For accepted participants. Extended from 20 July to 22 July 2026; end-of-day AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2026-04-30",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
+          "note": "AoE. Individual workshop participant deadlines differ. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — workshop descriptions",
+          "type": "Camera-ready",
+          "date": "2026-05-25",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
+          "note": "For accepted organizers; inclusion in ACM DL. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — workshop papers",
+          "type": "Camera-ready",
+          "date": "2026-07-31",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
+          "note": "For accepted workshop contributions included in ACM DL; not a common new-submission deadline. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Workshop",
+          "date": "2026-05-07",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/tutorial-cfp/",
+          "note": "AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "ISWC Notes and Briefs",
+          "type": "Paper",
+          "deadline": "2026-05-24T23:59:00-12:00",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "note": "Extended from 17 May to 24 May 2026. Separate proceedings track, not an IMWUT full-paper round.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — ISWC Notes and Briefs",
+          "type": "Camera-ready",
+          "date": "2026-07-31",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "note": "Extended from 24 July to 31 July 2026; for accepted contributions. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "ISWC Design Exhibition",
+          "type": "Contribution / application",
+          "date": "2026-06-22",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-design-exhibition-cfp/",
+          "note": "Extended from 8 June to 22 June 2026. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — ISWC Design Exhibition",
+          "type": "Camera-ready",
+          "date": "2026-08-03",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-design-exhibition-cfp/",
+          "note": "For accepted contributions; extended from 24 July to 3 August 2026. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Education Forum — invited extended abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2026-07-01T23:59:00-12:00",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/education-forum/",
+          "note": "Invitation-based track; prospective contributors may contact the chairs.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Education Forum",
+          "type": "Camera-ready",
+          "date": "2026-07-24",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/education-forum/",
+          "note": "For accepted invited contributions; AoE. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Student volunteer applications",
+          "type": "Contribution / application",
+          "date": "2026-07-22",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-volunteers-2026/",
+          "note": "Lottery opened 7 July 2026. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Student Challenge — idea abstract and team registration",
+          "type": "Abstract",
+          "deadline": "2026-06-24T23:59:00-12:00",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-challenge-2026/",
+          "note": "Extended from 15 June to 24 June 2026.",
+          "status": "verified"
+        },
+        {
+          "label": "Student Challenge — short paper",
+          "type": "Student competition",
+          "date": "2026-07-15",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-challenge-2026/",
+          "note": "Extended from 10 July to 15 July 2026; later stage after idea registration. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Student Challenge",
+          "type": "Camera-ready",
+          "deadline": "2026-08-04T23:59:00-12:00",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-challenge-2026/",
+          "note": "Extended from 25 July to 4 August 2026; for accepted submissions.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+      "note": "Full event includes pre-conference workshops/tutorials on 11–12 October; main conference 13–15 October. IMWUT 2025 issue 4 and 2026 issues 1–3 form the main technical track; no journal submission is inferred from publication issue dates."
+    },
+    {
+      "id": "ubicomp2025",
+      "family_id": "ubicomp",
+      "year": 2025,
+      "start": "2025-10-12",
+      "end": "2025-10-16",
+      "location": "Espoo, Finland",
+      "region": "Europe",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2025/",
+      "checked": "2026-10-16",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.ubicomp.org/ubicomp-iswc-2025/",
+      "note": "Pre-conference workshops/tutorials/Doctoral Colloquium: 12–13 October; main conference: 14–16 October. Historical contribution deadlines not yet recorded."
+    },
+    {
+      "id": "ubicomp2024",
+      "family_id": "ubicomp",
+      "year": 2024,
+      "start": "2024-10-05",
+      "end": "2024-10-09",
+      "location": "Melbourne, Australia",
+      "region": "Outside Europe",
+      "url": "https://www.ubicomp.org/ubicomp-iswc-2024/",
+      "checked": "2026-10-16",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://www.ubicomp.org/ubicomp-iswc-2024/",
+      "note": "Pre-conference activities: 5–6 October; main conference: 7–9 October. Historical contribution deadlines not yet recorded."
+    },
+    {
+      "id": "ubicomp2027",
+      "family_id": "ubicomp",
+      "year": 2027,
+      "start": "2027-10-03",
+      "end": "2027-10-07",
+      "location": "Seoul Dragon City, Seoul, Republic of Korea",
+      "region": "Outside Europe",
+      "url": "https://sigchi.org/events/ubicomp-2027/",
+      "checked": "2026-10-16",
+      "tracks": [],
+      "event_status": "verified",
+      "event_source": "https://sigchi.org/events/ubicomp-2027/",
+      "note": "Exact event dates and venue published by ACM SIGCHI. The event link still redirects to the 2026 site; no edition-specific 2027 call was verified.",
+      "estimated_submission": {
+        "start": "2026-10-01",
+        "end": "2027-06-30",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Low",
+        "basis": "The official 2026 conference call describes recurring IMWUT rounds on 1 November, 1 February and 1 May, but no edition-specific 2027 schedule or presentation assignment was verified. The estimate spans November before the event through May of the event year, widened by one month. Multiple discrete review rounds, not continuous submissions or a confirmed deadline; acceptance/revision timing can change the presentation year.",
+        "sources": [
+          "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
+          "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/",
+          "https://sigchi.org/events/ubicomp-2027/"
+        ]
+      }
+    },
+    {
+      "id": "dis2027",
+      "family_id": "dis",
+      "year": 2027,
+      "start": "2027-06-28",
+      "end": "2027-07-02",
+      "location": "Stockholm, Sweden",
+      "region": "Europe",
+      "url": "https://dis.acm.org/2027/",
+      "checked": "2026-10-16",
+      "tracks": [
+        {
+          "label": "Mandatory title and abstract — papers",
+          "type": "Abstract",
+          "date": "2027-01-11",
+          "source": "https://dis.acm.org/2027/call-for-papers/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "date": "2027-01-18",
+          "source": "https://dis.acm.org/2027/call-for-papers/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Mandatory title and abstract — pictorials",
+          "type": "Abstract",
+          "date": "2027-01-11",
+          "source": "https://dis.acm.org/2027/pictorials/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Pictorials",
+          "type": "Paper",
+          "date": "2027-01-18",
+          "source": "https://dis.acm.org/2027/pictorials/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2027-02-01",
+          "source": "https://dis.acm.org/2027/workshops/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "date": "2027-02-19",
+          "source": "https://dis.acm.org/2027/contributing/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Interactivity and Arts",
+          "type": "Demo",
+          "date": "2027-02-19",
+          "source": "https://dis.acm.org/2027/interactivity-arts/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Camera-ready — papers, pictorials, workshops, interactivity and Doctoral Consortium",
+          "type": "Camera-ready",
+          "date": "2027-04-16",
+          "source": "https://dis.acm.org/2027/contributing/",
+          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "status": "tentative"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://dis.acm.org/2027/",
+      "note": "Main in-person conference at KTH. Separate online paper presentations: 21–25 June; workshops: 26–27 June. Contribution dates are explicitly provisional, even where individual CFP tables omit that qualifier. No dated zine deadline was verified."
+    },
+    {
+      "id": "dis2026",
+      "family_id": "dis",
+      "year": 2026,
+      "start": "2026-06-13",
+      "end": "2026-06-17",
+      "location": "Singapore",
+      "region": "Outside Europe",
+      "url": "https://dis.acm.org/2026/",
+      "checked": "2026-10-16",
+      "tracks": [
+        {
+          "label": "Mandatory title and abstract — papers and pictorials",
+          "type": "Abstract",
+          "date": "2026-01-09",
+          "source": "https://dis.acm.org/2026/papers/",
+          "note": "Mandatory stage; AoE date without a stated cutoff clock time.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers and pictorials",
+          "type": "Paper",
+          "date": "2026-01-19",
+          "source": "https://dis.acm.org/2026/papers/",
+          "note": "AoE date without a stated cutoff clock time.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2026-02-06",
+          "source": "https://dis.acm.org/2026/",
+          "note": "Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Provocations and Works in Progress",
+          "type": "Poster / WiP",
+          "date": "2026-02-13",
+          "source": "https://dis.acm.org/2026/",
+          "note": "Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "date": "2026-02-13",
+          "source": "https://dis.acm.org/2026/",
+          "note": "Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Interactivity demonstrations",
+          "type": "Demo",
+          "date": "2026-02-27",
+          "source": "https://dis.acm.org/2026/",
+          "note": "Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Student Design Competition",
+          "type": "Student competition",
+          "date": "2026-02-27",
+          "source": "https://dis.acm.org/2026/",
+          "note": "Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — papers and pictorials",
+          "type": "Camera-ready",
+          "date": "2026-04-08",
+          "source": "https://dis.acm.org/2026/",
+          "note": "For accepted contributions. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — workshops",
+          "type": "Camera-ready",
+          "date": "2026-04-10",
+          "source": "https://dis.acm.org/2026/",
+          "note": "For accepted proposals. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — Provocations/WiP and Doctoral Consortium",
+          "type": "Camera-ready",
+          "date": "2026-04-12",
+          "source": "https://dis.acm.org/2026/",
+          "note": "For accepted contributions. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — interactivity",
+          "type": "Camera-ready",
+          "date": "2026-04-24",
+          "source": "https://dis.acm.org/2026/",
+          "note": "For accepted demonstrations. Published date only; cutoff clock time not stated.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "event_source": "https://dis.acm.org/2026/"
     }
   ],
   "journals": [
