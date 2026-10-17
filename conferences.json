@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "families": [
     {
       "id": "vr",
@@ -1035,26 +1035,68 @@
         "checked": "2026-10-13",
         "note": "Editorial estimate of audience reach from scope and event type; not a CORE grade, citation measurement or quartile. An official rank was not verified in this update."
       },
-      "history": [],
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://jfig2025.univ-littoral.fr/soumissions/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://projet.liris.cnrs.fr/egfr/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://jfig2023.lirmm.fr/important-dates/"
+        }
+      ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-10-01",
-          "end": "2027-11-30",
+          "start": "2027-09-01",
+          "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-06-01",
-          "end": "2027-08-31",
+          "start": "2027-09-01",
+          "end": "2027-11-30",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Low",
+        "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Contribution / application",
-        "basis": "0 observed edition(s). No verified conference-date history was retrieved; the event window is an editorial planning assumption. Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Latest three verified event editions (2026, 2025, 2024) span October–November; the month envelope is widened one month. Main submissions in the verified 2026 and 2025 calls fall in October of the event year; 2024 submission timing is unknown. The 2026 CFP/SRM cutoff conflict is unresolved but both values fall in October. Annual recurrence; month windows are planning guidance, not announced 2027 dates, a confirmed call or a guarantee of lead time.",
         "sources": [
-          "https://www.asso-afig.fr/"
+          "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
+          "https://jfig2025.univ-littoral.fr/",
+          "https://jfig2025.univ-littoral.fr/soumissions/",
+          "https://projet.liris.cnrs.fr/egfr/"
         ]
       }
     },
@@ -6631,6 +6673,147 @@
       ],
       "event_status": "verified",
       "event_source": "https://dis.acm.org/2026/"
+    },
+    {
+      "id": "jfig2026",
+      "family_id": "jfig",
+      "year": 2026,
+      "start": "2026-11-03",
+      "end": "2026-11-06",
+      "location": "Toulouse, France",
+      "region": "France",
+      "url": "https://www.irit.fr/jFIG2026/",
+      "event_source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
+      "checked": "2026-10-17",
+      "tracks": [
+        {
+          "label": "Original papers — operational SRM cutoff",
+          "type": "Paper",
+          "deadline": "2026-10-08T23:59:00+00:00",
+          "source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
+          "note": "SRM publishes 8 October 2026, 23:59 UTC, while the CFP text on the same page still says 6 October. No extension announcement was verified; the operational cutoff is recorded explicitly, not inferred to supersede the CFP.",
+          "status": "verified"
+        },
+        {
+          "label": "Presentations of already published work",
+          "type": "Contribution / application",
+          "date": "2026-10-18",
+          "source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
+          "note": "Track-specific CFP deadline; no cutoff time stated. The page's generic SRM submission cutoff is 8 October, 23:59 UTC, so authors should confirm the submission route with organizers rather than assuming the system remains open.",
+          "status": "verified"
+        },
+        {
+          "label": "Blender Geometry Nodes contest",
+          "type": "Contribution / application",
+          "date": "2026-10-19",
+          "source": "https://www.asso-afig.fr/site/concours/concours-blender-geometry-nodes/",
+          "note": "Open to everyone, including student pairs. The participation section publishes 19 October 2026 at 23:59 but does not specify a timezone, so retained as date-only. Includes files, explanation and presentation/video; the introductory TBA paragraph is stale.",
+          "status": "verified"
+        },
+        {
+          "label": "ShaderToy contest",
+          "type": "Contribution / application",
+          "date": "2026-10-19",
+          "source": "https://www.asso-afig.fr/site/concours/concours-shader-toy/",
+          "note": "Open to everyone, including student pairs. The participation section publishes 19 October 2026 at 23:59 but does not specify a timezone, so retained as date-only. Includes PDF, shader link and presentation/video; the introductory TBA paragraph is stale.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Dates and city verified from the official Eurographics SRM call. The IRIT edition website was inaccessible during this check. Conflicting original-paper CFP and SRM cutoff values are retained in the track note; an extension is not assumed."
+    },
+    {
+      "id": "jfig2025",
+      "family_id": "jfig",
+      "year": 2025,
+      "start": "2025-11-03",
+      "end": "2025-11-06",
+      "location": "Calais, France",
+      "region": "France",
+      "url": "https://jfig2025.univ-littoral.fr/",
+      "event_source": "https://jfig2025.univ-littoral.fr/",
+      "checked": "2026-10-17",
+      "tracks": [
+        {
+          "label": "Original papers",
+          "type": "Paper",
+          "date": "2025-10-03",
+          "source": "https://jfig2025.univ-littoral.fr/soumissions/",
+          "note": "Cutoff time and timezone not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Presentations of already published work",
+          "type": "Contribution / application",
+          "date": "2025-10-25",
+          "source": "https://jfig2025.univ-littoral.fr/soumissions/",
+          "note": "Cutoff time and timezone not stated.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
+    },
+    {
+      "id": "jfig2024",
+      "family_id": "jfig",
+      "year": 2024,
+      "start": "2024-10-28",
+      "end": "2024-10-31",
+      "location": "Strasbourg, France",
+      "region": "France",
+      "url": "https://jfig2024.icube.unistra.fr/",
+      "event_source": "https://projet.liris.cnrs.fr/egfr/",
+      "checked": "2026-10-17",
+      "tracks": [],
+      "event_status": "verified",
+      "note": "Event dates and city verified on the official Eurographics France archive. Edition website inaccessible; historical submission deadlines remain unknown."
+    },
+    {
+      "id": "jfig2023",
+      "family_id": "jfig",
+      "year": 2023,
+      "start": "2023-11-08",
+      "end": "2023-11-10",
+      "location": "Montpellier, France",
+      "region": "France",
+      "url": "https://jfig2023.lirmm.fr/",
+      "event_source": "https://jfig2023.lirmm.fr/",
+      "checked": "2026-10-17",
+      "tracks": [
+        {
+          "label": "Original papers",
+          "type": "Paper",
+          "date": "2023-10-15",
+          "source": "https://jfig2023.lirmm.fr/important-dates/",
+          "note": "Extended from 10 October to 15 October 2023. Cutoff time and timezone not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Communication proposals",
+          "type": "Contribution / application",
+          "date": "2023-10-15",
+          "source": "https://jfig2023.lirmm.fr/important-dates/",
+          "note": "Extended from 10 October to 15 October 2023. Cutoff time and timezone not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Presentations of already published papers",
+          "type": "Contribution / application",
+          "date": "2023-10-25",
+          "source": "https://jfig2023.lirmm.fr/important-dates/",
+          "note": "Cutoff time and timezone not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready",
+          "type": "Camera-ready",
+          "date": "2023-11-03",
+          "source": "https://jfig2023.lirmm.fr/important-dates/",
+          "note": "For accepted contributions; cutoff time and timezone not stated.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified"
     }
   ],
   "journals": [
