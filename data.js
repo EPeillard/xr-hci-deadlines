@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "families": [
     {
       "id": "vr",
@@ -6684,23 +6684,23 @@ window.CONFERENCE_DATA = {
       "region": "France",
       "url": "https://www.irit.fr/jFIG2026/",
       "event_source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
-      "checked": "2026-10-17",
+      "checked": "2026-10-18",
       "tracks": [
         {
-          "label": "Original papers — operational SRM cutoff",
+          "label": "Original papers — archived SRM cutoff",
           "type": "Paper",
           "deadline": "2026-10-08T23:59:00+00:00",
           "source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
-          "note": "SRM publishes 8 October 2026, 23:59 UTC, while the CFP text on the same page still says 6 October. No extension announcement was verified; the operational cutoff is recorded explicitly, not inferred to supersede the CFP.",
+          "note": "Historical operational cutoff observed on 17 October 2026: 8 October, 23:59 UTC; the original-paper CFP still says 6 October. On 18 October the generic SRM cutoff changed to 18 October, 23:59 UTC, matching the separate already-published-work call. This is not evidence that original papers were extended to 18 October; the previous original-paper record is preserved.",
           "status": "verified"
         },
         {
           "label": "Presentations of already published work",
           "type": "Contribution / application",
-          "date": "2026-10-18",
           "source": "https://srmv2.eg.org/COMFy/Conference/FCGD_2026",
-          "note": "Track-specific CFP deadline; no cutoff time stated. The page's generic SRM submission cutoff is 8 October, 23:59 UTC, so authors should confirm the submission route with organizers rather than assuming the system remains open.",
-          "status": "verified"
+          "note": "The track-specific CFP date is 18 October 2026. The shared SRM submission and abstract cutoff now explicitly reads 18 October 2026, 23:59 UTC, matching that date (previous shared cutoff observed on 17 October: 8 October, 23:59 UTC). This precise system cutoff does not establish an extension of the original-paper track.",
+          "status": "verified",
+          "deadline": "2026-10-18T23:59:00+00:00"
         },
         {
           "label": "Blender Geometry Nodes contest",
@@ -6720,7 +6720,7 @@ window.CONFERENCE_DATA = {
         }
       ],
       "event_status": "verified",
-      "note": "Dates and city verified from the official Eurographics SRM call. The IRIT edition website was inaccessible during this check. Conflicting original-paper CFP and SRM cutoff values are retained in the track note; an extension is not assumed."
+      "note": "Conference dates/city remain verified from the official Eurographics SRM call. The current shared SRM cutoff matches the already-published-work CFP date. The original-paper CFP date (6 October) and archived 8 October SRM cutoff remain documented separately; no original-paper extension is inferred."
     },
     {
       "id": "jfig2025",
