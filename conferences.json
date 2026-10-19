@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "families": [
     {
       "id": "vr",
@@ -397,6 +397,14 @@
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://sap.acm.org/"
+        },
+        {
           "year": 2026,
           "event_months": [
             8
@@ -428,23 +436,24 @@
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-07-01",
-          "end": "2027-09-30",
+          "start": "2028-07-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-03-01",
-          "end": "2027-06-30",
+          "start": "2028-03-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "status": "estimated",
-        "confidence": "Moderate",
+        "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Latest three observed editions (2026, 2025, 2024) were held in August, with main-paper deadlines in April–May of the same year. Month envelopes widened by one month, preserving annual recurrence and the submission year offset. Planning windows, not announced dates; extended deadlines are used where verified.",
+        "basis": "Annual recurrence is assumed, not announced for 2028. Latest three announced event editions (2027, 2026, 2025) span August–October; that envelope is widened by one month. Latest three verified main-paper deadlines (2026, 2025, 2024) span April–May of the event year, widened by one month, using extensions where verified. The October 2027 move is a season change; its call is unknown, so past submission timing may no longer apply. Broad planning ranges only, with low confidence.",
         "sources": [
+          "https://sap.acm.org/",
           "https://sap.acm.org/2026/",
           "https://sap.acm.org/2026/call-for-papers/",
           "https://sap.acm.org/2025/",
@@ -5537,7 +5546,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-15",
+      "checked": "2026-10-19",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -5568,7 +5577,7 @@
           "type": "Paper",
           "deadline": "2026-10-20T11:59:00+00:00",
           "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027STARs",
-          "note": "Operational SRM cutoff is 20 October 2026, 11:59 UTC (19 October, 23:59 AoE). The CFP timeline still says 19 October, 23:59 UTC; check SRM/organizers before submitting.",
+          "note": "Extended from 19 October 2026, 23:59 UTC to 19 October, 23:59 AoE (20 October, 11:59 UTC). The CFP now explicitly confirms the extension and agrees with the previously recorded SRM cutoff: https://eg2027.isti.cnr.it/call-for-stars/",
           "status": "verified"
         },
         {
@@ -6072,6 +6081,36 @@
         "basis": "One checked 2026 full-paper deadline in April, widened by one month. No 2027 call is announced.",
         "sources": [
           "https://iva.acm.org/2026/"
+        ]
+      }
+    },
+    {
+      "id": "sap2027",
+      "family_id": "sap",
+      "year": 2027,
+      "start": "2027-10-07",
+      "end": "2027-10-08",
+      "location": "Tokyo, Japan",
+      "region": "Outside Europe",
+      "url": "https://sap.acm.org/",
+      "event_source": "https://sap.acm.org/",
+      "checked": "2026-10-19",
+      "tracks": [],
+      "event_status": "verified",
+      "note": "The ACM SAP series website announces the dates and city; the dedicated 2027 website is coming soon. No 2027 contribution deadlines have been announced on the consulted source.",
+      "estimated_submission": {
+        "start": "2027-03-01",
+        "end": "2027-06-30",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Low",
+        "basis": "Main-paper deadlines in 2024–2026 fell in April–May of the event year, including verified extensions; the envelope is widened by one month. The conference moves from August to October in 2027, so this historical submission season may no longer apply. This is an uncertain planning range, not an announced call or cutoff.",
+        "sources": [
+          "https://sap.acm.org/",
+          "https://sap.acm.org/2026/call-for-papers/",
+          "https://sap.acm.org/2025/pages/call-for-papers/",
+          "https://sap.acm.org/2024/pages/call-for-papers/"
         ]
       }
     },
