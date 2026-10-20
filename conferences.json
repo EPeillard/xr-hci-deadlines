@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "families": [
     {
       "id": "vr",
@@ -2089,7 +2089,7 @@
       "url": "https://mobilehci.acm.org/",
       "why": "Mobile interaction, wearable systems and situated interfaces.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -2100,6 +2100,16 @@
         "note": "Conference-level classification; does not rate individual papers or adjunct tracks."
       },
       "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            9
+          ],
+          "submission_months": [
+            2
+          ],
+          "source": "https://mobilehci.acm.org/2027/submission/"
+        },
         {
           "year": 2026,
           "event_months": [
@@ -2113,23 +2123,26 @@
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-07-01",
-          "end": "2027-10-31",
+          "start": "2028-07-01",
+          "end": "2028-10-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-01-01",
-          "end": "2027-02-28",
+          "start": "2028-01-01",
+          "end": "2028-03-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Two verified annual editions: 2026 spans August–September and 2027 takes place in September; event month envelope widened by one month. Main-paper deadlines were January 2026 and February 2027 of the event year. Their envelope is widened by one month and clipped to January at the year boundary. Sparse observations, not an announced 2028 edition or guaranteed cutoff.",
         "sources": [
+          "https://mobilehci.acm.org/2027/",
+          "https://mobilehci.acm.org/2027/submission/",
+          "https://mobilehci.acm.org/2026/",
           "https://mobilehci.acm.org/2026/submit/papers.html"
         ]
       }
@@ -2653,7 +2666,7 @@
       "url": "https://cscw.acm.org/",
       "why": "Social computing, collaboration, telepresence and remote work.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "A",
@@ -2665,33 +2678,46 @@
       },
       "history": [
         {
-          "year": 2026,
+          "year": 2027,
           "event_months": [
             10
           ],
           "submission_months": [],
-          "source": "https://cscw.acm.org/2026/"
+          "source": "https://cscw.acm.org/2027/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            5
+          ],
+          "source": "https://cscw.acm.org/2026/posters.html"
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-11-30",
+          "start": "2028-09-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-04-01",
-          "end": "2027-09-30",
+          "start": "2028-04-01",
+          "end": "2028-06-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
-        "type": "Paper",
-        "basis": "1 observed edition(s).  Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "type": "Poster / WiP",
+        "basis": "Annual event recurrence assumed from the October 2026 and October 2027 editions, widened by one month; no 2028 edition is announced. Paper submissions for CSCW 2027 and beyond are rolling, with no annual conference submission deadline, so the former paper-deadline estimate is withdrawn. The submission range here concerns posters only: one observed 15 May 2026 poster cutoff, widened one month. A future poster call is not guaranteed; low-confidence planning only.",
         "sources": [
-          "https://cscw.acm.org/2026/"
+          "https://cscw.acm.org/2027/",
+          "https://cscw.acm.org/2026/",
+          "https://cscw.acm.org/2026/posters.html",
+          "https://cscw.acm.org/2026/rolling.html"
         ]
       }
     },
@@ -5546,7 +5572,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-19",
+      "checked": "2026-10-20",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -5651,9 +5677,25 @@
           "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
           "note": "For accepted education-track contributions.",
           "status": "verified"
+        },
+        {
+          "label": "Short papers — submission",
+          "type": "Paper",
+          "deadline": "2027-01-22T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-short-papers/",
+          "note": "Self-contained papers up to four pages; accepted papers appear in the EG Digital Library, not the full-paper CGF track.",
+          "status": "verified"
+        },
+        {
+          "label": "Short papers — camera-ready",
+          "type": "Camera-ready",
+          "deadline": "2027-04-19T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-short-papers/",
+          "note": "For accepted short papers; not a new contribution deadline.",
+          "status": "verified"
         }
       ],
-      "note": "Venue confirmed as Lucca in the current official CFP and submission platform. Short-paper, poster and doctoral calls were not retrieved in this update. Full papers and STARs publish in Computer Graphics Forum."
+      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Short-paper calls are now available; poster and doctoral calls were not retrieved in this update. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
     },
     {
       "id": "eics2027",
@@ -6853,6 +6895,163 @@
         }
       ],
       "event_status": "verified"
+    },
+    {
+      "id": "mobilehci2027",
+      "family_id": "mobilehci",
+      "year": 2027,
+      "start": "2027-09-20",
+      "end": "2027-09-23",
+      "location": "Limassol, Cyprus",
+      "region": "Europe",
+      "url": "https://mobilehci.acm.org/2027/",
+      "event_source": "https://mobilehci.acm.org/2027/",
+      "checked": "2026-10-20",
+      "tracks": [
+        {
+          "label": "Papers — abstract",
+          "type": "Abstract",
+          "date": "2027-02-10",
+          "source": "https://mobilehci.acm.org/2027/submission/",
+          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — submission",
+          "type": "Paper",
+          "date": "2027-02-17",
+          "source": "https://mobilehci.acm.org/2027/submission/",
+          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — revised submission",
+          "type": "Revision",
+          "date": "2027-05-13",
+          "source": "https://mobilehci.acm.org/2027/submission/",
+          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only. For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — camera-ready",
+          "type": "Camera-ready",
+          "date": "2027-07-15",
+          "source": "https://mobilehci.acm.org/2027/submission/",
+          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only. For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Venue: St. Raphael Resort & Marina. Paper submissions publish in PACMHCI. Other contribution calls were not announced on the consulted site."
+    },
+    {
+      "id": "mobilehci2026",
+      "family_id": "mobilehci",
+      "year": 2026,
+      "start": "2026-08-31",
+      "end": "2026-09-03",
+      "location": "Swansea, United Kingdom",
+      "region": "Europe",
+      "url": "https://mobilehci.acm.org/2026/",
+      "event_source": "https://mobilehci.acm.org/2026/",
+      "checked": "2026-10-20",
+      "tracks": [
+        {
+          "label": "Papers — submission",
+          "type": "Paper",
+          "deadline": "2026-01-29T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — revised submission",
+          "type": "Revision",
+          "deadline": "2026-05-07T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — e-rights completion",
+          "type": "Camera-ready",
+          "deadline": "2026-06-22T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — TAPS upload",
+          "type": "Camera-ready",
+          "deadline": "2026-07-03T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
+          "note": "For existing or accepted submissions; not a new contribution deadline.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Historical edition. Paper submission and production milestones from the archived official CFP; this is not an exhaustive record of adjunct calls."
+    },
+    {
+      "id": "cscw2027",
+      "family_id": "cscw",
+      "year": 2027,
+      "start": "2027-10-16",
+      "end": "2027-10-20",
+      "location": "Philadelphia, USA",
+      "region": "Outside Europe",
+      "url": "https://cscw.acm.org/2027/",
+      "event_source": "https://cscw.acm.org/2027/",
+      "checked": "2026-10-20",
+      "tracks": [],
+      "event_status": "verified",
+      "note": "Papers are submitted on a rolling basis to PACMHCI/CSCW or eligible TOCHI articles, with no annual conference deadline. Acceptance before the program is set may lead to a presentation invitation; no program cutoff date is published. Official policy: https://cscw.acm.org/2026/rolling.html . Other contribution calls are not yet published.",
+      "estimated_submission": {
+        "start": "2027-04-01",
+        "end": "2027-06-30",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Poster / WiP",
+        "confidence": "Low",
+        "basis": "Only the 2026 poster call was observed: 15 May 2026, widened one month for the next annual cycle. A 2027 poster call is not yet announced. This does not apply to rolling journal-paper submissions, which have no annual CSCW deadline.",
+        "sources": [
+          "https://cscw.acm.org/2026/posters.html",
+          "https://cscw.acm.org/2027/",
+          "https://cscw.acm.org/2026/rolling.html"
+        ]
+      }
+    },
+    {
+      "id": "cscw2026",
+      "family_id": "cscw",
+      "year": 2026,
+      "start": "2026-10-10",
+      "end": "2026-10-14",
+      "location": "Salt Lake City, USA",
+      "region": "Outside Europe",
+      "url": "https://cscw.acm.org/2026/",
+      "event_source": "https://cscw.acm.org/2026/",
+      "checked": "2026-10-20",
+      "tracks": [
+        {
+          "label": "Posters — submission",
+          "type": "Poster / WiP",
+          "deadline": "2026-05-15T23:59:00-12:00",
+          "source": "https://cscw.acm.org/2026/posters.html",
+          "note": "",
+          "status": "verified"
+        },
+        {
+          "label": "Posters — camera-ready",
+          "type": "Camera-ready",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://cscw.acm.org/2026/posters.html",
+          "note": "For accepted posters; not a new contribution deadline.",
+          "status": "verified"
+        }
+      ],
+      "event_status": "verified",
+      "note": "Historical edition. Poster calls verified; other historical tracks remain incomplete."
     }
   ],
   "journals": [
