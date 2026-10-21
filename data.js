@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "families": [
     {
       "id": "vr",
@@ -6581,7 +6581,7 @@ window.CONFERENCE_DATA = {
       "location": "Stockholm, Sweden",
       "region": "Europe",
       "url": "https://dis.acm.org/2027/",
-      "checked": "2026-10-16",
+      "checked": "2026-10-21",
       "tracks": [
         {
           "label": "Mandatory title and abstract — papers",
@@ -6644,7 +6644,7 @@ window.CONFERENCE_DATA = {
           "type": "Camera-ready",
           "date": "2027-04-16",
           "source": "https://dis.acm.org/2027/contributing/",
-          "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
+          "note": "Organizer labels contribution dates provisional; cutoff time is not stated. Official pages conflict: the overall contribution table and the Pictorials important-dates table list 16 April 2027, while the Pictorials “Upon Acceptance” text says 28 April 2027. The recorded 16 April value is retained pending clarification; check the organizers before final upload. Sources: https://dis.acm.org/2027/contributing/ and https://dis.acm.org/2027/pictorials/ .",
           "status": "tentative"
         }
       ],
