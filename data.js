@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "families": [
     {
       "id": "vr",
@@ -5572,14 +5572,14 @@ window.CONFERENCE_DATA = {
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-20",
+      "checked": "2026-10-22",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
           "type": "Abstract",
           "deadline": "2026-09-26T11:59:00+00:00",
           "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027",
-          "note": "SRM published cutoff. Extended from 25 September 2026, 23:59 UTC to 23:59 AoE.",
+          "note": "Extended from 25 September 2026, 23:59 UTC to 25 September, 23:59 AoE (26 September, 11:59 UTC). The official CFP now explicitly confirms the extension and agrees with the previously recorded SRM cutoff: https://eg2027.isti.cnr.it/call-for-papers/",
           "status": "verified"
         },
         {
@@ -5587,7 +5587,7 @@ window.CONFERENCE_DATA = {
           "type": "Paper",
           "deadline": "2026-10-02T12:59:00+00:00",
           "source": "https://srmv2.eg.org/COMFy/Conference/EG_2027",
-          "note": "SRM published cutoff: 2 October 2026, 12:59 UTC (00:59 AoE). Original deadline: 1 October, 23:59 UTC. CFP additionally mentions compensation for technical delays without another explicit cutoff.",
+          "note": "Extended from 1 October 2026, 23:59 UTC to 2 October, 00:59 AoE (2 October, 12:59 UTC). The official CFP now explicitly confirms the extension and agrees with the previously recorded SRM cutoff: https://eg2027.isti.cnr.it/call-for-papers/",
           "status": "verified"
         },
         {
