@@ -3427,7 +3427,7 @@
       "location": "Melbourne, Australia",
       "region": "Outside Europe",
       "url": "https://ieeevr.org/2027/",
-      "checked": "2026-10-15",
+      "checked": "2026-10-24",
       "tracks": [
         {
           "label": "Mandatory abstract — papers",
@@ -3571,6 +3571,14 @@
           "deadline": "2026-12-23T23:59:59-12:00",
           "source": "https://ieeevr.org/2027/contribute/tutorials/",
           "note": "For accepted tutorials.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — 3DUI Contest",
+          "type": "Camera-ready",
+          "date": "2027-01-12",
+          "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
+          "note": "For accepted contest entries, not a new-submission deadline. AoE date published; exact cutoff time is not stated.",
           "status": "verified"
         }
       ],
@@ -7516,4 +7524,3 @@
   },
   "history_note": "Historical coverage is incomplete. Missing editions do not imply that an event was not held. Unverified historical deadlines are left unknown. The ICORE 2026 badge describes the current conference family, not its historical rank."
 }
-

@@ -3427,7 +3427,7 @@ window.CONFERENCE_DATA = {
       "location": "Melbourne, Australia",
       "region": "Outside Europe",
       "url": "https://ieeevr.org/2027/",
-      "checked": "2026-10-15",
+      "checked": "2026-10-24",
       "tracks": [
         {
           "label": "Mandatory abstract — papers",
@@ -3571,6 +3571,14 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-12-23T23:59:59-12:00",
           "source": "https://ieeevr.org/2027/contribute/tutorials/",
           "note": "For accepted tutorials.",
+          "status": "verified"
+        },
+        {
+          "label": "Camera-ready — 3DUI Contest",
+          "type": "Camera-ready",
+          "date": "2027-01-12",
+          "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
+          "note": "For accepted contest entries, not a new-submission deadline. AoE date published; exact cutoff time is not stated.",
           "status": "verified"
         }
       ],
