@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-22",
+  "updated": "2026-10-24",
   "families": [
     {
       "id": "vr",
@@ -2931,6 +2931,34 @@ window.CONFERENCE_DATA = {
     }
   ],
   "editions": [
+    {
+      "id": "ihm2027",
+      "family_id": "ihm",
+      "year": 2027,
+      "start": "2027-11-15",
+      "end": "2027-11-19",
+      "location": "Île de Nantes, Nantes, France",
+      "region": "France",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7519386178781892608/",
+      "event_source": "https://www.linkedin.com/feed/update/urn:li:activity:7519386178781892608/",
+      "checked": "2026-10-24",
+      "tracks": [],
+      "event_status": "verified",
+      "note": "Dates and location announced by Yannick Prié in the LinkedIn post transcribed by a reader on 24 October 2026. Theme: Creativity — inspiring people, thinking the machine, reinventing industry (English translation of the announced French theme). The LinkedIn page could not be fetched directly; AFIHM and edition websites were inaccessible during this check. No 2027 contribution deadlines or dedicated edition website have been independently verified.",
+      "estimated_submission": {
+        "start": "2027-03-01",
+        "end": "2027-05-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Moderate",
+        "basis": "Retains the existing editorial forecast: verified 2025 and 2026 research-paper deadlines fell in April of the event year; the month envelope is widened by one month. The announced November 2027 event remains in the recent autumn season. This is a planning range, not an announced call or cutoff; older spring editions demonstrate that schedule shifts can occur.",
+        "sources": [
+          "https://ihm2026.afihm.org/",
+          "https://ihm25.afihm.org/"
+        ]
+      }
+    },
     {
       "id": "etra2027",
       "family_id": "etra",
