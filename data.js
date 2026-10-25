@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "families": [
     {
       "id": "vr",
@@ -5282,7 +5282,7 @@ window.CONFERENCE_DATA = {
       "location": "Bari, Italy",
       "region": "Europe",
       "url": "https://www.ieeeismar.net/2026/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-25",
       "tracks": [
         {
           "label": "Paper abstract",
@@ -5299,6 +5299,30 @@ window.CONFERENCE_DATA = {
           "status": "verified",
           "note": "",
           "deadline": "2026-03-16T23:59:00-12:00"
+        },
+        {
+          "label": "Papers — rebuttal",
+          "type": "Revision",
+          "deadline": "2026-05-31T23:59:00-12:00",
+          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
+          "note": "Historical milestone for existing submissions; not a new-submission deadline.",
+          "status": "verified"
+        },
+        {
+          "label": "Papers — camera-ready",
+          "type": "Camera-ready",
+          "deadline": "2026-07-21T23:59:00-12:00",
+          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
+          "note": "Historical final-version deadline published in the official CFP; for accepted papers, not new submissions.",
+          "status": "verified"
+        },
+        {
+          "label": "Paper presentation video",
+          "type": "Camera-ready",
+          "deadline": "2026-09-04T23:59:00-12:00",
+          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
+          "note": "Historical presentation-material deadline for accepted papers. The optional but recommended teaser video has the same deadline.",
+          "status": "verified"
         }
       ],
       "event_status": "verified",
