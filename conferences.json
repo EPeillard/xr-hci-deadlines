@@ -2691,12 +2691,16 @@
       "topics": [
         "HCI",
         "Human factors",
-        "Robotics"
+        "Robotics",
+        "Multimodal interaction",
+        "XR",
+        "Wearables",
+        "Virtual agents"
       ],
       "url": "https://icmi.acm.org/",
-      "why": "Multimodal interaction, behavior analysis and sensing.",
+      "why": "ACM International Conference on Multimodal Interaction: human-centred multimodal AI, gesture/touch/haptics, social interaction, wearable sensing and AR/VR.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -2734,7 +2738,7 @@
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Annual-cycle planning window from the October 2026 event and April 2026 initial paper deadline, widened one month. No 2027 dates or call verified. Existing official ICORE indicator is preserved.",
         "sources": [
           "https://icmi.acm.org/2026/important-dates/"
         ]
@@ -3358,6 +3362,892 @@
         "sources": [
           "https://ahfe.org/series.html",
           "https://ahfe.org/submissions.html"
+        ]
+      }
+    },
+    {
+      "id": "cphs",
+      "name": "IFAC CPHS",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Human-machine systems",
+        "Human-AI interaction",
+        "Robotics",
+        "Trust"
+      ],
+      "url": "https://www.cphs2026.org/",
+      "why": "IFAC Workshop on Cyber-Physical Human Systems: human-autonomy teaming, shared control and interaction between people, physical systems and intelligent agents.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.cphs2026.org/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2024,
+          "event_months": [
+            12
+          ],
+          "submission_months": [],
+          "source": "https://ifac-control.org/wp-content/uploads/2026/08/IFAC_Newsletter_2025_2_April.pdf"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            12
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://www.cphs2026.org/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-11-01",
+          "end": "2029-01-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-05-01",
+          "end": "2028-07-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 2,
+        "type": "Paper",
+        "basis": "Biennial recurrence explicitly stated by IFAC TC9.2 and the 2024 post-event report. December events observed in 2024 and 2026, widened one month on each side (including January of the following year). Only June 2026 paper deadlines verified; submission window widened one month. No 2028 call, destination or precise dates announced in checked sources.",
+        "sources": [
+          "https://tc.ifac-control.org/9/2/test",
+          "https://ifac-control.org/wp-content/uploads/2026/08/IFAC_Newsletter_2025_2_April.pdf",
+          "https://www.cphs2026.org/"
+        ]
+      }
+    },
+    {
+      "id": "ecce",
+      "name": "ECCE",
+      "scope": "Europe",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics",
+        "Human-AI interaction"
+      ],
+      "url": "https://ecce2026.unisi.it/",
+      "why": "European Conference on Cognitive Ergonomics, the annual EACE conference: cognition, user experience, work analysis, human-centred AI and virtual realities.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://ecce2026.unisi.it/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2025,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            4,
+            5
+          ],
+          "source": "https://transform.tlu.ee/ecce-2025/calls/papers/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            9
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://ecce2026.unisi.it/call-for-papers/"
+        }
+      ],
+      "forecast": {
+        "year": 2027,
+        "event": {
+          "start": "2027-08-01",
+          "end": "2027-11-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-03-01",
+          "end": "2027-06-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual recurrence confirmed by EACE. September–October event observations and April–May paper/WiP calls widened one month. EACE president's institutional profile mentions Valletta, Malta for 2027, but no precise event dates or call verified; no invented dated edition is added.",
+        "sources": [
+          "https://ecce2026.unisi.it/",
+          "https://transform.tlu.ee/ecce-2025/",
+          "https://transform.tlu.ee/ecce-2025/calls/papers/",
+          "https://eace.site/",
+          "https://pure.ulster.ac.uk/en/persons/maurice-mulvenna/"
+        ]
+      }
+    },
+    {
+      "id": "epique",
+      "name": "EPIQUE / ARPEGE",
+      "scope": "France / Francophone",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics",
+        "Neuroergonomics",
+        "Human-AI interaction",
+        "Collaboration"
+      ],
+      "url": "https://arpege-recherche.org/fr/activites/colloques-epique",
+      "why": "ARPEGE's EPIQUE colloquium on ergonomic psychology, work/activity analysis and human-technology interaction, including XR and human-AI cooperation. ARPEGE is the organizing association, not a separate conference.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "National",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://arpege-recherche.org/fr/activites/colloques-epique",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2021,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/11e-colloque-epique"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/12e-colloque-epique"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            2,
+            4
+          ],
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-06-01",
+          "end": "2028-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-01-01",
+          "end": "2028-03-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 2,
+        "type": "Paper",
+        "basis": "ARPEGE explicitly describes EPIQUE as biennial, but the observed recent sequence is 2021, 2023, 2026. The three-year gap is retained rather than inventing a 2025 edition. Provisional next cycle 2028 from 2026, July widened one month; February research-paper cutoff widened one month. Posters and symposium proposals have separate schedules. Recurrence may shift again; no 2028 edition or call announced.",
+        "sources": [
+          "https://arpege-recherche.org/fr/activites/colloques-epique",
+          "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+          "https://arpege-recherche.org/fr/activites/colloques-epique/12e-colloque-epique",
+          "https://arpege-recherche.org/fr/activites/colloques-epique/11e-colloque-epique"
+        ]
+      }
+    },
+    {
+      "id": "ichms",
+      "name": "IEEE ICHMS",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Human-machine systems",
+        "Human-AI interaction",
+        "Robotics",
+        "Trust"
+      ],
+      "url": "https://www.ieeesmc.org/ichms-2026/",
+      "why": "IEEE International Conference on Human-Machine Systems: human-AI collaboration, intelligent-system evaluation, human factors, robotics, simulation and virtual environments. Distinct from the broader IEEE SMC flagship congress.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.ieeesmc.org/ichms-2026/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2025,
+          "event_months": [
+            5
+          ],
+          "submission_months": [],
+          "source": "https://www.ieeesmc.org/conferences/calendar/smc-society-conferences/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            2
+          ],
+          "source": "https://www.ieeesmc.org/ichms-2026/submission/"
+        }
+      ],
+      "forecast": {
+        "year": 2027,
+        "event": {
+          "start": "2027-04-01",
+          "end": "2027-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-01-01",
+          "end": "2027-03-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual recurrence is consistent with the consecutive fifth (2025) and sixth (2026) editions. Event season changed from May to July; pool both months and widen one month instead of fixing a summer date. Only February 2026 paper calls verified, widened one month. No 2027 dates or call verified.",
+        "sources": [
+          "https://www.ieeesmc.org/conferences/calendar/smc-society-conferences/",
+          "https://www.ieeesmc.org/events/2026-ieee-international-conference-on-human-machine-systems/",
+          "https://www.ieeesmc.org/ichms-2026/submission/"
+        ]
+      }
+    },
+    {
+      "id": "smc",
+      "name": "IEEE SMC",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Human-machine systems",
+        "Human-AI interaction",
+        "Robotics",
+        "Trust"
+      ],
+      "url": "https://www.ieee-smc2027.org/",
+      "why": "IEEE International Conference on Systems, Man, and Cybernetics. Broad systems/cybernetics congress with human-machine systems and human-AI symbiosis; select the interaction-related track. Not the same event as ICHMS.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.ieee-smc2027.org/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            5
+          ],
+          "source": "https://www.ieeesmc2026.org/Important-Dates"
+        },
+        {
+          "year": 2027,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://www.ieee-smc2027.org/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-09-01",
+          "end": "2028-11-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-03-01",
+          "end": "2028-06-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual flagship series; October 2026 and 2027 observed, widened one month. April–May main-paper cutoffs widened one month. Society calendar names Rome for 2028, whereas an older flagship listing only says Europe/Africa; no precise 2028 dates or calls verified, so no exact dated edition is manufactured.",
+        "sources": [
+          "https://www.ieeesmc.org/conferences/calendar/",
+          "https://www.ieeesmc2026.org/Important-Dates",
+          "https://www.ieee-smc2027.org/"
+        ]
+      }
+    },
+    {
+      "id": "ifac-hms",
+      "name": "IFAC HMS",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Ergonomics",
+        "Human-machine systems",
+        "Human-AI interaction",
+        "Robotics"
+      ],
+      "url": "https://conferences.ifac-control.org/hms2025/",
+      "why": "IFAC Symposium on Analysis, Design and Evaluation of Human-Machine Systems: human-system integration, design and evaluation of automation and interactive systems.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://conferences.ifac-control.org/hms2025/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2022,
+          "event_months": [
+            9
+          ],
+          "submission_months": [],
+          "source": "https://tc.ifac-control.org/4/1/activities"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            8
+          ],
+          "source": "https://conferences.ifac-control.org/hms2025/important-dates/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-08-01",
+          "end": "2028-12-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-07-01",
+          "end": "2028-09-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 3,
+        "type": "Paper",
+        "basis": "Triennial recurrence explicitly stated by IFAC TC4.1 and consistent with the 15th edition in 2022 and 16th in 2025. Event shifted September to November; span widened one month. Only August 2025 final extended initial-paper deadline verified, widened one month. Sources disagree about the exact end day in 2022, so only its month is used and no exact 2022 archive record is invented. No 2028 announcement verified.",
+        "sources": [
+          "https://tc.ifac-control.org/4/1/activities",
+          "https://conferences.ifac-control.org/hms2025/",
+          "https://conferences.ifac-control.org/hms2025/important-dates/"
+        ]
+      }
+    },
+    {
+      "id": "neuroergonomics",
+      "name": "Neuroergonomics",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics",
+        "Neuroergonomics",
+        "Wearables"
+      ],
+      "url": "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+      "why": "International Neuroergonomics Conference: brain-computer interfaces, neurofeedback, mobile brain sensing, workload and human performance, with explicit mixed/virtual reality applications.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2024,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://www.bordeaux-neurocampus.fr/en/event/neuroergonomics/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            2
+          ],
+          "source": "https://neuroergonomics2026.neuroscienceeverydayworld.org/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-06-01",
+          "end": "2028-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-01-01",
+          "end": "2028-03-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 2,
+        "type": "Abstract",
+        "basis": "Recent biennial cycle from 2024 and 2026; older sequence contains 2021/2022 disruption and is not pooled blindly. July widened one month, with February 2026 regular abstract cutoff widened one month. Rolling late-breaking posters have no exact closing date. No 2028 edition announced in checked sources.",
+        "sources": [
+          "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+          "https://www.bordeaux-neurocampus.fr/en/event/neuroergonomics/"
+        ]
+      }
+    },
+    {
+      "id": "grivapp",
+      "name": "GRIVAPP",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Graphics",
+        "Spatial interaction"
+      ],
+      "url": "https://grivapp.scitevents.org/",
+      "why": "International Conference on Computer Graphics, Interaction, Visualization Theory and Applications: graphics, interactive environments, human-computer interaction and visualization. SCITEPRESS proceedings; indexing submission is not an official rank.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://grivapp.scitevents.org/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            2
+          ],
+          "submission_months": [
+            9,
+            10
+          ],
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-01-01",
+          "end": "2028-03-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-08-01",
+          "end": "2027-11-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual planning assumption supported by the organizer archive listing GRIVAPP 2026 and 2027 and earlier VISIGRAPP years. Only the 2027 February edition and September–October 2026 paper rounds are used here; widen one month, preserve prior-year submission offset. Do not relabel older umbrella events as identical editions without checking. No 2028 announcement verified.",
+        "sources": [
+          "https://grivapp.scitevents.org/CallForPapers.aspx",
+          "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "https://grivapp.scitevents.org/Websites.aspx"
+        ]
+      }
+    },
+    {
+      "id": "hai",
+      "name": "HAI",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "Virtual agents",
+        "Robotics",
+        "Embodiment",
+        "Human-AI interaction",
+        "Trust"
+      ],
+      "url": "https://hai-conference.net/hai2026/",
+      "why": "International Conference on Human-Agent Interaction: embodied/virtual agents, social robots, shared autonomy and digitally mediated communication.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://hai-conference.net/hai2026/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            11
+          ],
+          "submission_months": [
+            6
+          ],
+          "source": "https://hai-conference.net/hai2026/"
+        }
+      ],
+      "forecast": {
+        "year": 2027,
+        "event": {
+          "start": "2027-10-01",
+          "end": "2027-12-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-05-01",
+          "end": "2027-07-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual planning assumption for the numbered HAI conference series. One verified edition: November 2026 event and June extended paper deadline, each widened one month. Posters, demos and workshop proposals have separate cutoffs. No 2027 dates/call verified.",
+        "sources": [
+          "https://hai-conference.net/hai2026/",
+          "https://hai-conference.net/"
+        ]
+      }
+    },
+    {
+      "id": "hcii",
+      "name": "HCI International (HCII)",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics",
+        "Human-AI interaction",
+        "Robotics"
+      ],
+      "url": "https://2027.hci.international/",
+      "why": "HCI International and affiliated conferences, including Virtual, Augmented and Mixed Reality (VAMR), Engineering Psychology and Cognitive Ergonomics (EPCE), and Design, User Experience and Usability (DUXU). Shared submission timetable; listed once to avoid duplicate umbrella calls.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "verified",
+        "label": "h5-index 45",
+        "scheme": "Google Scholar h5-index (organizer-reported)",
+        "edition": "May 2026 snapshot",
+        "source": "https://2027.hci.international/",
+        "checked": "2026-10-26",
+        "note": "Organizer reports a Google Scholar h5-index of 45, last updated May 2026. This is a citation-index snapshot, not an ICORE rank, journal impact factor, quartile or acceptance rate."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            10
+          ],
+          "source": "https://2027.hci.international/deadlines.html"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-06-01",
+          "end": "2028-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-09-01",
+          "end": "2027-11-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual-cycle planning assumption for the established HCII series. One checked edition: July 2027 event and October 2026 initial paper proposal, widened one month while preserving prior-year offset. The January full text after proposal acceptance is not a new contribution deadline and is excluded. No 2028 dates verified.",
+        "sources": [
+          "https://2027.hci.international/",
+          "https://2027.hci.international/deadlines.html",
+          "https://2027.hci.international/about.html"
+        ]
+      }
+    },
+    {
+      "id": "hhai",
+      "name": "HHAI",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Human-AI interaction",
+        "Human-machine systems",
+        "Trust",
+        "Collaboration"
+      ],
+      "url": "https://hhai-conference.org/2027/",
+      "why": "International Conference on Hybrid Human-Artificial Intelligence: cooperative, adaptive and human-centred AI, co-learning, explainability, meaningful human control and interdisciplinary evaluation.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://hhai-conference.org/2027/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            3
+          ],
+          "source": "https://hhai-conference.org/2026/cfp/"
+        },
+        {
+          "year": 2027,
+          "event_months": [
+            6
+          ],
+          "submission_months": [
+            1
+          ],
+          "source": "https://hhai-conference.org/2027/call-for-papers/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-05-01",
+          "end": "2028-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-12-01",
+          "end": "2028-04-30",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual series confirmed by the 2026 site. June–July events and January–March paper cutoffs pooled and widened one month. January 2027 deadline is earlier than the 2026 season, so use a broad range rather than a fixed day. No 2028 edition announced in checked sources.",
+        "sources": [
+          "https://hhai-conference.org/2026/",
+          "https://hhai-conference.org/2026/cfp/",
+          "https://hhai-conference.org/2027/",
+          "https://hhai-conference.org/2027/call-for-papers/"
+        ]
+      }
+    },
+    {
+      "id": "icusi",
+      "name": "ICUSI / RoCHI",
+      "scope": "Europe",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Human-machine systems"
+      ],
+      "url": "https://rochi.utcluj.ro/icusi/",
+      "why": "International Conference on User-System Interaction, the broader-scope continuation of RoCHI, covering research, design and development of interactive systems.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://rochi.utcluj.ro/icusi/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            7
+          ],
+          "source": "https://rochi.utcluj.ro/icusi/important-dates/"
+        }
+      ],
+      "forecast": {
+        "year": 2027,
+        "event": {
+          "start": "2027-09-01",
+          "end": "2027-11-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-06-01",
+          "end": "2027-08-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual planning assumption for the RoCHI/ICUSI series, not a verified 2027 announcement. One observed edition: October 2026 event and July 2026 extended initial submissions, each widened one month. No previous RoCHI edition is relabeled without separate archival verification.",
+        "sources": [
+          "https://rochi.utcluj.ro/icusi/",
+          "https://rochi.utcluj.ro/icusi/important-dates/",
+          "https://rochi.utcluj.ro/icusi/about/"
+        ]
+      }
+    },
+    {
+      "id": "ecem",
+      "name": "ECEM",
+      "scope": "Europe",
+      "topics": [
+        "HCI",
+        "XR",
+        "Eye tracking",
+        "Perception",
+        "Human factors",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://www.uni-ulm.de/in/ecem2026/",
+      "why": "European Conference on Eye Movements: eye-movement mechanisms, attention and gaze-based methods, including applied XR, usability and human factors. Complementary to ETRA, not a duplicate.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.uni-ulm.de/in/ecem2026/",
+        "checked": "2026-10-26",
+        "note": "Qualitative editorial estimate of disciplinary audience and topical scope. Not an official rank, quartile, impact factor or acceptance rate; no current official classification was verified for this entry."
+      },
+      "history": [
+        {
+          "year": 2024,
+          "event_months": [
+            8
+          ],
+          "submission_months": [],
+          "source": "https://www.uni-ulm.de/in/ecem2026/about-ecem/history-and-goals/"
+        },
+        {
+          "year": 2026,
+          "event_months": [
+            8,
+            9
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://www.uni-ulm.de/in/ecem2026/participation/submission/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-07-01",
+          "end": "2028-10-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2028-03-01",
+          "end": "2028-05-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 2,
+        "type": "Abstract",
+        "basis": "Biennial recurrence explicitly stated by the organizer; 2024 and 2026 observed. August–September event months widened one month. Only April 2026 talk/poster abstract deadline verified, widened one month; symposium proposals are earlier. No 2028 edition announced in checked sources.",
+        "sources": [
+          "https://www.uni-ulm.de/in/ecem2026/",
+          "https://www.uni-ulm.de/in/ecem2026/about-ecem/history-and-goals/",
+          "https://www.uni-ulm.de/in/ecem2026/participation/submission/"
         ]
       }
     }
@@ -7141,6 +8031,934 @@
       "checked": "2026-10-26",
       "tracks": [],
       "note": "Historical summer edition from the official series archive. Submission deadlines not retrieved; not conflated with the separate December 2026 Hawaii edition."
+    },
+    {
+      "id": "cphs2026",
+      "family_id": "cphs",
+      "year": 2026,
+      "start": "2026-12-11",
+      "end": "2026-12-12",
+      "location": "Redondo Beach, California, USA",
+      "region": "Outside Europe",
+      "url": "https://www.cphs2026.org/",
+      "event_source": "https://www.cphs2026.org/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Invited session proposals",
+          "type": "Special session",
+          "date": "2026-05-26",
+          "source": "https://www.cphs2026.org/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 6 May 2026. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Regular papers",
+          "type": "Paper",
+          "date": "2026-06-14",
+          "source": "https://www.cphs2026.org/",
+          "status": "verified",
+          "note": "Original deadline 20 May, then 12 June; organizer explicitly kept the submission site open through 14 June 2026. Initial papers, not final accepted versions. No cutoff hour verified."
+        },
+        {
+          "label": "Extended abstracts",
+          "type": "Abstract",
+          "date": "2026-06-14",
+          "source": "https://www.cphs2026.org/",
+          "status": "verified",
+          "note": "Two-page standalone extended abstracts, not published in IFAC-PapersOnLine. Shared initial submission extension through 14 June; no cutoff hour verified."
+        },
+        {
+          "label": "Late-breaking posters",
+          "type": "Poster / WiP",
+          "date": "2026-10-02",
+          "source": "https://www.cphs2026.org/",
+          "status": "verified",
+          "note": "Extended from 29 September 2026. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "IFAC biennial CPHS workshop. Regular papers and non-archival extended abstracts are separate initial contribution routes."
+    },
+    {
+      "id": "ecce2026",
+      "family_id": "ecce",
+      "year": 2026,
+      "start": "2026-09-15",
+      "end": "2026-09-18",
+      "location": "Siena, Italy",
+      "region": "Europe",
+      "url": "https://ecce2026.unisi.it/",
+      "event_source": "https://ecce2026.unisi.it/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Long and short papers",
+          "type": "Paper",
+          "date": "2026-04-20",
+          "source": "https://ecce2026.unisi.it/call-for-papers/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 29 March 2026. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Work-in-progress papers",
+          "type": "Poster / WiP",
+          "date": "2026-04-20",
+          "source": "https://ecce2026.unisi.it/call-for-papers/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 29 March 2026. Cutoff time/timezone not verified."
+        }
+      ],
+      "note": "Annual EACE conference; ACM proceedings. Includes September 15 activities."
+    },
+    {
+      "id": "epique2026",
+      "family_id": "epique",
+      "year": 2026,
+      "start": "2026-07-07",
+      "end": "2026-07-10",
+      "location": "ENSIBS, Université Bretagne Sud, Lorient, France",
+      "region": "France",
+      "url": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+      "event_source": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Symposium proposals",
+          "type": "Special session",
+          "date": "2025-12-01",
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        },
+        {
+          "label": "Short, long and symposium contributions",
+          "type": "Paper",
+          "date": "2026-02-19",
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 13 February 2026. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "date": "2026-04-30",
+          "source": "https://arpege-recherche.org/fr/activites/colloques-epique/13e-colloque-epique",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 13 April 2026. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "ARPEGE doctoral presentations",
+          "type": "Doctoral",
+          "date": "2026-02-09",
+          "source": "https://arpege-recherche.org/fr/activites/doctoriales/doctoriales-2026",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        }
+      ],
+      "note": "Doctoriales on 7 July; main colloquium 8–10 July. The 2023→2026 gap is preserved despite nominal biennial cadence."
+    },
+    {
+      "id": "ichms2026",
+      "family_id": "ichms",
+      "year": 2026,
+      "start": "2026-07-01",
+      "end": "2026-07-03",
+      "location": "Nanyang Technological University, Singapore",
+      "region": "Outside Europe",
+      "url": "https://www.ieeesmc.org/ichms-2026/",
+      "event_source": "https://www.ieeesmc.org/events/2026-ieee-international-conference-on-human-machine-systems/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Workshop and special-session proposals",
+          "type": "Workshop",
+          "date": "2025-11-24",
+          "source": "https://www.ieeesmc.org/ichms-2026/submission/",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        },
+        {
+          "label": "Regular papers",
+          "type": "Paper",
+          "date": "2026-02-15",
+          "source": "https://www.ieeesmc.org/ichms-2026/submission/",
+          "status": "verified",
+          "note": "Latest official submission page gives 15 February 2026; supersedes earlier January calls. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Workshop and special-session papers",
+          "type": "Paper",
+          "date": "2026-02-20",
+          "source": "https://www.ieeesmc.org/ichms-2026/submission/",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        }
+      ],
+      "note": "Sixth IEEE ICHMS; hybrid participation supported. Separate series from IEEE SMC."
+    },
+    {
+      "id": "smc2027",
+      "family_id": "smc",
+      "year": 2027,
+      "start": "2027-10-06",
+      "end": "2027-10-10",
+      "location": "Ho Chi Minh City, Vietnam",
+      "region": "Outside Europe",
+      "url": "https://www.ieee-smc2027.org/",
+      "event_source": "https://www.ieee-smc2027.org/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Special-session proposals",
+          "type": "Special session",
+          "deadline": "2027-02-15T23:59:00-12:00",
+          "source": "https://www.ieee-smc2027.org/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2027-02-15T23:59:00-12:00",
+          "source": "https://www.ieee-smc2027.org/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "deadline": "2027-02-15T23:59:00-12:00",
+          "source": "https://www.ieee-smc2027.org/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Regular, special-session and workshop papers",
+          "type": "Paper",
+          "deadline": "2027-04-08T23:59:00-12:00",
+          "source": "https://www.ieee-smc2027.org/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        }
+      ],
+      "note": "Theme: Human-AI Symbiosis. Host city corroborated by IEEE SMC Society calendar; precise dates and initial calls from the edition site. The site contains announcements dated in 2027, later than this check; these are not used as evidence of past publication timing."
+    },
+    {
+      "id": "ifac-hms2025",
+      "family_id": "ifac-hms",
+      "year": 2025,
+      "start": "2025-11-18",
+      "end": "2025-11-21",
+      "location": "Beijing, China",
+      "region": "Outside Europe",
+      "url": "https://conferences.ifac-control.org/hms2025/",
+      "event_source": "https://conferences.ifac-control.org/hms2025/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Special / invited session proposals",
+          "type": "Special session",
+          "date": "2025-07-10",
+          "source": "https://conferences.ifac-control.org/hms2025/important-dates/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 10 June 2025. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Regular and invited papers",
+          "type": "Paper",
+          "date": "2025-08-31",
+          "source": "https://conferences.ifac-control.org/hms2025/important-dates/",
+          "status": "verified",
+          "note": "Successive initial-paper extensions: 28 June → 15 August → 25 August → 31 August 2025. Cutoff time/timezone not verified."
+        }
+      ],
+      "note": "16th IFAC HMS symposium. Next nominal cycle 2028 is only a planning forecast. Edition site confirms 18–21 November, superseding the old 3–6 November plan still shown on TC4.1's page."
+    },
+    {
+      "id": "neuroergonomics2026",
+      "family_id": "neuroergonomics",
+      "year": 2026,
+      "start": "2026-07-13",
+      "end": "2026-07-16",
+      "location": "George Sherman Union, Boston University, Boston, USA",
+      "region": "Outside Europe",
+      "url": "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+      "event_source": "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Regular presentation abstracts",
+          "type": "Abstract",
+          "date": "2026-02-24",
+          "source": "https://neuroergonomics2026.neuroscienceeverydayworld.org/",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        }
+      ],
+      "note": "Includes pre-conference workshops on 13 July. The organizer also welcomed late-breaking posters on a rolling, capacity-limited basis without a fixed cutoff; no exact deadline is invented."
+    },
+    {
+      "id": "grivapp2027",
+      "family_id": "grivapp",
+      "year": 2027,
+      "start": "2027-02-26",
+      "end": "2027-02-28",
+      "location": "Grand Hotel Excelsior, Valletta, Malta",
+      "region": "Europe",
+      "url": "https://grivapp.scitevents.org/",
+      "event_source": "https://grivapp.scitevents.org/CallForPapers.aspx",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Regular papers — first submission stage",
+          "type": "Paper",
+          "date": "2026-09-29",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Position / regular papers — second submission stage (extended)",
+          "type": "Paper",
+          "date": "2026-10-29",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Extended second stage accepts new submissions; not a revision deadline. Previous cutoff not retrieved. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Standalone abstracts track",
+          "type": "Abstract",
+          "date": "2026-12-03",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "date": "2026-10-02",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Special-session proposals",
+          "type": "Special session",
+          "date": "2026-10-02",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2026-10-02",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Demo proposals",
+          "type": "Demo",
+          "date": "2026-10-02",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Panel proposals",
+          "type": "Panel",
+          "date": "2026-10-02",
+          "source": "https://grivapp.scitevents.org/ImportantDates.aspx",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "Conference dates from the official CFP; venue from https://grivapp.scitevents.org/ConferenceVenue.aspx. Both initial paper stages are retained; no accepted-paper delivery deadlines."
+    },
+    {
+      "id": "hai2026",
+      "family_id": "hai",
+      "year": 2026,
+      "start": "2026-11-16",
+      "end": "2026-11-19",
+      "location": "Ritsumeikan University, Osaka, Japan",
+      "region": "Outside Europe",
+      "url": "https://hai-conference.net/hai2026/",
+      "event_source": "https://hai-conference.net/hai2026/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "deadline": "2026-06-05T23:59:00-12:00",
+          "source": "https://hai-conference.net/hai2026/",
+          "status": "verified",
+          "note": "Extended from 29 May 2026; official cutoff 23:59 AoE."
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "deadline": "2026-08-10T23:59:00-12:00",
+          "source": "https://hai-conference.net/hai2026/",
+          "status": "verified",
+          "note": "Extended from 7 August 2026; official cutoff 23:59 AoE."
+        },
+        {
+          "label": "Demos",
+          "type": "Demo",
+          "deadline": "2026-08-10T23:59:00-12:00",
+          "source": "https://hai-conference.net/hai2026/",
+          "status": "verified",
+          "note": "Shared poster/demo call, extended from 7 August 2026; official cutoff 23:59 AoE."
+        },
+        {
+          "label": "Workshop / tutorial proposals",
+          "type": "Workshop",
+          "deadline": "2026-06-15T23:59:00-12:00",
+          "source": "https://hai-conference.net/hai2026/",
+          "status": "verified",
+          "note": "Extended from 5 June 2026; official cutoff 23:59 AoE."
+        }
+      ],
+      "note": "Fourteenth HAI conference. Theme: From Interaction to Agency."
+    },
+    {
+      "id": "hcii2027",
+      "family_id": "hcii",
+      "year": 2027,
+      "start": "2027-07-25",
+      "end": "2027-07-30",
+      "location": "Estrel Hotel and Congress Center, Berlin, Germany",
+      "region": "Europe",
+      "url": "https://2027.hci.international/",
+      "event_source": "https://2027.hci.international/deadlines.html",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Regular paper proposals",
+          "type": "Paper",
+          "date": "2026-10-23",
+          "source": "https://2027.hci.international/deadlines.html",
+          "status": "verified",
+          "note": "800-word initial proposal, extended deadline. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Poster proposals",
+          "type": "Poster / WiP",
+          "date": "2027-01-15",
+          "source": "https://2027.hci.international/deadlines.html",
+          "status": "verified",
+          "note": "300-word initial poster proposal. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Student design competition",
+          "type": "Student competition",
+          "date": "2027-03-12",
+          "source": "https://2027.hci.international/deadlines.html",
+          "status": "verified",
+          "note": "Five-minute video and 300-word description. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Course proposals",
+          "type": "Tutorial",
+          "date": "2026-10-09",
+          "source": "https://2027.hci.international/deadlines.html",
+          "status": "verified",
+          "note": "300-word initial course proposal. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "Shared dates for HCII thematic areas/affiliated conferences, including VAMR and EPCE. Initial proposal deadlines only; subsequent accepted full-text/poster preparation dates intentionally excluded."
+    },
+    {
+      "id": "hhai2027",
+      "family_id": "hhai",
+      "year": 2027,
+      "start": "2027-06-14",
+      "end": "2027-06-18",
+      "location": "University of Oulu, Oulu, Finland",
+      "region": "Europe",
+      "url": "https://hhai-conference.org/2027/",
+      "event_source": "https://hhai-conference.org/2027/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Mandatory title and abstract",
+          "type": "Abstract",
+          "deadline": "2027-01-21T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-papers/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Full and blue-sky papers",
+          "type": "Paper",
+          "deadline": "2027-01-28T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-papers/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Working papers",
+          "type": "Poster / WiP",
+          "deadline": "2027-01-28T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-papers/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Journal article presentation — extended abstract",
+          "type": "Contribution / application",
+          "deadline": "2027-01-28T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-papers/",
+          "status": "verified",
+          "note": "Initial proposal to present already-published journal work; not a revision or final accepted-paper upload. Official cutoff 23:59 AoE."
+        },
+        {
+          "label": "Workshop / interactive-event / tutorial proposals",
+          "type": "Workshop",
+          "deadline": "2027-01-21T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-workshop-and-tutorial-proposals/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "deadline": "2027-02-05T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-posters-and-demos/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Demos",
+          "type": "Demo",
+          "deadline": "2027-02-05T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/call-for-posters-and-demos/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "deadline": "2027-02-05T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2027/doctoral-consortium/",
+          "status": "verified",
+          "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
+        }
+      ],
+      "note": "Sixth HHAI conference, hosted at the University of Oulu. Initial title/abstract, paper, poster/demo, doctoral and event-proposal deadlines are recorded separately."
+    },
+    {
+      "id": "icusi2026",
+      "family_id": "icusi",
+      "year": 2026,
+      "start": "2026-10-15",
+      "end": "2026-10-16",
+      "location": "Stefan cel Mare University, Suceava, Romania",
+      "region": "Europe",
+      "url": "https://rochi.utcluj.ro/icusi/",
+      "event_source": "https://rochi.utcluj.ro/icusi/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Provisional title and abstract",
+          "type": "Abstract",
+          "date": "2026-07-06",
+          "source": "https://rochi.utcluj.ro/icusi/important-dates/",
+          "status": "verified",
+          "note": "Required provisional metadata ahead of the extended initial contribution cutoff; not a provisional conference date. No cutoff hour/timezone verified."
+        },
+        {
+          "label": "All contribution submissions (extended)",
+          "type": "Paper",
+          "date": "2026-07-12",
+          "source": "https://rochi.utcluj.ro/icusi/important-dates/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 14 June 2026. Cutoff time/timezone not verified."
+        }
+      ],
+      "note": "ICUSI continues the previous RoCHI conferences with a broader user-system-interaction scope."
+    },
+    {
+      "id": "ecem2026",
+      "family_id": "ecem",
+      "year": 2026,
+      "start": "2026-08-30",
+      "end": "2026-09-03",
+      "location": "Ulm University, Ulm, Germany",
+      "region": "Europe",
+      "url": "https://www.uni-ulm.de/in/ecem2026/",
+      "event_source": "https://www.uni-ulm.de/in/ecem2026/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Symposium proposals",
+          "type": "Special session",
+          "date": "2026-02-14",
+          "source": "https://www.uni-ulm.de/in/ecem2026/participation/submission/",
+          "status": "verified",
+          "note": "Initial submission deadline extended from 31 January 2026. Cutoff time/timezone not verified."
+        },
+        {
+          "label": "Talk abstracts",
+          "type": "Abstract",
+          "date": "2026-04-07",
+          "source": "https://www.uni-ulm.de/in/ecem2026/participation/submission/",
+          "status": "verified",
+          "note": "Extended from 31 March 2026. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Poster abstracts",
+          "type": "Poster / WiP",
+          "date": "2026-04-07",
+          "source": "https://www.uni-ulm.de/in/ecem2026/participation/submission/",
+          "status": "verified",
+          "note": "Extended from 31 March 2026. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "23rd ECEM. Includes applied XR and usability research; abstracts published in Journal of Eye Movement Research."
+    },
+    {
+      "id": "cphs2024",
+      "family_id": "cphs",
+      "year": 2024,
+      "start": "2024-12-12",
+      "end": "2024-12-13",
+      "location": "Antalya, Türkiye",
+      "region": "Europe",
+      "url": "https://ifac-control.org/wp-content/uploads/2026/08/IFAC_Newsletter_2025_2_April.pdf",
+      "event_source": "https://ifac-control.org/wp-content/uploads/2026/08/IFAC_Newsletter_2025_2_April.pdf",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Final dates from the general chair's post-event IFAC report. An older TC/calendar lists 12–14 December; the later report explicitly describes the event as held 12–13 December."
+    },
+    {
+      "id": "cphs2022",
+      "family_id": "cphs",
+      "year": 2022,
+      "start": "2022-12-01",
+      "end": "2022-12-02",
+      "location": "Houston, Texas, USA",
+      "region": "Outside Europe",
+      "url": "https://tc.ifac-control.org/9/2/test",
+      "event_source": "https://tc.ifac-control.org/9/2/test",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Historical dates from the sponsoring IFAC technical committee; initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "ecce2025",
+      "family_id": "ecce",
+      "year": 2025,
+      "start": "2025-10-07",
+      "end": "2025-10-10",
+      "location": "Tallinn, Estonia",
+      "region": "Europe",
+      "url": "https://transform.tlu.ee/ecce-2025/",
+      "event_source": "https://transform.tlu.ee/ecce-2025/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Long and short papers",
+          "type": "Paper",
+          "date": "2025-04-14",
+          "source": "https://transform.tlu.ee/ecce-2025/calls/papers/",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        },
+        {
+          "label": "Work-in-progress papers",
+          "type": "Poster / WiP",
+          "date": "2025-05-12",
+          "source": "https://transform.tlu.ee/ecce-2025/calls/papers/",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        }
+      ],
+      "note": "Historical ECCE edition; other contribution calls not fully archived in this update."
+    },
+    {
+      "id": "epique2023",
+      "family_id": "epique",
+      "year": 2023,
+      "start": "2023-07-04",
+      "end": "2023-07-07",
+      "location": "Paris, France",
+      "region": "France",
+      "url": "https://arpege-recherche.org/fr/activites/colloques-epique/12e-colloque-epique",
+      "event_source": "https://arpege-recherche.org/fr/activites/colloques-epique/12e-colloque-epique",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Doctoriales on 4 July; main colloquium 5–7 July. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "epique2021",
+      "family_id": "epique",
+      "year": 2021,
+      "start": "2021-07-06",
+      "end": "2021-07-09",
+      "location": "Online (host: Université de Lille, France)",
+      "region": "France",
+      "url": "https://arpege-recherche.org/fr/activites/colloques-epique/11e-colloque-epique",
+      "event_source": "https://arpege-recherche.org/fr/activites/colloques-epique/11e-colloque-epique",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Held by videoconference because of the pandemic, not physically in Lille. Includes Doctoriales on 6 July. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "ichms2025",
+      "family_id": "ichms",
+      "year": 2025,
+      "start": "2025-05-26",
+      "end": "2025-05-28",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "region": "Outside Europe",
+      "url": "https://ieee-ichms.org/2025/index.html",
+      "event_source": "https://www.ieeesmc.org/conferences/calendar/smc-society-conferences/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Fifth ICHMS edition; dates/location recorded by the IEEE SMC Society. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "smc2026",
+      "family_id": "smc",
+      "year": 2026,
+      "start": "2026-10-04",
+      "end": "2026-10-07",
+      "location": "Bellevue, Washington, USA",
+      "region": "Outside Europe",
+      "url": "https://www.ieeesmc2026.org/",
+      "event_source": "https://www.ieeesmc2026.org/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Special-session, workshop and tutorial proposals",
+          "type": "Workshop",
+          "date": "2026-02-23",
+          "source": "https://www.ieeesmc2026.org/Important-Dates",
+          "status": "verified",
+          "note": "Extended from 8 February 2026; cutoff time/timezone not verified."
+        },
+        {
+          "label": "Regular, special-session and workshop papers (extended)",
+          "type": "Paper",
+          "date": "2026-05-03",
+          "source": "https://www.ieeesmc2026.org/Important-Dates",
+          "status": "verified",
+          "note": "Extended-submission stage after 22 March and 19 April cutoffs, still for initial contributions. No cutoff time/timezone verified."
+        },
+        {
+          "label": "Work-in-progress and industry papers (extended)",
+          "type": "Poster / WiP",
+          "date": "2026-05-17",
+          "source": "https://www.ieeesmc2026.org/Important-Dates",
+          "status": "verified",
+          "note": "Extended-submission stage after 12 April and 3 May cutoffs, still for initial contributions. No cutoff time/timezone verified."
+        },
+        {
+          "label": "Journal presentation-only proposals",
+          "type": "Contribution / application",
+          "date": "2026-05-31",
+          "source": "https://www.ieeesmc2026.org/Important-Dates",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        },
+        {
+          "label": "Two-page abstracts",
+          "type": "Abstract",
+          "date": "2026-07-12",
+          "source": "https://www.ieeesmc2026.org/Important-Dates",
+          "status": "verified",
+          "note": "Cutoff time and timezone not verified; date-only precision retained."
+        }
+      ],
+      "note": "Edition site and detailed schedule confirm 4–7 October, superseding the shorter 4–6 October entry in the generic society calendar."
+    },
+    {
+      "id": "neuroergonomics2024",
+      "family_id": "neuroergonomics",
+      "year": 2024,
+      "start": "2024-07-08",
+      "end": "2024-07-12",
+      "location": "Campus Victoire, Bordeaux, France",
+      "region": "France",
+      "url": "https://neuroergonomics2024.inria.fr/",
+      "event_source": "https://www.bordeaux-neurocampus.fr/en/event/neuroergonomics/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Dates verified on the local organizer's Bordeaux Neurocampus page. The original Inria edition site was unavailable to the web reader; initial submission deadlines not retrieved."
+    },
+    {
+      "id": "hhai2026",
+      "family_id": "hhai",
+      "year": 2026,
+      "start": "2026-07-06",
+      "end": "2026-07-10",
+      "location": "Brussels, Belgium",
+      "region": "Europe",
+      "url": "https://hhai-conference.org/2026/",
+      "event_source": "https://hhai-conference.org/2026/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Mandatory title and abstract",
+          "type": "Abstract",
+          "deadline": "2026-02-27T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2026/cfp/",
+          "status": "verified",
+          "note": "Extended from 20 February 2026; official cutoff 23:59 AoE."
+        },
+        {
+          "label": "Full, blue-sky and working papers",
+          "type": "Paper",
+          "deadline": "2026-03-06T23:59:00-12:00",
+          "source": "https://hhai-conference.org/2026/cfp/",
+          "status": "verified",
+          "note": "Extended from 27 February 2026; official cutoff 23:59 AoE."
+        }
+      ],
+      "note": "Workshops/tutorials 6–7 July; main conference 8–10 July. Only verified initial submission stages recorded."
+    },
+    {
+      "id": "ecem2024",
+      "family_id": "ecem",
+      "year": 2024,
+      "start": "2024-08-25",
+      "end": "2024-08-29",
+      "location": "Maynooth, Ireland",
+      "region": "Europe",
+      "url": "https://www.ecem2024.org/",
+      "event_source": "https://www.uni-ulm.de/in/ecem2026/about-ecem/history-and-goals/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Historical dates from the ECEM 2026 organizer's conference history. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "ecem2022",
+      "family_id": "ecem",
+      "year": 2022,
+      "start": "2022-08-21",
+      "end": "2022-08-25",
+      "location": "Leicester, United Kingdom",
+      "region": "Europe",
+      "url": "https://www.uni-ulm.de/in/ecem2026/about-ecem/history-and-goals/",
+      "event_source": "https://www.uni-ulm.de/in/ecem2026/about-ecem/history-and-goals/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Historical dates from the ECEM 2026 organizer's conference history. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "icmi2026",
+      "family_id": "icmi",
+      "year": 2026,
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "location": "Naples, Italy",
+      "region": "Europe",
+      "url": "https://icmi.acm.org/2026/",
+      "event_source": "https://icmi.acm.org/2026/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Mandatory paper abstract",
+          "type": "Abstract",
+          "deadline": "2026-04-13T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "Published general rule: 23:59 PDT (GMT−7). No AoE override stated for abstracts."
+        },
+        {
+          "label": "Papers (extended)",
+          "type": "Paper",
+          "deadline": "2026-04-23T23:59:00-12:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "The paper-submission row explicitly overrides the generic PDT rule with AoE. Extended initial deadline; previous cutoff not verified."
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "deadline": "2026-01-23T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "Published general rule is 23:59 PDT (GMT−7), retained literally even for winter dates. Extended initial proposal cutoff."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "deadline": "2026-04-30T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "Extended initial proposals; published general cutoff 23:59 PDT (GMT−7)."
+        },
+        {
+          "label": "Special-session proposals",
+          "type": "Special session",
+          "deadline": "2026-02-18T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "Published general rule is 23:59 PDT (GMT−7), retained literally even for winter dates."
+        },
+        {
+          "label": "Grand-challenge organizer proposals",
+          "type": "Contribution / application",
+          "deadline": "2026-01-16T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/important-dates/",
+          "status": "verified",
+          "note": "Extended initial proposals; published general rule 23:59 PDT (GMT−7), retained literally."
+        },
+        {
+          "label": "Demonstrations and exhibits",
+          "type": "Demo",
+          "deadline": "2026-06-21T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/call-for-demos/",
+          "status": "verified",
+          "note": "Dedicated track call confirms 21 June despite strike-through on the central historical table. General 23:59 PDT rule: https://icmi.acm.org/2026/important-dates/"
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "deadline": "2026-05-20T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/doctoral-consortium/",
+          "status": "verified",
+          "note": "Dedicated call confirms extension from 6 May to 20 May. General 23:59 PDT rule: https://icmi.acm.org/2026/important-dates/"
+        },
+        {
+          "label": "Late-breaking results",
+          "type": "Poster / WiP",
+          "deadline": "2026-06-21T23:59:00-07:00",
+          "source": "https://icmi.acm.org/2026/late-breaking-results/",
+          "status": "verified",
+          "note": "Dedicated track call confirms 21 June. General 23:59 PDT rule: https://icmi.acm.org/2026/important-dates/"
+        }
+      ],
+      "note": "Main conference 6–8 October; workshops/tutorials 5 and 9 October. Blue-sky submission date is crossed out without a replacement on the central page, so it is not manufactured. Rebuttals, final versions and author registration excluded."
     }
   ],
   "journals": [

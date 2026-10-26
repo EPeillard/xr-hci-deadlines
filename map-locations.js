@@ -350,5 +350,77 @@ window.CONFERENCE_LOCATIONS = [
     ],
     "precision": "city",
     "checked": "2026-10-26"
+  },
+  {
+    "name": "Redondo Beach",
+    "lat": 33.84918,
+    "lon": -118.38841,
+    "country": "US",
+    "source": "https://www.geonames.org/5386785/",
+    "locations": [
+      "Redondo Beach, California, USA"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
+  },
+  {
+    "name": "Osaka",
+    "lat": 34.69379,
+    "lon": 135.50107,
+    "country": "JP",
+    "source": "https://www.geonames.org/1853909/",
+    "locations": [
+      "Ritsumeikan University, Osaka, Japan"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
+  },
+  {
+    "name": "Berlin",
+    "lat": 52.52437,
+    "lon": 13.41053,
+    "country": "DE",
+    "source": "https://www.geonames.org/2950159/",
+    "locations": [
+      "Estrel Hotel and Congress Center, Berlin, Germany"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
+  },
+  {
+    "name": "Valletta",
+    "lat": 35.89968,
+    "lon": 14.5148,
+    "country": "MT",
+    "source": "https://www.geonames.org/2562305/",
+    "locations": [
+      "Grand Hotel Excelsior, Valletta, Malta"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
+  },
+  {
+    "name": "Oulu",
+    "lat": 65.01236,
+    "lon": 25.46816,
+    "country": "FI",
+    "source": "https://www.geonames.org/643492/",
+    "locations": [
+      "University of Oulu, Oulu, Finland"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
+  },
+  {
+    "name": "Ho Chi Minh City",
+    "lat": 10.82302,
+    "lon": 106.62965,
+    "country": "VN",
+    "source": "https://www.geonames.org/1566083/",
+    "locations": [
+      "Ho Chi Minh City, Vietnam"
+    ],
+    "precision": "city",
+    "checked": "2026-10-26"
   }
 ];

@@ -1,6 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..'),data=JSON.parse(fs.readFileSync(path.join(root,'conferences.json'),'utf8'));
 require('./map-check.cjs');
+require('./bookmarks-check.cjs');
 const ids=new Set();for(const f of data.families){assert(!ids.has(f.id));ids.add(f.id);assert(f.topics.length);assert(f.impact.status==='verified'||f.impact.status==='estimated');assert.equal(new URL(f.impact.source).protocol,'https:');assert(f.forecast.event.start<=f.forecast.event.end);assert(f.forecast.submission.start<=f.forecast.submission.end);assert.equal(f.forecast.status,'estimated');assert(f.forecast.sources.length);}
 for(const e of data.editions){assert(ids.has(e.family_id));assert(e.start<=e.end);assert(['verified','tentative'].includes(e.event_status));for(const t of e.tracks){assert(t.deadline||t.date);if(t.deadline)assert(/[+-]\d{2}:\d{2}$/.test(t.deadline));assert.equal(new URL(t.source).protocol,'https:');}}
 for(const j of data.journals){assert(j.title&&j.topics.length);if(j.impact.quartile)assert.equal(j.impact.status,'verified');if(j.impact.status==='estimated')assert(!j.impact.label.startsWith('JIF'),'No fabricated citation metrics');}
@@ -47,7 +48,7 @@ historyRun("historyYear='1900';render()");
 assert.equal(historyRun('visible.length'),0);
 assert(historyRun("$('results').innerHTML.includes('history-year')"),'Empty history keeps year filter available');
 run("selectedTopics.add('Perception');selectedTopics.add('XR');render()");assert(run('visible.length')>0&&run('visible.length')<data.families.length);assert(run("visible.every(f=>f.topics.includes('XR')&&f.topics.includes('Perception'))"));assert(run("$('journal-link').href.includes('topic=Perception')"));
-run("selectedTopics.clear();$('scope').value='France / Francophone';render()");assert.equal(run('visible.length'),8);
+run("selectedTopics.clear();$('scope').value='France / Francophone';render()");assert.equal(run('visible.length'),data.families.filter(f=>f.scope==='France / Francophone').length);
 run("$('scope').value='';view='deadlines';$('estimates').checked=false;render()");assert(run('visible.length')>10);assert(run("visible.every(r=>r.status!=='estimated')"));
 assert(!run("forecasts().some(r=>r.family.id==='iros'&&r.year===2027)"),'Known paper deadline supersedes a forecast');
 const ics=run("calendar(visible,'deadlines',new Date('2026-10-13T10:00:00Z'))");assert(ics.includes('DTSTART:20261027T115959Z'),'AoE next-day UTC conversion');assert(ics.includes('World Haptics')&&ics.includes('STATUS:TENTATIVE'),'Announced tentative deadlines included and labeled');assert(ics.includes('DTSTART;VALUE=DATE:20270301'),'Date-only deadlines stay date-only');for(const line of ics.split('\r\n'))assert(Buffer.byteLength(line)<=75);
