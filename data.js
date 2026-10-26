@@ -3107,6 +3107,72 @@ window.CONFERENCE_DATA = {
         "checked": "2026-10-26",
         "edition": 2027
       }
+    },
+    {
+      "id": "iea",
+      "name": "IEA Congress",
+      "scope": "International",
+      "topics": [
+        "Human factors",
+        "HCI",
+        "Robotics",
+        "Trust"
+      ],
+      "url": "https://ergonomics.org.uk/events-calendar/iea2027.html",
+      "why": "International ergonomics and human factors congress: human–system integration, inclusive design, intelligent automation and complex sociotechnical systems.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://iea.cc/meetings/upcoming-congresses/",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of reach within the international ergonomics and human factors community. No official conference rank, quartile, citation metric or acceptance rate is claimed."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            11
+          ],
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            8
+          ],
+          "submission_months": [],
+          "source": "https://iea.cc/meetings/upcoming-congresses/"
+        }
+      ],
+      "forecast": {
+        "year": 2030,
+        "event": {
+          "start": "2030-07-01",
+          "end": "2030-09-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2029-10-01",
+          "end": "2029-12-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 3,
+        "type": "Paper",
+        "basis": "IEA explicitly describes this congress as triennial. Observed 2024 and announced 2027 events fall in August; the event-month envelope is widened by one month. Only one submission season is recorded: November 2026 for the August 2027 event. Its previous-year offset is preserved and widened by one month for 2030 planning. No 2030 edition, venue or call is announced; this is an uncertain forecast.",
+        "sources": [
+          "https://iea.cc/meetings/upcoming-congresses/",
+          "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/"
+        ]
+      }
     }
   ],
   "editions": [
@@ -7291,6 +7357,93 @@ window.CONFERENCE_DATA = {
       ],
       "event_status": "verified",
       "note": "Historical edition. Poster calls verified; other historical tracks remain incomplete."
+    },
+    {
+      "id": "iea2027",
+      "family_id": "iea",
+      "year": 2027,
+      "start": "2027-08-23",
+      "end": "2027-08-25",
+      "location": "Excel London, London, United Kingdom",
+      "region": "Europe",
+      "url": "https://ergonomics.org.uk/events-calendar/iea2027.html",
+      "event_source": "https://iea.cc/meetings/upcoming-congresses/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Research papers — initial extended abstract",
+          "type": "Paper",
+          "date": "2026-11-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "Initial 2–3-page extended abstract; oral or poster presentation. An accepted submission may be expanded to an eight-page final paper. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
+          "status": "verified"
+        },
+        {
+          "label": "Practitioner case studies",
+          "type": "Paper",
+          "date": "2026-11-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "Initial 2–3 pages; oral or poster presentation. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
+          "status": "verified"
+        },
+        {
+          "label": "PhD research showcase",
+          "type": "Doctoral",
+          "date": "2026-11-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "One-page research abstract for the dedicated doctoral work-in-progress showcase. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "date": "2026-11-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "Proposals for 90-minute interactive workshops. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
+          "status": "verified"
+        },
+        {
+          "label": "Panel discussion proposals",
+          "type": "Panel",
+          "date": "2026-11-01",
+          "source": "https://ergonomics.org.uk/events-calendar/iea2027.html",
+          "note": "Panel proposal format and template are listed on the official submission page. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
+          "status": "verified"
+        },
+        {
+          "label": "Final papers — research and case studies",
+          "type": "Camera-ready",
+          "date": "2027-03-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "Final versions for accepted submissions; not a new-submission deadline. Cutoff time and timezone are not stated.",
+          "status": "verified"
+        },
+        {
+          "label": "Author registration (required)",
+          "type": "Contribution / application",
+          "date": "2027-03-01",
+          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
+          "note": "Accepted authors must book by this date. Registration requirement, not a new contribution call. Cutoff time and timezone are not stated.",
+          "status": "verified"
+        }
+      ],
+      "note": "Theme: The Human Advantage — Progress starts with people. Main strands: Beyond Automation, Inclusive by Design and Navigating Complexity. Research papers/case studies are peer reviewed; proceedings are published by CIEHF with DOIs, with optional journal extensions. Venue suite name differs between an older IEA site-visit report and the current host page; Excel London is confirmed."
+    },
+    {
+      "id": "iea2024",
+      "family_id": "iea",
+      "year": 2024,
+      "start": "2024-08-25",
+      "end": "2024-08-29",
+      "location": "Jeju Island, South Korea",
+      "region": "Outside Europe",
+      "url": "https://iea2024.com/",
+      "event_source": "https://iea.cc/meetings/upcoming-congresses/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Previous triennial IEA Congress; dates and location verified in the official IEA archive. Historical contribution deadlines not retrieved."
     }
   ],
   "journals": [

@@ -14,10 +14,10 @@ function setup(page,query=''){
  const document={body:{dataset:{page}},getElementById:id=>elements.get(id)||null,querySelectorAll:()=>[],createElement:()=>el()};
  const ctx=vm.createContext({window:{CONFERENCE_DATA:data},document,location:{search:query},URLSearchParams,localStorage:{getItem:()=>null,setItem(){}},Date:Clock,TextEncoder,Blob,URL,setTimeout(){},setInterval(){}});vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),ctx);return code=>vm.runInContext(code,ctx);
 }
-const run=setup('conferences');assert.equal(run('visible.length'),40);
+const run=setup('conferences');assert.equal(run('visible.length'),data.families.length);
 assert(run("$('results').innerHTML.includes('Conference directory')&&$('results').innerHTML.includes('Usual timing')&&!$('results').innerHTML.includes('<th class=\"date-col\">Next submission</th>')"));
 run("$('estimates').checked=false;$('type').value='Paper';render()");
-assert.equal(run('visible.length'),40,'Directory is independent of open calls and forecast switches');
+assert.equal(run('visible.length'),data.families.length,'Directory is independent of open calls and forecast switches');
 run("$('type').value='';$('estimates').checked=true;render()");
 const plannerRun=setup('conferences');
 plannerRun("view='deadlines';$('past').checked=true;$('estimates').checked=false;render()");
@@ -45,7 +45,7 @@ assert(historyIcs.includes('DTSTART:20240404T000000Z'),'UIST 2024 uses 17:00 Pac
 historyRun("historyYear='1900';render()");
 assert.equal(historyRun('visible.length'),0);
 assert(historyRun("$('results').innerHTML.includes('history-year')"),'Empty history keeps year filter available');
-run("selectedTopics.add('Perception');selectedTopics.add('XR');render()");assert(run('visible.length')>0&&run('visible.length')<40);assert(run("visible.every(f=>f.topics.includes('XR')&&f.topics.includes('Perception'))"));assert(run("$('journal-link').href.includes('topic=Perception')"));
+run("selectedTopics.add('Perception');selectedTopics.add('XR');render()");assert(run('visible.length')>0&&run('visible.length')<data.families.length);assert(run("visible.every(f=>f.topics.includes('XR')&&f.topics.includes('Perception'))"));assert(run("$('journal-link').href.includes('topic=Perception')"));
 run("selectedTopics.clear();$('scope').value='France / Francophone';render()");assert.equal(run('visible.length'),8);
 run("$('scope').value='';view='deadlines';$('estimates').checked=false;render()");assert(run('visible.length')>10);assert(run("visible.every(r=>r.status!=='estimated')"));
 assert(!run("forecasts().some(r=>r.family.id==='iros'&&r.year===2027)"),'Known paper deadline supersedes a forecast');
@@ -111,3 +111,13 @@ const icraLogo=data.families.find(f=>f.id==='icra').logo;
 assert(icraLogo.url.includes('ICRA2027_TitleMark_vertical_PNG.png'));
 assert(!/favicon|apple-touch-icon/i.test(icraLogo.url));
 assert.equal(icraLogo.source,'https://2027.ieee-icra.org/');
+
+// The IEA congress is triennial and preserves date-only submission precision.
+const iea=data.families.find(f=>f.id==='iea');
+assert.equal(iea.forecast.cadence_years,3);
+assert.equal(iea.forecast.year,2030);
+const ieaRun=setup('conferences');
+assert(ieaRun("seasonCell(families.get('iea')).includes('Every three years')"));
+const ieaEdition=data.editions.find(e=>e.id==='iea2027');
+assert(ieaEdition.tracks.filter(t=>t.type!=='Camera-ready'&&!t.label.includes('registration')).every(t=>t.date==='2026-11-01'&&!t.deadline));
+assert(ieaRun("calendar([{...data.editions.find(e=>e.id==='iea2027')}],'events').includes('DTEND;VALUE=DATE:20270826')"));
