@@ -31,3 +31,9 @@ Estimated visibility is a qualitative editorial proxy: High visibility, Speciali
 ## Validation
 
 Run `node tests/check.cjs`, then `python3 scripts/build.py`. Check both pages, tag filtering, the monthly planner and small-screen horizontal table navigation in a browser. A push to `main` triggers deployment.
+
+## Conference logos
+
+Conference lists may show a small official visual identity next to the name. The optional family-level `logo` object records its HTTPS image `url`, official page `source`, `checked` date, and an `edition` year when edition-specific. An edition logo is a recognition aid for the series, not a claim that historical editions used the same artwork. Its year is available in the image tooltip. Only conference branding is used, not generic ACM/IEEE or sponsor logos.
+
+Images load lazily from the official source, without a referrer. Missing or failed images are hidden; the conference name and link remain usable. To add or replace a logo, verify the image on the official page and update `conferences.json`, then regenerate the root `data.js`.

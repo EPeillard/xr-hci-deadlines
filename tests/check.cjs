@@ -82,3 +82,26 @@ assert(provisionalIcs.includes('STATUS:TENTATIVE'));
 assert(!provisionalIcs.includes('Expected paper deadline window'));
 const tentativeCall=ismarRun("calendar([{status:'tentative',kind:'call',family:families.get('ismar'),edition:data.editions.find(e=>e.id==='ismar2027'),index:0,label:'Papers',date:'2027-04-01',source:'https://www.ismar.net/'}],'mixed')");
 assert(tentativeCall.includes('STATUS:TENTATIVE')&&tentativeCall.includes('DTSTART;VALUE=DATE:20270401'));
+
+// Conference logos are optional, decorative, and confined to conference lists.
+const logoRun=setup('conferences');
+const branded=data.families.find(f=>f.logo);
+assert(branded,'At least one official conference logo is available');
+for(const f of data.families.filter(f=>f.logo)){
+ assert.equal(new URL(f.logo.url).protocol,'https:');
+ assert.equal(new URL(f.logo.source).protocol,'https:');
+ assert(f.logo.checked);
+}
+assert(logoRun("$('results').innerHTML.includes('class=\"conference-logo\"')"));
+assert(logoRun("conferenceName({name:'No logo',url:'https://example.org/'}).includes('No logo')&&!conferenceName({name:'No logo',url:'https://example.org/'}).includes('<img')"));
+assert(logoRun("!conferenceName({name:'Unsafe',url:'https://example.org/',logo:{url:'javascript:alert(1)'}}).includes('<img')"));
+assert(logoRun("conferenceName(data.families.find(f=>f.logo)).includes('alt=\"\" aria-hidden=\"true\"')"));
+logoRun("view='deadlines';render()");
+assert(logoRun("$('results').innerHTML.includes('conference-logo')"));
+logoRun("view='history';historyYear='2026';render()");
+assert(logoRun("$('results').innerHTML.includes('conference-logo')"));
+const logoJournalRun=setup('journals');
+assert(!logoJournalRun("$('results').innerHTML.includes('conference-logo')"));
+assert(logoRun("(()=>{const old=document.querySelectorAll;const img={complete:true,naturalWidth:0,hidden:false,addEventListener(){}};document.querySelectorAll=()=>[img];bindConferenceLogos();document.querySelectorAll=old;return img.hidden;})()"),'Failed logo hides without replacing the conference name');
+assert(logoRun("(()=>{const old=document.querySelectorAll;let error;const img={complete:false,naturalWidth:0,hidden:false,addEventListener(type,handler){if(type==='error')error=handler;}};document.querySelectorAll=()=>[img];bindConferenceLogos();error();document.querySelectorAll=old;return img.hidden;})()"),'Later load failures are also hidden');
+console.log('Passed: optional conference logos, history/planner coverage, safe URLs, accessibility and failed-image fallback.');

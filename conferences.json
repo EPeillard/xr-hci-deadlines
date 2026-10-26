@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "families": [
     {
       "id": "vr",
@@ -101,6 +101,12 @@
           "https://ieeevr.org/2027/contribute/papers/",
           "https://ieeevr.org/2026/contribute/papers/"
         ]
+      },
+      "logo": {
+        "url": "https://ieeevr.org/2027/assets/images/favicon/apple-touch-icon.png",
+        "source": "https://ieeevr.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -190,6 +196,11 @@
           "https://www.ieeeismar.net/2024/index.html%3Fp%3D69.html",
           "https://www.ismar.net/ismar_future/"
         ]
+      },
+      "logo": {
+        "url": "https://ismar.net/assets/img/ismarnet.png",
+        "source": "https://ismar.net/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -279,6 +290,11 @@
           "https://vrst.acm.org/vrst2025/index.php/call-for-participation/",
           "https://vrst.hosting.acm.org/vrst2024/submitting/"
         ]
+      },
+      "logo": {
+        "url": "https://vrst.acm.org/images/logo_mark.png",
+        "source": "https://vrst.acm.org/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -371,6 +387,12 @@
           "https://sui.acm.org/2025/call-for-participation/index.html",
           "https://sui.acm.org/2024/papers"
         ]
+      },
+      "logo": {
+        "url": "https://sui.acm.org/2026/wp-content/uploads/2025/12/cropped-logo-vettoriale-192x192.png",
+        "source": "https://sui.acm.org/2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -461,6 +483,12 @@
           "https://sap.acm.org/2024/",
           "https://sap.acm.org/2024/pages/call-for-papers/"
         ]
+      },
+      "logo": {
+        "url": "https://sap.acm.org/2026/images/logo/sap_logo.png",
+        "source": "https://sap.acm.org/2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -561,6 +589,12 @@
           "https://chi2025.acm.org/",
           "https://chi2025.acm.org/for-authors/papers/"
         ]
+      },
+      "logo": {
+        "url": "https://chi2027.acm.org/wp-content/uploads/2026/04/cropped-favicon-512x512-2-192x192.png",
+        "source": "https://chi2027.acm.org/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -643,6 +677,12 @@
           "https://uist.acm.org/2025/cfp/",
           "https://uist.acm.org/2024/cfp/"
         ]
+      },
+      "logo": {
+        "url": "https://uist.acm.org/2026/assets/images/logo/uist_26_logo.png",
+        "source": "https://uist.acm.org/2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -1160,6 +1200,11 @@
         "sources": [
           "https://www.ergonomie-self.org/"
         ]
+      },
+      "logo": {
+        "url": "https://www.ergonomie-self.org/wp-content/uploads/2015/09/cropped-self-favicon1-192x192.png",
+        "source": "https://www.ergonomie-self.org/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -1214,6 +1259,11 @@
           "https://www.gdr-robotique.org/journees_gdr/2026/",
           "https://www.gdr-robotique.org/"
         ]
+      },
+      "logo": {
+        "url": "https://www.gdr-robotique.org/im/top_site/gdrrob.png?v=2026",
+        "source": "https://www.gdr-robotique.org/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -1271,6 +1321,11 @@
           "https://laval-virtual.com/en/revolution-call/",
           "https://laval-virtual.com/en/students-call/"
         ]
+      },
+      "logo": {
+        "url": "https://laval-virtual.com/wp-content/uploads/2025/09/Icone-Site-150x150.png",
+        "source": "https://laval-virtual.com/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -1527,6 +1582,12 @@
           "https://sites.uwasa.fi/nordichi2026/",
           "https://www.nordichi2024.se/"
         ]
+      },
+      "logo": {
+        "url": "https://sites.uwasa.fi/nordichi2026/wp-content/blogs.dir/4/files/sites/222/2024/10/cropped-nordichi-mark-color-rgb-192x192.png",
+        "source": "https://sites.uwasa.fi/nordichi2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -1584,6 +1645,12 @@
           "https://www.britchi.uk/",
           "https://www.britchi.uk/authors/"
         ]
+      },
+      "logo": {
+        "url": "https://www.britchi.uk/images/logo_2026.png",
+        "source": "https://www.britchi.uk/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -1688,6 +1755,12 @@
           "https://eg2027.isti.cnr.it/call-for-papers/",
           "https://srmv2.eg.org/COMFy/Conference/EG_2027"
         ]
+      },
+      "logo": {
+        "url": "https://eg2027.isti.cnr.it/wp-content/uploads/2026/07/cropped-EuroGraphics2027-favicon-192x192.png",
+        "source": "https://eg2027.isti.cnr.it/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -1992,6 +2065,12 @@
         "sources": [
           "https://iss.acm.org/2026/"
         ]
+      },
+      "logo": {
+        "url": "https://iss.acm.org/iss-www-assets/img/iss-logo-2026.png",
+        "source": "https://iss.acm.org/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -2075,6 +2154,12 @@
           "https://eics.acm.org/2027/contributions/full-papers.html",
           "https://eics.acm.org/2027/assets/data/site.js?v=c68ab78"
         ]
+      },
+      "logo": {
+        "url": "https://eics.acm.org/2027/assets/img/logo/logo-hero.svg",
+        "source": "https://eics.acm.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2145,6 +2230,12 @@
           "https://mobilehci.acm.org/2026/",
           "https://mobilehci.acm.org/2026/submit/papers.html"
         ]
+      },
+      "logo": {
+        "url": "https://mobilehci.acm.org/2027/wp-content/uploads/2026/08/MOBILE-HCI2027-square-150x150.png",
+        "source": "https://mobilehci.acm.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2239,6 +2330,12 @@
           "https://etra.acm.org/2026/",
           "https://etra.acm.org/2025/"
         ]
+      },
+      "logo": {
+        "url": "https://etra.acm.org/2027/img/logos/LOGO-ETRA27.png",
+        "source": "https://etra.acm.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2295,6 +2392,12 @@
         "sources": [
           "https://2027.worldhaptics.org/"
         ]
+      },
+      "logo": {
+        "url": "https://2027.worldhaptics.org/wp-content/uploads/2026/07/cropped-WHC027-Logo-1-192x192.png",
+        "source": "https://2027.worldhaptics.org/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2377,6 +2480,12 @@
           "https://humanrobotinteraction.org/2025/full-papers/",
           "https://humanrobotinteraction.org/2024/fullpaper/index.html"
         ]
+      },
+      "logo": {
+        "url": "https://humanrobotinteraction.org/2027/wp-content/themes/hri-2027-preview2-new/favicon.svg",
+        "source": "https://humanrobotinteraction.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2486,6 +2595,12 @@
         "sources": [
           "https://www.ieee-ras.org/conferences-workshops/fully-sponsored/icra/"
         ]
+      },
+      "logo": {
+        "url": "https://2027.ieee-icra.org/wp-content/uploads/sites/4/2024/04/cropped-favicon-192x192.png",
+        "source": "https://2027.ieee-icra.org/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2586,6 +2701,12 @@
         "sources": [
           "https://icmi.acm.org/2026/important-dates/"
         ]
+      },
+      "logo": {
+        "url": "https://icmi.acm.org/2026/wp-content/uploads/2025/10/cropped-ARTBOARDS_PNGALTARISOLUZIONE_BIANCO-192x192.png",
+        "source": "https://icmi.acm.org/2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -2652,6 +2773,11 @@
           "https://iva.acm.org/index/",
           "https://iva.acm.org/2026/"
         ]
+      },
+      "logo": {
+        "url": "https://iva.acm.org/index/wp-content/uploads/2023/01/website_favicon-150x150.png",
+        "source": "https://iva.acm.org/index/",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -2801,6 +2927,12 @@
           "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
           "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/"
         ]
+      },
+      "logo": {
+        "url": "https://www.ubicomp.org/ubicomp-iswc-2026/wp-content/uploads/2025/12/ubicomp_2026_icon-66x66.png",
+        "source": "https://www.ubicomp.org/ubicomp-iswc-2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -2927,6 +3059,12 @@
           "https://2026.augmented-humans.org/submission-guideline/",
           "https://augmented-humans.org/call-for-full-short-papers/"
         ]
+      },
+      "logo": {
+        "url": "https://augmented-humans.org/apple-touch-icon.png",
+        "source": "https://augmented-humans.org/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     }
   ],
