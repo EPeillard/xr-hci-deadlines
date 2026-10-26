@@ -114,6 +114,19 @@ assert.equal(icraLogo.source,'https://2027.ieee-icra.org/');
 
 // The IEA congress is triennial and preserves date-only submission precision.
 const iea=data.families.find(f=>f.id==='iea');
+// The directory covers ergonomics venues near HCI/XR, and only initial contribution calls.
+for(const e of data.editions)for(const t of e.tracks){
+ assert(!['Revision','Camera-ready'].includes(t.type),'No post-submission milestones: '+e.id);
+ assert(!/Author registration|Workshops — website URL|Intention of participation|Student volunteer applications/i.test(t.label));
+}
+for(const id of ['hfes-europe','hfes-aspire','ahfe','iea','self'])assert(data.families.find(f=>f.id===id).topics.includes('Ergonomics'));
+const ergoRun=setup('conferences','?topic=Ergonomics');
+assert(ergoRun('visible.length')>=5);
+assert(ergoRun("visible.every(f=>f.topics.includes('Ergonomics'))"));
+const ergoJournals=setup('journals','?topic=Ergonomics');
+assert(ergoJournals('visible.length')>=5);
+assert(ergoJournals("visible.every(j=>j.topics.includes('Ergonomics'))"));
+assert.equal(data.editions.find(e=>e.id==='hfes-europe2027').tracks[0].deadline,'2026-12-15T16:00:00+01:00');
 assert.equal(iea.forecast.cadence_years,3);
 assert.equal(iea.forecast.year,2030);
 const ieaRun=setup('conferences');

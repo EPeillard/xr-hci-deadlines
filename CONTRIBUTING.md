@@ -18,6 +18,8 @@ Use `status: verified` only for published information checked against an officia
 
 A milestone may have an ISO 8601 `deadline` with a verified timezone offset, or a `date` when the cutoff time is unknown. AoE is UTC−12. Never substitute midnight UTC. Check required abstract registration stages separately from full submission.
 
+Only list deadlines for initial contribution submissions: papers, required abstracts/metadata, posters/WiP, demonstrations, doctoral contributions, workshop/tutorial/panel proposals, competitions and presentation proposals. Do not add rebuttals, revised submissions, camera-ready/final versions, publication uploads, presentation material delivery, author registration, workshop website delivery or volunteer applications. Separate initial submission rounds that accept new work remain eligible. This rule applies to history, the planner, calendar and subscription data alike.
+
 Forecasts use `{start, end, precision: month}` ranges for event and submission windows. Record the assumed recurrence, historical edition observations, source links, basis, confidence and limitations. No-history forecasts must state the broad seasonal / lead-time assumption, rather than pretending it came from multiple editions. Do not extrapolate annually for a biennial event. Conference-linked journals can have several rounds: record them separately when available.
 
 Estimates are displayed, but never exported to ICS as exact dates. If a deadline is extended, update it and record the former date in `note`.

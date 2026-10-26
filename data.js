@@ -1161,7 +1161,9 @@ window.CONFERENCE_DATA = {
       "scope": "France / Francophone",
       "topics": [
         "Human factors",
-        "HCI"
+        "HCI",
+        "Ergonomics",
+        "Cognitive ergonomics"
       ],
       "url": "https://www.ergonomie-self.org/",
       "why": "Ergonomics, work practices and human factors.",
@@ -3116,7 +3118,9 @@ window.CONFERENCE_DATA = {
         "Human factors",
         "HCI",
         "Robotics",
-        "Trust"
+        "Trust",
+        "Ergonomics",
+        "Cognitive ergonomics"
       ],
       "url": "https://ergonomics.org.uk/events-calendar/iea2027.html",
       "why": "International ergonomics and human factors congress: human–system integration, inclusive design, intelligent automation and complex sociotechnical systems.",
@@ -3171,6 +3175,189 @@ window.CONFERENCE_DATA = {
         "sources": [
           "https://iea.cc/meetings/upcoming-congresses/",
           "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/"
+        ]
+      }
+    },
+    {
+      "id": "hfes-europe",
+      "name": "HFES Europe",
+      "scope": "Europe",
+      "topics": [
+        "HCI",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://www.hfes-europe.org/annual-meeting/",
+      "why": "Human-system design and evaluation, cognition and human performance. Relevant to interactive technologies and artificial environments; broader than HCI/XR.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.hfes-europe.org/annual-meeting/",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            4
+          ],
+          "submission_months": [
+            12
+          ],
+          "source": "https://www.hfes-europe.org/submit-abstract-conference/"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-03-01",
+          "end": "2028-05-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-11-01",
+          "end": "2028-01-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual series. One verified edition: April 2027, abstract deadline December 2026. Widen each observed month by one month, preserving the previous-year submission offset. No 2028 edition or call announced in the checked sources.",
+        "sources": [
+          "https://www.hfes-europe.org/annual-meeting/",
+          "https://www.hfes-europe.org/submit-abstract-conference/"
+        ]
+      }
+    },
+    {
+      "id": "hfes-aspire",
+      "name": "HFES ASPIRE",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition",
+      "why": "HFES annual meeting, spanning human-system interfaces and human performance. The society's technical groups include Extended Reality, User Experience and Cognitive Engineering; not every session concerns XR.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            9,
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition"
+        }
+      ],
+      "forecast": {
+        "year": 2027,
+        "event": {
+          "start": "2027-08-01",
+          "end": "2027-11-30",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-01-01",
+          "end": "2027-05-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual meeting; September–October 2027 is officially announced and supersedes this broad event planning window. No submission date verified. January–May is an editorial 4–9-month lead-time assumption, not a historical pattern or published call.",
+        "sources": [
+          "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition",
+          "https://www.hfes.org/Groups-Communities/Technical-Groups"
+        ]
+      }
+    },
+    {
+      "id": "ahfe",
+      "name": "AHFE",
+      "scope": "International",
+      "topics": [
+        "HCI",
+        "XR",
+        "Human factors",
+        "Ergonomics",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://ahfe.org/",
+      "why": "Applied human factors and ergonomics, with explicit tracks on HCI, usability, neuroergonomics, simulation and virtual environments. Select the relevant affiliated track; the umbrella conference covers many other fields.",
+      "kind": "Conference",
+      "verified": true,
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://ahfe.org/",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "history": [
+        {
+          "year": 2026,
+          "event_months": [
+            7
+          ],
+          "submission_months": [],
+          "source": "https://ahfe.org/series.html"
+        },
+        {
+          "year": 2027,
+          "event_months": [
+            7
+          ],
+          "submission_months": [
+            12
+          ],
+          "source": "https://ahfe.org/submissions.html"
+        }
+      ],
+      "forecast": {
+        "year": 2028,
+        "event": {
+          "start": "2028-06-01",
+          "end": "2028-08-31",
+          "precision": "month"
+        },
+        "submission": {
+          "start": "2027-11-01",
+          "end": "2028-01-31",
+          "precision": "month"
+        },
+        "status": "estimated",
+        "confidence": "Low",
+        "cadence_years": 1,
+        "type": "Paper",
+        "basis": "Annual summer series; observed July 2026 and July 2027. Event month widened by one month. Only the 2027 call was verified: December 2026 abstracts, widened by one month with the previous-year offset preserved. Separate AHFE regional/seasonal events are not pooled. No 2028 edition announced in checked sources.",
+        "sources": [
+          "https://ahfe.org/series.html",
+          "https://ahfe.org/submissions.html"
         ]
       }
     }
@@ -3245,22 +3432,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2027-02-11T23:59:59-12:00",
           "source": "https://etra.acm.org/2027/",
           "note": "The mandatory abstract deadline precedes this submission. AoE date normalized to the end of the published day (UTC−12).",
-          "status": "verified"
-        },
-        {
-          "label": "Revised full papers — existing submissions",
-          "type": "Revision",
-          "deadline": "2027-02-19T23:59:59-12:00",
-          "source": "https://etra.acm.org/2027/",
-          "note": "Revision milestone, not a new-submission deadline. AoE date normalized to the end of the published day (UTC−12).",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — accepted full and short papers",
-          "type": "Camera-ready",
-          "deadline": "2027-04-19T23:59:59-12:00",
-          "source": "https://etra.acm.org/2027/",
-          "note": "Final versions for accepted papers, not a new-submission deadline. AoE date normalized to the end of the published day (UTC−12).",
           "status": "verified"
         }
       ],
@@ -3739,38 +3910,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — posters",
-          "type": "Camera-ready",
-          "deadline": "2027-01-12T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/posters/",
-          "note": "For accepted contributions, not a new-submission deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — demos",
-          "type": "Camera-ready",
-          "deadline": "2027-01-12T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/demos/",
-          "note": "For accepted contributions, not a new-submission deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — Doctoral Consortium",
-          "type": "Camera-ready",
-          "deadline": "2027-01-05T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/doctoral-consortium/",
-          "note": "For accepted contributions, not a new-submission deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — XR Gallery",
-          "type": "Camera-ready",
-          "deadline": "2027-01-12T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/xrgallery/",
-          "note": "For accepted contributions, not a new-submission deadline.",
-          "status": "verified"
-        },
-        {
           "label": "3DUI Contest — title and team registration",
           "type": "Abstract",
           "date": "2026-12-11",
@@ -3792,38 +3931,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-12-18T23:59:59-12:00",
           "source": "https://ieeevr.org/2027/contribute/Panels/",
           "note": "",
-          "status": "verified"
-        },
-        {
-          "label": "Panels — one-page description",
-          "type": "Camera-ready",
-          "deadline": "2027-01-12T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/Panels/",
-          "note": "For accepted panels, not a new proposal.",
-          "status": "verified"
-        },
-        {
-          "label": "Student volunteer applications",
-          "type": "Contribution / application",
-          "deadline": "2027-01-09T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/student-volunteers/",
-          "note": "Applications open 1 December 2026; application form is still TBA.",
-          "status": "verified"
-        },
-        {
-          "label": "Tutorials — advance program descriptions",
-          "type": "Camera-ready",
-          "deadline": "2026-12-23T23:59:59-12:00",
-          "source": "https://ieeevr.org/2027/contribute/tutorials/",
-          "note": "For accepted tutorials.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — 3DUI Contest",
-          "type": "Camera-ready",
-          "date": "2027-01-12",
-          "source": "https://ieeevr.org/2027/contribute/3dui-contest/",
-          "note": "For accepted contest entries, not a new-submission deadline. AoE date published; exact cutoff time is not stated.",
           "status": "verified"
         }
       ],
@@ -3870,30 +3977,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-11-02T23:59:59-12:00",
           "source": "https://tei.acm.org/2027/cfp-studios.html",
           "note": "",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — work in progress",
-          "type": "Camera-ready",
-          "date": "2026-12-07",
-          "source": "https://tei.acm.org/2027/cfp-wip.html",
-          "note": "Final materials for accepted contributions; cutoff time is not specified.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — Graduate Student Consortium",
-          "type": "Camera-ready",
-          "date": "2026-12-04",
-          "source": "https://tei.acm.org/2027/cfp-gsc.html",
-          "note": "Final materials for accepted contributions; cutoff time is not specified.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — studios",
-          "type": "Camera-ready",
-          "date": "2026-11-30",
-          "source": "https://tei.acm.org/2027/cfp-studios.html",
-          "note": "Final materials for accepted contributions; cutoff time is not specified.",
           "status": "verified"
         }
       ],
@@ -4002,22 +4085,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Scientific papers — revised version after rebuttal",
-          "type": "Revision",
-          "deadline": "2026-07-02T23:59:59-12:00",
-          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track",
-          "note": "For the first round; extended from 24 June to 2 July 2026, not a new-paper submission.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — scientific papers",
-          "type": "Camera-ready",
-          "deadline": "2026-09-07T23:59:59-12:00",
-          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track",
-          "note": "For accepted scientific papers.",
-          "status": "verified"
-        },
-        {
           "label": "Poster extended abstracts",
           "type": "Poster / WiP",
           "deadline": "2026-09-14T23:59:59-12:00",
@@ -4031,22 +4098,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-09-14T23:59:59-12:00",
           "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/poster-demo-track",
           "note": "Extended from 7 September to 14 September 2026.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — posters and demos",
-          "type": "Camera-ready",
-          "deadline": "2026-09-28T23:59:59-12:00",
-          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/poster-demo-track",
-          "note": "For accepted contributions.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — applications",
-          "type": "Camera-ready",
-          "deadline": "2026-10-05T23:59:59-12:00",
-          "source": "https://www.euroxr.org/conference-2026/calls-and-guidelines/applications-track",
-          "note": "For accepted application-track contributions; distinct from poster/demo camera-ready.",
           "status": "verified"
         }
       ],
@@ -4130,14 +4181,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Papers — resubmission",
-          "type": "Revision",
-          "date": "2026-12-03",
-          "source": "https://chi2027.acm.org/",
-          "note": "For existing submissions; homepage specifies AoE dates without an explicit cutoff hour.",
-          "status": "verified"
-        },
-        {
           "label": "Digital Experience Competition",
           "type": "Contribution / application",
           "date": "2026-12-04",
@@ -4175,22 +4218,6 @@ window.CONFERENCE_DATA = {
           "date": "2027-01-14",
           "source": "https://chi2027.acm.org/authors/journals/",
           "note": "Presentation of already accepted journal articles at CHI, not a journal submission or a new review. Official deadline is end of day AoE; recorded date-only without an explicit clock time.",
-          "status": "verified"
-        },
-        {
-          "label": "Dissertation roundtable — TAPS upload",
-          "type": "Camera-ready",
-          "date": "2027-03-04",
-          "source": "https://chi2027.acm.org/authors/student-mentoring-program-dissertation-research-roundtable/",
-          "note": "For accepted participants; final paper source upload. End-of-day AoE, exact clock time not stated. The contingency grace period is not an extension.",
-          "status": "verified"
-        },
-        {
-          "label": "Dissertation roundtable — publication-ready version",
-          "type": "Camera-ready",
-          "date": "2027-03-18",
-          "source": "https://chi2027.acm.org/authors/student-mentoring-program-dissertation-research-roundtable/",
-          "note": "For accepted participants; final TAPS-approved version in PCS. End-of-day AoE, exact clock time not stated. The contingency grace period is not an extension.",
           "status": "verified"
         }
       ],
@@ -4248,54 +4275,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Full papers — rebuttals",
-          "type": "Revision",
-          "deadline": "2026-11-03T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For existing full-paper submissions.",
-          "status": "verified"
-        },
-        {
-          "label": "Short contributions — rebuttals",
-          "type": "Revision",
-          "deadline": "2026-11-17T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For existing short contributions.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — full papers and short contributions",
-          "type": "Camera-ready",
-          "deadline": "2026-12-18T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For accepted contributions.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — videos and demos, alt.HRI and competition",
-          "type": "Camera-ready",
-          "deadline": "2027-01-02T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For accepted videos/demos, alt.HRI, industry white papers and student design competition contributions.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — HRI Pioneers",
-          "type": "Camera-ready",
-          "deadline": "2027-01-02T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For accepted Pioneers contributions.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — late breaking reports",
-          "type": "Camera-ready",
-          "deadline": "2027-01-25T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "For accepted late-breaking reports.",
-          "status": "verified"
-        },
-        {
           "label": "Mandatory abstract — full papers",
           "type": "Abstract",
           "deadline": "2026-09-11T23:59:00-12:00",
@@ -4333,22 +4312,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-10-05T23:59:00-12:00",
           "source": "https://humanrobotinteraction.org/2027/submissions/",
           "note": "Historical organizer proposal deadline; participant submissions depend on each workshop.",
-          "status": "verified"
-        },
-        {
-          "label": "Workshops — website URL",
-          "type": "Contribution / application",
-          "deadline": "2026-12-20T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "Administrative milestone for accepted workshop organizers, not a participant paper deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Workshops — camera-ready description",
-          "type": "Camera-ready",
-          "deadline": "2027-01-02T23:59:00-12:00",
-          "source": "https://humanrobotinteraction.org/2027/submissions/",
-          "note": "Proceedings description for accepted workshops.",
           "status": "verified"
         }
       ],
@@ -4520,27 +4483,11 @@ window.CONFERENCE_DATA = {
           "status": "tentative"
         },
         {
-          "label": "Intention of participation",
-          "type": "Contribution / application",
-          "date": "2027-04-23",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
-          "status": "tentative"
-        },
-        {
           "label": "Hands-on demonstrations and haptic design showcase",
           "type": "Demo",
           "date": "2027-05-07",
           "source": "https://2027.worldhaptics.org/",
           "note": "Organizer-published tentative date; cutoff time not stated.",
-          "status": "tentative"
-        },
-        {
-          "label": "Camera-ready papers",
-          "type": "Camera-ready",
-          "date": "2027-05-14",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "For accepted papers; organizer-published tentative date, cutoff time not stated.",
           "status": "tentative"
         }
       ],
@@ -5544,30 +5491,6 @@ window.CONFERENCE_DATA = {
           "status": "verified",
           "note": "",
           "deadline": "2026-03-16T23:59:00-12:00"
-        },
-        {
-          "label": "Papers — rebuttal",
-          "type": "Revision",
-          "deadline": "2026-05-31T23:59:00-12:00",
-          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
-          "note": "Historical milestone for existing submissions; not a new-submission deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Papers — camera-ready",
-          "type": "Camera-ready",
-          "deadline": "2026-07-21T23:59:00-12:00",
-          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
-          "note": "Historical final-version deadline published in the official CFP; for accepted papers, not new submissions.",
-          "status": "verified"
-        },
-        {
-          "label": "Paper presentation video",
-          "type": "Camera-ready",
-          "deadline": "2026-09-04T23:59:00-12:00",
-          "source": "https://www.ieeeismar.net/2026/call-for-papers/",
-          "note": "Historical presentation-material deadline for accepted papers. The optional but recommended teaser video has the same deadline.",
-          "status": "verified"
         }
       ],
       "event_status": "verified",
@@ -5854,14 +5777,6 @@ window.CONFERENCE_DATA = {
           "source": "https://augmented-humans.org/call-for-full-short-papers/",
           "note": "AoE date published; exact cutoff time not specified.",
           "status": "verified"
-        },
-        {
-          "label": "Camera-ready — full and short papers",
-          "type": "Camera-ready",
-          "date": "2027-02-05",
-          "source": "https://augmented-humans.org/call-for-full-short-papers/",
-          "note": "For accepted papers. AoE date published; exact cutoff time is not stated.",
-          "status": "verified"
         }
       ],
       "note": "Posters, demos and workshop proposal deadlines are TBA on the official 2027 website."
@@ -5936,67 +5851,11 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Full papers — rebuttal",
-          "type": "Revision",
-          "deadline": "2026-11-30T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Full papers — revised version",
-          "type": "Revision",
-          "deadline": "2027-01-26T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Full papers — camera-ready",
-          "type": "Camera-ready",
-          "deadline": "2027-02-23T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-papers/",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "STARs — revised report",
-          "type": "Revision",
-          "deadline": "2027-02-05T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-stars/",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Tutorials — final material",
-          "type": "Camera-ready",
-          "deadline": "2027-03-25T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-tutorials/",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Education papers — camera-ready",
-          "type": "Camera-ready",
-          "deadline": "2027-04-09T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-education-papers/",
-          "note": "For accepted education-track contributions.",
-          "status": "verified"
-        },
-        {
           "label": "Short papers — submission",
           "type": "Paper",
           "deadline": "2027-01-22T23:59:00+00:00",
           "source": "https://eg2027.isti.cnr.it/call-for-short-papers/",
           "note": "Self-contained papers up to four pages; accepted papers appear in the EG Digital Library, not the full-paper CGF track.",
-          "status": "verified"
-        },
-        {
-          "label": "Short papers — camera-ready",
-          "type": "Camera-ready",
-          "deadline": "2027-04-19T23:59:00+00:00",
-          "source": "https://eg2027.isti.cnr.it/call-for-short-papers/",
-          "note": "For accepted short papers; not a new contribution deadline.",
           "status": "verified"
         }
       ],
@@ -6036,30 +5895,6 @@ window.CONFERENCE_DATA = {
           "date": "2027-02-19",
           "source": "https://eics.acm.org/2027/contributions/full-papers.html",
           "note": "AoE date, cutoff hour not stated. Date read from the live official site data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
-          "status": "verified"
-        },
-        {
-          "label": "Rebuttal — round 1",
-          "type": "Revision",
-          "date": "2026-09-30",
-          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
-          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
-          "status": "verified"
-        },
-        {
-          "label": "Rebuttal — round 2",
-          "type": "Revision",
-          "date": "2027-01-11",
-          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
-          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
-          "status": "verified"
-        },
-        {
-          "label": "Rebuttal — round 3",
-          "type": "Revision",
-          "date": "2027-04-02",
-          "source": "https://eics.acm.org/2027/contributions/full-papers.html",
-          "note": "For existing submissions. AoE date, hour not stated. Live official date data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
           "status": "verified"
         }
       ],
@@ -6496,30 +6331,6 @@ window.CONFERENCE_DATA = {
           "source": "https://sap.acm.org/2026/call-for-posters/",
           "note": "",
           "status": "verified"
-        },
-        {
-          "label": "Camera-ready — conference papers",
-          "type": "Camera-ready",
-          "deadline": "2026-07-07T23:59:59-12:00",
-          "source": "https://sap.acm.org/2026/call-for-papers/",
-          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — poster material",
-          "type": "Camera-ready",
-          "deadline": "2026-07-10T23:59:59-12:00",
-          "source": "https://sap.acm.org/2026/call-for-posters/",
-          "note": "For accepted posters.",
-          "status": "verified"
-        },
-        {
-          "label": "Conference papers — revised version",
-          "type": "Revision",
-          "deadline": "2026-06-19T23:59:59-12:00",
-          "source": "https://sap.acm.org/2026/call-for-papers/",
-          "note": "For existing conference-paper submissions; not a new submission.",
-          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -6558,30 +6369,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2025-06-09T23:59:59-12:00",
           "source": "https://sap.acm.org/2025/pages/call-for-posters/",
           "note": "",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — conference papers",
-          "type": "Camera-ready",
-          "deadline": "2025-06-13T23:59:59-12:00",
-          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
-          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — poster material",
-          "type": "Camera-ready",
-          "deadline": "2025-06-30T23:59:59-12:00",
-          "source": "https://sap.acm.org/2025/pages/call-for-posters/",
-          "note": "For accepted posters.",
-          "status": "verified"
-        },
-        {
-          "label": "Conference papers — revised version",
-          "type": "Revision",
-          "deadline": "2025-06-04T23:59:59-12:00",
-          "source": "https://sap.acm.org/2025/pages/call-for-papers/",
-          "note": "For existing conference-paper submissions; not a new submission.",
           "status": "verified"
         }
       ],
@@ -6624,22 +6411,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — conference papers",
-          "type": "Camera-ready",
-          "deadline": "2024-06-28T23:59:59-12:00",
-          "source": "https://sap.acm.org/2024/pages/call-for-papers/",
-          "note": "For accepted conference papers; distinct from the invited TAP journal second-review cycle.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — poster material",
-          "type": "Camera-ready",
-          "deadline": "2024-07-26T23:59:59-12:00",
-          "source": "https://sap.acm.org/2024/pages/call-for-posters/",
-          "note": "For accepted posters.",
-          "status": "verified"
-        },
-        {
           "label": "Late-breaking poster abstracts",
           "type": "Poster / WiP",
           "deadline": "2024-08-26T23:59:59-12:00",
@@ -6678,14 +6449,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — posters and demos",
-          "type": "Camera-ready",
-          "date": "2026-08-04",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/posters-demos-2026/",
-          "note": "For accepted contributions; AoE. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
           "label": "Doctoral Colloquium",
           "type": "Doctoral",
           "date": "2026-06-19",
@@ -6694,35 +6457,11 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — Doctoral Colloquium",
-          "type": "Camera-ready",
-          "date": "2026-07-22",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/doctoral-colloquium/",
-          "note": "For accepted participants. Extended from 20 July to 22 July 2026; end-of-day AoE. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
           "label": "Workshop organizer proposals",
           "type": "Workshop",
           "date": "2026-04-30",
           "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
           "note": "AoE. Individual workshop participant deadlines differ. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — workshop descriptions",
-          "type": "Camera-ready",
-          "date": "2026-05-25",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
-          "note": "For accepted organizers; inclusion in ACM DL. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — workshop papers",
-          "type": "Camera-ready",
-          "date": "2026-07-31",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/workshop-cfp/",
-          "note": "For accepted workshop contributions included in ACM DL; not a common new-submission deadline. Published date only; cutoff clock time not stated.",
           "status": "verified"
         },
         {
@@ -6742,14 +6481,6 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — ISWC Notes and Briefs",
-          "type": "Camera-ready",
-          "date": "2026-07-31",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
-          "note": "Extended from 24 July to 31 July 2026; for accepted contributions. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
           "label": "ISWC Design Exhibition",
           "type": "Contribution / application",
           "date": "2026-06-22",
@@ -6758,35 +6489,11 @@ window.CONFERENCE_DATA = {
           "status": "verified"
         },
         {
-          "label": "Camera-ready — ISWC Design Exhibition",
-          "type": "Camera-ready",
-          "date": "2026-08-03",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-design-exhibition-cfp/",
-          "note": "For accepted contributions; extended from 24 July to 3 August 2026. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
           "label": "Education Forum — invited extended abstracts",
           "type": "Poster / WiP",
           "deadline": "2026-07-01T23:59:00-12:00",
           "source": "https://www.ubicomp.org/ubicomp-iswc-2026/education-forum/",
           "note": "Invitation-based track; prospective contributors may contact the chairs.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — Education Forum",
-          "type": "Camera-ready",
-          "date": "2026-07-24",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/education-forum/",
-          "note": "For accepted invited contributions; AoE. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Student volunteer applications",
-          "type": "Contribution / application",
-          "date": "2026-07-22",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-volunteers-2026/",
-          "note": "Lottery opened 7 July 2026. Published date only; cutoff clock time not stated.",
           "status": "verified"
         },
         {
@@ -6803,14 +6510,6 @@ window.CONFERENCE_DATA = {
           "date": "2026-07-15",
           "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-challenge-2026/",
           "note": "Extended from 10 July to 15 July 2026; later stage after idea registration. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — Student Challenge",
-          "type": "Camera-ready",
-          "deadline": "2026-08-04T23:59:00-12:00",
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2026/student-challenge-2026/",
-          "note": "Extended from 25 July to 4 August 2026; for accepted submissions.",
           "status": "verified"
         }
       ],
@@ -6943,14 +6642,6 @@ window.CONFERENCE_DATA = {
           "source": "https://dis.acm.org/2027/interactivity-arts/",
           "note": "Organizer labels contribution dates provisional: https://dis.acm.org/2027/contributing/ . AoE date; exact cutoff time is not stated.",
           "status": "tentative"
-        },
-        {
-          "label": "Camera-ready — papers, pictorials, workshops, interactivity and Doctoral Consortium",
-          "type": "Camera-ready",
-          "date": "2027-04-16",
-          "source": "https://dis.acm.org/2027/contributing/",
-          "note": "Organizer labels contribution dates provisional; cutoff time is not stated. Official pages conflict: the overall contribution table and the Pictorials important-dates table list 16 April 2027, while the Pictorials “Upon Acceptance” text says 28 April 2027. The recorded 16 April value is retained pending clarification; check the organizers before final upload. Sources: https://dis.acm.org/2027/contributing/ and https://dis.acm.org/2027/pictorials/ .",
-          "status": "tentative"
         }
       ],
       "event_status": "verified",
@@ -7022,38 +6713,6 @@ window.CONFERENCE_DATA = {
           "date": "2026-02-27",
           "source": "https://dis.acm.org/2026/",
           "note": "Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — papers and pictorials",
-          "type": "Camera-ready",
-          "date": "2026-04-08",
-          "source": "https://dis.acm.org/2026/",
-          "note": "For accepted contributions. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — workshops",
-          "type": "Camera-ready",
-          "date": "2026-04-10",
-          "source": "https://dis.acm.org/2026/",
-          "note": "For accepted proposals. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — Provocations/WiP and Doctoral Consortium",
-          "type": "Camera-ready",
-          "date": "2026-04-12",
-          "source": "https://dis.acm.org/2026/",
-          "note": "For accepted contributions. Published date only; cutoff clock time not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Camera-ready — interactivity",
-          "type": "Camera-ready",
-          "date": "2026-04-24",
-          "source": "https://dis.acm.org/2026/",
-          "note": "For accepted demonstrations. Published date only; cutoff clock time not stated.",
           "status": "verified"
         }
       ],
@@ -7189,14 +6848,6 @@ window.CONFERENCE_DATA = {
           "source": "https://jfig2023.lirmm.fr/important-dates/",
           "note": "Cutoff time and timezone not stated.",
           "status": "verified"
-        },
-        {
-          "label": "Camera-ready",
-          "type": "Camera-ready",
-          "date": "2023-11-03",
-          "source": "https://jfig2023.lirmm.fr/important-dates/",
-          "note": "For accepted contributions; cutoff time and timezone not stated.",
-          "status": "verified"
         }
       ],
       "event_status": "verified"
@@ -7228,22 +6879,6 @@ window.CONFERENCE_DATA = {
           "source": "https://mobilehci.acm.org/2027/submission/",
           "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only.",
           "status": "verified"
-        },
-        {
-          "label": "Papers — revised submission",
-          "type": "Revision",
-          "date": "2027-05-13",
-          "source": "https://mobilehci.acm.org/2027/submission/",
-          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only. For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Papers — camera-ready",
-          "type": "Camera-ready",
-          "date": "2027-07-15",
-          "source": "https://mobilehci.acm.org/2027/submission/",
-          "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only. For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
         }
       ],
       "event_status": "verified",
@@ -7267,30 +6902,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-01-29T23:59:00-12:00",
           "source": "https://mobilehci.acm.org/2026/submit/papers.html",
           "note": "",
-          "status": "verified"
-        },
-        {
-          "label": "Papers — revised submission",
-          "type": "Revision",
-          "deadline": "2026-05-07T23:59:00-12:00",
-          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Papers — e-rights completion",
-          "type": "Camera-ready",
-          "deadline": "2026-06-22T23:59:00-12:00",
-          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
-          "status": "verified"
-        },
-        {
-          "label": "Papers — TAPS upload",
-          "type": "Camera-ready",
-          "deadline": "2026-07-03T23:59:00-12:00",
-          "source": "https://mobilehci.acm.org/2026/submit/papers.html",
-          "note": "For existing or accepted submissions; not a new contribution deadline.",
           "status": "verified"
         }
       ],
@@ -7344,14 +6955,6 @@ window.CONFERENCE_DATA = {
           "deadline": "2026-05-15T23:59:00-12:00",
           "source": "https://cscw.acm.org/2026/posters.html",
           "note": "",
-          "status": "verified"
-        },
-        {
-          "label": "Posters — camera-ready",
-          "type": "Camera-ready",
-          "deadline": "2026-07-10T23:59:00-12:00",
-          "source": "https://cscw.acm.org/2026/posters.html",
-          "note": "For accepted posters; not a new contribution deadline.",
           "status": "verified"
         }
       ],
@@ -7410,22 +7013,6 @@ window.CONFERENCE_DATA = {
           "source": "https://ergonomics.org.uk/events-calendar/iea2027.html",
           "note": "Panel proposal format and template are listed on the official submission page. Published submission date only: the organizer says midnight on 1 November without a verified timezone. No extensions are planned.",
           "status": "verified"
-        },
-        {
-          "label": "Final papers — research and case studies",
-          "type": "Camera-ready",
-          "date": "2027-03-01",
-          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
-          "note": "Final versions for accepted submissions; not a new-submission deadline. Cutoff time and timezone are not stated.",
-          "status": "verified"
-        },
-        {
-          "label": "Author registration (required)",
-          "type": "Contribution / application",
-          "date": "2027-03-01",
-          "source": "https://ergonomics.org.uk/asset/630A18B3-F47F-43D8-85A5FD036E68DB2E/",
-          "note": "Accepted authors must book by this date. Registration requirement, not a new contribution call. Cutoff time and timezone are not stated.",
-          "status": "verified"
         }
       ],
       "note": "Theme: The Human Advantage — Progress starts with people. Main strands: Beyond Automation, Inclusive by Design and Navigating Complexity. Research papers/case studies are peer reviewed; proceedings are published by CIEHF with DOIs, with optional journal extensions. Venue suite name differs between an older IEA site-visit report and the current host page; Excel London is confirmed."
@@ -7444,6 +7031,116 @@ window.CONFERENCE_DATA = {
       "checked": "2026-10-26",
       "tracks": [],
       "note": "Previous triennial IEA Congress; dates and location verified in the official IEA archive. Historical contribution deadlines not retrieved."
+    },
+    {
+      "id": "hfes-europe2027",
+      "family_id": "hfes-europe",
+      "year": 2027,
+      "start": "2027-04-27",
+      "end": "2027-04-30",
+      "location": "Sapienza University of Rome, Rome, Italy",
+      "region": "Europe",
+      "url": "https://www.hfes-europe.org/annual-meeting/",
+      "event_source": "https://www.hfes-europe.org/submit-abstract-conference/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Abstract submissions",
+          "type": "Abstract",
+          "deadline": "2026-12-15T16:00:00+01:00",
+          "source": "https://www.hfes-europe.org/submit-abstract-conference/",
+          "status": "verified",
+          "note": "Maximum one abstract per presenting author. Official cutoff 16:00 CET."
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "deadline": "2026-11-15T16:00:00+01:00",
+          "source": "https://www.hfes-europe.org/submit-abstract-conference/",
+          "status": "verified",
+          "note": "Letter of intent and short abstract; interactive workshops up to three hours on 27 April. Official cutoff 16:00 CET."
+        }
+      ],
+      "note": "Workshops on 27 April; main meeting 28–30 April. The annual-meeting page lists the main days only; the submission page explicitly includes the pre-conference workshop day."
+    },
+    {
+      "id": "hfes-aspire2027",
+      "family_id": "hfes-aspire",
+      "year": 2027,
+      "start": "2027-09-27",
+      "end": "2027-10-01",
+      "location": "DeVos Place Convention Center, Grand Rapids, Michigan, USA",
+      "region": "Outside Europe",
+      "url": "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition",
+      "event_source": "https://www.hfes.org/About/Latest-News/aspire-2027-the-hfes-annual-meeting-and-exhibition",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "HFES annual meeting and exhibition. No official 2027 submission deadline verified; the family-level submission window is explicitly estimated."
+    },
+    {
+      "id": "ahfe2027",
+      "family_id": "ahfe",
+      "year": 2027,
+      "start": "2027-07-26",
+      "end": "2027-07-30",
+      "location": "University of Málaga, Málaga, Spain",
+      "region": "Europe",
+      "url": "https://ahfe.org/",
+      "event_source": "https://ahfe.org/",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Paper presentations — initial abstracts",
+          "type": "Paper",
+          "date": "2026-12-04",
+          "source": "https://ahfe.org/submissions.html",
+          "note": "500-word abstract for paper presentation; full proceedings paper is optional. No cutoff time/timezone verified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters / demonstrations — abstracts",
+          "type": "Poster / WiP",
+          "date": "2026-12-28",
+          "source": "https://ahfe.org/submissions.html",
+          "note": "300-word abstract; includes demonstrations. No cutoff time/timezone verified.",
+          "status": "verified"
+        },
+        {
+          "label": "Special interest groups — abstracts",
+          "type": "Contribution / application",
+          "date": "2026-12-28",
+          "source": "https://ahfe.org/submissions.html",
+          "note": "500-word abstract. No cutoff time/timezone verified.",
+          "status": "verified"
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2026-12-04",
+          "source": "https://ahfe.org/submissions.html",
+          "note": "300-word proposal with audience, objectives and presenter biography. No cutoff time/timezone verified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Broad umbrella conference with relevant affiliated HCI/XR tracks. Only initial contribution submission deadlines are listed; no cutoff time or timezone was verified."
+    },
+    {
+      "id": "ahfe2026",
+      "family_id": "ahfe",
+      "year": 2026,
+      "start": "2026-07-20",
+      "end": "2026-07-24",
+      "location": "Fenerbahçe University, Istanbul, Türkiye",
+      "region": "Europe",
+      "url": "https://ahfe.org/series.html",
+      "event_source": "https://ahfe.org/series.html",
+      "event_status": "verified",
+      "checked": "2026-10-26",
+      "tracks": [],
+      "note": "Historical summer edition from the official series archive. Submission deadlines not retrieved; not conflated with the separate December 2026 Hawaii edition."
     }
   ],
   "journals": [
@@ -7525,7 +7222,9 @@ window.CONFERENCE_DATA = {
       "topics": [
         "HCI",
         "Human factors",
-        "XR"
+        "XR",
+        "Ergonomics",
+        "Cognitive ergonomics"
       ],
       "url": "https://www.tandfonline.com/journals/hihc20",
       "why": "Human-computer interaction, user experience and evaluation.",
@@ -7870,6 +7569,120 @@ window.CONFERENCE_DATA = {
         "source": "https://www.ieee-ras.org/publications/ra-l/",
         "checked": "2026-10-13",
         "note": "IEEE RAS reports JCR Impact Factor 5.3 in 2025. The source label is retained without assuming a different metric year."
+      }
+    },
+    {
+      "id": "applied-ergonomics",
+      "title": "Applied Ergonomics",
+      "name": "Applied Ergonomics",
+      "publisher": "Elsevier",
+      "topics": [
+        "Ergonomics",
+        "Human factors",
+        "HCI",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://www.sciencedirect.com/journal/applied-ergonomics",
+      "why": "Applied ergonomic evaluation and human-system design. Appropriate for HCI/XR work with a substantial ergonomics or human-performance contribution; not a general graphics journal.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.sciencedirect.com/journal/applied-ergonomics",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      }
+    },
+    {
+      "id": "human-factors",
+      "title": "Human Factors: The Journal of the Human Factors and Ergonomics Society",
+      "name": "Human Factors",
+      "publisher": "Sage / HFES",
+      "topics": [
+        "Ergonomics",
+        "Human factors",
+        "HCI",
+        "Cognitive ergonomics",
+        "XR"
+      ],
+      "url": "https://journals.sagepub.com/home/hfs",
+      "why": "Human capabilities, performance and interaction with technology; includes human-system interfaces, simulation and VR-based training. XR studies should advance human factors knowledge.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://journals.sagepub.com/author-instructions/hfs",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      }
+    },
+    {
+      "id": "ergonomics",
+      "title": "Ergonomics",
+      "name": "Ergonomics",
+      "publisher": "Taylor & Francis",
+      "topics": [
+        "Ergonomics",
+        "Human factors",
+        "HCI",
+        "Cognitive ergonomics"
+      ],
+      "url": "https://www.tandfonline.com/journals/terg20",
+      "why": "Physical, cognitive and organisational ergonomics, including equipment, tasks and human-system performance. HCI/XR submissions need an explicit ergonomic contribution.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://iea.cc/journals/",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      }
+    },
+    {
+      "id": "ergonomics-design",
+      "title": "Ergonomics in Design: The Quarterly of Human Factors Applications",
+      "name": "Ergonomics in Design",
+      "publisher": "Sage / HFES",
+      "topics": [
+        "Ergonomics",
+        "Human factors",
+        "HCI"
+      ],
+      "url": "https://journals.sagepub.com/home/erg",
+      "why": "Practice-oriented applications and usability of products, interfaces, tools and environments; useful for applied human-centred design work.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://journals.sagepub.com/home/erg",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      }
+    },
+    {
+      "id": "ijie",
+      "title": "International Journal of Industrial Ergonomics",
+      "name": "IJIE",
+      "publisher": "Elsevier",
+      "topics": [
+        "Ergonomics",
+        "Human factors",
+        "HCI"
+      ],
+      "url": "https://www.sciencedirect.com/journal/international-journal-of-industrial-ergonomics",
+      "why": "Human performance and design in industrial systems. Relevant to XR-assisted work and interactive tools when industrial ergonomics is the central contribution.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://iea.cc/journals/",
+        "checked": "2026-10-26",
+        "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
       }
     }
   ],
