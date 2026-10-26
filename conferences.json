@@ -1568,7 +1568,9 @@
           "event_months": [
             10
           ],
-          "submission_months": [],
+          "submission_months": [
+            4
+          ],
           "source": "https://sites.uwasa.fi/nordichi2026/"
         },
         {
@@ -1596,7 +1598,7 @@
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "Observed editions 2026, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. No paper deadline was verified in these editions; the previous broad submission assumption is retained. Planning windows, not announced dates; schedule shifts can recur.",
+        "basis": "Observed editions 2026, 2024. Conference month envelope widened by one month. The verified April 2026 paper deadline supplies a single submission observation: the March–May planning range is widened by one month and retains low confidence. Biennial recurrence; planning windows, not announced dates.",
         "sources": [
           "https://sites.uwasa.fi/nordichi2026/",
           "https://www.nordichi2024.se/"
@@ -4935,8 +4937,41 @@
       "location": "Orsay / Gif-sur-Yvette, France",
       "region": "France",
       "url": "https://jfxr-2026.sciencesconf.org/",
-      "checked": "2026-10-13",
-      "tracks": [],
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Scientific oral presentations / short papers",
+          "type": "Paper",
+          "date": "2026-09-18",
+          "source": "https://jfxr-2026.sciencesconf.org/resource/page/id/2",
+          "status": "verified",
+          "note": "Extended from 4 September 2026. Cutoff hour and timezone not published."
+        },
+        {
+          "label": "Industry papers",
+          "type": "Paper",
+          "date": "2026-09-18",
+          "source": "https://jfxr-2026.sciencesconf.org/resource/page/id/2",
+          "status": "verified",
+          "note": "Extended from 4 September 2026. Cutoff hour and timezone not published."
+        },
+        {
+          "label": "Demonstrations",
+          "type": "Demo",
+          "date": "2026-09-18",
+          "source": "https://jfxr-2026.sciencesconf.org/resource/page/id/2",
+          "status": "verified",
+          "note": "Extended from 4 September 2026. Cutoff hour and timezone not published."
+        },
+        {
+          "label": "GT-RV oral presentations — abstracts",
+          "type": "Abstract",
+          "date": "2026-09-30",
+          "source": "https://jfxr-2026.sciencesconf.org/resource/page/id/2",
+          "status": "verified",
+          "note": "Initial GT-RV presentation abstract; cutoff hour and timezone not published."
+        }
+      ],
       "event_status": "verified"
     },
     {
@@ -5015,8 +5050,89 @@
       "location": "Vaasa, Finland",
       "region": "Europe",
       "url": "https://sites.uwasa.fi/nordichi2026/",
-      "checked": "2026-10-13",
-      "tracks": [],
+      "checked": "2026-10-26",
+      "tracks": [
+        {
+          "label": "Research papers — abstracts and metadata",
+          "type": "Abstract",
+          "date": "2026-04-16",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Research papers and critiques",
+          "type": "Paper",
+          "date": "2026-04-23",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Panel proposals",
+          "type": "Panel",
+          "date": "2026-04-23",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Arts-based approaches",
+          "type": "Contribution / application",
+          "date": "2026-04-23",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "date": "2026-05-07",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2026-05-07",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Late-breaking work",
+          "type": "Poster / WiP",
+          "date": "2026-05-19",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Industry experience",
+          "type": "Contribution / application",
+          "date": "2026-05-19",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Demonstrations",
+          "type": "Demo",
+          "date": "2026-05-19",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        },
+        {
+          "label": "Doctoral consortium",
+          "type": "Doctoral",
+          "date": "2026-05-19",
+          "source": "https://sites.uwasa.fi/nordichi2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline from the official conference calendar; cutoff hour and timezone not verified."
+        }
+      ],
       "event_status": "verified"
     },
     {
@@ -5270,7 +5386,7 @@
       "location": "Seoul, South Korea",
       "region": "Outside Europe",
       "url": "https://2027.ieee-icra.org/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-26",
       "tracks": [
         {
           "label": "Papers",
@@ -5295,6 +5411,14 @@
           "source": "https://2027.ieee-icra.org/announcements/call-for-community-building-day/",
           "note": "Submissions open 20 October 2026. Community Building Day on 26 May 2027; deadline explicitly 23:59 PST.",
           "status": "verified"
+        },
+        {
+          "label": "Arts in Robotics — creative works",
+          "type": "Contribution / application",
+          "deadline": "2026-12-01T23:59:00-08:00",
+          "source": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
+          "status": "verified",
+          "note": "Initial submission of completed creative works: 2–4 page description and video. Non-archival exhibition; organizer explicitly specifies 23:59 PST."
         }
       ],
       "event_status": "verified"
@@ -6395,7 +6519,7 @@
       "location": "Bari, Italy",
       "region": "Europe",
       "url": "https://sui.acm.org/2026/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-26",
       "tracks": [
         {
           "label": "Papers",
@@ -6404,6 +6528,22 @@
           "status": "verified",
           "note": "",
           "deadline": "2026-05-29T23:59:00-12:00"
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "deadline": "2026-08-03T23:59:00-12:00",
+          "source": "https://sui.acm.org/2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline, explicitly 23:59 AoE."
+        },
+        {
+          "label": "Demos",
+          "type": "Demo",
+          "deadline": "2026-08-03T23:59:00-12:00",
+          "source": "https://sui.acm.org/2026/",
+          "status": "verified",
+          "note": "Initial contribution deadline, explicitly 23:59 AoE."
         }
       ],
       "event_status": "verified",
