@@ -6,6 +6,7 @@ A compact English directory of conferences and journals in human-computer intera
 
 - **Conferences** (`index.html`): a conference directory, an upcoming submission planner and a monthly calendar. Includes French, European and international venues.
 - **Journals** (`journals.html`): full journal titles, publisher, topic tags, impact factors / quartiles where verified, and explicitly marked qualitative visibility estimates elsewhere.
+- **Map** (`map.html`): interactive world map of upcoming announced editions, grouped city markers, topic/year/location/status filters and shared favorites. Popups show dates, scope, indicators and the next announced contribution deadline. Unknown destinations stay in a separate list; points represent cities rather than exact venues.
 
 Topic tags filter directly. Multiple topics use AND matching. Navigation between the pages retains the selected topics. Other controls include text search, scope / location / contribution filters, verified-versus-estimated indicators, sorting and browser-local favorites.
 
@@ -21,7 +22,7 @@ Some sources publish a date without a cutoff time; these entries retain date-onl
 
 ## Development
 
-No frontend dependencies. Build and checks use Python and Node:
+The directory has no runtime dependencies. The map loads pinned, integrity-checked Leaflet and Leaflet.markercluster assets plus OpenStreetMap tiles; its filtered list remains usable without the map service. Build and checks use Python and Node:
 
 ```sh
 node tests/check.cjs
@@ -31,7 +32,7 @@ python3 -m http.server 8000 --directory dist
 
 The root `data.js` is a generated snapshot for direct local opening. The build regenerates the deployed `dist/data.js` from `conferences.json`.
 
-GitHub Pages uses `.github/workflows/pages.yml`. Tests and build run on `main`, then the two-page site deploys automatically. Pages must use **GitHub Actions** as its publishing source.
+GitHub Pages uses `.github/workflows/pages.yml`. Tests and build run on `main`, then the site deploys automatically. Pages must use **GitHub Actions** as its publishing source.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for data maintenance. MIT license. The initial inspiration was [mkono505/hcideadlines](https://github.com/mkono505/hcideadlines); this implementation does not copy its historical content or code.
 

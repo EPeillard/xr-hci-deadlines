@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..'),data=JSON.parse(fs.readFileSync(path.join(root,'conferences.json'),'utf8'));
+require('./map-check.cjs');
 const ids=new Set();for(const f of data.families){assert(!ids.has(f.id));ids.add(f.id);assert(f.topics.length);assert(f.impact.status==='verified'||f.impact.status==='estimated');assert.equal(new URL(f.impact.source).protocol,'https:');assert(f.forecast.event.start<=f.forecast.event.end);assert(f.forecast.submission.start<=f.forecast.submission.end);assert.equal(f.forecast.status,'estimated');assert(f.forecast.sources.length);}
 for(const e of data.editions){assert(ids.has(e.family_id));assert(e.start<=e.end);assert(['verified','tentative'].includes(e.event_status));for(const t of e.tracks){assert(t.deadline||t.date);if(t.deadline)assert(/[+-]\d{2}:\d{2}$/.test(t.deadline));assert.equal(new URL(t.source).protocol,'https:');}}
 for(const j of data.journals){assert(j.title&&j.topics.length);if(j.impact.quartile)assert.equal(j.impact.status,'verified');if(j.impact.status==='estimated')assert(!j.impact.label.startsWith('JIF'),'No fabricated citation metrics');}
