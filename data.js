@@ -768,6 +768,12 @@ window.CONFERENCE_DATA = {
           "https://tei.acm.org/2025/participate/papers",
           "https://tei.acm.org/2024/"
         ]
+      },
+      "logo": {
+        "url": "https://tei.acm.org/2024/wp-content/uploads/2023/04/PinkGreen_BB_Op.gif",
+        "source": "https://tei.acm.org/2024/",
+        "checked": "2026-10-26",
+        "edition": 2024
       }
     },
     {
@@ -1410,6 +1416,11 @@ window.CONFERENCE_DATA = {
           "https://www.euroxr.org/previous-edition-conference2024",
           "https://www.euroxr.org/conference-2026/calls-and-guidelines/scientific-track"
         ]
+      },
+      "logo": {
+        "url": "https://images.squarespace-cdn.com/content/v1/653bc46478e125662ab0ee82/481739ae-2c5b-4c59-99fb-8f30ac3f5af9/EuroXR+Single+Colour+Logo.png?format=300w",
+        "source": "https://www.euroxr.org/conference-2026",
+        "checked": "2026-10-26"
       }
     },
     {
@@ -1519,6 +1530,12 @@ window.CONFERENCE_DATA = {
         "sources": [
           "https://ecvp.eu/"
         ]
+      },
+      "logo": {
+        "url": "https://ecvp.eu/logo/ecvp2026.jpeg",
+        "source": "https://ecvp.eu/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -1923,6 +1940,12 @@ window.CONFERENCE_DATA = {
           "https://interact2023.org/",
           "https://interact2027.org/full-papers/"
         ]
+      },
+      "logo": {
+        "url": "https://interact2027.org/wp-content/uploads/2026/04/logo_.svg",
+        "source": "https://interact2027.org/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2009,6 +2032,12 @@ window.CONFERENCE_DATA = {
           "https://dis.acm.org/2025/",
           "https://dis.acm.org/2025/call-for-papers/"
         ]
+      },
+      "logo": {
+        "url": "https://dis.acm.org/2027/wp-content/uploads/2026/05/DIS2027Logo-Model-03-e1780322976402.png",
+        "source": "https://dis.acm.org/2027/",
+        "checked": "2026-10-26",
+        "edition": 2027
       }
     },
     {
@@ -2541,6 +2570,12 @@ window.CONFERENCE_DATA = {
         "sources": [
           "https://ro-man2026.org/"
         ]
+      },
+      "logo": {
+        "url": "https://ro-man2026.org/wp-content/themes/roman2026site/assets/images/logo-header.png",
+        "source": "https://ro-man2026.org/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {
@@ -2597,7 +2632,7 @@ window.CONFERENCE_DATA = {
         ]
       },
       "logo": {
-        "url": "https://2027.ieee-icra.org/wp-content/uploads/sites/4/2024/04/cropped-favicon-192x192.png",
+        "url": "https://2027.ieee-icra.org/wp-content/uploads/sites/4/2026/06/ICRA2027_TitleMark_vertical_PNG.png",
         "source": "https://2027.ieee-icra.org/",
         "checked": "2026-10-26",
         "edition": 2027
@@ -2845,6 +2880,12 @@ window.CONFERENCE_DATA = {
           "https://cscw.acm.org/2026/posters.html",
           "https://cscw.acm.org/2026/rolling.html"
         ]
+      },
+      "logo": {
+        "url": "https://cscw.acm.org/2026/images/conf-logo.webp",
+        "source": "https://cscw.acm.org/2026/",
+        "checked": "2026-10-26",
+        "edition": 2026
       }
     },
     {

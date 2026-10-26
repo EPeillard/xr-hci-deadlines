@@ -105,3 +105,9 @@ assert(!logoJournalRun("$('results').innerHTML.includes('conference-logo')"));
 assert(logoRun("(()=>{const old=document.querySelectorAll;const img={complete:true,naturalWidth:0,hidden:false,addEventListener(){}};document.querySelectorAll=()=>[img];bindConferenceLogos();document.querySelectorAll=old;return img.hidden;})()"),'Failed logo hides without replacing the conference name');
 assert(logoRun("(()=>{const old=document.querySelectorAll;let error;const img={complete:false,naturalWidth:0,hidden:false,addEventListener(type,handler){if(type==='error')error=handler;}};document.querySelectorAll=()=>[img];bindConferenceLogos();error();document.querySelectorAll=old;return img.hidden;})()"),'Later load failures are also hidden');
 console.log('Passed: optional conference logos, history/planner coverage, safe URLs, accessibility and failed-image fallback.');
+
+// ICRA's generic site favicon must not be mistaken for the conference artwork.
+const icraLogo=data.families.find(f=>f.id==='icra').logo;
+assert(icraLogo.url.includes('ICRA2027_TitleMark_vertical_PNG.png'));
+assert(!/favicon|apple-touch-icon/i.test(icraLogo.url));
+assert.equal(icraLogo.source,'https://2027.ieee-icra.org/');
