@@ -3,7 +3,7 @@ const root=path.resolve(__dirname,'..'),data=JSON.parse(fs.readFileSync(path.joi
 const NativeDate=Date;class Clock extends NativeDate{constructor(...args){super(...(args.length?args:['2026-10-26T14:00:00Z']));}static now(){return NativeDate.parse('2026-10-26T14:00:00Z');}}
 function setup({leaflet=false,cluster=true,query='',favorites=[]}={}){
  const el=()=>({value:'',checked:false,hidden:true,innerHTML:'',textContent:'',href:'',children:[],listeners:{},append(x){this.children.push(x);},addEventListener(k,f){this.listeners[k]=f;},scrollIntoView(){}});
- const elements=new Map(['search','year','region','status','favorite','summary','result-note','map-results','unmapped','unmapped-results','topic-buttons','conf-link','journal-link','map-link','map-error','world-map','reset','fit-map','updated'].map(id=>[id,el()]));
+ const elements=new Map(['search','year','region','status','favorite','summary','result-note','map-results','unmapped','unmapped-results','topic-buttons','conf-link','journal-link','map-link','map-error','world-map','reset','fit-map','updated','nearby-toggle'].map(id=>[id,el()]));
  const document={getElementById:id=>elements.get(id),createElement:el,addEventListener(){}};
  const map={zoom:2,setView(point,zoom){this.zoom=zoom;return this;},fitBounds(points,options){this.points=points;return this;},getZoom(){return this.zoom;}};
  const layers={layers:[],clearLayers(){this.layers=[];},addLayer(m){this.layers.push(m);},addTo(){return this;},zoomToShowLayer(m,fn){fn();}};
@@ -13,6 +13,7 @@ function setup({leaflet=false,cluster=true,query='',favorites=[]}={}){
  const storage={getItem:()=>JSON.stringify(favorites),setItem(k,v){this.saved=v;}};
  const window={CONFERENCE_DATA:JSON.parse(JSON.stringify(data)),addEventListener(){}};if(leaflet)window.L=L;
  const ctx=vm.createContext({window,document,location:{search:query},localStorage:storage,URL,URLSearchParams,Date:Clock,...(leaflet?{L}:{})});
+ vm.runInContext(fs.readFileSync(path.join(root,'nearby.js'),'utf8'),ctx);
  vm.runInContext(fs.readFileSync(path.join(root,'map-locations.js'),'utf8'),ctx);
  vm.runInContext(fs.readFileSync(path.join(root,'map.js'),'utf8'),ctx);
  return {run:code=>vm.runInContext(code,ctx),elements,layers,map,tileError:()=>tileError?.()};
@@ -46,3 +47,12 @@ const fallback=setup({leaflet:true,cluster:false});assert(fallback.layers.layers
 const clusterHtml=live.layers.options.iconCreateFunction({getAllChildMarkers:()=>[{options:{conferenceCount:2}},{options:{conferenceCount:3}}]}).html;assert(clusterHtml.includes('>5<'),'Clusters count conferences, not cities');
 for(const file of ['index.html','journals.html'])assert(fs.readFileSync(path.join(root,file),'utf8').includes('href="map.html"'));
 console.log(`Passed: interactive map, ${live.run('mapped.length')} mapped editions, city grouping, filters, favorites, source precision and network fallbacks.`);
+
+
+const nearbyMap=setup({leaflet:true});
+assert(!nearbyMap.run("$('map-results').innerHTML.includes('Food & drinks nearby')"));
+nearbyMap.run("$('nearby-toggle').checked=true;$('nearby-toggle').listeners.change()");
+assert(nearbyMap.run("$('map-results').innerHTML.includes('Food & drinks nearby')"));
+assert(nearbyMap.run("markerByEdition.get('icra2027').html.includes('Food & drinks nearby')&&markerByEdition.get('icra2027').html.includes('near%20Seoul%2C%20South%20Korea')"));
+assert(nearbyMap.run("!card(data.editions.find(e=>e.id==='ismar2028')).includes('Food & drinks nearby')"),'Country-only destination has no nearby search');
+console.log('Passed: nearby discovery in map list and markers, disabled until opt-in.');

@@ -26,3 +26,15 @@
 
 /* Small official conference identities; names remain the accessible labels. */
 .conference-name{display:inline-flex;align-items:center;gap:8px;max-width:100%;line-height:1.35}.conference-name>span{min-width:0}.conference-logo{display:block;flex:none;width:30px;height:26px;object-fit:contain;background:#fff;border-radius:3px;padding:2px}.venue-heading .conference-name{min-width:0}
+
+/* Opt-in discovery stays below the main workflow; panels appear only after enabling. */
+.nearby-settings{margin:20px 0 12px;color:var(--muted);font-size:11px}
+.nearby-settings>summary{cursor:pointer;width:fit-content}
+.nearby-settings>label{display:flex;align-items:center;gap:7px;margin-top:12px;color:var(--ink)}
+.nearby-settings>p{max-width:620px;font-size:11px;line-height:1.5}
+.nearby-panel{margin-top:10px;font-size:11px;font-weight:400;color:var(--ink);white-space:normal}
+.nearby-panel>summary{cursor:pointer;color:var(--green);width:fit-content}
+.nearby-area{font-size:11px;color:var(--muted);margin:8px 0}
+.nearby-links{display:flex;flex-wrap:wrap;gap:6px}
+.nearby-links>a{display:inline-block;padding:6px 9px;border:1px solid var(--line);border-radius:4px;background:var(--mint);font-size:11px;line-height:1.4}
+.nearby-note{font-size:10px;line-height:1.5;color:var(--muted);max-width:430px;margin:8px 0}

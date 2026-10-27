@@ -1,5 +1,6 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..'),data=JSON.parse(fs.readFileSync(path.join(root,'conferences.json'),'utf8'));
+require('./nearby-check.cjs');
 require('./map-check.cjs');
 require('./bookmarks-check.cjs');
 const ids=new Set();for(const f of data.families){assert(!ids.has(f.id));ids.add(f.id);assert(f.topics.length);assert(f.impact.status==='verified'||f.impact.status==='estimated');assert.equal(new URL(f.impact.source).protocol,'https:');assert(f.forecast.event.start<=f.forecast.event.end);assert(f.forecast.submission.start<=f.forecast.submission.end);assert.equal(f.forecast.status,'estimated');assert(f.forecast.sources.length);}
@@ -10,11 +11,11 @@ assert.equal(data.families.find(f=>f.id==='rjc').forecast.cadence_years,2);
 assert.equal(data.families.find(f=>f.id==='icra').forecast.submission.start,'2027-08-01','Next ICRA deadline season precedes the 2028 event by the observed lead time');
 const NativeDate=Date;class Clock extends NativeDate{constructor(...args){super(...(args.length?args:['2026-10-13T10:00:00Z']));}static now(){return NativeDate.parse('2026-10-13T10:00:00Z');}}
 function setup(page,query=''){
- const ids=page==='journals'?['search','publisher','indicator','sort','favorite','reset','topic-buttons','conf-link','journal-link','summary','result-note','results','updated']:['search','scope','region','type','indicator','sort','favorite','estimates','past','reset','export','topic-buttons','conf-link','journal-link','summary','result-note','results','updated'];
+ const ids=page==='journals'?['search','publisher','indicator','sort','favorite','reset','topic-buttons','conf-link','journal-link','summary','result-note','results','updated']:['search','scope','region','type','indicator','sort','favorite','estimates','past','reset','export','topic-buttons','conf-link','journal-link','summary','result-note','results','updated','nearby-toggle'];
  const el=()=>({value:'',checked:false,innerHTML:'',textContent:'',children:[],listeners:{},append(o){this.children.push(o);},addEventListener(k,f){this.listeners[k]=f;},setAttribute(){}}),elements=new Map(ids.map(id=>[id,el()]));
  if(page==='conferences'){elements.get('estimates').checked=true;elements.get('sort').value='deadline';}else elements.get('sort').value='name';
  const document={body:{dataset:{page}},getElementById:id=>elements.get(id)||null,querySelectorAll:()=>[],createElement:()=>el()};
- const ctx=vm.createContext({window:{CONFERENCE_DATA:data},document,location:{search:query},URLSearchParams,localStorage:{getItem:()=>null,setItem(){}},Date:Clock,TextEncoder,Blob,URL,setTimeout(){},setInterval(){}});vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),ctx);return code=>vm.runInContext(code,ctx);
+ const ctx=vm.createContext({window:{CONFERENCE_DATA:data},document,location:{search:query},URLSearchParams,localStorage:{getItem:()=>null,setItem(){}},Date:Clock,TextEncoder,Blob,URL,setTimeout(){},setInterval(){}});vm.runInContext(fs.readFileSync(path.join(root,'nearby.js'),'utf8'),ctx);vm.runInContext(fs.readFileSync(path.join(root,'app.js'),'utf8'),ctx);return code=>vm.runInContext(code,ctx);
 }
 const run=setup('conferences');assert.equal(run('visible.length'),data.families.length);
 assert(run("$('results').innerHTML.includes('Conference directory')&&$('results').innerHTML.includes('Usual timing')&&!$('results').innerHTML.includes('<th class=\"date-col\">Next submission</th>')"));
@@ -178,3 +179,16 @@ const comparatorChecks=metricRun(`(()=>{
 })()`);
 assert(comparatorChecks,'Quartile priority, zero vs null, descending score and separate systems/years');
 console.log('Passed: common-year SJR quartiles, category provenance, missing values, sorting, filters and favorites.');
+
+
+const nearbyDirectory=setup('conferences');
+assert(!nearbyDirectory("$('results').innerHTML.includes('Food & drinks nearby')"));
+nearbyDirectory("$('nearby-toggle').checked=true;$('nearby-toggle').listeners.change();$('search').value='ICRA';render()");
+assert(nearbyDirectory("$('results').innerHTML.includes('Food & drinks nearby')&&$('results').innerHTML.includes('near%20Seoul%2C%20South%20Korea')"),'Directory uses next announced edition');
+nearbyDirectory("view='deadlines';render()");
+assert(nearbyDirectory("$('results').innerHTML.includes('Food & drinks nearby')"),'Planner has local discovery');
+nearbyDirectory("view='history';historyYear='2026';$('search').value='';render()");
+assert(!nearbyDirectory("$('results').innerHTML.includes('Food & drinks nearby')"),'No food suggestions attached to past editions');
+nearbyDirectory("$('nearby-toggle').checked=false;$('nearby-toggle').listeners.change();view='conferences';render()");
+assert(!nearbyDirectory("$('results').innerHTML.includes('Food & drinks nearby')"));
+console.log('Passed: optional discovery integration in conference directory and deadlines; archives unchanged.');
