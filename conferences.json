@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "families": [
     {
       "id": "vr",
@@ -9641,6 +9641,30 @@
         "source": "https://iea.cc/journals/",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      }
+    },
+    {
+      "id": "empathic-computing",
+      "title": "Empathic Computing",
+      "name": "Empathic Computing (EC)",
+      "publisher": "Science Exploration Press",
+      "topics": [
+        "HCI",
+        "XR",
+        "Collaboration",
+        "Multimodal interaction",
+        "Human-AI interaction"
+      ],
+      "url": "https://www.sciexplor.com/ec",
+      "why": "Empathic interfaces and collaborative AR/VR/MR, emotion recognition and sharing, physiological sensing, and human–AI systems that support interpersonal understanding. Peer-reviewed, quarterly open-access journal.",
+      "impact": {
+        "status": "estimated",
+        "label": "Specialist",
+        "scheme": "Visibility",
+        "edition": "2026",
+        "source": "https://www.sciexplor.com/ec/about_the_journal",
+        "checked": "2026-10-27",
+        "note": "Editorial estimate of topical audience and scope, not a bibliometric rank. No official year-specific impact factor or quartile was verified; none is inferred."
       }
     }
   ],
