@@ -1847,6 +1847,17 @@
             9
           ],
           "source": "https://icat.vrsj.org/"
+        },
+        {
+          "year": 2022,
+          "event_months": [
+            11,
+            12
+          ],
+          "submission_months": [
+            9
+          ],
+          "source": "https://icat.vrsj.org/2022/cfp.html"
         }
       ],
       "forecast": {
@@ -4292,7 +4303,7 @@
       "location": "Pamplona, Spain",
       "region": "Europe",
       "url": "https://etra.acm.org/2027/",
-      "checked": "2026-10-14",
+      "checked": "2026-10-27",
       "tracks": [
         {
           "label": "Mandatory abstract — full papers",
@@ -4325,10 +4336,18 @@
           "source": "https://etra.acm.org/2027/",
           "note": "The mandatory abstract deadline precedes this submission. AoE date normalized to the end of the published day (UTC−12).",
           "status": "verified"
+        },
+        {
+          "label": "Workshop proposals",
+          "type": "Workshop",
+          "date": "2026-12-01",
+          "source": "https://etra.acm.org/2027/",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
         }
       ],
       "event_status": "verified",
-      "note": "Workshop, tutorial, late-breaking work and doctoral consortium dates are still TBA on the official site."
+      "note": "Workshop proposal submission is announced for 1 December 2026 (AoE; cutoff hour unverified). Tutorial, late-breaking work and doctoral consortium dates remain TBA on the official site."
     },
     {
       "id": "etra2026",
@@ -9099,6 +9118,37 @@
         }
       ],
       "note": "Main conference 6–8 October; workshops/tutorials 5 and 9 October. Blue-sky submission date is crossed out without a replacement on the central page, so it is not manufactured. Rebuttals, final versions and author registration excluded."
+    },
+    {
+      "id": "icategve2022",
+      "family_id": "icategve",
+      "year": 2022,
+      "start": "2022-11-30",
+      "end": "2022-12-03",
+      "location": "Yokohama, Japan",
+      "region": "Outside Europe",
+      "url": "https://icat.vrsj.org/2022/",
+      "checked": "2026-10-27",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full and short papers",
+          "type": "Paper",
+          "date": "2022-09-16",
+          "source": "https://icat.vrsj.org/2022/cfp.html",
+          "status": "verified",
+          "note": "Final extension from 19 August, then 10 September 2022. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Posters and demos",
+          "type": "Poster / WiP",
+          "date": "2022-10-07",
+          "source": "https://icat.vrsj.org/2022/cfpd.html",
+          "status": "verified",
+          "note": "Combined initial poster/demo submission. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "Official edition archive and VRSJ series archive confirm the inclusive event dates. Hybrid participation was offered; recorded location is the physical host city."
     }
   ],
   "journals": [
