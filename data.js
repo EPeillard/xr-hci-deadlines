@@ -9123,6 +9123,37 @@ window.CONFERENCE_DATA = {
         "source": "https://www.computer.org/csdl/journal/tg",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.978,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Graphics and Computer-Aided Design",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Computer Vision and Pattern Recognition",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Signal Processing",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Software",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/ieee-transactions-on-visualization-and-computer-graphics",
+        "corroborating_source": "https://researchcloud.net/journal/1941-0506",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9147,6 +9178,25 @@ window.CONFERENCE_DATA = {
         "category": "Computer Science: Cybernetics / Information Systems",
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.727,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/acm-transactions-on-computer-human-interaction",
+        "corroborating_source": "https://www.journalsbase.com/journals/acm-transactions-on-computer-human-interaction",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9170,6 +9220,45 @@ window.CONFERENCE_DATA = {
         "source": "https://www.sciencedirect.com/journal/international-journal-of-human-computer-studies",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.134,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Education",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Engineering (miscellaneous)",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Hardware and Architecture",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Software",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/international-journal-of-human-computer-studies",
+        "corroborating_source": "https://researchcloud.net/journal/1095-9300",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9196,6 +9285,33 @@ window.CONFERENCE_DATA = {
         "category": "Publisher-reported best JIF quartile; category not specified",
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.383,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Science Applications",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/international-journal-of-human-computer-interaction",
+        "corroborating_source": "https://researchcloud.net/journal/1532-7590",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9220,6 +9336,29 @@ window.CONFERENCE_DATA = {
         "category": "Publisher-reported best JIF quartile; category not specified",
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.776,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Applied Psychology",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/human-computer-interaction",
+        "corroborating_source": "https://www.journalsbase.com/journals/human-computer-interaction",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9245,6 +9384,33 @@ window.CONFERENCE_DATA = {
         "category": null,
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.037,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Graphics and Computer-Aided Design",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Software",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/virtual-reality",
+        "corroborating_source": "https://journalsworld.com/virtual-reality/",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9267,6 +9433,29 @@ window.CONFERENCE_DATA = {
         "source": "https://onlinelibrary.wiley.com/journal/14678659",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.954,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Graphics and Computer-Aided Design",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Computer Networks and Communications",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/computer-graphics-forum",
+        "corroborating_source": "https://www.journalsbase.com/journals/computer-graphics-forum",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9290,6 +9479,33 @@ window.CONFERENCE_DATA = {
         "source": "https://dl.acm.org/journal/tap",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.378,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Science (miscellaneous)",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Experimental and Cognitive Psychology",
+            "quartile": "Q3"
+          },
+          {
+            "name": "Theoretical Computer Science",
+            "quartile": "Q3"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/acm-transactions-on-applied-perception",
+        "corroborating_source": "https://www.journalsbase.com/journals/acm-transactions-on-applied-perception",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9312,6 +9528,33 @@ window.CONFERENCE_DATA = {
         "source": "https://dl.acm.org/journal/pacmhci",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.498,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Networks and Communications",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Social Sciences (miscellaneous)",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q3"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/proceedings-of-the-acm-on-human-computer-interaction",
+        "corroborating_source": "https://www.journalsbase.com/journals/proceedings-of-the-acm-on-human-computer-interaction",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9337,6 +9580,29 @@ window.CONFERENCE_DATA = {
         "category": "Robotics: 9 / 48",
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.251,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Artificial Intelligence",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/acm-transactions-on-human-robot-interaction",
+        "corroborating_source": "https://www.journalsbase.com/journals/acm-transactions-on-human-robot-interaction",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9360,6 +9626,29 @@ window.CONFERENCE_DATA = {
         "source": "https://www.computer.org/csdl/journal/th",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.772,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Science Applications",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/ieee-transactions-on-haptics",
+        "corroborating_source": "https://www.journalsbase.com/journals/ieee-transactions-on-haptics",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9384,6 +9673,29 @@ window.CONFERENCE_DATA = {
         "category": "Computer Science: Artificial Intelligence",
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.694,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Artificial Intelligence",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/acm-transactions-on-interactive-intelligent-systems",
+        "corroborating_source": "https://www.journalsbase.com/journals/acm-transactions-on-interactive-intelligent-systems",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9408,6 +9720,33 @@ window.CONFERENCE_DATA = {
         "category": null,
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.137,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Arts and Humanities (miscellaneous)",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Developmental and Educational Psychology",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/behaviour-and-information-technology",
+        "corroborating_source": "https://www.journalsbase.com/journals/behaviour-and-information-technology",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9432,6 +9771,25 @@ window.CONFERENCE_DATA = {
         "category": null,
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.486,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Science (miscellaneous)",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://journalsuggester.com/journal/24304",
+        "corroborating_source": "https://journalindexes.com/computer-supported-cooperative-work-09259724/",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9455,6 +9813,33 @@ window.CONFERENCE_DATA = {
         "source": "https://www.sciencedirect.com/journal/computers-in-human-behavior",
         "note": "Editorial visibility estimate based on disciplinary scope and publication role. Numeric JIF and quartile were not verified; no official bibliometric value is inferred.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 3.072,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Arts and Humanities (miscellaneous)",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Psychology (miscellaneous)",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/computers-in-human-behavior",
+        "corroborating_source": "https://researchcloud.net/journal/0747-5632",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9480,6 +9865,33 @@ window.CONFERENCE_DATA = {
         "category": null,
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.739,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Graphics and Computer-Aided Design",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Computer Science Applications",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/frontiers-in-virtual-reality",
+        "corroborating_source": "https://www.journalsbase.com/journals/frontiers-in-virtual-reality",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9505,6 +9917,33 @@ window.CONFERENCE_DATA = {
         "category": null,
         "note": "Publisher-reported metric. Quartiles, when present, depend on the database, category and year.",
         "checked": "2026-10-13"
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.705,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Computer Graphics and Computer-Aided Design",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Computer Science Applications",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/virtual-reality-and-intelligent-hardware",
+        "corroborating_source": "https://journalsuggester.com/journal/21101060163",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9527,6 +9966,53 @@ window.CONFERENCE_DATA = {
         "source": "https://www.ieee-ras.org/publications/ra-l/",
         "checked": "2026-10-13",
         "note": "IEEE RAS reports JCR Impact Factor 5.3 in 2025. The source label is retained without assuming a different metric year."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.589,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Artificial Intelligence",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Biomedical Engineering",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Computer Science Applications",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Computer Vision and Pattern Recognition",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Control and Optimization",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Control and Systems Engineering",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human-Computer Interaction",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Mechanical Engineering",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/ieee-robotics-and-automation-letters",
+        "corroborating_source": "https://www.iit.comillas.edu/publicacion/info_revista/en/836/IEEE_Robotics_and_Automation_Letters",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9550,6 +10036,37 @@ window.CONFERENCE_DATA = {
         "source": "https://www.sciencedirect.com/journal/applied-ergonomics",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.018,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Engineering (miscellaneous)",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Physical Therapy, Sports Therapy and Rehabilitation",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Safety, Risk, Reliability and Quality",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/applied-ergonomics",
+        "corroborating_source": "https://researchcloud.net/journal/1872-9126",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9574,6 +10091,33 @@ window.CONFERENCE_DATA = {
         "source": "https://journals.sagepub.com/author-instructions/hfs",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 1.438,
+        "quartile": "Q1",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Applied Psychology",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Behavioral Neuroscience",
+            "quartile": "Q1"
+          },
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q1"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/human-factors",
+        "corroborating_source": "https://www.journalsbase.com/journals/human-factors",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9597,6 +10141,29 @@ window.CONFERENCE_DATA = {
         "source": "https://iea.cc/journals/",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.681,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Physical Therapy, Sports Therapy and Rehabilitation",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/ergonomics",
+        "corroborating_source": "https://researchcloud.net/journal/0014-0139",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9619,6 +10186,29 @@ window.CONFERENCE_DATA = {
         "source": "https://journals.sagepub.com/home/erg",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.271,
+        "quartile": "Q3",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Engineering (miscellaneous)",
+            "quartile": "Q3"
+          },
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q3"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/ergonomics-in-design",
+        "corroborating_source": "https://journalindexes.com/ergonomics-in-design-10648046/",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9641,6 +10231,29 @@ window.CONFERENCE_DATA = {
         "source": "https://iea.cc/journals/",
         "checked": "2026-10-26",
         "note": "Editorial estimate of disciplinary audience and scope, not a rank, quartile, citation metric or acceptance rate. No year-specific official bibliometric classification was verified."
+      },
+      "bibliometrics": {
+        "status": "verified",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": 0.706,
+        "quartile": "Q2",
+        "category_policy": "best",
+        "categories": [
+          {
+            "name": "Human Factors and Ergonomics",
+            "quartile": "Q2"
+          },
+          {
+            "name": "Public Health, Environmental and Occupational Health",
+            "quartile": "Q2"
+          }
+        ],
+        "source": "https://researchjournalrank.com/journal/international-journal-of-industrial-ergonomics",
+        "corroborating_source": "https://www.journalsbase.com/journals/international-journal-of-industrial-ergonomics",
+        "source_type": "secondary",
+        "checked": "2026-10-27",
+        "note": "SCImago 2025 data cross-checked in the linked secondary sources; direct SCImago profile access was unavailable. Best subject-category quartile, not a JCR or CiteScore quartile. Category quartiles may differ; SJR is not a Journal Impact Factor."
       }
     },
     {
@@ -9665,6 +10278,18 @@ window.CONFERENCE_DATA = {
         "source": "https://www.sciexplor.com/ec/about_the_journal",
         "checked": "2026-10-27",
         "note": "Editorial estimate of topical audience and scope, not a bibliometric rank. No official year-specific impact factor or quartile was verified; none is inferred."
+      },
+      "bibliometrics": {
+        "status": "unavailable",
+        "scheme": "SJR/SCImago",
+        "year": 2025,
+        "score": null,
+        "quartile": null,
+        "category_policy": "best",
+        "categories": [],
+        "source": "https://www.sciexplor.com/ec",
+        "checked": "2026-10-27",
+        "note": "No verifiable SJR score or SCImago quartile was located for the 2025 reference year. The publisher page does not report these metrics. Unavailable does not establish that the journal is unindexed; no value is estimated."
       }
     }
   ],

@@ -54,7 +54,7 @@ assert(!run("forecasts().some(r=>r.family.id==='iros'&&r.year===2027)"),'Known p
 const ics=run("calendar(visible,'deadlines',new Date('2026-10-13T10:00:00Z'))");assert(ics.includes('DTSTART:20261027T115959Z'),'AoE next-day UTC conversion');assert(ics.includes('World Haptics')&&ics.includes('STATUS:TENTATIVE'),'Announced tentative deadlines included and labeled');assert(ics.includes('DTSTART;VALUE=DATE:20270301'),'Date-only deadlines stay date-only');for(const line of ics.split('\r\n'))assert(Buffer.byteLength(line)<=75);
 const eventIcs=run("calendar([data.editions.find(e=>e.id==='ihm2026')],'events')");assert(eventIcs.includes('DTEND;VALUE=DATE:20261024'),'Exclusive end of all-day events');
 run("view='calendar';$('estimates').checked=true;render()");assert(run("$('results').innerHTML.includes('calendar-grid')"));assert(run("$('results').innerHTML.includes('Broad planning windows')"));
-const journals=setup('journals','?topic=XR');assert(journals('visible.length')>0);assert(journals("visible.every(j=>j.topics.includes('XR'))"));journals("selectedTopics.clear();$('indicator').value='verified';$('sort').value='impact';render()");assert.equal(journals('visible.length'),11);assert.equal(journals('visible[0].id'),'tochi');
+const journals=setup('journals','?topic=XR');assert(journals('visible.length')>0);assert(journals("visible.every(j=>j.topics.includes('XR'))"));journals("selectedTopics.clear();$('indicator').value='verified';$('sort').value='impact';render()");assert.equal(journals('visible.length'),data.journals.filter(j=>j.bibliometrics.status==='verified').length);assert.equal(journals('visible[0].id'),'chb');
 console.log(`Passed: ${data.families.length} conferences, ${data.journals.length} journals, topic intersections, cross-page navigation, forecasts, calendar, metrics and ICS.`);
 
 // Subscription selection follows starred families, independently of view filters.
@@ -136,3 +136,45 @@ assert(ieaRun("seasonCell(families.get('iea')).includes('Every three years')"));
 const ieaEdition=data.editions.find(e=>e.id==='iea2027');
 assert(ieaEdition.tracks.filter(t=>t.type!=='Camera-ready'&&!t.label.includes('registration')).every(t=>t.date==='2026-11-01'&&!t.deadline));
 assert(ieaRun("calendar([{...data.editions.find(e=>e.id==='iea2027')}],'events').includes('DTEND;VALUE=DATE:20270826')"));
+
+
+// Journal comparisons use explicit SJR/SCImago data, not legacy visibility/JIF labels.
+for(const j of data.journals){
+ const m=j.bibliometrics;assert(m);assert.equal(m.scheme,'SJR/SCImago');assert.equal(m.year,2025);
+ assert(['verified','unavailable'].includes(m.status));assert(m.checked&&m.source);
+ if(m.status==='verified'){
+  assert(/^Q[1-4]$/.test(m.quartile));assert(Number.isFinite(m.score)&&m.score>=0);
+  assert(m.categories.length&&m.corroborating_source);
+  assert.equal(m.quartile,m.categories.map(c=>c.quartile).sort()[0]);
+ }else{assert.equal(m.quartile,null);assert.equal(m.score,null);}
+}
+const metricRun=setup('journals');
+metricRun("$('sort').value='quartile';render()");
+assert.equal(metricRun('visible[0].id'),'chb');
+assert.equal(metricRun('visible[visible.length-1].id'),'empathic-computing');
+assert(metricRun("visible.every((j,i)=>!i||compareJournalMetrics(visible[i-1],j,'quartile')<=0)"));
+assert(metricRun("$('results').innerHTML.includes('Quartile unavailable')&&$('results').innerHTML.includes('SJR: unavailable')"));
+assert(!metricRun("$('results').innerHTML.includes('Est. Specialist')||$('results').innerHTML.includes('JIF 9.6')"));
+assert(metricRun("journalRank(data.journals.find(j=>j.id==='tap')).includes('Q2')&&journalRank(data.journals.find(j=>j.id==='tap')).includes('2025')"));
+assert(metricRun("journalDetail(data.journals.find(j=>j.id==='tap')).includes('Experimental and Cognitive Psychology')"));
+assert(metricRun("journalDetail(data.journals.find(j=>j.id==='pacmhci')).includes('Q3')"));
+metricRun("$('indicator').value='unavailable';render()");
+assert.equal(metricRun('visible.length'),1);assert.equal(metricRun('visible[0].id'),'empathic-computing');
+metricRun("$('indicator').value='';$('sort').value='name';render()");
+assert(metricRun("visible.every((j,i)=>!i||visible[i-1].title.localeCompare(j.title)<=0)"));
+metricRun("favorites=new Set(['tap']);$('favorite').checked=true;render()");
+assert.equal(metricRun('visible.length'),1);assert.equal(metricRun('visible[0].id'),'tap');
+const comparatorChecks=metricRun(`(()=>{
+ const item=(id,score,quartile='Q2',scheme='SJR/SCImago',year=2025)=>({title:id,bibliometrics:{status:'verified',score,quartile,scheme,year}});
+ const a=item('a',0,'Q1'),b=item('b',99,'Q2'),c=item('c',null,'Q1'),d=item('d',1,'Q1');
+ return [
+ compareJournalMetrics(a,b,'quartile')<0,
+ compareJournalMetrics(c,a,'quartile')>0,
+ compareJournalMetrics(a,d,'quartile')>0,
+ compareJournalMetrics(item('sjr',.1),item('jcr',20,'Q1','JCR'),'quartile')<0,
+ compareJournalMetrics(item('current',.1),item('old',20,'Q1','SJR/SCImago',2024),'quartile')<0,
+ journalRank(item('unsafe',null)).includes('SJR: unavailable')
+ ].every(Boolean);
+})()`);
+assert(comparatorChecks,'Quartile priority, zero vs null, descending score and separate systems/years');
+console.log('Passed: common-year SJR quartiles, category provenance, missing values, sorting, filters and favorites.');

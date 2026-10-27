@@ -47,3 +47,12 @@ Images load lazily from the official source, without a referrer. Missing or fail
 `map-locations.js` contains city reference points from the GeoNames cities15000 dump (CC BY 4.0) and linked GeoNames records. Each point has latitude, longitude, provenance, verification date and an explicit list of matching location strings. These are city-level reference points, never precise venue coordinates. Add a sourced entry or matching location string when a new city/venue is recorded. Do not match by family ID or carry a prior edition's city forward. Unknown/country-only destinations remain in the unplaced list; an unmatched city is also shown there until its coordinates are recorded.
 
 The map uses pinned Leaflet 1.9.4 and Leaflet.markercluster 1.5.3 assets with integrity checks, and standard OpenStreetMap tiles with visible attribution and normal browser caching. No geocoding service, API key, user geolocation or background tile prefetch is used. A readable filtered list remains available when mapping assets or tiles cannot load. Favorites use the directory's existing browser-local selection.
+
+
+## Comparable journal bibliometrics
+
+The journal page uses `bibliometrics`, separate from conference `impact` classifications. The legacy journal `impact` snapshots remain in the data for provenance but are no longer displayed, filtered or sorted as current bibliometrics.
+
+Use SJR/SCImago with common reference year 2025. Record numeric `score`, `quartile` (Q1–Q4), `year`, `scheme`, `category_policy: best`, all available `categories` (name and quartile), source URL, checked date and explanatory note. For indirectly verified data, set `source_type: secondary` and retain the corroborating source URL; never label a reproduction as a directly consulted SCImago profile. Missing metrics use `status: unavailable`, null score/quartile and a reason, never an editorial visibility estimate or a fabricated quartile. Unavailable does not mean unindexed.
+
+The row shows the best category quartile; the expanded profile lists category-specific quartiles. Do not copy a JCR or CiteScore quartile into an SJR record. The metric year is the data year, not the access or release year. Default sorting is quartile ascending then score descending, unavailable last. Other systems and years must remain separate comparison groups. Run the journal regression checks in `tests/check.cjs` and regenerate root `data.js` from the build output.
