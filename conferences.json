@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "families": [
     {
       "id": "vr",
@@ -2087,26 +2087,40 @@
             7
           ],
           "source": "https://iss.acm.org/2026/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            2,
+            7
+          ],
+          "source": "https://iss2024.acm.org/track/iss-2024-papers"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-10-01",
+          "start": "2027-09-01",
           "end": "2027-12-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-02-01",
-          "end": "2027-07-31",
+          "start": "2027-01-01",
+          "end": "2027-08-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "The 2026 homepage lists a February winter paper round. The Feb–Jul window is a broad approximation for possible multiple rounds; a 2027 edition and call are not confirmed.",
+        "basis": "Annual planning assumption, not an announced 2027 edition. The October 2024 and November 2026 event months are pooled and widened one month. Initial paper rounds observed in February and July 2024 are widened one month; this broad envelope covers distinct possible rounds, not continuous submissions. The steering committee explicitly postponed the 2025 conference to 2026 while retaining a journal special issue, so no 2025 conference edition is invented. This interruption and the sparse event history keep confidence low.",
         "sources": [
+          "https://iss2024.acm.org/",
+          "https://iss2024.acm.org/track/iss-2024-papers",
+          "https://iss.acm.org/2025/",
           "https://iss.acm.org/2026/"
         ]
       },
@@ -5405,7 +5419,7 @@
       "location": "Seoul, South Korea",
       "region": "Outside Europe",
       "url": "https://2027.ieee-icra.org/",
-      "checked": "2026-10-26",
+      "checked": "2026-10-28",
       "tracks": [
         {
           "label": "Papers",
@@ -5438,6 +5452,14 @@
           "source": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
           "status": "verified",
           "note": "Initial submission of completed creative works: 2–4 page description and video. Non-archival exhibition; organizer explicitly specifies 23:59 PST."
+        },
+        {
+          "label": "Required workshop / tutorial pre-proposals",
+          "type": "Workshop",
+          "date": "2026-09-01",
+          "source": "https://2027.ieee-icra.org/contribute/call-for-workshop-and-tutorial/",
+          "status": "verified",
+          "note": "Required initial pre-proposal stage before invitation to submit a full workshop/tutorial proposal. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
         }
       ],
       "event_status": "verified"
@@ -9149,6 +9171,69 @@
         }
       ],
       "note": "Official edition archive and VRSJ series archive confirm the inclusive event dates. Hybrid participation was offered; recorded location is the physical host city."
+    },
+    {
+      "id": "iss2024",
+      "family_id": "iss",
+      "year": 2024,
+      "start": "2024-10-27",
+      "end": "2024-10-30",
+      "location": "Vancouver, Canada",
+      "region": "Outside Europe",
+      "url": "https://iss2024.acm.org/",
+      "checked": "2026-10-28",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Full papers — February round",
+          "type": "Paper",
+          "date": "2024-02-22",
+          "source": "https://iss2024.acm.org/track/iss-2024-papers",
+          "status": "verified",
+          "note": "Initial contribution round accepting new submissions. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Full papers — July round",
+          "type": "Paper",
+          "date": "2024-07-01",
+          "source": "https://iss2024.acm.org/track/iss-2024-papers",
+          "status": "verified",
+          "note": "Separate initial contribution round accepting new submissions, not the February round's revision deadline. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2024-07-12",
+          "source": "https://iss2024.acm.org/track/iss-2024-tutorials",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "date": "2024-08-15",
+          "source": "https://iss2024.acm.org/track/iss-2024-posters",
+          "status": "verified",
+          "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Demos (extended)",
+          "type": "Demo",
+          "date": "2024-08-22",
+          "source": "https://iss2024.acm.org/track/iss-2024-demos",
+          "status": "verified",
+          "note": "Extended from 15 August 2024. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Doctoral Symposium (extended)",
+          "type": "Doctoral",
+          "date": "2024-08-27",
+          "source": "https://iss2024.acm.org/track/iss-2024-doctoral-symposium",
+          "status": "verified",
+          "note": "Extended from 15 August 2024. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        }
+      ],
+      "note": "Event dates and Vancouver location confirmed by the official edition archive. Only initial contribution submissions are recorded; revisions, final versions and registration are excluded."
     }
   ],
   "journals": [
