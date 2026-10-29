@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "families": [
     {
       "id": "vr",
@@ -1063,9 +1063,10 @@
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Contribution / application",
-        "basis": "1 observed edition(s).  Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Two verified recent meetings in July 2025 and July 2026 support a June–August event planning window, widened one month. Annual recurrence remains a planning assumption for this young network, not an announced 2027 edition. No initial contribution call was verified for either meeting; January–June is a broad editorial lead-time assumption, not an observed submission pattern. Attendance-registration dates are excluded. Confidence remains low.",
         "sources": [
-          "https://gdr-ihm.cnrs.fr/animation/journees/journees-gdr-ihm-2026/"
+          "https://gdr-ihm.cnrs.fr/animation/journees/journees-gdr-ihm-2026/",
+          "https://gdr-ihm.cnrs.fr/animation/journees/journee-dinauguration-du-gdr-ihm/"
         ]
       }
     },
@@ -9234,6 +9235,20 @@
         }
       ],
       "note": "Event dates and Vancouver location confirmed by the official edition archive. Only initial contribution submissions are recorded; revisions, final versions and registration are excluded."
+    },
+    {
+      "id": "gdr-ihm2026",
+      "family_id": "gdr-ihm",
+      "year": 2026,
+      "start": "2026-07-08",
+      "end": "2026-07-10",
+      "location": "MSH Paris Nord, La Plaine Saint-Denis, France",
+      "region": "France",
+      "url": "https://gdr-ihm.cnrs.fr/animation/journees/journees-gdr-ihm-2026/",
+      "checked": "2026-10-29",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "The detailed official programme spans 8–10 July 2026: associated working-group meetings on 8 and 10 July, and the GDR plenary day on 9 July. The series index lists 8 July only; the full programme supplies the inclusive range. No initial contribution submission deadline was verified. The 12 June attendance-registration cutoff is excluded."
     }
   ],
   "journals": [
