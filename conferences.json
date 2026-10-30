@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "families": [
     {
       "id": "vr",
@@ -1490,7 +1490,7 @@
         "Perception",
         "Embodiment"
       ],
-      "url": "https://www.ecvp.org/",
+      "url": "https://ecvp.eu/",
       "why": "Visual psychophysics, spatial perception and body representation.",
       "kind": "Conference",
       "verified": true,
@@ -1505,20 +1505,48 @@
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            8,
+            9
+          ],
+          "submission_months": [],
+          "source": "https://ecvp.eu/"
+        },
+        {
           "year": 2026,
           "event_months": [
             8
           ],
           "submission_months": [],
-          "source": "https://ecvp.eu/"
+          "source": "https://ecvp2026.uk/conference/index.html"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            8
+          ],
+          "submission_months": [],
+          "source": "https://ecvp2025.uni-mainz.de/conference"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://ecvp2024.abdn.ac.uk/submission/abstract-submission/"
         }
       ],
       "forecast": {
         "year": 2027,
         "event": {
-          "start": "2027-07-01",
-          "end": "2027-09-30",
-          "precision": "month"
+          "start": "2027-08-29",
+          "end": "2027-09-02",
+          "precision": "day",
+          "status": "verified"
         },
         "submission": {
           "start": "2027-02-01",
@@ -1528,10 +1556,14 @@
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
-        "type": "Paper",
-        "basis": "1 observed edition(s).  Submission window uses a broad 2–5-month lead-time assumption or an editorial seasonal assumption; no call is implied to exist. Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "type": "Abstract",
+        "basis": "The official series site confirms ECVP 2027 in Padova, 29 August–2 September; these exact announced event dates replace the old event estimate. Annual recurrence is explicitly stated by ECVP. February–July 2027 remains a broad editorial abstract-submission assumption, not a published call or a pooled recent-deadline pattern: regular abstract cutoffs were not retrieved for 2025/2026, and no 2027 cutoff was verified. The older April 2024 abstract call is retained as context only; separate January symposium calls and attendance registration dates are not used to infer a regular abstract cutoff. Submission confidence remains low.",
         "sources": [
-          "https://ecvp.eu/"
+          "https://ecvp.eu/",
+          "https://ecvp2026.uk/conference/index.html",
+          "https://ecvp2026.uk/submissions/index.html",
+          "https://ecvp2025.uni-mainz.de/conference",
+          "https://ecvp2024.abdn.ac.uk/submission/abstract-submission/"
         ]
       },
       "logo": {
@@ -9249,6 +9281,111 @@
       "event_status": "verified",
       "tracks": [],
       "note": "The detailed official programme spans 8–10 July 2026: associated working-group meetings on 8 and 10 July, and the GDR plenary day on 9 July. The series index lists 8 July only; the full programme supplies the inclusive range. No initial contribution submission deadline was verified. The 12 June attendance-registration cutoff is excluded."
+    },
+    {
+      "id": "ecvp2027",
+      "family_id": "ecvp",
+      "year": 2027,
+      "start": "2027-08-29",
+      "end": "2027-09-02",
+      "location": "Padova, Italy",
+      "region": "Europe",
+      "url": "https://ecvp.eu/",
+      "checked": "2026-10-30",
+      "event_status": "verified",
+      "tracks": [],
+      "estimated_submission": {
+        "start": "2027-02-01",
+        "end": "2027-07-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Abstract",
+        "confidence": "Low",
+        "basis": "Broad editorial seasonal assumption, not an announced submission period. A regular abstract deadline was verified only for April 2024; no regular abstract cutoff was verified for 2025, 2026 or 2027. Symposium proposals have a separate schedule and are not pooled with regular abstracts.",
+        "sources": [
+          "https://ecvp.eu/",
+          "https://ecvp2024.abdn.ac.uk/submission/abstract-submission/",
+          "https://ecvp2026.uk/submissions/index.html"
+        ]
+      },
+      "note": "Exact conference dates and Padova location announced by the official ECVP series site. No 2027 submission cutoff was verified; the abstract window remains explicitly estimated."
+    },
+    {
+      "id": "ecvp2026",
+      "family_id": "ecvp",
+      "year": 2026,
+      "start": "2026-08-23",
+      "end": "2026-08-27",
+      "location": "Bournemouth, United Kingdom",
+      "region": "Europe",
+      "url": "https://ecvp2026.uk/conference/index.html",
+      "checked": "2026-10-30",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Symposium proposals",
+          "type": "Special session",
+          "date": "2026-01-25",
+          "source": "https://ecvp2026.uk/submissions/index.html",
+          "status": "verified",
+          "note": "Cutoff time and timezone were not verified; date-only precision retained."
+        }
+      ],
+      "note": "Inclusive conference dates include the opening workshops. A regular talk/poster abstract cutoff was not verified. The April early-registration cutoff is not treated as an abstract deadline."
+    },
+    {
+      "id": "ecvp2025",
+      "family_id": "ecvp",
+      "year": 2025,
+      "start": "2025-08-24",
+      "end": "2025-08-28",
+      "location": "Mainz, Germany",
+      "region": "Europe",
+      "url": "https://ecvp2025.uni-mainz.de/conference",
+      "checked": "2026-10-30",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Illusion & Demo Night proposals",
+          "type": "Demo",
+          "date": "2025-06-08",
+          "source": "https://ecvp2025.uni-mainz.de/submissions",
+          "status": "verified",
+          "note": "Cutoff time and timezone were not verified; date-only precision retained."
+        }
+      ],
+      "note": "Inclusive conference dates confirmed by the official organizer archive. The regular abstract and symposium proposal cutoffs were not retrieved; closed-submission notices are not converted into invented dates."
+    },
+    {
+      "id": "ecvp2024",
+      "family_id": "ecvp",
+      "year": 2024,
+      "start": "2024-08-25",
+      "end": "2024-08-29",
+      "location": "Aberdeen, United Kingdom",
+      "region": "Europe",
+      "url": "https://ecvp2024.abdn.ac.uk/",
+      "checked": "2026-10-30",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Talk and poster abstracts",
+          "type": "Abstract",
+          "date": "2024-04-19",
+          "source": "https://ecvp2024.abdn.ac.uk/submission/abstract-submission/",
+          "status": "verified",
+          "note": "The official call ran from 5 February to 19 April 2024. Cutoff time and timezone were not verified; date-only precision retained."
+        },
+        {
+          "label": "Symposium proposals",
+          "type": "Special session",
+          "date": "2024-01-19",
+          "source": "https://ecvp2024.abdn.ac.uk/symposia/",
+          "status": "verified",
+          "note": "The official call ran from 10 December 2023 to 19 January 2024. Cutoff time and timezone were not verified; date-only precision retained."
+        }
+      ],
+      "note": "Official archived event dates and initial contribution deadlines. No cutoff is invented for the Illusion Night call."
     }
   ],
   "journals": [
