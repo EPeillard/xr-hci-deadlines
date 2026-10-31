@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "families": [
     {
       "id": "vr",
@@ -2590,7 +2590,7 @@
       "url": "https://ro-man.org/",
       "why": "Robot-human communication, social robotics and cooperation.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "B",
@@ -2601,6 +2601,16 @@
         "note": "Conference-level classification; does not rate individual papers or adjunct tracks."
       },
       "history": [
+        {
+          "year": 2027,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            3
+          ],
+          "source": "https://ras.papercept.net/conferences/scripts/start.pl"
+        },
         {
           "year": 2026,
           "event_months": [
@@ -2613,24 +2623,27 @@
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-07-01",
-          "end": "2027-09-30",
+          "start": "2028-07-01",
+          "end": "2028-09-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-02-01",
-          "end": "2027-04-30",
+          "start": "2028-02-01",
+          "end": "2028-04-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Annual recurrence is explicitly stated by the official RO-MAN series. The two latest observed editions (2026 and announced 2027) have August events and March initial paper deadlines, including the 2026 extension. Each observed month envelope is widened by one month, preserving submission in the event year. These are broad planning ranges, not an announced 2028 edition, call or exact date; two observations give low confidence.",
         "sources": [
-          "https://ro-man2026.org/"
+          "https://ro-man2026.org/",
+          "https://ras.papercept.net/conferences/scripts/start.pl",
+          "https://www.ieee-ras.org/event/2027-ieee-36th-international-conference-on-robot-and-human-interactive-communication-ro-man-71403/",
+          "https://ro-man.org/"
         ]
       },
       "logo": {
@@ -5503,10 +5516,10 @@
       "year": 2027,
       "start": "2027-09-26",
       "end": "2027-10-01",
-      "location": "Campinas, Brazil",
-      "region": "Outside Europe",
+      "location": "Fortezza da Basso, Florence, Italy",
+      "region": "Europe",
       "url": "https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/iros-past-and-future-venues/",
-      "checked": "2026-10-13",
+      "checked": "2026-10-31",
       "tracks": [
         {
           "label": "Papers (IEEE RAS calendar listing)",
@@ -5517,7 +5530,9 @@
           "note": "Date listed by IEEE RAS; cutoff time was not verified. Check the conference CFP for changes."
         }
       ],
-      "event_status": "verified"
+      "event_status": "verified",
+      "event_source": "https://www.ieee-ras.org/event/2027-ieee-rsj-international-conference-on-intelligent-robots-and-systems-iros-70525/",
+      "note": "Location corrected to Florence, Italy: both IEEE RAS and the official PaperCept listing agree, replacing the previously recorded Campinas, Brazil. Event dates remain unresolved: IEEE RAS lists 27 September–1 October 2027, whereas PaperCept lists 25–30 September 2027. Retains the previously recorded 26 September–1 October range pending clarification; it must not be treated as newly confirmed. The edition website linked by IEEE RAS redirects to IROS 2023. Sources checked 31 October 2026: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/iros/iros-past-and-future-venues/ and https://ras.papercept.net/conferences/scripts/start.pl ."
     },
     {
       "id": "whc2027",
@@ -9386,6 +9401,86 @@
         }
       ],
       "note": "Official archived event dates and initial contribution deadlines. No cutoff is invented for the Illusion Night call."
+    },
+    {
+      "id": "ro-man2027",
+      "family_id": "ro-man",
+      "year": 2027,
+      "start": "2027-08-23",
+      "end": "2027-08-27",
+      "location": "University of Waterloo, Waterloo, Ontario, Canada",
+      "region": "Outside Europe",
+      "url": "https://attend.ieee.org/ro-man-2027/",
+      "event_source": "https://www.ieee-ras.org/event/2027-ieee-36th-international-conference-on-robot-and-human-interactive-communication-ro-man-71403/",
+      "event_status": "verified",
+      "checked": "2026-10-31",
+      "tracks": [
+        {
+          "label": "Special session proposals",
+          "type": "Special session",
+          "date": "2027-01-15",
+          "source": "https://ras.papercept.net/conferences/scripts/start.pl",
+          "status": "verified",
+          "note": "Initial proposal cutoff published by the official PaperCept conference listing. Exact cutoff time and timezone were not verified; date-only precision retained."
+        },
+        {
+          "label": "Full manuscripts",
+          "type": "Paper",
+          "date": "2027-03-07",
+          "source": "https://ras.papercept.net/conferences/scripts/start.pl",
+          "status": "verified",
+          "note": "Initial full-manuscript cutoff published by the official PaperCept conference listing. Exact cutoff time and timezone were not verified; date-only precision retained."
+        }
+      ],
+      "note": "Event dates and University of Waterloo venue confirmed by IEEE RAS; Waterloo is also announced by the official series. Contribution dates were retrieved from the indexed official PaperCept listing (last updated 22 September 2026); direct fetching of PaperCept and the dedicated edition website was blocked. No workshop/tutorial, late-breaking, abstract-registration or other 2027 deadlines were independently verified."
+    },
+    {
+      "id": "ro-man2026",
+      "family_id": "ro-man",
+      "year": 2026,
+      "start": "2026-08-24",
+      "end": "2026-08-28",
+      "location": "Kitakyushu International Convention Zone, Kitakyushu, Japan",
+      "region": "Outside Europe",
+      "url": "https://ro-man2026.org/",
+      "event_source": "https://ro-man2026.org/call-for-paper/",
+      "event_status": "verified",
+      "checked": "2026-10-31",
+      "tracks": [
+        {
+          "label": "Special session proposals (extended)",
+          "type": "Special session",
+          "date": "2026-02-06",
+          "source": "https://ro-man2026.org/",
+          "status": "verified",
+          "note": "Extended from 27 January to 6 February 2026 on the official homepage; the CFP retains the original date. Cutoff time and timezone unverified."
+        },
+        {
+          "label": "Workshop and tutorial proposals (extended)",
+          "type": "Workshop",
+          "date": "2026-03-02",
+          "source": "https://ro-man2026.org/",
+          "status": "verified",
+          "note": "Extended from 16 February to 2 March 2026 on the official homepage; the CFP retains the original date. Cutoff time and timezone unverified."
+        },
+        {
+          "label": "Regular and special session papers (extended)",
+          "type": "Paper",
+          "date": "2026-03-29",
+          "source": "https://ro-man2026.org/",
+          "status": "verified",
+          "note": "Extended from 15 to 29 March 2026 on the official homepage; the CFP retains the original date. Cutoff time and timezone unverified."
+        },
+        {
+          "label": "Late-breaking reports",
+          "type": "Poster / WiP",
+          "date": "2026-06-12",
+          "source": "https://ro-man2026.org/",
+          "status": "verified",
+          "note": "Initial contribution submission only. Cutoff time and timezone unverified."
+        }
+      ],
+      "note": "Historical event dates and venue from the official CFP; final initial-submission extensions from the official homepage. Original cutoffs are preserved in track notes. No notification or accepted-paper delivery dates included."
     }
   ],
   "journals": [
