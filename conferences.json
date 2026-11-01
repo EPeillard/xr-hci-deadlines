@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "families": [
     {
       "id": "vr",
@@ -8672,7 +8672,7 @@
       "url": "https://2027.hci.international/",
       "event_source": "https://2027.hci.international/deadlines.html",
       "event_status": "verified",
-      "checked": "2026-10-26",
+      "checked": "2026-11-01",
       "tracks": [
         {
           "label": "Regular paper proposals",
@@ -8705,6 +8705,14 @@
           "source": "https://2027.hci.international/deadlines.html",
           "status": "verified",
           "note": "300-word initial course proposal. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2026-11-30",
+          "source": "https://2027.hci.international/workshops.html",
+          "status": "verified",
+          "note": "Initial 2–3-page organizer proposal, independently corroborated by https://2027.hci.international/deadlines.html. Organizer specifies AoE (UTC−12), but no exact cutoff hour was verified; date-only precision retained. Workshop contributions are not automatically included in the conference proceedings."
         }
       ],
       "note": "Shared dates for HCII thematic areas/affiliated conferences, including VAMR and EPCE. Initial proposal deadlines only; subsequent accepted full-text/poster preparation dates intentionally excluded."
