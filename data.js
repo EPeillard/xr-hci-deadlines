@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "families": [
     {
       "id": "vr",
@@ -1458,17 +1458,34 @@ window.CONFERENCE_DATA = {
             1
           ],
           "source": "https://eurohaptics.org/ehc2026/"
+        },
+        {
+          "year": 2024,
+          "event_months": [
+            6,
+            7
+          ],
+          "submission_months": [],
+          "source": "https://link.springer.com/book/10.1007/978-3-031-70058-3"
+        },
+        {
+          "year": 2022,
+          "event_months": [
+            5
+          ],
+          "submission_months": [],
+          "source": "https://link.springer.com/book/10.1007/978-3-031-06249-0"
         }
       ],
       "forecast": {
         "year": 2028,
         "event": {
-          "start": "2028-06-01",
+          "start": "2028-05-01",
           "end": "2028-08-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2028-01-01",
+          "start": "2027-12-01",
           "end": "2028-02-29",
           "precision": "month"
         },
@@ -1476,8 +1493,11 @@ window.CONFERENCE_DATA = {
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "1 observed edition(s).  Month ranges are planning windows, not announced dates or predicted acceptance.",
+        "basis": "Biennial recurrence retained and corroborated by the publisher's 2022, 2024 and 2026 proceedings. The latest verified event editions since 2023 (2024 and 2026) span June–July; the envelope is widened by one month to May–August 2028. The May 2022 event remains in history but is excluded from the modern event window. No submission cutoffs were retrieved from the publisher, and the organizer site could not be fetched on 2 November 2026. The existing January 2026 paper-month observation is retained as legacy evidence, not reverified in this check; December 2027–February 2028 is its one-month-expanded planning assumption, not an announced call, and correctly crosses the preceding calendar year. Submission confidence remains low; no exact 2028 event dates, location or deadline are claimed.",
         "sources": [
+          "https://link.springer.com/conference/eurohaptics",
+          "https://link.springer.com/book/10.1007/978-3-031-70058-3",
+          "https://link.springer.com/book/10.1007/978-3-032-32230-2",
           "https://eurohaptics.org/ehc2026/"
         ]
       }
@@ -9489,6 +9509,51 @@ window.CONFERENCE_DATA = {
         }
       ],
       "note": "Historical event dates and venue from the official CFP; final initial-submission extensions from the official homepage. Original cutoffs are preserved in track notes. No notification or accepted-paper delivery dates included."
+    },
+    {
+      "id": "eurohaptics2026",
+      "family_id": "eurohaptics",
+      "year": 2026,
+      "start": "2026-07-06",
+      "end": "2026-07-09",
+      "location": "Siena, Italy",
+      "region": "Europe",
+      "url": "https://link.springer.com/book/10.1007/978-3-032-32230-2",
+      "event_source": "https://link.springer.com/book/10.1007/978-3-032-32230-2",
+      "event_status": "verified",
+      "checked": "2026-11-02",
+      "tracks": [],
+      "note": "Historical event dates and host city verified in Springer Nature's official proceedings and corroborated by https://link.springer.com/conference/eurohaptics. Contribution deadlines were not available in the consulted publisher records; no submission dates or cutoff times are inferred. The organizer website was inaccessible during this check."
+    },
+    {
+      "id": "eurohaptics2024",
+      "family_id": "eurohaptics",
+      "year": 2024,
+      "start": "2024-06-30",
+      "end": "2024-07-03",
+      "location": "Lille, France",
+      "region": "France",
+      "url": "https://link.springer.com/book/10.1007/978-3-031-70058-3",
+      "event_source": "https://link.springer.com/book/10.1007/978-3-031-70058-3",
+      "event_status": "verified",
+      "checked": "2026-11-02",
+      "tracks": [],
+      "note": "Historical event dates and host city verified in Springer Nature's official proceedings and corroborated by https://link.springer.com/conference/eurohaptics. Contribution deadlines were not available in the consulted publisher records; no submission dates or cutoff times are inferred. The organizer website was inaccessible during this check."
+    },
+    {
+      "id": "eurohaptics2022",
+      "family_id": "eurohaptics",
+      "year": 2022,
+      "start": "2022-05-22",
+      "end": "2022-05-25",
+      "location": "Hamburg, Germany",
+      "region": "Europe",
+      "url": "https://link.springer.com/book/10.1007/978-3-031-06249-0",
+      "event_source": "https://link.springer.com/book/10.1007/978-3-031-06249-0",
+      "event_status": "verified",
+      "checked": "2026-11-02",
+      "tracks": [],
+      "note": "Historical event dates and host city verified in Springer Nature's official proceedings and corroborated by https://link.springer.com/conference/eurohaptics. Contribution deadlines were not available in the consulted publisher records; no submission dates or cutoff times are inferred. The organizer website was inaccessible during this check."
     }
   ],
   "journals": [
