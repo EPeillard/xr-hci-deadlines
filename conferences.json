@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-05",
   "families": [
     {
       "id": "vr",
@@ -608,7 +608,7 @@
       "url": "https://uist.acm.org/",
       "why": "Novel interaction techniques, interface technologies and prototypes.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "verified",
         "label": "A*",
@@ -620,13 +620,23 @@
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            10
+          ],
+          "submission_months": [
+            3,
+            4
+          ],
+          "source": "https://uist.acm.org/2027/"
+        },
+        {
           "year": 2026,
           "event_months": [
             11
           ],
           "submission_months": [
-            3,
-            4
+            3
           ],
           "source": "https://uist.acm.org/2026/cfp/"
         },
@@ -653,29 +663,28 @@
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-08-01",
-          "end": "2027-12-31",
+          "start": "2028-08-01",
+          "end": "2028-12-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-02-01",
-          "end": "2027-05-31",
+          "start": "2028-02-01",
+          "end": "2028-05-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Moderate",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Observed editions 2026, 2025, 2024. Conference month envelope widened by one month; paper deadlines use their observed year offset relative to the event, widened by one month. Planning windows, not announced dates; schedule shifts can recur.",
+        "basis": "Observed announced editions 2027, 2026, 2025. Event months September–November and initial paper/mandatory-abstract months March–April are widened by one month for the next annual cycle, preserving same-year submission. Supplementary-material delivery, revisions and camera-ready dates are excluded. The 2027 announcement replaces the earlier estimate; these 2028 windows remain editorial planning ranges, not announced dates.",
         "sources": [
+          "https://uist.acm.org/2027/",
           "https://uist.acm.org/2026/",
-          "https://uist.acm.org/2025/sponsors/",
-          "https://uist.acm.org/2024/",
           "https://uist.acm.org/2026/cfp/",
-          "https://uist.acm.org/2025/cfp/",
-          "https://uist.acm.org/2024/cfp/"
+          "https://uist.acm.org/2025/sponsors/",
+          "https://uist.acm.org/2025/cfp/"
         ]
       },
       "logo": {
@@ -5663,7 +5672,7 @@
       "location": "Detroit, USA",
       "region": "Outside Europe",
       "url": "https://uist.acm.org/2026/",
-      "checked": "2026-10-13",
+      "checked": "2026-11-05",
       "tracks": [
         {
           "label": "Papers",
@@ -5672,6 +5681,62 @@
           "source": "https://uist.acm.org/2026/cfp/",
           "note": "",
           "status": "verified"
+        },
+        {
+          "label": "Mandatory paper abstract, title and author list",
+          "type": "Abstract",
+          "deadline": "2026-03-24T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Posters",
+          "type": "Poster / WiP",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Demos",
+          "type": "Demo",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Doctoral Symposium",
+          "type": "Doctoral",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Visions — talk proposals",
+          "type": "Contribution / application",
+          "deadline": "2026-07-10T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
+        },
+        {
+          "label": "Student Innovation Contest — initial proposals",
+          "type": "Student competition",
+          "deadline": "2026-06-15T23:59:00-12:00",
+          "source": "https://uist.acm.org/2026/cfp/",
+          "status": "verified",
+          "note": "Official initial submission deadline, 11:59pm AoE (UTC−12)."
         }
       ],
       "event_status": "verified"
@@ -9554,6 +9619,38 @@
       "checked": "2026-11-02",
       "tracks": [],
       "note": "Historical event dates and host city verified in Springer Nature's official proceedings and corroborated by https://link.springer.com/conference/eurohaptics. Contribution deadlines were not available in the consulted publisher records; no submission dates or cutoff times are inferred. The organizer website was inaccessible during this check."
+    },
+    {
+      "id": "uist2027",
+      "family_id": "uist",
+      "year": 2027,
+      "start": "2027-10-26",
+      "end": "2027-10-29",
+      "location": "Vienna, Austria",
+      "region": "Europe",
+      "url": "https://uist.acm.org/2027/",
+      "event_source": "https://uist.acm.org/2027/",
+      "event_status": "verified",
+      "checked": "2026-11-05",
+      "tracks": [
+        {
+          "label": "Paper abstract",
+          "type": "Abstract",
+          "date": "2027-03-31",
+          "source": "https://uist.acm.org/2027/",
+          "status": "verified",
+          "note": "Official 2027 initial paper abstract date. No cutoff hour or timezone is published on the consulted announcement; retained as date-only."
+        },
+        {
+          "label": "Full papers",
+          "type": "Paper",
+          "date": "2027-04-07",
+          "source": "https://uist.acm.org/2027/",
+          "status": "verified",
+          "note": "Official 2027 initial full-paper date. No cutoff hour or timezone is published on the consulted announcement; retained as date-only."
+        }
+      ],
+      "note": "The official edition announcement replaces the previous editorial estimate. Workshops and Doctoral Symposium: 26 October; main conference: 27–29 October 2027. Venue announced as VIECON – Vienna Congress & Convention Center. Supplementary-material delivery on 9 April is not a separate initial contribution call and is excluded."
     }
   ],
   "journals": [
