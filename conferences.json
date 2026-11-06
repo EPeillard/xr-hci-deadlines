@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "families": [
     {
       "id": "vr",
@@ -3040,8 +3040,10 @@
           "event_months": [
             10
           ],
-          "submission_months": [],
-          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/"
+          "submission_months": [
+            5
+          ],
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/"
         },
         {
           "year": 2024,
@@ -3068,13 +3070,14 @@
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Latest three announced/observed editions (2027, 2026, 2025) are in October; envelope widened by one month, preserving annual cadence. IMWUT has recurring November/February/May rounds according to the official 2026 call. The broad submission range spans November before the event through May of the event year, widened one month; it does not confirm a 2028 call or guarantee the presentation year after review and revisions.",
+        "basis": "Latest three announced/observed editions (2027, 2026, 2025) are in October; envelope widened by one month, preserving annual cadence. IMWUT has recurring November/February/May rounds according to the official 2026 call. The broad submission range spans November before the event through May of the event year, widened one month; it does not confirm a 2028 call or guarantee the presentation year after review and revisions. The newly checked 2025 May deadline is for ISWC Notes and Briefs, a separate proceedings track. It is not pooled with IMWUT rounds or used to infer an unannounced 2028 ISWC call; the existing IMWUT planning window and confidence are unchanged.",
         "sources": [
           "https://sigchi.org/events/ubicomp-2027/",
           "https://www.ubicomp.org/ubicomp-iswc-2026/",
           "https://www.ubicomp.org/ubicomp-iswc-2025/",
           "https://www.ubicomp.org/ubicomp-iswc-2026/iswc-cfp/",
-          "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/"
+          "https://www.ubicomp.org/ubicomp-iswc-2026/imwut-papers/",
+          "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/"
         ]
       },
       "logo": {
@@ -7730,11 +7733,76 @@
       "location": "Espoo, Finland",
       "region": "Europe",
       "url": "https://www.ubicomp.org/ubicomp-iswc-2025/",
-      "checked": "2026-10-16",
-      "tracks": [],
+      "checked": "2026-11-06",
+      "tracks": [
+        {
+          "label": "ISWC Notes and Briefs",
+          "type": "Paper",
+          "deadline": "2025-05-25T23:59:00-12:00",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-notes-and-briefs/",
+          "status": "verified",
+          "note": "Extended from 18 May to 25 May 2025. Official cutoff: 11:59 pm AoE (UTC−12). Separate ISWC proceedings track, not an IMWUT journal round."
+        },
+        {
+          "label": "Poster extended abstracts",
+          "type": "Poster / WiP",
+          "date": "2025-05-30",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/posters-and-demos/",
+          "status": "verified",
+          "note": "Extended from 23 May to 30 May 2025. End-of-day AoE is stated, but no explicit clock time; date-only precision retained."
+        },
+        {
+          "label": "Demo extended abstracts",
+          "type": "Demo",
+          "date": "2025-05-30",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/posters-and-demos/",
+          "status": "verified",
+          "note": "Extended from 23 May to 30 May 2025. End-of-day AoE is stated, but no explicit clock time; date-only precision retained."
+        },
+        {
+          "label": "Doctoral Colloquium",
+          "type": "Doctoral",
+          "date": "2025-06-20",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/doctoral-colloquium/",
+          "status": "verified",
+          "note": "Extended from 15 June to 20 June 2025. End-of-day AoE is stated, but no explicit clock time; date-only precision retained."
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2025-04-30",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/workshop-proposals/",
+          "status": "verified",
+          "note": "Official page labels 30 April 2025 as extended, but does not retain the original date. AoE is stated without a cutoff hour; date-only precision retained."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2025-04-30",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/tutorial-proposals/",
+          "status": "verified",
+          "note": "AoE is stated without a cutoff hour; date-only precision retained."
+        },
+        {
+          "label": "ISWC Design Exhibition — design papers",
+          "type": "Contribution / application",
+          "date": "2025-06-20",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/iswc-design-exhibition/",
+          "status": "verified",
+          "note": "Extended from 7 June to 20 June 2025. No cutoff time or timezone was verified on the consulted call; date-only precision retained."
+        },
+        {
+          "label": "Student Challenge — idea proposal and team registration",
+          "type": "Student competition",
+          "date": "2025-06-15",
+          "source": "https://www.ubicomp.org/ubicomp-iswc-2025/student-challenge/",
+          "status": "verified",
+          "note": "Initial idea proposal (maximum one page) and team registration. No cutoff time or timezone is stated. Later paper/video/code delivery for accepted teams is excluded; not an open new contribution round."
+        }
+      ],
       "event_status": "verified",
       "event_source": "https://www.ubicomp.org/ubicomp-iswc-2025/",
-      "note": "Pre-conference workshops/tutorials/Doctoral Colloquium: 12–13 October; main conference: 14–16 October. Historical contribution deadlines not yet recorded."
+      "note": "Pre-conference workshops/tutorials/Doctoral Colloquium: 12–13 October; main conference: 14–16 October. Historical initial contribution deadlines checked against official edition calls on 6 November 2026, with extensions retained. ISWC Notes and Briefs are distinct from IMWUT journal submissions; no presentation year is inferred from recurring journal-round dates. Post-acceptance delivery and volunteer applications are excluded."
     },
     {
       "id": "ubicomp2024",
