@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-08",
   "families": [
     {
       "id": "vr",
@@ -2893,6 +2893,16 @@
             4
           ],
           "source": "https://iva.acm.org/2026/"
+        },
+        {
+          "year": 2025,
+          "event_months": [
+            9
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://iva.acm.org/2025/call-for-papers/"
         }
       ],
       "forecast": {
@@ -2911,10 +2921,12 @@
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "2027 month announcement and the 2026 event both indicate September; month envelope widened one month. Only the 2026 April paper call is verified, so the next-cycle March–May submission estimate is low confidence. No 2028 edition or call is announced.",
+        "basis": "The latest three announced editions (2025–2027) place IVA in September; the event month envelope is widened by one month. The two verified main-paper calls (2025 and 2026) fall in April, yielding a March–May submission window. Annual cadence; confidence remains low because the 2027 call and the 2028 edition are not announced.",
         "sources": [
           "https://iva.acm.org/index/",
-          "https://iva.acm.org/2026/"
+          "https://iva.acm.org/2026/",
+          "https://iva.acm.org/2025/",
+          "https://iva.acm.org/2025/call-for-papers/"
         ]
       },
       "logo": {
@@ -7456,7 +7468,7 @@
       "region": "Europe",
       "url": "https://iva.acm.org/index/",
       "event_source": "https://iva.acm.org/index/",
-      "checked": "2026-10-14",
+      "checked": "2026-11-08",
       "event_status": "verified",
       "tracks": [],
       "note": "Organizer announces September only. Stored month bounds are a display window, not precise conference dates.",
@@ -7467,9 +7479,10 @@
         "type": "Paper",
         "status": "estimated",
         "confidence": "Low",
-        "basis": "One checked 2026 full-paper deadline in April, widened by one month. No 2027 call is announced.",
+        "basis": "Two verified full-paper deadlines in April (2025 and 2026), widened by one month to March–May. Annual cadence; confidence remains low with only two checked paper-call observations. No 2027 call is announced.",
         "sources": [
-          "https://iva.acm.org/2026/"
+          "https://iva.acm.org/2026/",
+          "https://iva.acm.org/2025/call-for-papers/"
         ]
       }
     },
@@ -9719,6 +9732,70 @@
         }
       ],
       "note": "The official edition announcement replaces the previous editorial estimate. Workshops and Doctoral Symposium: 26 October; main conference: 27–29 October 2027. Venue announced as VIECON – Vienna Congress & Convention Center. Supplementary-material delivery on 9 April is not a separate initial contribution call and is excluded."
+    },
+    {
+      "id": "iva2025",
+      "family_id": "iva",
+      "year": 2025,
+      "start": "2025-09-16",
+      "end": "2025-09-19",
+      "location": "Berlin, Germany",
+      "region": "Europe",
+      "url": "https://iva.acm.org/2025/",
+      "event_source": "https://iva.acm.org/2025/",
+      "checked": "2026-11-08",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Abstracts — full papers (extended)",
+          "type": "Abstract",
+          "deadline": "2025-04-14T23:59:00-12:00",
+          "source": "https://iva.acm.org/2025/call-for-papers/",
+          "note": "Mandatory preliminary abstract for reviewer assignment. Extended from April 4 to April 14, 2025. The call specifies 23:59 UTC−12 (AoE).",
+          "status": "verified"
+        },
+        {
+          "label": "Full papers (extended)",
+          "type": "Paper",
+          "deadline": "2025-04-21T23:59:00-12:00",
+          "source": "https://iva.acm.org/2025/call-for-papers/",
+          "note": "Extended from April 11 to April 21, 2025. The call specifies 23:59 UTC−12 (AoE).",
+          "status": "verified"
+        },
+        {
+          "label": "Scientific and artistic posters (extended)",
+          "type": "Poster / WiP",
+          "deadline": "2025-06-13T23:59:59-12:00",
+          "source": "https://iva.acm.org/2025/call-for-scientific-and-artistic-posters-submissions-2/",
+          "note": "Initial 2–3-page extended abstract. Extended from June 6 to June 13, 2025, as recorded on the official edition homepage (https://iva.acm.org/2025/). The poster call specifies 23:59:59 UTC−12 (AoE).",
+          "status": "verified"
+        },
+        {
+          "label": "Scientific demos and artistic projects (extended)",
+          "type": "Demo",
+          "deadline": "2025-06-13T23:59:00-12:00",
+          "source": "https://iva.acm.org/2025/call-for-demos/",
+          "note": "Initial demonstration or artistic-project proposal. Extended from May 30 to June 13, 2025, as recorded on the official edition homepage (https://iva.acm.org/2025/). The demo call specifies 23:59 AoE (UTC−12).",
+          "status": "verified"
+        },
+        {
+          "label": "Workshop and tutorial proposals",
+          "type": "Workshop",
+          "date": "2025-03-09",
+          "source": "https://iva.acm.org/2025/call-for-workshops/",
+          "note": "Initial organizer proposals. AoE (UTC−12) according to the official edition homepage (https://iva.acm.org/2025/); cutoff hour is not specified in the workshop call.",
+          "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium (extended)",
+          "type": "Doctoral",
+          "date": "2025-06-30",
+          "source": "https://iva.acm.org/2025/call-for-doctoral-consortium/",
+          "note": "Initial thesis abstract, CV and supervisor letter. Extended from June 23 to June 30, 2025. AoE (UTC−12); cutoff hour is not specified.",
+          "status": "verified"
+        }
+      ],
+      "note": "Historical edition checked against official archives on November 8, 2026. Workshops, tutorials and the Doctoral Consortium took place on September 16; the main conference ran September 17–19. Only initial contribution submissions are recorded."
     }
   ],
   "journals": [
