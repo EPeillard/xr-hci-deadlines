@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-10",
   "families": [
     {
       "id": "vr",
@@ -2487,7 +2487,7 @@
             7
           ],
           "submission_months": [
-            1
+            2
           ],
           "source": "https://2027.worldhaptics.org/"
         }
@@ -2501,14 +2501,14 @@
         },
         "submission": {
           "start": "2029-01-01",
-          "end": "2029-02-28",
+          "end": "2029-03-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "The organizer-published 2027 dates are tentative. The 2029 forecast preserves the biennial cycle and allows one month around the tentative seasonal baseline; confidence is low.",
+        "basis": "Only the organizer-published tentative 2027 schedule is observed: July event and February main-paper submission (updated from January 29 to February 5). The 2029 estimate preserves the biennial cycle, widening each baseline month by one month. Abstracts have a distinct January deadline and are not pooled with full papers. Confidence remains low; neither a 2029 edition nor its call is announced.",
         "sources": [
           "https://2027.worldhaptics.org/"
         ]
@@ -4858,7 +4858,7 @@
       "location": "Melbourne, Australia",
       "region": "Outside Europe",
       "url": "https://ieeevr.org/2027/",
-      "checked": "2026-10-24",
+      "checked": "2026-11-10",
       "tracks": [
         {
           "label": "Mandatory abstract — papers",
@@ -4903,9 +4903,9 @@
         {
           "label": "Doctoral Consortium",
           "type": "Doctoral",
-          "deadline": "2026-11-10T23:59:59-12:00",
+          "deadline": "2026-11-22T23:59:59-12:00",
           "source": "https://ieeevr.org/2027/contribute/doctoral-consortium/",
-          "note": "",
+          "note": "Extended from November 10 to November 22, 2026. The official call specifies 23:59:59 AoE (UTC−12).",
           "status": "verified"
         },
         {
@@ -5587,22 +5587,22 @@
       "location": "Boston, USA",
       "region": "Outside Europe",
       "url": "https://2027.worldhaptics.org/",
-      "checked": "2026-10-15",
+      "checked": "2026-11-10",
       "tracks": [
         {
           "label": "Long and regular papers",
           "type": "Paper",
-          "date": "2027-01-29",
+          "date": "2027-02-05",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer-published tentative date; cutoff time not stated.",
+          "note": "Organizer-published tentative date, changed from January 29 to February 5, 2027. Separate abstract deadline now announced for January 31. Exact cutoff hour is not stated.",
           "status": "tentative"
         },
         {
           "label": "Work in progress",
           "type": "Poster / WiP",
-          "date": "2027-04-30",
+          "date": "2027-05-14",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer-published tentative date; cutoff time not stated.",
+          "note": "Organizer-published tentative date, changed from April 30 to May 14, 2027. Exact cutoff hour is not stated.",
           "status": "tentative"
         },
         {
@@ -5635,6 +5635,22 @@
           "date": "2027-05-07",
           "source": "https://2027.worldhaptics.org/",
           "note": "Organizer-published tentative date; cutoff time not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Abstracts — long and regular papers",
+          "type": "Abstract",
+          "date": "2027-01-31",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "New separate abstract deadline on the organizer's tentative schedule. Exact cutoff hour and timezone are not stated.",
+          "status": "tentative"
+        },
+        {
+          "label": "Previously published papers — presentation proposals",
+          "type": "Contribution / application",
+          "date": "2027-05-14",
+          "source": "https://2027.worldhaptics.org/",
+          "note": "Initial proposal to present previously published work (PPP), not a revised or camera-ready manuscript. Organizer-published tentative date; exact cutoff hour and timezone are not stated.",
           "status": "tentative"
         }
       ],
@@ -6986,19 +7002,27 @@
       "region": "Outside Europe",
       "url": "https://augmented-humans.org/",
       "event_source": "https://augmented-humans.org/",
-      "checked": "2026-10-14",
+      "checked": "2026-11-10",
       "event_status": "verified",
       "tracks": [
         {
           "label": "Full and short papers",
           "type": "Paper",
-          "date": "2026-11-12",
+          "date": "2026-11-19",
           "source": "https://augmented-humans.org/call-for-full-short-papers/",
-          "note": "AoE date published; exact cutoff time not specified.",
+          "note": "Extended from November 12 to November 19, 2026. Official AoE (UTC−12) date; exact cutoff time is not specified.",
+          "status": "verified"
+        },
+        {
+          "label": "Posters and demos — joint submission track",
+          "type": "Poster / WiP",
+          "date": "2027-01-15",
+          "source": "https://augmented-humans.org/call-for-poster-demo/",
+          "note": "One joint track with poster-only or poster-plus-demo-booth presentation styles; up to four pages excluding references and supplementary material. Official AoE (UTC−12) date; exact cutoff hour is not specified.",
           "status": "verified"
         }
       ],
-      "note": "Posters, demos and workshop proposal deadlines are TBA on the official 2027 website."
+      "note": "Poster and demo submissions share a single initial contribution track. Workshop proposal deadline remains TBA on https://augmented-humans.org/call-for-workshop/ (checked November 10, 2026)."
     },
     {
       "id": "eurographics2027",
@@ -7011,7 +7035,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-10-22",
+      "checked": "2026-11-10",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -7076,9 +7100,17 @@
           "source": "https://eg2027.isti.cnr.it/call-for-short-papers/",
           "note": "Self-contained papers up to four pages; accepted papers appear in the EG Digital Library, not the full-paper CGF track.",
           "status": "verified"
+        },
+        {
+          "label": "Doctoral Consortium — research statement and application",
+          "type": "Doctoral",
+          "date": "2027-02-26",
+          "source": "https://eg2027.isti.cnr.it/call-for-doctoral-consortium/",
+          "note": "Initial application comprising a 3–4-page research statement, supervisor support letter and CV. The consulted call publishes a date without a cutoff hour or timezone.",
+          "status": "verified"
         }
       ],
-      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Short-paper calls are now available; poster and doctoral calls were not retrieved in this update. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
+      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Doctoral Consortium call checked on November 10, 2026; poster deadline was not verified. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
     },
     {
       "id": "eics2027",
