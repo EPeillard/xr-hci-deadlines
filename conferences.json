@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "families": [
     {
       "id": "vr",
@@ -7035,7 +7035,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-11-10",
+      "checked": "2026-11-11",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -7104,13 +7104,13 @@
         {
           "label": "Doctoral Consortium — research statement and application",
           "type": "Doctoral",
-          "date": "2027-02-26",
           "source": "https://eg2027.isti.cnr.it/call-for-doctoral-consortium/",
-          "note": "Initial application comprising a 3–4-page research statement, supervisor support letter and CV. The consulted call publishes a date without a cutoff hour or timezone.",
-          "status": "verified"
+          "note": "Initial application comprising a 3–4-page research statement, supervisor support letter and CV. The official call now explicitly specifies 23:59 UTC; replaces the previously recorded date-only precision.",
+          "status": "verified",
+          "deadline": "2027-02-26T23:59:00+00:00"
         }
       ],
-      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Doctoral Consortium call checked on November 10, 2026; poster deadline was not verified. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
+      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Doctoral Consortium call and explicit UTC cutoff checked on November 11, 2026; poster deadline was not verified. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
     },
     {
       "id": "eics2027",
