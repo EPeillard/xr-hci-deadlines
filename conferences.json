@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-13",
   "families": [
     {
       "id": "vr",
@@ -1870,6 +1870,14 @@
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            9
+          ],
+          "submission_months": [],
+          "source": "https://icat.vrsj.org/"
+        },
+        {
           "year": 2026,
           "event_months": [
             9,
@@ -1920,25 +1928,41 @@
             9
           ],
           "source": "https://icat.vrsj.org/2022/cfp.html"
+        },
+        {
+          "year": 2021,
+          "event_months": [
+            9
+          ],
+          "submission_months": [],
+          "source": "https://icat.vrsj.org/"
+        },
+        {
+          "year": 2020,
+          "event_months": [
+            12
+          ],
+          "submission_months": [],
+          "source": "https://icat.vrsj.org/"
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-08-01",
-          "end": "2028-01-31",
+          "start": "2028-08-01",
+          "end": "2029-01-31",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-05-01",
-          "end": "2027-09-30",
+          "start": "2028-05-01",
+          "end": "2028-09-30",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Latest three editions: September–October in 2026 versus December in 2025/2024, and June/August paper calls. Envelopes widened one month. This broad range reflects a season shift and must not be read as an announced date.",
+        "basis": "Latest three announced editions (2025–2027): December 2025, September–October 2026 and September 2027. Event-month envelope widened by one month. The two verified main-paper observations among these editions are August 2025 and June 2026; May–September is their widened same-year envelope. No 2027 call is announced, and the recent move to an earlier conference season makes the submission forecast uncertain. No 2028 edition or call is announced.",
         "sources": [
           "https://icat.vrsj.org/"
         ]
@@ -8926,7 +8950,7 @@
       "url": "https://hhai-conference.org/2027/",
       "event_source": "https://hhai-conference.org/2027/",
       "event_status": "verified",
-      "checked": "2026-10-26",
+      "checked": "2026-11-13",
       "tracks": [
         {
           "label": "Mandatory title and abstract",
@@ -8958,7 +8982,7 @@
           "deadline": "2027-01-28T23:59:00-12:00",
           "source": "https://hhai-conference.org/2027/call-for-papers/",
           "status": "verified",
-          "note": "Initial proposal to present already-published journal work; not a revision or final accepted-paper upload. Official cutoff 23:59 AoE."
+          "note": "Initial proposal to present already-published journal work; not a revision or final accepted-paper upload. The current call restricts eligibility to journal articles published from January 2026 onwards and requires a three-page extended abstract excluding references. Official cutoff 23:59 AoE (UTC−12)."
         },
         {
           "label": "Workshop / interactive-event / tutorial proposals",
@@ -9828,6 +9852,63 @@
         }
       ],
       "note": "Historical edition checked against official archives on November 8, 2026. Workshops, tutorials and the Doctoral Consortium took place on September 16; the main conference ran September 17–19. Only initial contribution submissions are recorded."
+    },
+    {
+      "id": "icategve2027",
+      "family_id": "icategve",
+      "year": 2027,
+      "start": "2027-09-28",
+      "end": "2027-09-30",
+      "location": "Tokyo, Japan",
+      "region": "Outside Europe",
+      "url": "https://icat.vrsj.org/",
+      "event_source": "https://icat.vrsj.org/",
+      "checked": "2026-11-13",
+      "event_status": "verified",
+      "tracks": [],
+      "estimated_submission": {
+        "start": "2027-05-01",
+        "end": "2027-09-30",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Low",
+        "basis": "The organizer lists all 2027 contribution deadlines as TBA. Main-paper observations in the three preceding editions (2024–2026) are August 2024, August 2025 and June 2026; the same-year month envelope is widened to May–September. The move from December to September limits applicability; the broad window can overlap the event and is not a promised submission period.",
+        "sources": [
+          "https://icat.vrsj.org/"
+        ]
+      },
+      "note": "Exact event dates and Tokyo announced by the official VRSJ series page. Paper abstracts, papers and poster/demo deadlines remain TBA; no specific submission day or venue within Tokyo is inferred."
+    },
+    {
+      "id": "icategve2021",
+      "family_id": "icategve",
+      "year": 2021,
+      "start": "2021-09-08",
+      "end": "2021-09-10",
+      "location": "Online · Sankt Augustin, Germany",
+      "region": "Europe",
+      "url": "https://icat.vrsj.org/",
+      "event_source": "https://icat.vrsj.org/",
+      "checked": "2026-11-13",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "Official VRSJ archive records a virtual edition with Sankt Augustin as the host city, not a physical destination. Initial submission deadlines were not verified. This pre-2023 observation is excluded from modern forecast windows."
+    },
+    {
+      "id": "icategve2020",
+      "family_id": "icategve",
+      "year": 2020,
+      "start": "2020-12-02",
+      "end": "2020-12-04",
+      "location": "Online · Orlando, USA",
+      "region": "Outside Europe",
+      "url": "https://icat.vrsj.org/",
+      "event_source": "https://icat.vrsj.org/",
+      "checked": "2026-11-13",
+      "event_status": "verified",
+      "tracks": [],
+      "note": "Official VRSJ archive records a virtual edition with Orlando as the host city, not a physical destination. Initial submission deadlines were not verified. This pre-2023 observation is excluded from modern forecast windows."
     }
   ],
   "journals": [
