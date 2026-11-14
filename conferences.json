@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "families": [
     {
       "id": "vr",
@@ -4431,7 +4431,7 @@
       "location": "Pamplona, Spain",
       "region": "Europe",
       "url": "https://etra.acm.org/2027/",
-      "checked": "2026-10-27",
+      "checked": "2026-11-14",
       "tracks": [
         {
           "label": "Mandatory abstract — full papers",
@@ -4472,10 +4472,18 @@
           "source": "https://etra.acm.org/2027/",
           "status": "verified",
           "note": "Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2027-01-08",
+          "source": "https://etra.acm.org/2027/",
+          "status": "verified",
+          "note": "Initial tutorial proposal submission. Organizer specifies AoE (UTC−12), but no exact cutoff time was verified; date-only precision retained."
         }
       ],
       "event_status": "verified",
-      "note": "Workshop proposal submission is announced for 1 December 2026 (AoE; cutoff hour unverified). Tutorial, late-breaking work and doctoral consortium dates remain TBA on the official site."
+      "note": "Workshop proposal submission is announced for 1 December 2026 and tutorial proposals for 8 January 2027 (AoE; cutoff hours unverified). Late-breaking work and doctoral consortium dates remain TBA on the official site."
     },
     {
       "id": "etra2026",
