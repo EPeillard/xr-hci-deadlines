@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "families": [
     {
       "id": "vr",
@@ -455,6 +455,16 @@ window.CONFERENCE_DATA = {
             5
           ],
           "source": "https://sap.acm.org/2024/"
+        },
+        {
+          "year": 2023,
+          "event_months": [
+            8
+          ],
+          "submission_months": [
+            4
+          ],
+          "source": "https://sap.acm.org/2023/pages/call-for-papers/"
         }
       ],
       "forecast": {
@@ -9917,6 +9927,38 @@ window.CONFERENCE_DATA = {
       "event_status": "verified",
       "tracks": [],
       "note": "Official VRSJ archive records a virtual edition with Orlando as the host city, not a physical destination. Initial submission deadlines were not verified. This pre-2023 observation is excluded from modern forecast windows."
+    },
+    {
+      "id": "sap2023",
+      "family_id": "sap",
+      "year": 2023,
+      "start": "2023-08-05",
+      "end": "2023-08-06",
+      "location": "Los Angeles, USA",
+      "region": "Outside Europe",
+      "url": "https://sap.acm.org/2023/",
+      "event_source": "https://sap.acm.org/2023/",
+      "checked": "2026-11-15",
+      "event_status": "verified",
+      "tracks": [
+        {
+          "label": "Mandatory abstract — long and short papers",
+          "type": "Abstract",
+          "deadline": "2023-04-14T23:59:59-12:00",
+          "source": "https://sap.acm.org/2023/pages/call-for-papers/",
+          "status": "verified",
+          "note": "Required abstract stage; the official call specifies 23:59:59 AoE (UTC−12)."
+        },
+        {
+          "label": "Long and short papers",
+          "type": "Paper",
+          "deadline": "2023-04-21T23:59:59-12:00",
+          "source": "https://sap.acm.org/2023/pages/call-for-papers/",
+          "status": "verified",
+          "note": "Initial paper submission, preceded by the required abstract stage. Official cutoff 23:59:59 AoE (UTC−12)."
+        }
+      ],
+      "note": "Official archive confirms 5–6 August 2023 in Los Angeles, colocated with SIGGRAPH, with an option to attend online. Poster submission date remains unresolved: the 2023 poster call explicitly prints May 26, 2022 (https://sap.acm.org/2023/pages/call-for-posters/), so no inferred 2023 poster deadline is recorded. This older observation does not alter forecasts based on the latest three editions."
     }
   ],
   "journals": [
