@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-15",
+  "updated": "2026-11-17",
   "families": [
     {
       "id": "vr",
@@ -1544,6 +1544,14 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
+          "year": 2028,
+          "event_months": [
+            8
+          ],
+          "submission_months": [],
+          "source": "https://ecvp.eu/"
+        },
+        {
           "year": 2027,
           "event_months": [
             8,
@@ -1580,29 +1588,25 @@ window.CONFERENCE_DATA = {
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2029,
         "event": {
-          "start": "2027-08-29",
-          "end": "2027-09-02",
-          "precision": "day",
-          "status": "verified"
+          "start": "2029-07-01",
+          "end": "2029-10-31",
+          "precision": "month"
         },
         "submission": {
-          "start": "2027-02-01",
-          "end": "2027-07-31",
+          "start": "2029-02-01",
+          "end": "2029-07-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Abstract",
-        "basis": "The official series site confirms ECVP 2027 in Padova, 29 August–2 September; these exact announced event dates replace the old event estimate. Annual recurrence is explicitly stated by ECVP. February–July 2027 remains a broad editorial abstract-submission assumption, not a published call or a pooled recent-deadline pattern: regular abstract cutoffs were not retrieved for 2025/2026, and no 2027 cutoff was verified. The older April 2024 abstract call is retained as context only; separate January symposium calls and attendance registration dates are not used to infer a regular abstract cutoff. Submission confidence remains low.",
+        "basis": "Annual recurrence is stated by the official series. The latest three announced editions (2026–2028) span August–September; the event-month envelope is widened by one month to July–October 2029. The February–July abstract window is a broad editorial seasonal assumption, not an empirical recent-deadline envelope: no regular abstract cutoff was verified for these three editions. Separate symposium proposals and registration dates are not pooled with abstracts. No 2029 edition or call is announced. Submission confidence remains low.",
         "sources": [
           "https://ecvp.eu/",
-          "https://ecvp2026.uk/conference/index.html",
-          "https://ecvp2026.uk/submissions/index.html",
-          "https://ecvp2025.uni-mainz.de/conference",
-          "https://ecvp2024.abdn.ac.uk/submission/abstract-submission/"
+          "https://ecvp2026.uk/conference/index.html"
         ]
       },
       "logo": {
@@ -2504,7 +2508,7 @@ window.CONFERENCE_DATA = {
       "url": "https://www.worldhaptics.org/",
       "why": "Haptic science, touch perception, interfaces and devices.",
       "kind": "Conference",
-      "verified": false,
+      "verified": true,
       "impact": {
         "status": "estimated",
         "label": "Specialist",
@@ -2542,7 +2546,7 @@ window.CONFERENCE_DATA = {
         "confidence": "Low",
         "cadence_years": 2,
         "type": "Paper",
-        "basis": "Only the organizer-published tentative 2027 schedule is observed: July event and February main-paper submission (updated from January 29 to February 5). The 2029 estimate preserves the biennial cycle, widening each baseline month by one month. Abstracts have a distinct January deadline and are not pooled with full papers. Confidence remains low; neither a 2029 edition nor its call is announced.",
+        "basis": "Only one recent verified edition is observed: July 2027 event and February 2027 main-paper submission, currently listed by the official organizer without the former blanket tentative notice. The 2029 estimate preserves the biennial cycle and widens each baseline month by one month. The distinct January abstract and workshop-proposal stages are not pooled with full papers. Confidence remains low; neither a 2029 edition nor its call is announced.",
         "sources": [
           "https://2027.worldhaptics.org/"
         ]
@@ -5629,30 +5633,30 @@ window.CONFERENCE_DATA = {
       "location": "Boston, USA",
       "region": "Outside Europe",
       "url": "https://2027.worldhaptics.org/",
-      "checked": "2026-11-10",
+      "checked": "2026-11-17",
       "tracks": [
         {
           "label": "Long and regular papers",
           "type": "Paper",
           "date": "2027-02-05",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer-published tentative date, changed from January 29 to February 5, 2027. Separate abstract deadline now announced for January 31. Exact cutoff hour is not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Previously announced for 29 January, then changed to 5 February 2027. The separate abstract stage is now 30 January.",
+          "status": "verified"
         },
         {
           "label": "Work in progress",
           "type": "Poster / WiP",
           "date": "2027-05-14",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer-published tentative date, changed from April 30 to May 14, 2027. Exact cutoff hour is not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Previously announced for 30 April, then changed to 14 May 2027.",
+          "status": "verified"
         },
         {
           "label": "Workshop/tutorial expression of interest",
           "type": "Workshop",
           "date": "2027-01-15",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
+          "note": "Previously announced as a tentative expression-of-interest deadline on 15 January 2027. This stage is no longer listed in the current official schedule; retained pending clarification, not treated as cancelled. The separate full-proposal deadline is now 31 January 2027. Cutoff hour and timezone remain unverified.",
           "status": "tentative"
         },
         {
@@ -5660,43 +5664,44 @@ window.CONFERENCE_DATA = {
           "type": "Student competition",
           "date": "2027-03-26",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained.",
+          "status": "verified"
         },
         {
           "label": "Workshop/tutorial full proposals",
           "type": "Workshop",
-          "date": "2027-04-02",
+          "date": "2027-01-31",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer explicitly marks these dates tentative; cutoff time is not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Advanced from the previously tentative 2 April 2027 deadline.",
+          "status": "verified"
         },
         {
           "label": "Hands-on demonstrations and haptic design showcase",
           "type": "Demo",
           "date": "2027-05-07",
           "source": "https://2027.worldhaptics.org/",
-          "note": "Organizer-published tentative date; cutoff time not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained.",
+          "status": "verified"
         },
         {
           "label": "Abstracts — long and regular papers",
           "type": "Abstract",
-          "date": "2027-01-31",
+          "date": "2027-01-30",
           "source": "https://2027.worldhaptics.org/",
-          "note": "New separate abstract deadline on the organizer's tentative schedule. Exact cutoff hour and timezone are not stated.",
-          "status": "tentative"
+          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Advanced from the previously tentative 31 January 2027 abstract deadline.",
+          "status": "verified"
         },
         {
           "label": "Previously published papers — presentation proposals",
           "type": "Contribution / application",
           "date": "2027-05-14",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "Initial proposal to present previously published work (PPP), not a revised or camera-ready manuscript. Organizer-published tentative date; exact cutoff hour and timezone are not stated.",
-          "status": "tentative"
+          "source": "https://2027.worldhaptics.org/previously-published-papers/",
+          "note": "Initial conference presentation proposal for published journal work, reviewed on a rolling basis until 14 May 2027; not a manuscript revision or final upload. Eligible journal articles must have an official publication date or formal acceptance with DOI between 1 January 2025 and 15 April 2027. Presentations are posters, not new WHC proceedings papers. Cutoff hour and timezone are not specified; date-only precision retained.",
+          "status": "verified"
         }
       ],
-      "event_status": "tentative"
+      "event_status": "verified",
+      "note": "The current official schedule no longer carries the former blanket tentative notice. Event and listed contribution dates were verified on 17 November 2026. The old tentative 15 January expression-of-interest stage is no longer listed and is retained with an explicit uncertainty note; no cancellation is inferred. The latest full workshop/tutorial proposal deadline is 31 January 2027."
     },
     {
       "id": "vrst2026",
@@ -7044,7 +7049,7 @@ window.CONFERENCE_DATA = {
       "region": "Outside Europe",
       "url": "https://augmented-humans.org/",
       "event_source": "https://augmented-humans.org/",
-      "checked": "2026-11-10",
+      "checked": "2026-11-17",
       "event_status": "verified",
       "tracks": [
         {
@@ -7052,7 +7057,7 @@ window.CONFERENCE_DATA = {
           "type": "Paper",
           "date": "2026-11-19",
           "source": "https://augmented-humans.org/call-for-full-short-papers/",
-          "note": "Extended from November 12 to November 19, 2026. Official AoE (UTC−12) date; exact cutoff time is not specified.",
+          "note": "Extended from November 12 to November 19, 2026. Official AoE (UTC−12) date; exact cutoff time is not specified. Full papers allow up to 16 single-column pages and short papers up to 8, excluding references and appendices. The paper must remain standalone and reviewable without reading the appendix.",
           "status": "verified"
         },
         {
@@ -9959,6 +9964,33 @@ window.CONFERENCE_DATA = {
         }
       ],
       "note": "Official archive confirms 5–6 August 2023 in Los Angeles, colocated with SIGGRAPH, with an option to attend online. Poster submission date remains unresolved: the 2023 poster call explicitly prints May 26, 2022 (https://sap.acm.org/2023/pages/call-for-posters/), so no inferred 2023 poster deadline is recorded. This older observation does not alter forecasts based on the latest three editions."
+    },
+    {
+      "id": "ecvp2028",
+      "family_id": "ecvp",
+      "year": 2028,
+      "start": "2028-08-27",
+      "end": "2028-08-31",
+      "location": "Paris, France",
+      "region": "France",
+      "url": "https://ecvp.eu/",
+      "event_source": "https://ecvp.eu/",
+      "checked": "2026-11-17",
+      "event_status": "verified",
+      "tracks": [],
+      "estimated_submission": {
+        "start": "2028-02-01",
+        "end": "2028-07-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Abstract",
+        "confidence": "Low",
+        "basis": "Broad editorial seasonal planning assumption only, not an announced call. No 2028 regular abstract submission deadline is published on the series page; recent regular-abstract cutoffs were not verified. Separate symposium and attendance registration schedules are not used to infer a regular abstract deadline.",
+        "sources": [
+          "https://ecvp.eu/"
+        ]
+      },
+      "note": "Paris and exact dates 27–31 August 2028 announced by the official ECVP series. No submission cutoff or precise venue within Paris is inferred."
     }
   ],
   "journals": [
