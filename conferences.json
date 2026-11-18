@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "families": [
     {
       "id": "vr",
@@ -5633,63 +5633,63 @@
       "location": "Boston, USA",
       "region": "Outside Europe",
       "url": "https://2027.worldhaptics.org/",
-      "checked": "2026-11-17",
+      "checked": "2026-11-18",
       "tracks": [
         {
           "label": "Long and regular papers",
           "type": "Paper",
-          "date": "2027-02-05",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Previously announced for 29 January, then changed to 5 February 2027. The separate abstract stage is now 30 January.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/long-and-regular-papers/",
+          "note": "Mandatory title/abstract submission is a separate stage on 29 January. Full-paper deadline previously announced for 29 January, then 5 February 2027; the date remains 5 February. The dedicated call now explicitly confirms 23:59 AoE (UTC-12).",
+          "status": "verified",
+          "deadline": "2027-02-05T23:59:00-12:00"
         },
         {
           "label": "Work in progress",
           "type": "Poster / WiP",
-          "date": "2027-05-14",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Previously announced for 30 April, then changed to 14 May 2027.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/work-in-progress-papers/",
+          "note": "Initial two-page non-archival extended abstract. Previous schedules announced 30 April, then 14 May 2027 (verified 17 November); the dedicated call and refreshed homepage now agree on 7 May 2027, 23:59 AoE (UTC-12), verified 18 November 2026.",
+          "status": "verified",
+          "deadline": "2027-05-07T23:59:00-12:00"
         },
         {
           "label": "Workshop/tutorial expression of interest",
           "type": "Workshop",
-          "date": "2027-01-15",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "Previously announced as a tentative expression-of-interest deadline on 15 January 2027. This stage is no longer listed in the current official schedule; retained pending clarification, not treated as cancelled. The separate full-proposal deadline is now 31 January 2027. Cutoff hour and timezone remain unverified.",
-          "status": "tentative"
+          "source": "https://2027.worldhaptics.org/workshops-tutorials/",
+          "note": "Initial expression of interest, distinct from the full proposal due 2 April. Previously tentative for 15 January 2027 and temporarily absent from the homepage on 17 November; the dedicated call and refreshed homepage explicitly restore and confirm this stage. Cutoff 23:59 AoE (UTC-12), verified 18 November 2026; no cancellation was inferred.",
+          "status": "verified",
+          "deadline": "2027-01-15T23:59:00-12:00"
         },
         {
           "label": "Student Innovation Challenge — proposals",
           "type": "Student competition",
-          "date": "2027-03-26",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/student-innovation-challenge/",
+          "note": "Initial Student Innovation Challenge proposal, not the later demonstration delivery. The dedicated call confirms the unchanged 26 March 2027 date and now verifies 23:59 AoE (UTC-12).",
+          "status": "verified",
+          "deadline": "2027-03-26T23:59:00-12:00"
         },
         {
           "label": "Workshop/tutorial full proposals",
           "type": "Workshop",
-          "date": "2027-01-31",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Advanced from the previously tentative 2 April 2027 deadline.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/workshops-tutorials/",
+          "note": "Initial full proposal, distinct from the 15 January expression of interest. Previously tentative for 2 April, then listed as 31 January 2027 on the homepage verified 17 November. The dedicated call and refreshed homepage now agree on 2 April 2027, 23:59 AoE (UTC-12), verified 18 November 2026.",
+          "status": "verified",
+          "deadline": "2027-04-02T23:59:00-12:00"
         },
         {
           "label": "Hands-on demonstrations and haptic design showcase",
           "type": "Demo",
-          "date": "2027-05-07",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/hands-on-demonstrations/",
+          "note": "Initial contributions; both the hands-on demonstration call and https://2027.worldhaptics.org/design-showcase/ independently confirm the unchanged 7 May 2027 date with an explicit cutoff of 23:59 AoE (UTC-12). The existing combined track is preserved.",
+          "status": "verified",
+          "deadline": "2027-05-07T23:59:00-12:00"
         },
         {
           "label": "Abstracts — long and regular papers",
           "type": "Abstract",
-          "date": "2027-01-30",
-          "source": "https://2027.worldhaptics.org/",
-          "note": "The current official schedule lists this initial contribution deadline without its former blanket tentative notice. Exact cutoff hour and timezone are not stated; date-only precision retained. Advanced from the previously tentative 31 January 2027 abstract deadline.",
-          "status": "verified"
+          "source": "https://2027.worldhaptics.org/long-and-regular-papers/",
+          "note": "Mandatory initial title and abstract stage before full papers on 5 February. Previously tentative for 31 January, then listed as 30 January 2027 on the homepage verified 17 November. The dedicated call and refreshed homepage now agree on 29 January 2027, 23:59 AoE (UTC-12), verified 18 November 2026.",
+          "status": "verified",
+          "deadline": "2027-01-29T23:59:00-12:00"
         },
         {
           "label": "Previously published papers — presentation proposals",
@@ -5701,7 +5701,7 @@
         }
       ],
       "event_status": "verified",
-      "note": "The current official schedule no longer carries the former blanket tentative notice. Event and listed contribution dates were verified on 17 November 2026. The old tentative 15 January expression-of-interest stage is no longer listed and is retained with an explicit uncertainty note; no cancellation is inferred. The latest full workshop/tutorial proposal deadline is 31 January 2027."
+      "note": "Contribution calls and the refreshed official homepage agree on the dates verified 18 November 2026. Abstracts: 29 January; workshop/tutorial expression of interest: 15 January; full proposals: 2 April; WiP: 7 May 2027. Dedicated calls explicitly state 23:59 AoE (UTC-12) for these and the paper, demo/showcase and student-proposal stages. Previous schedule values are retained in track notes. The previously published papers presentation-proposal date remains date-only; no unverified hour is inferred."
     },
     {
       "id": "vrst2026",
