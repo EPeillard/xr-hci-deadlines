@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "families": [
     {
       "id": "vr",
@@ -7082,7 +7082,7 @@
       "url": "https://eg2027.isti.cnr.it/",
       "event_source": "https://eg2027.isti.cnr.it/call-for-papers/",
       "event_status": "verified",
-      "checked": "2026-11-11",
+      "checked": "2026-11-19",
       "tracks": [
         {
           "label": "Full papers — abstract and submission form (extended)",
@@ -7155,9 +7155,17 @@
           "note": "Initial application comprising a 3–4-page research statement, supervisor support letter and CV. The official call now explicitly specifies 23:59 UTC; replaces the previously recorded date-only precision.",
           "status": "verified",
           "deadline": "2027-02-26T23:59:00+00:00"
+        },
+        {
+          "label": "Posters — initial extended abstracts",
+          "type": "Poster / WiP",
+          "deadline": "2027-02-27T23:59:00+00:00",
+          "source": "https://eg2027.isti.cnr.it/call-for-posters/",
+          "status": "verified",
+          "note": "Initial anonymous extended abstract, at most two pages including references. The official poster call explicitly states 23:59 UTC on 27 February 2027. Later final paper and poster uploads are excluded. Verified 19 November 2026."
         }
       ],
-      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Doctoral Consortium call and explicit UTC cutoff checked on November 11, 2026; poster deadline was not verified. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
+      "note": "Venue confirmed as Lucca in the official CFP and submission platform. Doctoral Consortium call and explicit UTC cutoff checked on November 11, 2026. The poster initial-submission deadline was verified on 19 November 2026 as 27 February 2027, 23:59 UTC. Full papers and STARs publish in Computer Graphics Forum; short papers publish in the EG Digital Library."
     },
     {
       "id": "eics2027",
@@ -7168,7 +7176,7 @@
       "location": "Toulouse, France",
       "region": "France",
       "url": "https://eics.acm.org/2027/",
-      "checked": "2026-10-14",
+      "checked": "2026-11-19",
       "event_status": "verified",
       "tracks": [
         {
@@ -7194,9 +7202,65 @@
           "source": "https://eics.acm.org/2027/contributions/full-papers.html",
           "note": "AoE date, cutoff hour not stated. Date read from the live official site data: https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
           "status": "verified"
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2027-02-14",
+          "source": "https://eics.acm.org/2027/contributions/workshop-proposals.html",
+          "status": "verified",
+          "note": "Initial workshop proposal; not the later publication-ready upload. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Posters — initial submissions",
+          "type": "Poster / WiP",
+          "date": "2027-04-01",
+          "source": "https://eics.acm.org/2027/contributions/demos-posters.html",
+          "status": "verified",
+          "note": "Initial poster paper and supporting submission materials; separate from demo contributions. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Demonstrations — initial submissions",
+          "type": "Demo",
+          "date": "2027-04-01",
+          "source": "https://eics.acm.org/2027/contributions/demos-posters.html",
+          "status": "verified",
+          "note": "Initial demo paper and supporting submission materials; separate from poster contributions. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Late breaking results",
+          "type": "Paper",
+          "date": "2027-03-12",
+          "source": "https://eics.acm.org/2027/contributions/late-breaking-results.html",
+          "status": "verified",
+          "note": "Initial submission of new preliminary or incremental research, not a revision of an existing paper. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Doctoral Consortium — early submission for travel award applicants",
+          "type": "Doctoral",
+          "date": "2027-02-19",
+          "source": "https://eics.acm.org/2027/contributions/doctoral-consortium.html",
+          "status": "verified",
+          "note": "Initial doctoral contribution cutoff advised for students planning to apply for the Gary Marsden travel award, to obtain the conference decision before that award deadline. This is not the scholarship application deadline. Rolling submissions open 18 January; general final cutoff is 15 May 2027. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Doctoral Consortium — final submission",
+          "type": "Doctoral",
+          "date": "2027-05-15",
+          "source": "https://eics.acm.org/2027/contributions/doctoral-consortium.html",
+          "status": "verified",
+          "note": "Final cutoff for new doctoral contribution submissions in the rolling call, not a final version upload. Rolling submissions open 18 January; students planning to apply for a travel award are advised to submit by 19 February 2027. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2027-03-14",
+          "source": "https://eics.acm.org/2027/contributions/tutorials.html",
+          "status": "verified",
+          "note": "Initial tutorial proposal; not the later publication-ready upload. Official page specifies AoE but no exact cutoff hour; date-only precision retained. Verified 19 November 2026."
         }
       ],
-      "note": "PACM-EICS has three submission rounds; other tracks and camera-ready dates are not yet verified."
+      "note": "PACM-EICS has three initial full-paper/technical-note submission rounds; their existing dates and historical source notes are preserved. Other initial-contribution calls were verified on 19 November 2026: workshops, posters, demos, late-breaking results, doctoral contributions and tutorials. Doctoral submissions are rolling, with distinct early and general cutoffs. All published dates are AoE, without a verified exact clock time. Rebuttal, notification and camera-ready milestones are intentionally excluded."
     },
     {
       "id": "eics2026",
