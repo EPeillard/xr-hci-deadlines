@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "families": [
     {
       "id": "vr",
@@ -8290,7 +8290,7 @@ window.CONFERENCE_DATA = {
       "region": "Europe",
       "url": "https://mobilehci.acm.org/2027/",
       "event_source": "https://mobilehci.acm.org/2027/",
-      "checked": "2026-10-20",
+      "checked": "2026-11-20",
       "tracks": [
         {
           "label": "Papers — abstract",
@@ -8307,10 +8307,26 @@ window.CONFERENCE_DATA = {
           "source": "https://mobilehci.acm.org/2027/submission/",
           "note": "Published as an AoE date, without a numeric cutoff time; retained as date-only.",
           "status": "verified"
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "deadline": "2027-03-31T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2027/workshops/",
+          "status": "verified",
+          "note": "Initial workshop organizer proposal, maximum six pages excluding references, plus organizational information through PCS. The official call explicitly states 23:59 AoE (UTC-12). Later publication-ready uploads are excluded. Verified 20 November 2026."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "deadline": "2027-05-31T23:59:00-12:00",
+          "source": "https://mobilehci.acm.org/2027/tutorials/",
+          "status": "verified",
+          "note": "Initial tutorial proposal, maximum six pages excluding references. The official call explicitly states 23:59 AoE (UTC-12). Later publication-ready uploads are excluded. Verified 20 November 2026."
         }
       ],
       "event_status": "verified",
-      "note": "Venue: St. Raphael Resort & Marina. Paper submissions publish in PACMHCI. Other contribution calls were not announced on the consulted site."
+      "note": "Venue: St. Raphael Resort & Marina. Paper submissions publish in PACMHCI. Initial workshop and tutorial organizer calls were verified on 20 November 2026, with explicit 23:59 AoE cutoffs. The existing paper abstract/submission dates retain date-only precision because that call does not specify a numeric cutoff hour."
     },
     {
       "id": "mobilehci2026",
@@ -9037,7 +9053,7 @@ window.CONFERENCE_DATA = {
       "url": "https://hhai-conference.org/2027/",
       "event_source": "https://hhai-conference.org/2027/",
       "event_status": "verified",
-      "checked": "2026-11-13",
+      "checked": "2026-11-20",
       "tracks": [
         {
           "label": "Mandatory title and abstract",
@@ -9104,7 +9120,7 @@ window.CONFERENCE_DATA = {
           "note": "Official cutoff is 23:59 Anywhere on Earth (UTC−12)."
         }
       ],
-      "note": "Sixth HHAI conference, hosted at the University of Oulu. Initial title/abstract, paper, poster/demo, doctoral and event-proposal deadlines are recorded separately."
+      "note": "Sixth HHAI conference, hosted at the University of Oulu. Initial title/abstract, paper, poster/demo, doctoral and event-proposal deadlines are recorded separately. The official venue page, verified 20 November 2026, identifies the main conference venue as University of Oulu, Linnanmaa campus, Pentti Kaiteran katu 1, 90570 Oulu, Finland: https://hhai-conference.org/2027/venues/ . Lapland Hotels Oulu hosts the evening event, not the main conference. The map remains a city-level location, not a precise venue point."
     },
     {
       "id": "icusi2026",
