@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "families": [
     {
       "id": "vr",
@@ -804,8 +804,8 @@
         "XR",
         "Human factors"
       ],
-      "url": "https://www.afihm.org/conferencesihm.php",
-      "why": "Francophone HCI research, work in progress and doctoral encounters.",
+      "url": "https://afihm.org/evenements/conferences",
+      "why": "Francophone HCI research, work in progress and doctoral encounters. Official series directory verified on 21 November 2026 at https://afihm.org/evenements/conferences; the former directory URL (https://www.afihm.org/conferencesihm.php) returns HTTP 404. Historical source URLs are retained for provenance.",
       "kind": "Conference",
       "verified": true,
       "impact": {
