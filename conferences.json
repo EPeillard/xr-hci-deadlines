@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "families": [
     {
       "id": "vr",
@@ -2282,8 +2282,12 @@
           "event_months": [
             6
           ],
-          "submission_months": [],
-          "source": "https://eics.acm.org/"
+          "submission_months": [
+            7,
+            10,
+            2
+          ],
+          "source": "https://eics.acm.org/2025/cfp.html"
         },
         {
           "year": 2024,
@@ -2310,12 +2314,13 @@
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Latest three recorded event observations (2027, 2026, 2025) span June–July, widened one month. Verified initial paper rounds for the 2026 cycle are July/October 2025 and February 2026; the 2027 cycle uses July/November 2026 and February 2027. The next-cycle submission envelope remains June 2027–March 2028 after widening the observed months by one month and preserving the prior-year/event-year split. It spans separate rounds, not continuous submissions. Confidence remains Low because only two cycles have verified submission dates; exact future rounds and dates are not announced. Archive evidence added 22 November 2026.",
+        "basis": "Latest three recorded event observations (2027, 2026, 2025) span June–July, widened one month. Initial paper rounds verified in the official 2025 archive are July/October 2024 and February 2025; the verified 2026 cycle uses July/October 2025 and February 2026. Previously verified 2027 observations (July/November 2026 and February 2027) are retained. Pooling these months with a one-month margin preserves the June 2027–March 2028 next-cycle submission envelope and the prior-year/event-year split. This spans separate rounds, not continuous submissions. Confidence remains Low: October/November timing varies and the 2027 call could not be reread on 23 November 2026 because of an access challenge. Future exact rounds and dates remain unannounced. Archive evidence added 23 November 2026.",
         "sources": [
           "https://eics.acm.org/",
           "https://eics.acm.org/2027/contributions/full-papers.html",
           "https://eics.acm.org/2027/assets/data/site.js?v=c68ab78",
-          "https://eics.acm.org/2026/important-dates.html"
+          "https://eics.acm.org/2026/important-dates.html",
+          "https://eics.acm.org/2025/cfp.html"
         ]
       },
       "logo": {
@@ -7364,11 +7369,84 @@
       "location": "Trier, Germany",
       "region": "Europe",
       "url": "https://eics.acm.org/2025/",
-      "checked": "2026-10-14",
+      "checked": "2026-11-23",
       "event_status": "verified",
-      "tracks": [],
+      "tracks": [
+        {
+          "label": "Full papers and technical notes — round 1",
+          "type": "Paper",
+          "date": "2024-07-26",
+          "source": "https://eics.acm.org/2025/cfp.html",
+          "status": "verified",
+          "note": "Initial PACM-EICS submission round accepting new work; submission year precedes the 2025 conference. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Full papers and technical notes — round 2",
+          "type": "Paper",
+          "date": "2024-10-25",
+          "source": "https://eics.acm.org/2025/cfp.html",
+          "status": "verified",
+          "note": "Separate initial PACM-EICS submission round accepting new work; submission year precedes the 2025 conference. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Full papers and technical notes — round 3",
+          "type": "Paper",
+          "date": "2025-02-14",
+          "source": "https://eics.acm.org/2025/cfp.html",
+          "status": "verified",
+          "note": "Separate initial PACM-EICS submission round accepting new work, not a rebuttal or revised-manuscript deadline. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Workshop organizer proposals",
+          "type": "Workshop",
+          "date": "2025-02-14",
+          "source": "https://eics.acm.org/2025/workshop.html",
+          "status": "verified",
+          "note": "Initial workshop organizer proposal, not the later camera-ready upload. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Posters — initial submissions",
+          "type": "Poster / WiP",
+          "date": "2025-03-14",
+          "source": "https://eics.acm.org/2025/demos-poster.html",
+          "status": "verified",
+          "note": "Initial poster contribution; separate from demonstrations and publication-ready materials. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Demonstrations — initial submissions",
+          "type": "Demo",
+          "date": "2025-03-14",
+          "source": "https://eics.acm.org/2025/demos-poster.html",
+          "status": "verified",
+          "note": "Initial demo contribution; not final presentation-material delivery. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Late breaking results",
+          "type": "Paper",
+          "date": "2025-03-25",
+          "source": "https://eics.acm.org/2025/lbr.html",
+          "status": "verified",
+          "note": "Initial submission of new preliminary or incremental research. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Doctoral Consortium",
+          "type": "Doctoral",
+          "date": "2025-04-10",
+          "source": "https://eics.acm.org/2025/dc.html",
+          "status": "verified",
+          "note": "Initial doctoral contribution; post-conference revised publication uploads are excluded. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        },
+        {
+          "label": "Tutorial proposals",
+          "type": "Tutorial",
+          "date": "2025-03-14",
+          "source": "https://eics.acm.org/2025/tutorials.html",
+          "status": "verified",
+          "note": "Initial tutorial organizer proposal, not the later camera-ready upload. Official archive specifies AoE but no numeric cutoff hour; date-only precision retained. Verified 23 November 2026."
+        }
+      ],
       "event_source": "https://eics.acm.org/",
-      "note": "Event dates verified in the ACM EICS series archive; historical submission dates not retrieved."
+      "note": "Event dates rechecked in the ACM EICS series archive. Historical initial contribution submissions retrieved from the official 2025 archive on 23 November 2026. The three paper rounds cross the submission/conference year boundary. Rebuttals, review milestones, camera-ready and post-conference revised publication uploads are excluded."
     },
     {
       "id": "eics2024",
