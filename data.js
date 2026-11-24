@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-23",
+  "updated": "2026-11-24",
   "families": [
     {
       "id": "vr",
@@ -2862,6 +2862,14 @@ window.CONFERENCE_DATA = {
       },
       "history": [
         {
+          "year": 2027,
+          "event_months": [
+            10
+          ],
+          "submission_months": [],
+          "source": "https://www.ost.ch/de/forschung-und-dienstleistungen/technik/systemtechnik/ems/veranstaltungen/icmi-2027"
+        },
+        {
           "year": 2026,
           "event_months": [
             10
@@ -2873,24 +2881,25 @@ window.CONFERENCE_DATA = {
         }
       ],
       "forecast": {
-        "year": 2027,
+        "year": 2028,
         "event": {
-          "start": "2027-09-01",
-          "end": "2027-11-30",
+          "start": "2028-09-01",
+          "end": "2028-11-30",
           "precision": "month"
         },
         "submission": {
-          "start": "2027-03-01",
-          "end": "2027-05-31",
+          "start": "2028-03-01",
+          "end": "2028-05-31",
           "precision": "month"
         },
         "status": "estimated",
         "confidence": "Low",
         "cadence_years": 1,
         "type": "Paper",
-        "basis": "Annual-cycle planning window from the October 2026 event and April 2026 initial paper deadline, widened one month. No 2027 dates or call verified. Existing official ICORE indicator is preserved.",
+        "basis": "Annual-cycle forecast now concerns 2028 because the 2027 event is officially announced. The two verified event observations (2026 and 2027) are both in October, widened by one month to September–November. Only one verified initial main-paper deadline is available (April 2026); the same-year submission window is widened to March–May 2028. Low confidence reflects the sparse submission history. No 2028 event dates, destination or contribution calls are announced by these sources. The separate 2027 submission estimate is retained on the announced edition. Updated from official host evidence checked 24 November 2026.",
         "sources": [
-          "https://icmi.acm.org/2026/important-dates/"
+          "https://icmi.acm.org/2026/important-dates/",
+          "https://www.ost.ch/de/forschung-und-dienstleistungen/technik/systemtechnik/ems/veranstaltungen/icmi-2027"
         ]
       },
       "logo": {
@@ -9589,6 +9598,34 @@ window.CONFERENCE_DATA = {
       "checked": "2026-10-26",
       "tracks": [],
       "note": "Historical dates from the ECEM 2026 organizer's conference history. Initial contribution deadlines not retrieved."
+    },
+    {
+      "id": "icmi2027",
+      "family_id": "icmi",
+      "year": 2027,
+      "start": "2027-10-04",
+      "end": "2027-10-08",
+      "location": "Rapperswil-Jona, Switzerland",
+      "region": "Europe",
+      "url": "https://www.ost.ch/de/forschung-und-dienstleistungen/technik/systemtechnik/ems/veranstaltungen/icmi-2027",
+      "event_source": "https://www.ost.ch/de/forschung-und-dienstleistungen/technik/systemtechnik/ems/veranstaltungen/icmi-2027",
+      "event_status": "verified",
+      "checked": "2026-11-24",
+      "tracks": [],
+      "note": "The host institution, OST – Eastern Switzerland University of Applied Sciences, announces 4–8 October 2027 at its Rapperswil-Jona campus. The earlier editorial event window (September–November 2027) is replaced by these exact announced dates. The host states that calls, submission dates, programme and travel details will follow; no exact submission deadline is inferred. The dedicated ACM 2027 URL was inaccessible during this check. City coordinates are not yet recorded in the map reference data, so this edition remains in its unplaced list. Verified 24 November 2026.",
+      "estimated_submission": {
+        "start": "2027-03-01",
+        "end": "2027-05-31",
+        "precision": "month",
+        "status": "estimated",
+        "type": "Paper",
+        "confidence": "Low",
+        "basis": "Retains the previous 2027 submission estimate: the April 2026 initial paper deadline widened one month to March–May in the next annual cycle. Exact 2027 conference dates are now announced, but the host explicitly says the call and important dates will follow. This is a planning range, not an announced contribution cutoff; only one verified submission cycle is available.",
+        "sources": [
+          "https://icmi.acm.org/2026/important-dates/",
+          "https://www.ost.ch/de/forschung-und-dienstleistungen/technik/systemtechnik/ems/veranstaltungen/icmi-2027"
+        ]
+      }
     },
     {
       "id": "icmi2026",
