@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "families": [
     {
       "id": "vr",
@@ -9400,7 +9400,7 @@ window.CONFERENCE_DATA = {
       "url": "https://transform.tlu.ee/ecce-2025/",
       "event_source": "https://transform.tlu.ee/ecce-2025/",
       "event_status": "verified",
-      "checked": "2026-10-26",
+      "checked": "2026-11-26",
       "tracks": [
         {
           "label": "Long and short papers",
@@ -9417,9 +9417,33 @@ window.CONFERENCE_DATA = {
           "source": "https://transform.tlu.ee/ecce-2025/calls/papers/",
           "status": "verified",
           "note": "Cutoff time and timezone not verified; date-only precision retained."
+        },
+        {
+          "label": "Panel proposals",
+          "type": "Panel",
+          "date": "2025-04-14",
+          "source": "https://transform.tlu.ee/ecce-2025/calls/panels/",
+          "status": "verified",
+          "note": "Initial panel organizer proposal, not the later publication-ready version. The official archive publishes a date without a verified cutoff hour or timezone; date-only precision retained. Verified 26 November 2026."
+        },
+        {
+          "label": "Posters — extended abstract and image",
+          "type": "Poster / WiP",
+          "date": "2025-05-12",
+          "source": "https://transform.tlu.ee/ecce-2025/calls/posters/",
+          "status": "verified",
+          "note": "Distinct initial poster call requiring an extended abstract and poster image; the existing work-in-progress paper track is preserved separately. The official archive publishes a date without a verified cutoff hour or timezone; date-only precision retained. Verified 26 November 2026."
+        },
+        {
+          "label": "Doctoral Consortium papers",
+          "type": "Doctoral",
+          "date": "2025-05-12",
+          "source": "https://transform.tlu.ee/ecce-2025/calls/doctoral-consortium/",
+          "status": "verified",
+          "note": "Initial doctoral contribution with paper, image, CV and supervisor support letter; not registration or publication-material delivery. The call's session description pairs Monday with 7 October 2025, an inconsistent weekday/date; no doctoral session date is inferred from it. The official archive publishes a date without a verified cutoff hour or timezone; date-only precision retained. Verified 26 November 2026."
         }
       ],
-      "note": "Historical ECCE edition; other contribution calls not fully archived in this update."
+      "note": "Historical ECCE edition. Event dates and the existing long/short and work-in-progress paper deadlines were rechecked against the official Tallinn University archive. Panel, poster and doctoral contribution deadlines added on 26 November 2026; existing track positions and data are preserved. No cutoff hour or timezone is inferred. The doctoral call has an inconsistent session weekday/date, so it is not used to alter the event dates. Rebuttals, notifications, camera-ready, author registration and volunteer applications are excluded. Main-paper submission observations and forecast windows are unchanged."
     },
     {
       "id": "epique2023",
