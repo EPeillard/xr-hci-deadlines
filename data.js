@@ -1,5 +1,5 @@
 window.CONFERENCE_DATA = {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "families": [
     {
       "id": "vr",
@@ -5574,7 +5574,7 @@ window.CONFERENCE_DATA = {
       "location": "Seoul, South Korea",
       "region": "Outside Europe",
       "url": "https://2027.ieee-icra.org/",
-      "checked": "2026-10-28",
+      "checked": "2026-11-27",
       "tracks": [
         {
           "label": "Papers",
@@ -5603,10 +5603,10 @@ window.CONFERENCE_DATA = {
         {
           "label": "Arts in Robotics — creative works",
           "type": "Contribution / application",
-          "deadline": "2026-12-01T23:59:00-08:00",
+          "deadline": "2027-01-08T23:59:00-08:00",
           "source": "https://2027.ieee-icra.org/contribute/call-for-art-in-robotics/",
           "status": "verified",
-          "note": "Initial submission of completed creative works: 2–4 page description and video. Non-archival exhibition; organizer explicitly specifies 23:59 PST."
+          "note": "Initial submission of completed creative works: 2–4 page description and video. Non-archival exhibition; organizer explicitly specifies 23:59 PST. Extended from 1 December 2026 (23:59 PST) to 8 January 2027 (23:59 PST), verified 27 November 2026 against the official extension announcement: https://2027.ieee-icra.org/announcements/call-for-arts-in-robotics-submission-deadline-extended/."
         },
         {
           "label": "Required workshop / tutorial pre-proposals",
